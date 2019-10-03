@@ -88,9 +88,9 @@ $( document ).ready(function() {
 $(window).bind("load", function() {
 	//alert('hello');
   	$('#overlay').css({'left':'110%', 'transition':'all 3s ease'}, 2000);
-		 
+
 });
-</script>  
+</script>
 <div id="overlay" style="width:100%;">
 	<div class="ppp1" >
 		 <div class="ppp2"></div>
@@ -98,13 +98,13 @@ $(window).bind("load", function() {
 	</div>
 </div>
 
-  <script type="text/javascript">	
+  <script type="text/javascript">
 function myfunc(arg1,arg2,arg3,arg4){
 
    {
     var el = document.getElementById(arg2);
     window.requestAnimationFrame = window.requestAnimationFrame || window.mozRequestAnimationFrame || window.webkitRequestAnimationFrame || window.msRequestAnimationFrame;
-  
+
     var points = arg1;
     var maxDistance = arg3;
 
@@ -120,9 +120,9 @@ function myfunc(arg1,arg2,arg3,arg4){
                 if ((points[i].x == points[j].x && points[i].y == points[j].y) || distance > maxDistance)
                     continue;
                 var line = document.createElementNS('http://www.w3.org/2000/svg', "line")
-                line.setAttribute('x1', points[i].x); 
+                line.setAttribute('x1', points[i].x);
                 line.setAttribute('y1', points[i].y);
-                line.setAttribute('x2', points[j].x); 
+                line.setAttribute('x2', points[j].x);
                 line.setAttribute('y2', points[j].y);
                 line.setAttribute("class", "plexus-line");
                 line.style.strokeDasharray = distance + " " + distance;
@@ -132,23 +132,23 @@ function myfunc(arg1,arg2,arg3,arg4){
                 lines.push(line);
             };
         };
-      
+
       var loop = function() {
 		  requestAnimationFrame(function() {
-			  
+
             for (var i = lines.length - 1; i >= 0; i--) {
                 lines[i].style.strokeDashoffset = 0
             };
         })
-        
+
        var timer = setTimeout(function() {
           for (var i = lines.length - 1; i >= 0; i--) {
              lines[i].style.strokeDashoffset = lines[i].style.strokeDasharray.split(',')[0];
-          };          
+          };
         }, 2000)
       }
 
-   
+
       setTimeout(loop,10);
       if (arg4==false){
         setTimeout(loop,3000);
@@ -163,7 +163,7 @@ function myfunc(arg1,arg2,arg3,arg4){
 
 
 $(document).ready(function(){
- 
+
  var t1cor=[{"x":0,"y":1.2},
 {"x":15.4,"y":1.2},
 {"x":43.8,"y":1.2},
@@ -442,12 +442,12 @@ $("#t2").mouseleave(function(){
 
 .title111{
     width:650px; margin-left:-100px;
-    
+
 }
 
 .title112{
    width:400px; margin-left:-180px; margin-top:-120px;
-    
+
 }
 .hui{
     margin-left:100px;
@@ -462,8 +462,8 @@ $("#t2").mouseleave(function(){
                 <div id="slides">
 
                  <div class="text" data-0="transform: translate(-48%,-48%) scale(1,1);" data-80p="" data-100p="transform:  translate(-48%,-48%) scale(0.5,0.5);" data-120p="transform: translate(-48%,-48%) scale(0.0,0.0);">
-                 <div id="checking">	
-					
+                 <div id="checking">
+
 <div>
 
 <center>
@@ -473,62 +473,62 @@ $("#t2").mouseleave(function(){
 </div>
 </center>
 <!--
- <div id="s1" style="width:129px ; height:77px ;background:url(images/s1.png);float:left; margin:0 10px;"> 
-      <svg id="plexus6" width="200" height="77" viewbox="0 0 60 77"></svg> 
+ <div id="s1" style="width:129px ; height:77px ;background:url(images/s1.png);float:left; margin:0 10px;">
+      <svg id="plexus6" width="200" height="77" viewbox="0 0 60 77"></svg>
  </div>
- <div id="f1" style="width:59px ; height:77px ;background:url(images/p.png);float:left;  margin:0 10px;"> 
+ <div id="f1" style="width:59px ; height:77px ;background:url(images/p.png);float:left;  margin:0 10px;">
       <svg id="plexus4" width="60" height="77" viewbox="0 0 60 77"></svg>
  </div>
- <div id="h1" style="width:59px ; height:77px ;background:url(images/h.png); float:left;  margin:0 10px;"> 
+ <div id="h1" style="width:59px ; height:77px ;background:url(images/h.png); float:left;  margin:0 10px;">
       <svg id="plexus3" width="62" height="77" viewbox="0 0 40 77"></svg>
  </div>
- <div id="t1" class="svgI" style="width:16px ; height:77px ;background:url(images/i.png);float:left;  margin:0 10px;"> 
+ <div id="t1" class="svgI" style="width:16px ; height:77px ;background:url(images/i.png);float:left;  margin:0 10px;">
       <svg id="plexus1" width="10" height="77" viewbox="0 0 10 77"></svg>
  </div>
 
- <div id="n1" style="width:58px ; height:77px ;background:url(images/n.png); float:left; "> 
+ <div id="n1" style="width:58px ; height:77px ;background:url(images/n.png); float:left; ">
       <svg id="plexus8" width="62" height="77" viewbox="0 0 62 77"></svg>
  </div>
- <div id="c1" style="width:62px ; height:77px ;background:url(images/x.png); float:left;  margin:0 10px;"> 
+ <div id="c1" style="width:62px ; height:77px ;background:url(images/x.png); float:left;  margin:0 10px;">
       <svg id="plexus2" width="62" height="77" viewbox="10 10 40 60"></svg>
  </div>
- 
- 
- 
- <div id="e1" style="width:58px ; height:77px ;background:url(images/E1.svg); float:left; display:none;"> 
+
+
+
+ <div id="e1" style="width:58px ; height:77px ;background:url(images/E1.svg); float:left; display:none;">
       <svg id="plexus" width="62" height="77" viewbox="0 0 62 77"></svg>
  </div>
 
- <div id="c1" style="width:71px ; height:77px ;background:url(images/C.svg);float:left; display:none;"> 
+ <div id="c1" style="width:71px ; height:77px ;background:url(images/C.svg);float:left; display:none;">
       <svg id="plexus2" width="62" height="77" viewbox="0 0 62 77"></svg>
  </div>
- <div id="e2" style="width:62px ; height:77px ;background:url(images/n.png); float:left; display:none;"> 
+ <div id="e2" style="width:62px ; height:77px ;background:url(images/n.png); float:left; display:none;">
       <svg id="plexus5" width="62" height="77" viewbox="0 0 62 77"></svg>
  </div>
- 
--->
- 
- 
- 
 
- 
- 
- <div id="t2" style="width:62px ; height:77px ;background:url(images/T1.svg); float:left;  display:none;"> 
+-->
+
+
+
+
+
+
+ <div id="t2" style="width:62px ; height:77px ;background:url(images/T1.svg); float:left;  display:none;">
       <svg id="plexus7" width="62" height="77" viewbox="0 0 62 77"></svg>
  </div>
 </div>
-<!--p align="right" style="float:left; "> <img src="images/tagline.png" class="img-responsive pull-right" alt="img"></p-->					
+<!--p align="right" style="float:left; "> <img src="images/tagline.png" class="img-responsive pull-right" alt="img"></p-->
 </div>
                 </div>
                <div id="slide-1" class="slide" data-0="transform: translate(0%,-10%);" data-50p="transform: translate(0%,-6%);" data-80p="" data-100p="transform: translate(-12.25%,-3%)" data-120p="transform: translate(-25%,0%)" data-140p="transform: translate(-37.25%,-3%)" data-160p="transform: translate(-48%,-6%)" data-180p="" data-200p="transform: translate(-48%,-10%)" data-240p="" data-250p="transform: translate(0%,-10%);" data-300p="transform: translate(0%,-6%);" data-330p="" data-350p="transform: translate(-12.25%,-3%)" data-370p="transform: translate(-25%,0%)" data-390p="transform: translate(-37.25%,-3%)" data-410p="transform: translate(-48%,-6%)" data-430p="" data-450p="transform: translate(-48%,-10%)" data-490p="" data-500p="transform: translate(0%,-10%);" data-550p="transform: translate(0%,-6%);" data-580p="" data-600p="transform: translate(-12.25%,-3%)" data-620p="transform: translate(-25%,0%)" data-640p="transform: translate(-37.25%,-3%)" data-660p="transform: translate(-48%,-6%)" data-680p="" data-700p="transform: translate(-48%,-10%)" data-740p="" data-750p="transform: translate(0%,-10%)" data-800p="transform: translate(0%,-6%);" data-830p="" data-850p="transform: translate(-12.25%,-3%)" data-870p="transform: translate(-25%,0%)" data-890p="transform: translate(-37.25%,-3%)" data-910p="transform: translate(-48%,-6%)" data-930p="" data-950p="transform: translate(-48%,-10%)" data-990p="" data-1000p="transform: translate(0%,-10%)" data-1050p="transform: translate(0%,-6%);" data-1080p="" data-1100p="transform: translate(-12.25%,-3%)" data-1120p="transform: translate(-25%,0%)" data-1140p="transform: translate(-37.25%,-3%)" data-1160p="transform: translate(-48%,-6%)" data-1180p="" data-1200p="transform: translate(-48%,-10%)" data-1240p="" data-1250p="transform: translate(0%,-10%)" data-1300p="transform: translate(0%,-6%);" data-1330p="" data-1350p="transform: translate(-12.25%,-3%)" data-1370p="transform: translate(-25%,0%)" data-1390p="transform: translate(-37.25%,-3%)" data-1410p="transform: translate(-48%,-6%)" data-1430p="" data-1450p="transform: translate(-48%,-10%)" data-1490p="" data-1500p="transform: translate(0%,-10%)" data-1550p="transform: translate(0%,-6%);" data-1580p="" data-1600p="transform: translate(-12.25%,-3%)" data-1620p="transform: translate(-25%,0%)" data-1640p="transform: translate(-37.25%,-3%)" data-1660p="transform: translate(-48%,-6%)" data-1680p="" data-1700p="transform: translate(-48%,-10%)" data-1740p="" data-1750p="transform: translate(0%,-10%)" data-1800p="transform: translate(0%,-6%);" data-1830p="" data-1850p="transform: translate(-12.25%,-3%)" data-1870p="transform: translate(-25%,0%)" data-1890p="transform: translate(-37.25%,-3%)" data-1910p="transform: translate(-48%,-6%)" data-1930p="" data-1950p="transform: translate(-48%,-10%)" data-1990p="" data-2000p="transform: translate(0%,-10%)" data-2050p="transform: translate(0%,-6%);" data-2080p="" data-2100p="transform: translate(-12.25%,-3%)" data-2120p="transform: translate(-25%,0%)" data-2140p="transform: translate(-37.25%,-3%)" data-2160p="transform: translate(-48%,-6%)" data-2180p="" data-2200p="transform: translate(-48%,-10%)">
 
                     </div>
-                    
+
                     <div class="planet" id="p1" data-0="transform: translate(0%,75%);" data-50p="transform: translate(0%,116.96%);" data-80p="" data-100p="transform: translate(-48%,157.1%);" data-120p="transform: translate(-100%,197.24%);" data-140p="transform: translate(-148%,157.24%);" data-160p="transform: translate(-200%,116.96%);" data-180p="" data-200p="transform: translate(-200%,75%);" data-220p="transform: translate(-200%,75%); dispaly:none;" style="width:29%;">
 
                     <img src="images/1.png" width="50%" class="hui">
                     </div>
-                   
+
                     <section id="initiatives" class="events" data-0="display:none;" data-120p="display:block;">
                     <div style="height:100%;" data-0="transform:scale(0,0); display:none;" data-120p="transform:scale(0,0); display:block;" data-140p="transform:scale(0.5,0.5);" data-160p="transform:scale(1,1);" data-200p="" data-330p="" data-350p="transform:scale(0.5,0.5);" data-370p="transform:scale(0,0); display:none;">
                     <div class="hevents">
@@ -544,7 +544,7 @@ industry. With intensive workshops, motivating orations by industry experts, cut
 and breathtaking performances, there is something for everyone here. So join us in this magical
 escapade to explore the best of tech !
                     </p>
-                   
+
                     <!--<div id="ideatebut">
                      <a href="#">
                     <div class="iparabut">
@@ -552,7 +552,7 @@ escapade to explore the best of tech !
                     </div>
                     </a>
                     </div>-->
-                    
+
                     </div>
                     </div>
                     </section>
@@ -572,44 +572,44 @@ escapade to explore the best of tech !
                     </div>
                     <div class="evePara">
                     <!--p>For all Technoholics out there, SPHINX indulges in experiential learning with a hands-on approach through out Workshops organise during the fest under the supervision of industry experts from throughout the country. Involving the major industrial cutting edge tools in our Workshops, we'll help you bring your long awaited aspirations to life over the course of SPHINX 2018.</p-->
-					
+
 					<div class="eventdbtb">
-					
+
                     <div id="ideatebut">
-                     <a href="core-love-event">
+                     <a href="core-love-event.php">
                     <div class="iparabut">
                     CORE-LOVE
                     </div>
                     </a>
                     </div>
-					
+
 					<div id="ideatebut">
-                     <a href="extravaganza">
+                     <a href="extravaganza.php">
                     <div class="iparabut">
                     EXTRAVAGANZA
                     </div>
                     </a>
                     </div>
-					
-					
+
+
 					<div id="ideatebut">
-                     <a href="hackathons">
+                     <a href="hackathons.php">
                     <div class="iparabut">
                     HACKATHONS
                     </div>
                     </a>
                     </div>
-					
+
 					<div id="ideatebut">
-                     <a href="robotics">
+                     <a href="robotics.php">
                     <div class="iparabut">
                     ROBOTICS
                     </div>
                     </a>
                     </div>
-					
+
 					<div id="ideatebut">
-                     <a href="socevents">
+                     <a href="socevents.php">
                     <div class="iparabut">
                     SOC EVENTS
                     </div>
@@ -619,7 +619,7 @@ escapade to explore the best of tech !
                     </div>
                     </div>
                     </div>
-					
+
                     </section>
                     <div id="astronaut" class="deselements" data-0p="display:none;" data-500p="display:block; transform:translate(90%,+85%);" data-530p="transform:translate(0%,0%);" data-580p="transform:translate(-210%,-165%);" data-630p="transform:translate(-420%,-325%);" data-680p="transform:translate(-630%,-485%);" data-700p="transform:translate(-725%,-572.5%);" data-730p="transform:translate(-820%,-645%);" data-830p="transform:translate(-955%,-750%);" data-930p="transform:translate(-1200%,-850%);" data-1130p="transform:translate(-1450%,-1000%);" data-1300p="transform:translate(-1600%,-1200%);">
                     <div id="astronautr"  data-930p="transform:rotateZ(300deg);" data-1130p="transform:rotateZ(350deg);" data-1300p="transform:rotateZ(350deg);">
@@ -635,31 +635,31 @@ escapade to explore the best of tech !
 
                     <img src="images/8.png" width="100%">
                     </div> -->
-                    <section id="competitions" class="events" data-0="display:none;" data-620p="display:block;"> 
+                    <section id="competitions" class="events" data-0="display:none;" data-620p="display:block;">
                     <div style="height:100%" data-0="transform:scale(0,0); display:none;" data-620p="transform:scale(0,0); display:block;" data-640p="transform:scale(0.5,0.5);" data-660p="transform:scale(1,1);"  data-800p="transform:scale(1,1);" data-820p="transform:scale(0.5,0.5);" data-840p="transform:scale(0,0); display:none;">
                     <div class="hevents">
                    <img src="images/workshops.png" style="width:240px;" >
                     </div>
                     <div class="evePara">
                     <p>Sputnik is a tech savvy person  and is determined to learn, analyze and create all the technologies he can dream of. So he decides to conduct a workshop, giving us an insight into all the modern technologies including Robotics , Aerodynamics, Ethical hacking and Internet of things for us to gain practical wisdom and to have an uncompromised learning experience.</p>
-                    
-                    
+
+
                     <div id="ideatebut">
-                    <a href="/workshop">
+                    <a href="workshop.php">
                     <div class="iparabut">
                     Explore More
                     </div>
                      </a>
                     </div>
-                   
+
                     </div>
 					<img src="images/robot.png" style="width:300px; margin-top:50px; margin-left:800px;">
                     </div>
                     </section>
-                    
-                    
-                    
-                    
+
+
+
+
                      <div id="asteroid" class="deselements" data-0p="top:-15%; left:95%; width:15%; display:none;" data-700p="top:-15%; left:95%; width:15%; display:block;" data-800p="" data-820p="top:-5%; left:85%; width:12%; display:block;" data-840p="top:5%; left:65%; width:15%; display:block;" data-860p="top:15%; left:45%; width:17%; display:block;" data-880p="top:25%; left:25%; width:18.5%; display:block;" data-900p="top:35%; left:5%; width:20%; display:block;" data-920p="top:45%; left:-20%; width:21.5%; display:block;" data-930p="top:55%; left:-40%; width:21.5%; display:block;">
                     <img src="images/asteroid.png" width="80%">
                     </div>
@@ -668,51 +668,51 @@ escapade to explore the best of tech !
                     <img src="images/4.png" width="100%">
                     </div>-->
                     <section id="workshops" class="events" data-0=" display:none;" data-870p="display:block;">
-					
+
                     <div style="height:100%" data-0="transform:scale(0,0); display:none;" data-870p="transform:scale(0,0); display:block;" data-890p="transform:scale(0.5,0.5);" data-910p="transform:scale(1,1);" data-950p="" data-1080p="" data-1100p="transform:scale(0.5,0.5);" data-1120p="transform:scale(0,0); display:none;">
                     <div class="hevents">
                     <img src="images/labyrinth.png" style="width:220px;" >
                     </div>
                     <div class="evePara">
-                    
-					
-					<div class="eventdbtb">					
+
+
+					<div class="eventdbtb">
 					<div id="ideatebut">
-                     <a href="csgo">
+                     <a href="csgo.php">
                     <div class="iparabut">
                     CS GO
                     </div>
                     </a>
                     </div>
-					
+
 					<div id="ideatebut">
-                     <a href="fifa">
+                     <a href="fifa.php">
                     <div class="iparabut">
                     FIFA
                     </div>
                     </a>
                     </div>
-					
+
 					 <div id="ideatebut">
-                     <a href="nfs">
+                     <a href="nfs.php">
                     <div class="iparabut">
                     NFS
                     </div>
                     </a>
                     </div>
-					
+
 					<div id="ideatebut">
-                     <a href="pubg">
+                     <a href="pubg.php">
                     <div class="iparabut">
                     PUBG
                     </div>
                     </a>
                     </div>
 					<img src="images/game.png" class="game_image" style="width:230px; margin-top:-170px; margin-left:650px;">
-					
+
                     </div>
-                    
-                    
+
+
                     <!--<div id="ideatebut">
                     <a href="#">
                     <div class="iparabut">
@@ -720,14 +720,14 @@ escapade to explore the best of tech !
                     </div>
                      </a>
                     </div>-->
-                   
+
                     </div>
-                        
+
                     </div>
-					
-					
+
+
                     </section>
-                    
+
               <!--      <div class="planet" id="p5" style="width:58%;" data-0p="transform: translate(294.82%,75%);" data-750p="" data-800p="transform: translate(294.82%,116.96%);" data-830p="" data-850p="transform: translate(251.72%,157.1%);" data-870p="transform: translate(208.62%,197.24%);" data-890p="transform: translate(165.61%,157.24%);" data-910p="transform: translate(122.41%,116.96%);" data-930p="" data-940p="transform: translate(122.41%,75%);" data-950p="" data-1170p="transform: translate(-48%,75%);" data-1180p="transform: translate(-48%,116.96%);" data-1190p="" data-1200p="transform: translate(-62.25%,157.1%)" data-1210p="transform: translate(-75%,197.24%)" data-1220p="transform: translate(-87.25%,157.24%)" data-1230p="transform: translate(-100%,116.96%)" data-1240p="" data-1200p="transform: translate(-100%,75%)">
                     <img src="images/6.png" width="100%">
                     </div> -->
@@ -738,8 +738,8 @@ escapade to explore the best of tech !
                     </div>
                     <div class="evePara">
                   <p>The exhibition will display various research projects and development activities going on in the various departments of the institute which are sure to leave you exhilarated. The exhibition will be a technical extravaganza which will portray the technical excellence of MNIT Jaipur and at the same time depict the staggering feats of the technical community. It will also exhibit the latest and coolest technology on the blocks</p>
-                    
-                    
+
+
                     <!--<div id="ideatebut">
                     <a href="#">
                     <div class="iparabut">
@@ -747,7 +747,7 @@ escapade to explore the best of tech !
                     </div>
                      </a>
                     </div>-->
-                   
+
                     </div>
                     <img src="images/bird.png" style="width:400px; margin-left:820px; margin-top:50px;">
                     </div>
@@ -761,12 +761,12 @@ escapade to explore the best of tech !
                     </div> -->
                     <section id="lectures" class="events" data-0="display:none;" data-1370p="display:block;">
                     <div style="height:100%" data-0="transform:scale(0,0); display:none;" data-1370p="transform:scale(0,0); display:block;" data-1290p="transform:scale(0.5,0.5);" data-1310p="transform:scale(1,1);" data-1440p="transform:scale(1,1);" data-1450p="" data-1560p="" data-1580p="transform:scale(0.5,0.5);" data-1600p="transform:scale(0,0); display:none;">
-                    
+
                     <div class="hevents">
                     <img src="images/techtalk.png" style="width:220px;" >
                     </div>
                     <div class="evePara">
-                   
+
 					<p>SPHINX 2.0 presents to you the 2nd edition of TECHTALK, A course of events that
 showcase some of the most prominent personas across India belonging to a range
 of diverse field. Connecting these minds to the young and dynamic audience present
@@ -777,21 +777,21 @@ technology, SPHINX 2.0 provides you once in a lifetime opportunity to savour the
 rich experience and profound knowledge.
 So gear up and do not miss one of the most awaited events of SPHINX 2.0.</p>
 
-                 
+
                     </div>
                     <img src="images/mic.png" style="width:200px; margin-left:870px; margin-top:100px;">
-                    
+
                     </div>
                     </section>
 
                       <div id="comet2" class="deselements" data-0p="transform:  translate(-50%,-400%) rotate(-175deg); display:block;" data-1300="" data-1350="" data-1400p="transform:  translate(0%,-175%) rotate(-175deg);" data-1450p="" data-1550p="transform:  translate(-1000%,1000%) rotate(-175deg);">
                     <img src="images/comet.png" width="100%">
                     </div>
-                    
+
                     <!--<section id="exhibitions" class="events" data-0=" display:none;" data-1620p=" display:block;">
                     <div style="height:100%" data-0="transform:scale(0,0); display:none;" data-1620p="transform:scale(0,0); display:block;" data-1640p="transform:scale(0.5,0.5);" data-1660p="transform:scale(1,1);" data-1700p="" data-1830p="" data-1850p="transform:scale(0.5,0.5);" data-1870p="transform:scale(0,0); display:none;">
-                    
-                    
+
+
                     </div>
                     </section>-->
             <!--        <div class="planet" id="p8" style="width:58%;" data-0="transform: translate(248%,75%);" data-1500p="" data-1550p="transform: translate(294.82%,116.96%);" data-1580p="" data-1600p="transform: translate(251.72%,157.1%);" data-1620p="transform: translate(208.62%,197.24%);" data-1640p="transform: translate(165.61%,157.24%);" data-1660p="transform: translate(122.41%,116.96%);" data-1680p="" data-1700p="transform: translate(122.41%,75%);" data-1740p="" data-1900p="transform: translate(-48%,75%);" data-1905p="transform: translate(-48%,116.96%);" data-1910p="" data-1915p="transform: translate(-62.25%,157.1%)" data-1920p="transform: translate(-75%,197.24%)" data-1925p="transform: translate(-87.25%,157.24%)" data-1930p="transform: translate(-100%,116.96%)" data-1935p="" data-1940p="transform: translate(-100%,75%)">
@@ -800,14 +800,14 @@ So gear up and do not miss one of the most awaited events of SPHINX 2.0.</p>
 					-->
                     <section id="techonoholix" class="events" data-0="display:none;" data-1560p="display:block;">
                         <div style="height:100%" data-0="transform:scale(0,0); display:none;" data-1670p="transform:scale(0,0); display:block;" data-1690p="transform:scale(0.5,0.5);" data-1710p="transform:scale(1,1);" data-1750p="" data-2080p="" data-2100p="transform:scale(0.5,0.5);" data-2120p="transform:scale(0,0); display:none;">
-                    
-                    
+
+
 					<div class="hevents">
                     <img src="images/contactus.png" style="width:240px; margin-top:-40px; margin-left:55px;" >
                     </div>
                     <div class="evePara">
                    <div class="contact-info-home" style="margin-top:-60px;">
-                    
+
                     <ul class="contact-address">
                         <li>
                             <div class="icon-holder">
@@ -822,13 +822,13 @@ So gear up and do not miss one of the most awaited events of SPHINX 2.0.</p>
                                 <span class="flaticon-technology"></span>
                             </div>
                             <div class="text-holder" >
-                              <p><span style="font-size:18px; font-weight:bold; margin-bottom:10px;">Contact No:</span><br><br> 
+                              <p><span style="font-size:18px; font-weight:bold; margin-bottom:10px;">Contact No:</span><br><br>
 								<span style="text-align:left;"></span>
-								    Sumit Kumar : 7073357606 (Workshop)<br> 
+								    Sumit Kumar : 7073357606 (Workshop)<br>
 
-Aditya Sinha : 8949296150 (Events registration)<br> 
+Aditya Sinha : 8949296150 (Events registration)<br>
 
-Ronak Gadia : 8879755487 (Marketing) <br> 
+Ronak Gadia : 8879755487 (Marketing) <br>
 
 Shreya Jain : 9783080753 (Cultural) </span>
 								</p>
@@ -842,12 +842,12 @@ Shreya Jain : 9783080753 (Cultural) </span>
                                 <p><span style="font-size:18px; font-weight:bold;">Email Id</span><br> <br>support@sphinxmnit.org </p>
                             </div>
                         </li>
-                        
+
                     </ul>
-                    
+
                 </div>
-                    
-                
+
+
                    <img src="images/phone.png" style="width:300px; margin-left:780px; margin-top:-420px;">
 				   <style>
 				   .contact_circle_1:hover{
@@ -857,10 +857,10 @@ Shreya Jain : 9783080753 (Cultural) </span>
 				   }
 				   .contact_circle{
 					   padding-top:18px;
-					   font-size:25px; 
-					   font-weight:bold; 
+					   font-size:25px;
+					   font-weight:bold;
 					   width:80px;
-					   height:80px; 
+					   height:80px;
 					   border-radius:50%;
 					   margin-left:1035px;
 					   margin-top:-137px;
@@ -881,20 +881,20 @@ Shreya Jain : 9783080753 (Cultural) </span>
 				   }
 				   </style>
 				   <div class="contact_circle_1">
-				   <a href="contact">
+				   <a href="contact.php">
                     <div class="contact_circle" style="">
                     	Now
                     </div>
                      </a>
                     </div>
 					 </div>
-					
-					
-					
-					
-					
-					
-					
+
+
+
+
+
+
+
                     </div>
                     </section>
                    <!-- <div class="planet" id="p9" style="width:58%;" data-0="transform: translate(248%,75%);" data-1750p="" data-1800p="transform: translate(294.82%,116.96%);" data-1830p="" data-1850p="transform: translate(251.72%,157.1%);" data-1870p="transform: translate(208.62%,197.24%);" data-1890p="transform: translate(165.61%,157.24%);" data-1910p="transform: translate(122.41%,116.96%);" data-1930p="" data-1950p="transform: translate(122.41%,75%);" data-1990p="" data-2200p="transform: translate(-48%,75%);" data-2205p="transform: translate(-48%,116.96%);" data-2210p="" data-2215p="transform: translate(-62.25%,157.1%)" data-2220p="transform: translate(-75%,197.24%)" data-2225p="transform: translate(-87.25%,157.24%)" data-2230p="transform: translate(-100%,116.96%)" data-2235p="" data-2240p="transform: translate(-100%,75%)">
@@ -903,10 +903,10 @@ Shreya Jain : 9783080753 (Cultural) </span>
 					-->
                     <!--<section id="ozone" class="events" data-0="display:none;" data-2120p="display:block;">
                       <div style="height:100%" data-0="transform:scale(0,0); display:none;" data-2120p="transform:scale(0,0); display:block;" data-2140p="transform:scale(0.5,0.5);" data-2160p="transform:scale(1,1);" data-2200p="">
-                    
-                    
+
+
                     </section>-->
-                    
+
               <!--      <div id="satellite" class="deselements" data-2200p="transform:translate(-900%,-150%);" data-2225p="transform:translate(-800%,-150%);" data-2250p="transform:translate(-700%,-150%);" data-2275p="transform:translate(-500%,-150%);" data-2300p="transform:translate(-900%,-150%);" data-2325p="transform:translate(-900%,-150%);">
                     <div id="satelliter" data-2200p="transform:rotateZ(0deg);" data-2225p="transform:rotateZ(0deg);" data-2250p="transform:rotateZ(0deg);" data-2275p="transform:rotateZ(0deg);" data-2300p="transform:rotateZ(0deg);" data-2325p="transform:rotateZ(0deg);">
                     <img src="images/satellite.png" width="130%">
@@ -922,7 +922,7 @@ Shreya Jain : 9783080753 (Cultural) </span>
                         <div class="rotate" data-0="transform:rotateZ(11deg);" data-25p="transform:rotateZ(0deg);" data-50p="transform:rotateZ(0deg);" data-80p="transform:rotateZ(15deg);" data-100p="transform:rotateZ(17.5deg);" data-120p="transform:rotateZ(20deg);" data-140p="transform:rotateZ(17.5deg);" data-160p="transform:rotateZ(15deg);" data-180p="transform:rotateZ(0deg);" data-200p="transform:rotateZ(-11deg);" data-240p="" data-250p="transform:rotateZ(11deg);" data-275p="transform:rotateZ(0deg);" data-300p="transform:rotateZ(0deg);" data-330p="transform:rotateZ(15deg);" data-350p="transform:rotateZ(17.5deg);" data-370p="transform:rotateZ(20deg);" data-390p="transform:rotateZ(17.5deg);" data-410p="transform:rotateZ(15deg);" data-430p="transform:rotateZ(0deg);" data-450p="transform:rotateZ(-11deg);" data-490p="" data-500p="transform:rotateZ(11deg);" data-525p="transform:rotateZ(0deg);" data-550p="transform:rotateZ(0deg);" data-580p="transform:rotateZ(15deg);" data-600p="transform:rotateZ(17.5deg);" data-620p="transform:rotateZ(20deg);" data-640p="transform:rotateZ(17.5deg);" data-660p="transform:rotateZ(15deg);" data-680p="transform:rotateZ(0deg);" data-700p="transform:rotateZ(-11deg);" data-740p="" data-750p="transform:rotateZ(11deg);" data-775p="transform:rotateZ(0deg);" data-800p="transform:rotateZ(0deg);" data-830p="transform:rotateZ(15deg);" data-850p="transform:rotateZ(17.5deg);" data-870p="transform:rotateZ(20deg);" data-890p="transform:rotateZ(17.5deg);" data-910p="transform:rotateZ(15deg);" data-930p="transform:rotateZ(0deg);" data-950p="transform:rotateZ(-11deg);" data-990p="" data-1000p="transform:rotateZ(11deg);" data-1025p="transform:rotateZ(0deg);" data-1050p="transform:rotateZ(0deg);" data-1080p="transform:rotateZ(15deg);" data-1000p="transform:rotateZ(17.5deg);" data-1020p="transform:rotateZ(20deg);" data-1040p="transform:rotateZ(17.5deg);" data-1060p="transform:rotateZ(15deg);" data-1080p="transform:rotateZ(0deg);" data-1200p="transform:rotateZ(-11deg);" data-1240p="" data-1250p="transform:rotateZ(11deg);" data-1275p="transform:rotateZ(0deg);" data-1300p="transform:rotateZ(0deg);" data-1330p="transform:rotateZ(15deg);" data-1350p="transform:rotateZ(17.5deg);" data-1370p="transform:rotateZ(20deg);" data-1390p="transform:rotateZ(17.5deg);" data-1410p="transform:rotateZ(15deg);" data-1430p="transform:rotateZ(0deg);" data-1450p="transform:rotateZ(-11deg);" data-1490p="" data-1500p="transform:rotateZ(11deg);" data-1525p="transform:rotateZ(0deg);" data-1550p="transform:rotateZ(0deg);" data-1580p="transform:rotateZ(15deg);" data-1600p="transform:rotateZ(17.5deg);" data-1620p="transform:rotateZ(20deg);" data-1640p="transform:rotateZ(17.5deg);" data-1660p="transform:rotateZ(15deg);" data-1680p="transform:rotateZ(0deg);" data-1700p="transform:rotateZ(-11deg);" data-1740p="" data-1750p="transform:rotateZ(11deg);" data-1775p="transform:rotateZ(0deg);" data-1800p="transform:rotateZ(0deg);" data-1830p="transform:rotateZ(15deg);" data-1850p="transform:rotateZ(17.5deg);" data-1870p="transform:rotateZ(20deg);" data-1890p="transform:rotateZ(17.5deg);" data-1910p="transform:rotateZ(15deg);" data-1930p="transform:rotateZ(0deg);" data-1950p="transform:rotateZ(-11deg);" data-1990p="" data-2000p="transform:rotateZ(11deg);" data-2025p="transform:rotateZ(0deg);" data-2050p="transform:rotateZ(0deg);" data-2080p="transform:rotateZ(15deg);" data-2100p="transform:rotateZ(17.5deg);" data-2120p="transform:rotateZ(20deg);" data-2140p="transform:rotateZ(17.5deg);" data-2160p="transform:rotateZ(15deg);" data-2180p="transform:rotateZ(0deg);" data-2200p="transform:rotateZ(-11deg);">
                              <img src="images/ufo.png" width="100%">
                         </div>
-                    </div>  -->    
+                    </div>  -->
                 </div>
 
 
@@ -931,9 +931,9 @@ Shreya Jain : 9783080753 (Cultural) </span>
 <path class="a2" d="M0 20 L30 52 L60 20"></path>
 <path class="a3" d="M0 40 L30 72 L60 40"></path>
 </svg>
-                
-				
-				
+
+
+
 <?php
 	include('footer.php');
 	if(isset($_SESSION['messagess']))
@@ -942,7 +942,7 @@ Shreya Jain : 9783080753 (Cultural) </span>
 	}
 ?>
         <script src="js/skrollr.min.js"></script>
-        
+
         <script type="text/javascript" src="js/skrollr.menu.js"></script>
         <script type="text/javascript">
         var x = screen.width;
@@ -953,8 +953,8 @@ Shreya Jain : 9783080753 (Cultural) </span>
         if(phyWidth > 30){
 
         setTimeout(function() {
-        var s = skrollr.init({  
-            
+        var s = skrollr.init({
+
         });
 
 
@@ -965,15 +965,15 @@ Shreya Jain : 9783080753 (Cultural) </span>
         }, 500);
          $(window).load(function(){
                 $('#loader').delay(2000).fadeOut();
-                
-        }); 
+
+        });
     }
     else{
          $('#mob_text').append("Use your device in landscape mode for better experience");
          $(window).load(function(){
                 $('#loader').delay(400).fadeOut();
 
-        });  
+        });
         $('#slides').css("display","none");
         $('.topnav').css("display","none");
         $('.mobile').show();
@@ -993,8 +993,8 @@ Shreya Jain : 9783080753 (Cultural) </span>
         if(phyWidth > 30){
 
         setTimeout(function() {
-        var s = skrollr.init({  
-            
+        var s = skrollr.init({
+
         });
 
 
@@ -1010,14 +1010,14 @@ Shreya Jain : 9783080753 (Cultural) </span>
          $(window).load(function(){
                 /*$('#loader').delay(350).fadeOut();*/
         });
-            
+
     }
     else{
          $('#mob_text').append("Use your device in landscape mode for better experience");
          $(window).load(function(){
                /* $('#loader').delay(400).fadeOut();*/
 
-        });  
+        });
         $('#slides').css("display","none");
         $('.topnav').css("display","none");
         $('.bottomnav').css("transform","translate(0,0)");
@@ -1025,6 +1025,6 @@ Shreya Jain : 9783080753 (Cultural) </span>
     }
     });
     </script>
-  
+
     </body>
 </html>

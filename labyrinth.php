@@ -38,7 +38,7 @@ $db=new Database();
 <script type="text/javascript" src="js/popper.js" charset="utf-8"></script>
 <script type="text/javascript" src="js/bootstrap.js" charset="utf-8"></script>
 
-<script> 
+<script>
 
 	$(function(){
 		$('.regist-popshow').click(function(){
@@ -55,9 +55,9 @@ $db=new Database();
 $(window).bind("load", function() {
 	//alert('hello');
   	$('#overlay').css({'left':'110%', 'transition':'all 1s ease-in-out'}, 2000);
-		 
+
 });
-</script>  
+</script>
 <div id="overlay" style="width:100%;">
 	<div class="ppp1" >
 		 <div class="ppp2"></div>
@@ -77,7 +77,7 @@ $(window).bind("load", function() {
       </div>
       <!--<form class="form" method="post" action="#">
       <div class="modal-body">
-        
+
           <div class="row">
           	<div class="col-sm-6">
             	<div class="form-group">
@@ -89,9 +89,9 @@ $(window).bind("load", function() {
             <label for="recipient-name" class="form-control-label">Kunwar Singh</label>
           </div>
             </div>
-            
+
           </div>
-		  
+
 		  <div class="row">
           	<div class="col-sm-6">
             	<div class="form-group">
@@ -103,7 +103,7 @@ $(window).bind("load", function() {
             <label for="recipient-name" class="form-control-label">SPHINX@123456</label>
           </div>
             </div>
-            
+
           </div>
 		  <div class="row">
           	<div class="col-sm-6">
@@ -116,7 +116,7 @@ $(window).bind("load", function() {
             <label for="recipient-name" class="form-control-label">kunwar@gmail.com</label>
           </div>
             </div>
-            
+
           </div>
 		  <div class="row">
           	<div class="col-sm-6">
@@ -129,11 +129,11 @@ $(window).bind("load", function() {
             <label for="recipient-name" class="form-control-label">SPHINX@123456</label>
           </div>
             </div>
-            
+
           </div>
-		  
-		  
-          
+
+
+
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -152,16 +152,16 @@ $(window).bind("load", function() {
 <?php
 	include('header.php');
 ?>
-		
-		<!--top nav end-->     
+
+		<!--top nav end-->
 
 
-                 
+
 <div id="slide-1" class="slide" data-0="transform: translate(0%,-10%);" style="width:100%;">
 
-                    
-                    
-                    
+
+
+
   <style>
 .event_box{
 	width:180px;
@@ -201,7 +201,7 @@ $(window).bind("load", function() {
 }
 
 
-</style>  
+</style>
 <img src="images/game5.png" class="title_img2">
 <img src="images/labyrinth4.png" class="title_img">
 <section class="contentbox_pwr" style="">
@@ -215,24 +215,24 @@ $(window).bind("load", function() {
     </div>
     <div class="eventmain_wrp">
 	<center>
-	<a href="csgo"><div class="event_box">
+	<a href="csgo.php"><div class="event_box">
 		CS GO
 	</div></a>
-	
-	<a href="fifa"><div class="event_box">
+
+	<a href="fifa.php"><div class="event_box">
 		FIFA
 	</div>
-	
-      <a href="nfs">  <div class="event_box">
+
+      <a href="nfs.php">  <div class="event_box">
 		NFS
 	</div></a>
-	<a href="pubg"><div class="event_box">
+	<a href="pubg.php"><div class="event_box">
 		PUBG
 	</div></a>
 	</center>
     </div>
     </div>
-	
+
 	<br>
 	<center><b><u>TOURNAMENT RULES AND REGULATIONS</u></b></center>
 <p class="general_content">By entering the Labyrinth Tournament, you acknowledge the following terms and conditions and agree to adhere to the tournament rules:<br>
@@ -241,49 +241,49 @@ $(window).bind("load", function() {
 <b>3 .</b> Tournament Officials and Organizers will not be responsible for any loss or damage to the players’ gaming equipment.
 </p>
 </div>
-    </div>                    
+    </div>
 </section>
-                    
-                    
-                    
-              </div>      
-                     
-                    
-                    
-                    
-                    
-                    
-                     
-                    
-                    
-                    
-                    
-                    
-                    
-                     
-                    
-
-                      
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
 
 
 
-                    
-                    </div>      
+              </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    </div>
                 </div>
 
 <?php
 	include('footer.php');
 ?>
- 
-  
+
+
     </body>
 </html>

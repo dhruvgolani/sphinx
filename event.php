@@ -38,7 +38,7 @@ $db=new Database();
 <script type="text/javascript" src="js/popper.js" charset="utf-8"></script>
 <script type="text/javascript" src="js/bootstrap.js" charset="utf-8"></script>
 
-<script> 
+<script>
 
 	$(function(){
 		$('.regist-popshow').click(function(){
@@ -55,9 +55,9 @@ $db=new Database();
 $(window).bind("load", function() {
 	//alert('hello');
   	$('#overlay').css({'left':'110%', 'transition':'all 1s ease-in-out'}, 2000);
-		 
+
 });
-</script>  
+</script>
 <div id="overlay" style="width:100%;">
 	<div class="ppp1" >
 		 <div class="ppp2"></div>
@@ -78,7 +78,7 @@ $(window).bind("load", function() {
       </div>
       <!--<form class="form" method="post" action="#">
       <div class="modal-body">
-        
+
           <div class="row">
           	<div class="col-sm-6">
             	<div class="form-group">
@@ -90,9 +90,9 @@ $(window).bind("load", function() {
             <label for="recipient-name" class="form-control-label">Kunwar Singh</label>
           </div>
             </div>
-            
+
           </div>
-		  
+
 		  <div class="row">
           	<div class="col-sm-6">
             	<div class="form-group">
@@ -104,7 +104,7 @@ $(window).bind("load", function() {
             <label for="recipient-name" class="form-control-label">SPHINX@123456</label>
           </div>
             </div>
-            
+
           </div>
 		  <div class="row">
           	<div class="col-sm-6">
@@ -117,7 +117,7 @@ $(window).bind("load", function() {
             <label for="recipient-name" class="form-control-label">kunwar@gmail.com</label>
           </div>
             </div>
-            
+
           </div>
 		  <div class="row">
           	<div class="col-sm-6">
@@ -130,11 +130,11 @@ $(window).bind("load", function() {
             <label for="recipient-name" class="form-control-label">SPHINX@123456</label>
           </div>
             </div>
-            
+
           </div>
-		  
-		  
-          
+
+
+
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -153,16 +153,16 @@ $(window).bind("load", function() {
 <?php
 	include('header.php');
 ?>
-		
-		<!--top nav end-->     
+
+		<!--top nav end-->
 
 
-                 
+
 <div id="slide-1" class="slide" data-0="transform: translate(0%,-10%);" style="width:100%;">
 
-                    
-                    
-                    
+
+
+
   <style>
 .event_box{
 	width:200px;
@@ -196,9 +196,9 @@ font-weight:bold;
 .title_img{
 	position:absolute; width:15%; top:160px; left:20%;
 }
-</style>  
+</style>
 <img src="images/events2.png" class="title_img2">
-<a href="event"><img src="images/events.png" class="title_img"></a>
+<a href="event.php"><img src="images/events.png" class="title_img"></a>
 <section class="contentbox_pwr" style="">
 
     <div class="ourtemamanin_wrp">
@@ -207,76 +207,76 @@ font-weight:bold;
           <div class="minheadtext" style="margin-top:20px;">
             <!--  <p style="font-size:14px;">Non MNIT students can book their slots  by  <a href="hospitality" style="text-decoration:none; font-weight:bold; font-size:20px; color:#fff;">clicking here.</a></p>-->
             </div>
-			
+
     </div>
     </div>
     <div class="eventmain_wrp">
 	<center>
-	<a href="core-love-event"><div class="event_box">
+	<a href="core-love-event.php"><div class="event_box">
 		Core Love
 	</div></a>
-	
-	<a href="extravaganza"><div class="event_box">
+
+	<a href="extravaganza.php"><div class="event_box">
 		Extravaganza
 	</div>
-	
-      <a href="hackathons">  <div class="event_box">
+
+      <a href="hackathons.php">  <div class="event_box">
 		Hackathons
 	</div></a>
-	<a href="robotics"><div class="event_box">
+	<a href="robotics.php"><div class="event_box">
 	Robotics
 	</div></a>
-	
-	<a href="socevents"><div class="event_box">
+
+	<a href="socevents.php"><div class="event_box">
 	Soc Events
 	</div></a>
 	</center>
     </div>
     </div>
 </div>
-    </div>                    
+    </div>
 </section>
-                    
-                    
-                    
-              </div>      
-                     
-                    
-                    
-                    
-                    
-                    
-                     
-                    
-                    
-                    
-                    
-                    
-                    
-                     
-                    
-
-                      
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
 
 
 
-                    
-                    </div>      
+              </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    </div>
                 </div>
 
 <?php
 	include('footer.php');
 ?>
- 
-  
+
+
     </body>
 </html>

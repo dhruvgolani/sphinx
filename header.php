@@ -10,7 +10,7 @@
 .ppp3{
 	position:absolute; width:100%; height:100%; background:url('images/title.png') center 40% no-repeat; background-size:500px;
 }
-</style> 
+</style>
 <style>
 a{
 		color:#ffffff;
@@ -50,18 +50,18 @@ a{
 		font-size:20px;
 		 z-index:3;
 		 border-radius:0px 0px 0px 20px;
-		
+
 		 width:105px;
 		 height:50px;
 		 padding-top:10px;
-		 
+
 	}
 	.bottom_nav2 a:hover{
 		color:#53ADA4;
 		text-decoration:none;
 	}
 	#logo{
-		
+
 		 border-radius:0px 0px 20px 0px;
 		 background-color:rgba(0,0,0,0.4);
 		 width:130px;
@@ -69,7 +69,7 @@ a{
 		 padding-top:0px;
 		 padding-left:10px;
 		 top:0;
-		 
+
 	}
 	.topnav {
     border-radius: 0px 0px 20px 20px;
@@ -84,19 +84,19 @@ a{
 }
 	.topnav a{
 		text-decoration:none;
-	}	
+	}
 	.topnav a:hover{
 		text-decoration:none;
-	}	
+	}
 	#social_icon{
-		
+
 	}
 	.top_title{
 		display:inline-block;
 	}
 	.m_logo{
 	display:none;
-	
+
 }
 
 	@media (max-width: 767px){
@@ -113,7 +113,7 @@ a{
 	position:absolute; width:100%; height:100%; background:url('images/title.png') center 33% no-repeat; background-size:70%;
 }
 
-	
+
 .profilewrp{
 	display:none;
 }
@@ -154,42 +154,42 @@ a{
 	<a href="https://twitter.com/sphinx_mnit" title="Twitter" target="_blank"><i class="fa fa-twitter-square" id="social_icon"></i></a>
 	</div>
 	<div id="logo">
-        <a href="index"><img src="images/logo.png" width="100%"></a>
+        <a href="index.php"><img src="images/logo.png" width="100%"></a>
         </div>
 	<div style="width:100%; text-align:center;">
 	<center>
 <div class="topnav" style="display: block;">
         <div class="topufo skrollable skrollable-between" data-0="transform: translate(0%,0%)" data-200p="transform: translate(60%,0)" data-250p="" data-450p="transform: translate(126%,0)" data-500p="" data-700p="transform: translate(194%,0)" data-750p="" data-950p="transform: translate(287%,0)" data-1000p="" data-1200p="transform:translate(519%,0)" data-1250p="" data-1450p="transform:translate(575%,0)" data-1500p="" data-1700p="transform:translate(656%,0)" data-1750p="" data-1950p="transform:translate(738%,0)" data-2000p="" data-2200p="transform:translate(820%,0)" style="transform: translate(0%, 0%);">
-        
+
         </div>
-        
+
         <ul class="navlist" id="left">
-        <div class="top_title"><li><a href="index">
-      
+        <div class="top_title"><li><a href="index.php">
+
         Home</a></li></div>
-        <li><a href="about">
-    
+        <li><a href="about.php">
+
         About Us</a></li>
-         <li><a href="event">
-        
+         <li><a href="event.php">
+
           Event</a></li>
-          <li><a  href="workshop">
-       
+          <li><a  href="workshop.php">
+
           Workshop</a></li>
-      
+
         </ul>
         <ul class="navlist" id="right">
-        <li><a href="labyrinth"> 
-  
+        <li><a href="labyrinth.php">
+
         Labyrinth</a></li>
-        <li><a href="exhibition"> 
-     
+        <li><a href="exhibition.php">
+
         Exhibitions</a></li>
-        <li><a  href="techtalk">
-       
+        <li><a  href="techtalk.php">
+
         Tech Talk</a></li>
-        <li><a   href="contact">
-       
+        <li><a   href="contact.php">
+
          Contact Us</a></li>
         </ul>
         </div>
@@ -198,7 +198,7 @@ a{
 <div class="headernav_mobile">
 	<div class="logowpr">
 		<div id="logo">
-			<a href="index"><img src="images/logo.png" width="100%"><div class="logodate">19th-21st Jan</div></a>
+			<a href="index.php"><img src="images/logo.png" width="100%"><div class="logodate">19th-21st Jan</div></a>
         </div>
 	</div>
 	<div class="profilewrp">
@@ -206,62 +206,62 @@ a{
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-            <a href="profile">Profile</a> / 
-            <a href="logout">Logout</a>
-            <?php 
+            <a href="profile.php">Profile</a> /
+            <a href="logout.php">Logout</a>
+            <?php
 		}
 		else
 		{
 		?>
-            <a href="javascript:;"  data-toggle="modal" data-target="#registerbox">Register</a> / 
+            <a href="javascript:;"  data-toggle="modal" data-target="#registerbox">Register</a> /
             <a href="javascript:;"  data-toggle="modal" data-target="#loginbox">Login</a>
         <?php } ?>
 	</div>
 	<div class="homemenu_Wrp">
 		<a href="javascript:;" class="menusbtn"><i class="fa fa-bars" aria-hidden="true"></i></a>
-		
+
 		<div class="menushowwrp">
 			<a href="javascript:;" class="menuscloseb"><i class="fa fa-close" aria-hidden="true"></i></a>
 			<ul>
-				<li><a href="index">Home</a></li>
-				<li><a href="about">About Us</a></li>
-				<li><a href="event">Event</a></li>
-				<li><a href="workshop">Workshop</a></li>
-				<li><a href="labyrinth">Labyrinth</a></li>
-				<li><a href="exhibition">Exhibitions</a></li>
-				<li><a href="techtalk">Tech Talk</a></li>
-				<li><a href="team">Team</a></li>
-				<li><a href="schedule" target="_blank">Schedule</a></li>
-				<li><a href="hospitality">Hospitality</a></li>
-				<li><a href="sponsors">Sponsors</a></li>
-				<li><a href="contact">Contact Us</a></li>
+				<li><a href="index.php">Home</a></li>
+				<li><a href="about.php">About Us</a></li>
+				<li><a href="event.php">Event</a></li>
+				<li><a href="workshop.php">Workshop</a></li>
+				<li><a href="labyrinth.php">Labyrinth</a></li>
+				<li><a href="exhibition.php">Exhibitions</a></li>
+				<li><a href="techtalk.php">Tech Talk</a></li>
+				<li><a href="team.php">Team</a></li>
+				<li><a href="schedule.php" target="_blank">Schedule</a></li>
+				<li><a href="hospitality.php">Hospitality</a></li>
+				<li><a href="sponsors.php">Sponsors</a></li>
+				<li><a href="contact.php">Contact Us</a></li>
 				<div class="bottom_nav2">
 		<a href="https://www.facebook.com/sphinxMNIT/?ref=settings" target="_blank"><i class="fa fa-facebook-square" id="social_icon"></i></a>
 		<a href="https://www.instagram.com/sphinx_mnit/?hl=en" target="_blank"><i class="fa fa-instagram" id="social_icon"></i></a>
 	<a href="https://twitter.com/sphinx_mnit" target="_blank"><i class="fa fa-twitter-square" id="social_icon"></i></a>
 	</div>
-	
+
 	<div class="profilewrp2">
 		<?php
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-            <a href="profile">Profile</a> / 
-            <a href="logout">Logout</a>
-            <?php 
+            <a href="profile.php">Profile</a> /
+            <a href="logout.php">Logout</a>
+            <?php
 		}
 		else
 		{
 		?>
-            <a href="javascript:;"  data-toggle="modal" data-target="#registerbox">Register</a> / 
+            <a href="javascript:;"  data-toggle="modal" data-target="#registerbox">Register</a> /
             <a href="javascript:;"  data-toggle="modal" data-target="#loginbox">Login</a>
         <?php } ?>
 	</div>
 			</ul>
 		</div>
 	</div>
-	
-	
+
+
 </div>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112037216-1"></script>
