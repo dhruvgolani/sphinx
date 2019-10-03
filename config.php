@@ -12,11 +12,11 @@ class Database{
   }
 
   public function db_connect(){
-      
+
 	$this->host = 'localhost';
-    $this->user = 'sphinx5w';
-    $this->pass = '6^Np#FnH8+!0';
-    $this->db = 'sphinx5w_sphinx';
+    $this->user = 'root';
+    $this->pass = 'root';
+    $this->db = 'sphinx';
 	/*$this->host = 'localhost';
     $this->user = 'root';
     $this->pass = '';
@@ -29,16 +29,16 @@ class Database{
         $result = $this->mysqli->query($sql);
         return $result->num_rows;
   }
-  
+
   public function runQuery($query) {
 		$result = $this->mysqli->query($query);
 		while($row=$result->fetch_array(MYSQLI_ASSOC)) {
 			$resultset[] = $row;
-		}		
+		}
 		if(!empty($resultset))
 			return $resultset;
 	}
-	
+
   public function SinglerunQuery($query) {
 		$result = $this->mysqli->query($query);
 		$row=$result->fetch_array(MYSQLI_ASSOC);
@@ -46,7 +46,7 @@ class Database{
 		if(!empty($resultest))
 			return $resultest;
 	}
-	  
+
   public function updateQuery($query) {
 		$result = $this->mysqli->query($query);
 		if (!$result) {
@@ -55,7 +55,7 @@ class Database{
 			return $result;
 		}
 	}
-	
+
   public function insertQuery($query) {
 		$result = $this->mysqli->query($query);
 		$last_insert_id = $this->mysqli->insert_id;
@@ -66,7 +66,7 @@ class Database{
 			//return $last_insert_id;
 		}
 	}
-	
+
   public function deleteQuery($query) {
 		$result = $this->mysqli->query($query);
 		if (!$result) {
@@ -75,8 +75,8 @@ class Database{
 			return $result;
 		}
 	}
-  
+
 }
 
-@define("_APPLICATION_URL", "http://".$_SERVER['SERVER_NAME'].":8080/alphonic/grow-well/ver2/"); 
+@define("_APPLICATION_URL", "http://".$_SERVER['SERVER_NAME'].":8080/alphonic/grow-well/ver2/");
 ?>

@@ -26,7 +26,7 @@ $db=new Database();
 <script type="text/javascript" src="js/toolbar.js?v=1506980387.0" charset="utf-8"></script>
 <script type="text/javascript" src="js/popper.js" charset="utf-8"></script>
 <script type="text/javascript" src="js/bootstrap.js" charset="utf-8"></script>
-<script> 
+<script>
 
 	$(function(){
 		$('.regist-popshow').click(function(){
@@ -39,9 +39,9 @@ $db=new Database();
 $(window).bind("load", function() {
 	//alert('hello');
   	$('#overlay').css({'left':'110%', 'transition':'all 1s ease-in-out'}, 2000);
-		 
+
 });
-</script>  
+</script>
 <div id="overlay" style="width:100%;">
 	<div class="ppp1" >
 		 <div class="ppp2"></div>
@@ -53,9 +53,9 @@ $(window).bind("load", function() {
 <?php
 	include('header.php');
 ?>
-		   
-               
-<div id="slide-1" class="slide" data-0="transform: translate(0%,-10%);" style="width:100%;">                
+
+
+<div id="slide-1" class="slide" data-0="transform: translate(0%,-10%);" style="width:100%;">
   <style>
 .event_box{
 	width:220px;
@@ -95,10 +95,10 @@ $(window).bind("load", function() {
 .title_img{
 	position:absolute; width:17%; top:160px; left:29%;
 }
-</style> 
- 
+</style>
+
 <img src="images/corelove2.png" class="title_img2">
-<a href="core-love-event"><img src="images/corelove.png" class="title_img"></a>
+<a href="core-love-event.php"><img src="images/corelove.png" class="title_img"></a>
 <section class="contentbox_pwr" style="" >
     <div class="ourtemamanin_wrp">
 	<div class="container1">
@@ -109,41 +109,41 @@ $(window).bind("load", function() {
     </div>
     <div class="eventmain_wrp">
 	<center>
-	<a href="computer_science" target="_blank"><div class="event_box">
+	<a href="computer_science.php" target="_blank"><div class="event_box">
 		Computer Science
 	</div></a>
-	
-	<a href="chemical" target="_blank"><div class="event_box">
+
+	<a href="chemical.php" target="_blank"><div class="event_box">
 		Chemical
 	</div>
-	
-      <a href="metallurgy" target="_blank">  <div class="event_box">
+
+      <a href="metallurgy.php" target="_blank">  <div class="event_box">
 		Metallurgy
 	</div></a>
-	<a href="architecture" target="_blank"><div class="event_box">
+	<a href="architecture.php" target="_blank"><div class="event_box">
 		Architecture
 	</div></a>
 	</center>
     </div>
 	<div class="eventmain_wrp">
 	<center>
-	<a href="electrical_and_electronics" target="_blank"><div class="event_box">
+	<a href="electrical_and_electronics.php" target="_blank"><div class="event_box">
 		Electrical & Electronics
 	</div></a>
-	
-	<a href="civil" target="_blank"><div class="event_box" >
+
+	<a href="civil.php" target="_blank"><div class="event_box" >
 		Civil
 	</div>
-	
-      <a href="mechanical" target="_blank">  <div class="event_box">
+
+      <a href="mechanical.php" target="_blank">  <div class="event_box">
 		Mechanical
 	</div></a>
-	
+
 	</center>
     </div>
     </div>
 </div>
-    </div>                    
+    </div>
 </section>
 
 
