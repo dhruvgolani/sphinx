@@ -602,18 +602,11 @@ a{
     height:100%;
 }
 #slide-1 {
-    /* background: url('../images/test2.jpg') no-repeat center center;
-    background-size: cover;
-    width: 200%;
-    height: 120%; */
-    /* position: absolute; */
-    /* top: 0; right: 0; bottom: 0; left: 0; */
     background: url('../images/t5.jpg') no-repeat center center;
     background-size: cover;
-    /* background-repeat: no-repeat; */
     width: 200%;
     height: 120%;
-    /* overflow: hidden; */
+
 }
 .bg{
   background: url('../images/homebackground.jpg') no-repeat center center;
