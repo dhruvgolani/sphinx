@@ -30,7 +30,7 @@ $db= new Database();
 <script type="text/javascript" src="js/popper.js" charset="utf-8"></script>
 <script type="text/javascript" src="js/bootstrap.js" charset="utf-8"></script>
 
-<script> 
+<script>
 
 	$(function(){
 		$('.regist-popshow').click(function(){
@@ -43,7 +43,7 @@ $db= new Database();
 			$('.P-registrevnt').addClass('active');
 	});
 	P-profile
-	
+
 </script>
 
 
@@ -54,9 +54,9 @@ $db= new Database();
 $(window).bind("load", function() {
 	//alert('hello');
   	$('#overlay').css({'left':'110%', 'transition':'all 1s ease-in-out'}, 2000);
-		 
+
 });
-</script>  
+</script>
 <div id="overlay" style="width:100%;">
 	<div class="ppp1" >
 		 <div class="ppp2"></div>
@@ -93,23 +93,23 @@ width:70%;     border-radius: 40px 40px 0px 0;
 	include('header.php');
 ?>
 
-    
-<div id="slide-1" class="slide" data-0="transform: translate(0%,-10%);" style="width:100%;">     
-<img src="images/registeredevents.png" class="title_img">               
+
+<div id="slide-1" class="slide" data-0="transform: translate(0%,-10%);" style="width:100%;">
+<img src="images/registeredevents.png" class="title_img">
 <section class="contentbox_pwr" style="">
     <div class="ourtemamanin_wrp">
     <div class="eventmain_wrp">
-        	
-      
-          
-		
-			
+
+
+
+
+
 							<table class="table">
 								<thead>
 									<br>
 									<tr>
-									<center><a href="profile"><div class="reg_side">Basic Profile</div></a>
-									<a href="registered-events"><div class="reg_side">Registered Events</div></a>
+									<center><a href="profile.php"><div class="reg_side">Basic Profile</div></a>
+									<a href="registered-events.php"><div class="reg_side">Registered Events</div></a>
 									</center>
 									</tr>
 									<br>
@@ -126,7 +126,7 @@ width:70%;     border-radius: 40px 40px 0px 0;
 								$user_login=$_SESSION["user_sphinx_sp"];
 								$query_user=$db->SinglerunQuery("SELECT * FROM `users` where email='$user_login'");
 								$get_reg_id=$query_user['register_id'];
-								 
+
 								$query_reg="select * from registration where find_in_set('$get_reg_id',team_reg_id)";
 								$nums_reg=$db->db_num($query_reg);
 								if($nums_reg>0)
@@ -144,7 +144,7 @@ width:70%;     border-radius: 40px 40px 0px 0;
 											$var="odd";
 										}
 									$team=$row_reg['team_size'];
-									$reg_ids=explode(",",$row_reg['team_reg_id']);	
+									$reg_ids=explode(",",$row_reg['team_reg_id']);
 								 $no1=$reg_ids[0];
 								 $uer=$db->SinglerunQuery("select * from users where register_id='$no1'");
 								?>
@@ -183,53 +183,53 @@ width:70%;     border-radius: 40px 40px 0px 0;
 									<?php
 									$i++;
 									 }
-								}?> 
+								}?>
 								</tbody>
 							</table>
-						</div>	
-				</div>                  
+						</div>
+				</div>
 </section>
-                    
-                    
-                    
-              </div>      
-                     
-                    
-                    
-                    
-                    
-                    
-                     
-                    
-                    
-                    
-                    
-                    
-                    
-                     
-                    
-
-                      
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
 
 
 
-                    
-                    </div>      
+              </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    </div>
                 </div>
 
 <?php
 	include('footer.php');
 ?>
- 
-  
+
+
     </body>
 </html>

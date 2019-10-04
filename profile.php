@@ -28,7 +28,7 @@ $db=new Database();
 <script type="text/javascript" src="js/popper.js" charset="utf-8"></script>
 <script type="text/javascript" src="js/bootstrap.js" charset="utf-8"></script>
 
-<script> 
+<script>
 
 	$(function(){
 		$('.regist-popshow').click(function(){
@@ -41,15 +41,15 @@ $db=new Database();
 			$('.P-profile').addClass('active');
 	});
 	P-profile
-	
+
 </script>
 <script>
 $(window).bind("load", function() {
 	//alert('hello');
   	$('#overlay').css({'left':'110%', 'transition':'all 1s ease-in-out'}, 2000);
-		 
+
 });
-</script>  
+</script>
 <div id="overlay" style="width:100%;">
 	<div class="ppp1" >
 		 <div class="ppp2"></div>
@@ -96,8 +96,8 @@ $(window).bind("load", function() {
 <img src="images/profile.png" class="title_img">
    <section class="contentbox_pwr" style="">
    <center>
-			<a href="profile"><div class="regi_side">Basic Profile</div></a>
-			<a href="registered-events"><div class="regi_side">Registered Events</div></a>
+			<a href="profile.php"><div class="regi_side">Basic Profile</div></a>
+			<a href="registered-events.php"><div class="regi_side">Registered Events</div></a>
 		</center>
     <div class="about_box_mainwrp" style="width:100%;">
         <div class="about_text_wrp" style="width:100%;">
@@ -105,16 +105,16 @@ $(window).bind("load", function() {
 				$email=$_SESSION["user_sphinx_sp"];
 				$query=$db->SinglerunQuery("select * from users where email='$email'");
 			?>
-		
-									
-									
+
+
+
 			<table class="data_table">
-			
-									
-									
-								
-									
-							
+
+
+
+
+
+
 				<tr>
 					<td class="lefty">Registration ID</td>
 					<td><?=$query['register_id'];?></td>
@@ -159,30 +159,30 @@ $(window).bind("load", function() {
 					<td class="lefty">Accomodation</td>
 					<td><?=$query['accommodation'];?></td>
 				</tr>
-				
+
 				<tr>
 					<td class="lefty">Registered on</td>
 					<td><?=$query['date_tym'];?></td>
 				</tr>
 			 </table>
-			
-					
-					
-					
+
+
+
+
         </div>
         <div class="about_text_wrp">
-        
+
         </div>
- 
+
     </div>
   </section>
 </div>
 
-              
+
 <?php
 	include('footer.php');
 ?>
- 
- 
+
+
 </body>
 </html>
