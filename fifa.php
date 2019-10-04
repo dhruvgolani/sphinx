@@ -23,7 +23,7 @@ if(isset($_REQUEST['event']))
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<title>Sphinx 2.0 | Sign In, Shine Out</title>
+<title>Sphinx'19</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <link rel="icon" type="image/png" href="images/favicon.png">
 <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
@@ -36,22 +36,22 @@ if(isset($_REQUEST['event']))
 <link href="css/responsive.css" rel="stylesheet" type="text/css">
 </head>
 <body style="overflow:hidden;">
-<script type="text/javascript" src="js/timestamp.js?v=1506980387.0" charset="utf-8"></script> 
-<script type="text/javascript" src="js/graph-calc.js?v=1506980387.0" charset="utf-8"></script> 
-<script type="text/javascript" src="js/auto-complete.js?v=1506980387.0" charset="utf-8"></script> 
-<script type="text/javascript" src="js/toolbar.js?v=1506980387.0" charset="utf-8"></script> 
-<script type="text/javascript" src="js/popper.js" charset="utf-8"></script> 
-<script type="text/javascript" src="js/bootstrap.js" charset="utf-8"></script> 
-<!--<script> 
+<script type="text/javascript" src="js/timestamp.js?v=1506980387.0" charset="utf-8"></script>
+<script type="text/javascript" src="js/graph-calc.js?v=1506980387.0" charset="utf-8"></script>
+<script type="text/javascript" src="js/auto-complete.js?v=1506980387.0" charset="utf-8"></script>
+<script type="text/javascript" src="js/toolbar.js?v=1506980387.0" charset="utf-8"></script>
+<script type="text/javascript" src="js/popper.js" charset="utf-8"></script>
+<script type="text/javascript" src="js/bootstrap.js" charset="utf-8"></script>
+<!--<script>
 
 	$(function(){
 		$('.regist-popshow').click(function(){
 			$('.modalevent').modal('hide');
-		 
+
 			$('#eventregister2').modal('show');
-			 
+
 			$('#loginbox').modal('show');
-			 
+
 		});
 	});
 </script> -->
@@ -63,27 +63,27 @@ if(isset($_REQUEST['event']))
 ?>
 <script>
 $(function(){
-	$('.teamC').change(function(){	
+	$('.teamC').change(function(){
 		$('.teamember_detial').empty();
-		var selVal = $(this).val();	
+		var selVal = $(this).val();
 		for (i = 0; i < selVal; i++) {
 			$('.teamember_detial').append('<div class="row"> <div class="col-sm-4"> <div class="form-group"> <label for="recipient-name" class="form-control-label">Registration Id</label> </div> </div> <div class="col-sm-8"> <div class="form-group"> <input type="text" class="form-control" id="recipient-name" placeholder="Enter registration id" required name="regid[]"> </div> </div> </div> <div class="row"> <div class="col-sm-4"> <div class="form-group"> <label for="recipient-name" class="form-control-label">Email Id</label> </div> </div> <div class="col-sm-8"> <div class="form-group"> <input type="email" class="form-control" id="recipient-name" placeholder="Enter email address" required name="emailid[]"> </div> </div> </div> <div class="row"> <div class="col-sm-4"> <div class="form-group"> <label for="recipient-name" class="form-control-label">Password</label> </div> </div> <div class="col-sm-8"> <div class="form-group"> <input type="Password" name="password[]" class="form-control" id="recipient-name" placeholder="Enter your password"  required> </div> </div> </div><div class="breaklinke"></div>')
 		}
 	})
 })
-</script> 
+</script>
 
-<!-- END WAYBACK TOOLBAR INSERT --> 
+<!-- END WAYBACK TOOLBAR INSERT -->
 
 <script>
 $(window).bind("load", function() {
 	//alert('hello');
   	$('#overlay').css({'left':'110%', 'transition':'all 1s ease-in-out'}, 2000);
-		 
+
 });
 </script>
 <div id="overlay" style="width:100%;">
-   
+
 	<div style="position:absolute; top:0; left:0; background:rgba(21,24,33,1.0); width:100%; height:100%; text-align:center;" >
 		 <div style="position:absolute; width:100%; height:100%; background:url('images/loading4.gif') center 100% no-repeat; background-size:800px;"></div>
 		 <div style="position:absolute; width:100%; height:100%; background:url('images/title.png') center 40% no-repeat; background-size:500px;"></div>
@@ -195,8 +195,8 @@ $(window).bind("load", function() {
                 <li> Players must pause the final screen till the official records the result of the match.</li>
 			</ul>
         </div>
-        
-        
+
+
           <div class="evencon_box">
             <h3>Game Rules:</h3>
 			    <ul class="checboxlist">
@@ -217,7 +217,7 @@ $(window).bind("load", function() {
                 </li>
                 </ul>
 		  </div>
-		  
+
 
             <div class="evencon_box">
                 <h3>Game Settings:</h3>
@@ -239,23 +239,23 @@ $(window).bind("load", function() {
                     <li> Time of day: Night.</li>
                     <li> Controller Settings: Players are allowed to choose any controller settings they prefer.</li>
 				</ul>
-            </div>	
-	
+            </div>
+
 	<div class="evencon_box">
                 <h3>Registration Fee:</h3>
                  <ul class="checboxlist">
                     <li>Rs 50 per participant (Registration fee will be collected on the spot).</li>
             </div>
-		
-		    
-		
-		
+
+
+
+
 		  <div class="evencon_box">
             <h3>Contact Us:</h3>
             <p>For any queries:</p>
             <div class="pptable">
               <table>
-               
+
                 <tr>
                   <td>Parag Pise</td>
                   <td>7387672310</td>
@@ -270,7 +270,7 @@ $(window).bind("load", function() {
           <?php
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
-			?> 
+			?>
             <a href="fifa?event=fifa"  class="btn btn-input regist-popshow">Register Now</a>
          <?php } else
 		 { ?>
@@ -280,8 +280,8 @@ $(window).bind("load", function() {
 		</div>
           </div>
         </div></div>
-		
-		
+
+
 
 
 
@@ -294,10 +294,10 @@ $(window).bind("load", function() {
 <style>
 .content_p{
 	margin-top:10px;
-	
+
 }
 .card_box{
-	
+
 	border:2px solid #fff; padding:10px; color:#2A5D88; border-radius :22px; background-color:#fff; width:200px;  margin-top:-25px; font-size:20px; font-weight:bold;
 }
 .modal-title {
@@ -323,21 +323,21 @@ $(window).bind("load", function() {
           <div class="container">
             <div class="row">
                <img src="" class="team-icon">
-             
-			  
-			  
-        
+
+
+
+
               <div class="col-md-12 col-sm-12">
                 <div class="eventbox_wrp">
                    <div class="evnt_cont_box">
                    <center> <div class="card_box">FIFA</div></center>
 					<p class="content_p">Sputnik believes that Fifa 18 is the best football game in the series to date with gorgeous graphics and amazing lighting detail. Watching the players in FIFA curve their shots into the top corner of the net blew his mind, and he was certain there was no way they could do that in real life.His assumptions about the sport were blown apart, along with his eardrums due to technology found in this amazing and tantalizing soccer game.So Sputnik organized FIFA 18 competition to experience the ultimate pleasure of a real soccer game and prove to the world that your techniques and skills are  next to none.</p>
-                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".fifa"><span>More Detail</span></a> 
+                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".fifa"><span>More Detail</span></a>
                     <?php
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-                    <a href="fifa?event=fifa" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a> 
+                    <a href="fifa?event=fifa" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
@@ -346,10 +346,10 @@ $(window).bind("load", function() {
                   </div>
                 </div>
               </div>
-			  
-				  
-		
-            
+
+
+
+
             </div>
           </div>
         </div>

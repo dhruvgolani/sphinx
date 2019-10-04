@@ -27,7 +27,7 @@ if(isset($_REQUEST['event']))
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<title>Sphinx 2.0 | Sign In, Shine Out</title>
+<title>Sphinx'19</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <link rel="icon" type="image/png" href="images/favicon.png">
 <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
@@ -40,22 +40,22 @@ if(isset($_REQUEST['event']))
 <link href="css/responsive.css" rel="stylesheet" type="text/css">
 </head>
 <body style="overflow:hidden;">
-<script type="text/javascript" src="js/timestamp.js?v=1506980387.0" charset="utf-8"></script> 
-<script type="text/javascript" src="js/graph-calc.js?v=1506980387.0" charset="utf-8"></script> 
-<script type="text/javascript" src="js/auto-complete.js?v=1506980387.0" charset="utf-8"></script> 
-<script type="text/javascript" src="js/toolbar.js?v=1506980387.0" charset="utf-8"></script> 
-<script type="text/javascript" src="js/popper.js" charset="utf-8"></script> 
-<script type="text/javascript" src="js/bootstrap.js" charset="utf-8"></script> 
-<!--<script> 
+<script type="text/javascript" src="js/timestamp.js?v=1506980387.0" charset="utf-8"></script>
+<script type="text/javascript" src="js/graph-calc.js?v=1506980387.0" charset="utf-8"></script>
+<script type="text/javascript" src="js/auto-complete.js?v=1506980387.0" charset="utf-8"></script>
+<script type="text/javascript" src="js/toolbar.js?v=1506980387.0" charset="utf-8"></script>
+<script type="text/javascript" src="js/popper.js" charset="utf-8"></script>
+<script type="text/javascript" src="js/bootstrap.js" charset="utf-8"></script>
+<!--<script>
 
 	$(function(){
 		$('.regist-popshow').click(function(){
 			$('.modalevent').modal('hide');
-		 
+
 			$('#eventregister2').modal('show');
-			 
+
 			$('#loginbox').modal('show');
-			 
+
 		});
 	});
 </script> -->
@@ -67,23 +67,23 @@ if(isset($_REQUEST['event']))
 ?>
 <script>
 $(function(){
-	$('.teamC').change(function(){	
+	$('.teamC').change(function(){
 		$('.teamember_detial').empty();
-		var selVal = $(this).val();	
+		var selVal = $(this).val();
 		for (i = 0; i < selVal; i++) {
 			$('.teamember_detial').append('<div class="row"> <div class="col-sm-4"> <div class="form-group"> <label for="recipient-name" class="form-control-label">Registration Id</label> </div> </div> <div class="col-sm-8"> <div class="form-group"> <input type="text" class="form-control" id="recipient-name" placeholder="Enter registration id" required name="regid[]"> </div> </div> </div> <div class="row"> <div class="col-sm-4"> <div class="form-group"> <label for="recipient-name" class="form-control-label">Email Id</label> </div> </div> <div class="col-sm-8"> <div class="form-group"> <input type="email" class="form-control" id="recipient-name" placeholder="Enter email address" required name="emailid[]"> </div> </div> </div> <div class="row"> <div class="col-sm-4"> <div class="form-group"> <label for="recipient-name" class="form-control-label">Password</label> </div> </div> <div class="col-sm-8"> <div class="form-group"> <input type="Password" name="password[]" class="form-control" id="recipient-name" placeholder="Enter your password"  required> </div> </div> </div><div class="breaklinke"></div>')
 		}
 	})
 })
-</script> 
+</script>
 
-<!-- END WAYBACK TOOLBAR INSERT --> 
+<!-- END WAYBACK TOOLBAR INSERT -->
 
 <script>
 $(window).bind("load", function() {
 	//alert('hello');
   	$('#overlay').css({'left':'110%', 'transition':'all 1s ease-in-out'}, 2000);
-		 
+
 });
 </script>
 <div id="overlay" style="width:100%;">
@@ -272,7 +272,7 @@ $(window).bind("load", function() {
             <h3>Team formation: </h3>
           Each team shall have 2 members.
 		  </div>
-		  
+
 		   <div class="evencon_box">
             <h3>Structure of the event:</h3>
             <ul class="checboxlist">
@@ -281,38 +281,38 @@ $(window).bind("load", function() {
 <li>2. ROUND 2 </li>
             </ul>
           </div>
-		  
+
         <div class="evencon_box">
             <h3>ROUND 1: CHAIN REACTION</h3>
             Two teams will be merged randomly together for this first round. There will be a total of 4 tasks to be performed by the merged teams’ members individually. Next task in this round will be given to the other member of merged team when the preceding member completes his/her task. The tasks may include - crosswords, match the column, etc.
 			<h3>Judging Criteria:</h3>
 			<ul class="checboxlist">
-			<li>1. The time taken for each event.</li> 
+			<li>1. The time taken for each event.</li>
 			<li>2. The accuracy and precision in solving the problems.</li>
 			<li>3. Cross Team Working.</li>
 			<br>
 			The two teams merged will be given the same score as their overall merged team score. After 1st round, better performing teams will be selected for the next round.
 		</div>
- 
+
   <div class="evencon_box">
             <h3>ROUND 2: THE PICTIONARY</h3>
       This is a team event for 2 members. Some images will be shown one by one and questions will be asked about those images which can have any type of riddle and the teams will have to write their answers on a sheet in a specific time and submit it to the judges. Negative marks will be awarded on every wrong answer.
-	  <h3>Judging Criteria:</h3> 
+	  <h3>Judging Criteria:</h3>
 	  <ul class="checboxlist">
 	  <li>1. The precision in answering the questions.</li>
 	  <li>2. Team work.</li>
 	  </ul>
  </div>
- 
+
         <div class="evencon_box">
             <h3>Note:</h3>
 			<p>The decision of the judges and the organizers shall be final and abiding.</p>
-		</div>	
-         
+		</div>
+
                    <div class="evencon_box">
             <h3>Prizes worth : 7000/-</h3>
         </div>
-         
+
 		  <div class="evencon_box">
             <h3>Contact Us:</h3>
             <p>For any queries:</p>
@@ -337,7 +337,7 @@ $(window).bind("load", function() {
           <?php
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
-			?> 
+			?>
             <a href="metallurgy?event=Entrophy"  class="btn btn-input regist-popshow">Register Now</a>
          <?php } else
 		 { ?>
@@ -366,7 +366,7 @@ $(window).bind("load", function() {
             <h3>Team formation: </h3>
           Each team should have 4 members.
 		  </div>
-		  
+
 		   <div class="evencon_box">
             <h3>Structure of the event:</h3>
             <ul class="checboxlist">
@@ -376,47 +376,47 @@ $(window).bind("load", function() {
 
             </ul>
           </div>
-		  
+
           <div class="evencon_box">
             <h3>ROUND 1</h3>
 			The quiz will consist of 50 questions consisting of 2 parts:
 			<ul class="checboxlist">
-			<li>Part 1: It consists of Aptitude Questions which will be answered by 2 members.</li> 
-			<li>Part 2: It consists of General Metallurgical Questions which will be answered by the other 2 members.</li> 
+			<li>Part 1: It consists of Aptitude Questions which will be answered by 2 members.</li>
+			<li>Part 2: It consists of General Metallurgical Questions which will be answered by the other 2 members.</li>
 			<br>The questions will cover the basics of following topics: Physical metallurgy, Extractive metallurgy, Foundry technology, Engineering materials, General corrosion science, and Mineral dressing. <br>
 			On the basis of first round performance, teams will be selected for second round.
  </div>
- 
+
 		<div class="evencon_box">
 			<h3>Note:</h3>
-			There will be discussion session for Round 2 on the next day of the quiz for the selected teams.	
+			There will be discussion session for Round 2 on the next day of the quiz for the selected teams.
 		</div>
- 
+
    <div class="evencon_box">
             <h3>ROUND 2</h3>
       This is the final round which is an ‘Industrial Problem Solving and Presenting Round’. The participants will be given 6 days to make the model after the discussion session.
  </div>
-  
+
 			 <div class="evencon_box">
             <h3>Judging Criteria:</h3>
             <ul class="checboxlist">
             <li>1. Solution of the problem</li>
-			<li>2. Innovation</li> 
+			<li>2. Innovation</li>
 			<li>3. Cost Efficiency</li>
 			<li>4. Practical Knowledge</li>
             </ul>
           </div>
-        
+
 
 		<div class="evencon_box">
             <h3>Note:</h3>
-		Topics covered in round 2 will be disclosed in the discussion session only. 
+		Topics covered in round 2 will be disclosed in the discussion session only.
 		</div>
-		
+
 		          <div class="evencon_box">
             <h3>Prizes worth : 7000/-</h3>
         </div>
- 
+
 		  <div class="evencon_box">
             <h3>Contact Us:</h3>
             <p>For any queries:</p>
@@ -427,7 +427,7 @@ $(window).bind("load", function() {
                   <td>9462794980</td>
 				  <td>2016umt1424@mnit.ac.in</td>
                 </tr>
-           
+
                 <tr>
                   <td>Ambesh Gupta</td>
                   <td>8562862325</td>
@@ -442,7 +442,7 @@ $(window).bind("load", function() {
           <?php
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
-			?> 
+			?>
             <a href="metallurgy?event=Urja"  class="btn btn-input regist-popshow">Register Now</a>
          <?php } else
 		 { ?>
@@ -466,10 +466,10 @@ $(window).bind("load", function() {
 <style>
 .content_p{
 	margin-top:10px;
-	
+
 }
 .card_box{
-	
+
 	border:2px solid #fff; padding:10px; color:#2A5D88; border-radius :22px; background-color:#fff; width:200px;  margin-top:-25px; font-size:20px; font-weight:bold;
 }
 .modal-title {
@@ -512,8 +512,8 @@ $(window).bind("load", function() {
           <div class="container">
             <div class="row">
                <img src="" class="team-icon">
-                
-            
+
+
               <div class="col-md-12 col-sm-12">
                 <div class="eventbox_wrp">
                    <div class="evnt_cont_box entrophy" style="">
@@ -522,12 +522,12 @@ $(window).bind("load", function() {
 applications and wants other people who are skilled enough to join him explore the field. He designs a unique quiz
 ‘ENTROPHY’ to test deep understanding of concepts, time management and team efforts to get through. Come join
 us to know if you think you can crack this quiz and join Sputnik in his work.</p>
-                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".Entrophy"><span>More Detail</span></a> 
+                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".Entrophy"><span>More Detail</span></a>
                     <?php
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-                    <a href="metallurgy?event=Entrophy" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a> 
+                    <a href="metallurgy?event=Entrophy" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
@@ -536,7 +536,7 @@ us to know if you think you can crack this quiz and join Sputnik in his work.</p
                   </div>
                 </div>
               </div>
-			  
+
 			  <div class="col-md-12 col-sm-12">
                 <div class="eventbox_wrp">
                    <div class="evnt_cont_box" style="">
@@ -545,12 +545,12 @@ us to know if you think you can crack this quiz and join Sputnik in his work.</p
 extracted from deep down the earth. Sputnik is amazed to know that there’s so much hidden within our Earth. As a
 curious kid he wants to know more about metallurgical fields, foundry technology, mining and material science. Help
 Sputnik to explore more about this interesting field of Metallurgy by taking part in URJA.</p>
-                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".Urja"><span>More Detail</span></a> 
+                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".Urja"><span>More Detail</span></a>
                     <?php
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-                    <a href="metallurgy?event=Urja" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a> 
+                    <a href="metallurgy?event=Urja" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
@@ -559,7 +559,7 @@ Sputnik to explore more about this interesting field of Metallurgy by taking par
                   </div>
                 </div>
               </div>
-            
+
             </div>
           </div>
         </div>

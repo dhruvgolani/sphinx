@@ -29,7 +29,7 @@ if(isset($_REQUEST['event']))
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<title>Sphinx 2.0 | Sign In, Shine Out</title>
+<title>Sphinx'19</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <link rel="icon" type="image/png" href="images/favicon.png">
 <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
@@ -42,22 +42,22 @@ if(isset($_REQUEST['event']))
 <link href="css/responsive.css" rel="stylesheet" type="text/css">
 </head>
 <body style="overflow:hidden;">
-<script type="text/javascript" src="js/timestamp.js?v=1506980387.0" charset="utf-8"></script> 
-<script type="text/javascript" src="js/graph-calc.js?v=1506980387.0" charset="utf-8"></script> 
-<script type="text/javascript" src="js/auto-complete.js?v=1506980387.0" charset="utf-8"></script> 
-<script type="text/javascript" src="js/toolbar.js?v=1506980387.0" charset="utf-8"></script> 
-<script type="text/javascript" src="js/popper.js" charset="utf-8"></script> 
-<script type="text/javascript" src="js/bootstrap.js" charset="utf-8"></script> 
-<!--<script> 
+<script type="text/javascript" src="js/timestamp.js?v=1506980387.0" charset="utf-8"></script>
+<script type="text/javascript" src="js/graph-calc.js?v=1506980387.0" charset="utf-8"></script>
+<script type="text/javascript" src="js/auto-complete.js?v=1506980387.0" charset="utf-8"></script>
+<script type="text/javascript" src="js/toolbar.js?v=1506980387.0" charset="utf-8"></script>
+<script type="text/javascript" src="js/popper.js" charset="utf-8"></script>
+<script type="text/javascript" src="js/bootstrap.js" charset="utf-8"></script>
+<!--<script>
 
 	$(function(){
 		$('.regist-popshow').click(function(){
 			$('.modalevent').modal('hide');
-		 
+
 			$('#eventregister2').modal('show');
-			 
+
 			$('#loginbox').modal('show');
-			 
+
 		});
 	});
 </script> -->
@@ -69,23 +69,23 @@ if(isset($_REQUEST['event']))
 ?>
 <script>
 $(function(){
-	$('.teamC').change(function(){	
+	$('.teamC').change(function(){
 		$('.teamember_detial').empty();
-		var selVal = $(this).val();	
+		var selVal = $(this).val();
 		for (i = 0; i < selVal; i++) {
 			$('.teamember_detial').append('<div class="row"> <div class="col-sm-4"> <div class="form-group"> <label for="recipient-name" class="form-control-label">Registration Id</label> </div> </div> <div class="col-sm-8"> <div class="form-group"> <input type="text" class="form-control" id="recipient-name" placeholder="Enter registration id" required name="regid[]"> </div> </div> </div> <div class="row"> <div class="col-sm-4"> <div class="form-group"> <label for="recipient-name" class="form-control-label">Email Id</label> </div> </div> <div class="col-sm-8"> <div class="form-group"> <input type="email" class="form-control" id="recipient-name" placeholder="Enter email address" required name="emailid[]"> </div> </div> </div> <div class="row"> <div class="col-sm-4"> <div class="form-group"> <label for="recipient-name" class="form-control-label">Password</label> </div> </div> <div class="col-sm-8"> <div class="form-group"> <input type="Password" name="password[]" class="form-control" id="recipient-name" placeholder="Enter your password"  required> </div> </div> </div><div class="breaklinke"></div>')
 		}
 	})
 })
-</script> 
+</script>
 
-<!-- END WAYBACK TOOLBAR INSERT --> 
+<!-- END WAYBACK TOOLBAR INSERT -->
 
 <script>
 $(window).bind("load", function() {
 	//alert('hello');
   	$('#overlay').css({'left':'110%', 'transition':'all 1s ease-in-out'}, 2000);
-		 
+
 });
 </script>
 <div id="overlay" style="width:100%;">
@@ -219,8 +219,8 @@ Registration id of all members while sending your submission over email.
 You can form a team with maximum 2 members. While forming teams
 choose a Team id and all the members should add that Team Id.</li>
 				</ul>
-	</div>	
-	
+	</div>
+
 		<div class="evencon_box">
             <h3>TIME DURATION:</h3>
 			    <ul class="checboxlist">
@@ -228,8 +228,8 @@ choose a Team id and all the members should add that Team Id.</li>
 				<li>All the participants should be present on the evaluation day.</li>
 
 				</ul>
-		</div>	
-		
+		</div>
+
 		<div class="evencon_box">
             <h3>Certification Policy:</h3>
 		<ul class="checboxlist">
@@ -238,7 +238,7 @@ choose a Team id and all the members should add that Team Id.</li>
 
 		</ul>
 		</div>
-<div class="evencon_box">		
+<div class="evencon_box">
 	  <h3>Event Rules:</h3>
 	  <ul class="checboxlist">
 	  <li>Each Team has to bring one working Laptop to present their ppts.</li>
@@ -248,10 +248,10 @@ problem) during the competition time Otherwise the team will be
 disqualified.</li>
 <li>The decision of the judges shall be treated as final and binding on all.</li>
 
-		
+
 	  </ul>
  </div>
-       
+
 		<div class="evencon_box">
             <h3>Judging criteria:</h3>
 			  <ul class="checboxlist">
@@ -268,13 +268,13 @@ disqualified.</li>
 </ul>
 In case of any dispute, decision of the organizers or Judges will be final and binding on all.
 		</div>
-		
-		          
+
+
                               <div class="evencon_box">
             <h3>Prizes worth : 20000/-</h3>
         </div>
 
-		
+
 		  <div class="evencon_box">
             <h3>Contact Us:</h3>
             <p>For any queries:</p>
@@ -293,16 +293,16 @@ In case of any dispute, decision of the organizers or Judges will be final and b
               </table>
             </div>
           </div>
-          
+
           		<div class="evencon_box">
             <h3>Pre-Requisites :</h3>
 You need to know at least one programming language of a microcontroller to implement your solution in and the working details.
-		</div>	
-		
+		</div>
+
 		<b>Even if you are an absolute beginner, you can still show
 up and discover if this for you. A hackathon is all about
 making what you can, and learning on the way.</b>
-          
+
         </div>
 		<div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -310,7 +310,7 @@ making what you can, and learning on the way.</b>
           <?php
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
-			?> 
+			?>
             <a href="hackathons?event=hack-e-design"  class="btn btn-input regist-popshow">Register Now</a>
          <?php } else
 		 { ?>
@@ -320,9 +320,9 @@ making what you can, and learning on the way.</b>
 		</div>
           </div>
         </div></div>
-		
-		
-		
+
+
+
 <div class="modal fade hack-e-app modalevent" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
@@ -350,7 +350,7 @@ ideas and brainstorming talent among college studentsin the field of Android.
 				<li><b>TEAM EVENT :</b> Maximum 1 to 3 members.
 </li>
 				<li> <b>MAIN ROUND :</b> <br> Problem statement will be uploaded on the site on 15thSeptember 2018. (Or
-sent to registered mail ID). 
+sent to registered mail ID).
 <br> • Minimum 10 Fragments or activities are
 required), Prototype (APK), Source Code and README file Submission is to be
 done during the event (In MNIT).
@@ -369,7 +369,7 @@ Participants have to submit:
 </ul>
 </li>
 				<li><b>REGISTRATION AND TEAM FORMATION :</b>
-				
+
 				<ul>
 				    <li>You will have to register individually. </li>
 				    <li> In case if you are forming a team then you have to mention the
@@ -379,10 +379,10 @@ choose a Team id and all the members should add that Team Id.</li>
                     <li>Pre-Registration is necessary.</li>
 				</ul>
 				</li>
-				
+
 				</ul>
-	</div>	
-	
+	</div>
+
 		<div class="evencon_box">
             <h3>TIME DURATION:</h3>
 			    <ul class="checboxlist">
@@ -390,8 +390,8 @@ choose a Team id and all the members should add that Team Id.</li>
 				<li>All the participants should be present on the evaluation day.</li>
 
 				</ul>
-		</div>	
-		
+		</div>
+
 		<div class="evencon_box">
             <h3>Certification Policy:</h3>
 		<ul class="checboxlist">
@@ -400,7 +400,7 @@ choose a Team id and all the members should add that Team Id.</li>
 
 		</ul>
 		</div>
-<div class="evencon_box">		
+<div class="evencon_box">
 	  <h3>Event Rules:</h3>
 	  <ul class="checboxlist">
 	  <li>Each Team has to bring one working Laptop to present their ppts.</li>
@@ -413,10 +413,10 @@ Machines, or disruptthe competition environment in any way will be
 disqualified.</li>
 <li>The decision of the judges shall be treated as final and binding on all.</li>
 
-		
+
 	  </ul>
  </div>
-       
+
 		<div class="evencon_box">
             <h3>Judging criteria:</h3>
 			  <ul class="checboxlist">
@@ -435,8 +435,8 @@ Problem Statement.</li>
 </ul>
 In case of any dispute, decision of the organizers or Judges will be final and binding on all.
 		</div>
-		
-		<div class="evencon_box">		
+
+		<div class="evencon_box">
 	  <h3>Main points to be covered :</h3>
 	  <ul class="checboxlist">
 	  <li><b>Quality of Content: </b>Quality of Content: All the entries would be judged on the basis of relevancy
@@ -449,26 +449,26 @@ and animation features and responsiveness of the app.</li>
 <li><b>Functional Quality :</b> Compatibility to various versions, relevant modules that
 serve the intended purpose and easy to use and adaptable by the user would
 be the key functionality measure while judging the entries.</li>
-		
+
 	  </ul>
  </div>
- 
- 
- 		<div class="evencon_box">		
+
+
+ 		<div class="evencon_box">
 	  <h3>Machine Specifications :</h3>
 	  <ul class="checboxlist">
 	  <li>Participants can use any platform to make the solutions for example</li>
 <li>Design Tools: Adobe Photoshop.</li>
 <li>App Development Tools: Eclipse, Android Studio, Java-JRE.</li>
 <li>Database Development Tools: SQLite.</li>
-		
+
 	  </ul>
  </div>                            <div class="evencon_box">
             <h3>Prizes worth : 20000/-</h3>
         </div>
 
 
-		
+
 		  <div class="evencon_box">
             <h3>Contact Us:</h3>
             <p>For any queries:</p>
@@ -487,7 +487,7 @@ be the key functionality measure while judging the entries.</li>
               </table>
             </div>
           </div>
-          
+
           		<div class="evencon_box">
             <h3>Pre-Requisites :</h3>
 <ol>
@@ -499,15 +499,15 @@ be able to use it.</li>
 <li>The ground rule for a hackathon is that everything should be built from scratch at
 the venue itself.</li>
 </ol>
-		</div>	
-		
+		</div>
+
 		<b>Even if you are an absolute beginner, you can still show
 up and discover if this for you. A hackathon is all about
 making what you can, and learning on the way.</b>
-          
+
         </div>
-        
-        
+
+
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                     <a href="/app problem.pdf" class="btn btn-secondary" role="button">Problem Statement</a>
@@ -515,7 +515,7 @@ making what you can, and learning on the way.</b>
           <?php
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
-			?> 
+			?>
             <a href="hackathons?event=hack-e-app"  class="btn btn-input regist-popshow">Register Now</a>
          <?php } else
 		 { ?>
@@ -527,7 +527,7 @@ making what you can, and learning on the way.</b>
   </div>
 </div>
 
-		
+
 <div class="modal fade hack-e-web modalevent" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
@@ -562,7 +562,7 @@ risktaking in a casual environment.</b>
 				<li><b>TEAM EVENT :</b> Maximum 1 to 3 members.
 </li>
 				<li> <b>MAIN ROUND :</b> <br> Problem statement will be uploaded on the site on 15thSeptember 2018. (Or
-sent to registered mail ID). 
+sent to registered mail ID).
 <br> • Problem statement can be one of the trending categories like:
 Education/Reference or Games or Social Networking or Media, or Misc.
 <br>
@@ -579,7 +579,7 @@ instruction) / synopsis / report).</li>
 </ul>
 </li>
 				<li><b>REGISTRATION AND TEAM FORMATION :</b>
-				
+
 				<ul>
 				    <li>You will have to register individually. </li>
 				    <li> In case if you are forming a team then you have to mention the
@@ -589,19 +589,19 @@ choose a Team id and all the members should add that Team Id.</li>
                     <li>Pre-Registration is necessary.</li>
 				</ul>
 				</li>
-				
+
 				<li><b>Arena: :</b>
 				All the website entries should be centric to the below mentioned areas :
 				<ul>
 				    <li>Digital amenity of technical education- The Knowledge Capital. </li>
 				    <li> Stay tuned with wearable Technologies- The Technology Fashion.</li>
-                   
+
 				</ul>
 				</li>
-				
+
 				</ul>
-	</div>	
-	
+	</div>
+
 		<div class="evencon_box">
             <h3>TIME DURATION:</h3>
 			    <ul class="checboxlist">
@@ -609,8 +609,8 @@ choose a Team id and all the members should add that Team Id.</li>
 				<li>All the participants should be present on the evaluation day.</li>
 
 				</ul>
-		</div>	
-		
+		</div>
+
 		<div class="evencon_box">
             <h3>Certification Policy:</h3>
 		<ul class="checboxlist">
@@ -619,7 +619,7 @@ choose a Team id and all the members should add that Team Id.</li>
 
 		</ul>
 		</div>
-<div class="evencon_box">		
+<div class="evencon_box">
 	  <h3>Event Rules:</h3>
 	  <ul class="checboxlist">
 	  <li>Each Team has to bring one working Laptop to present their webpage.</li>
@@ -639,10 +639,10 @@ checked).</li>
 (Strongly recommended).</li>
 <li>The decision of the judges shall be treated as final and binding on all.</li>
 
-		
+
 	  </ul>
  </div>
-       
+
 		<div class="evencon_box">
             <h3>Judging criteria:</h3>
 			  <ul class="checboxlist">
@@ -655,8 +655,8 @@ the Problem Statement.</li>
 
 </ul>
 		</div>
-		
-		<div class="evencon_box">		
+
+		<div class="evencon_box">
 	  <h3>Main points to be covered :</h3>
 	  <ul class="checboxlist">
 	  <li><b>Quality of Content: </b>Quality of Content: All the entries would be judged on the basis of relevancy
@@ -674,9 +674,9 @@ submitted should be strictly in accordance with the one the aforesaid Arena and
 in accordance with the Problem statement.</li>
 	  </ul>
  </div>
- 
- 
- 		<div class="evencon_box">		
+
+
+ 		<div class="evencon_box">
 	  <h3>Machine Specifications :</h3>
 	  <ul class="checboxlist">
 	  <li>Operating System: Windows, Mac, Linux.</li>
@@ -685,14 +685,14 @@ Css, BootStrap.</li>
 <li>Web Development Tools: ASP.NET, JAVA, PHP, Ajax, JavaScript.</li>
 <li>Database Development Tools: SQLServer, OracleDB, MySQL, MongoDB.</li>
 <li>Browsers: Google Chrome, Mozilla Firefox, Opera Internet Explorer, Safari.</li>
-		
+
 	  </ul>
  </div>                            <div class="evencon_box">
             <h3>Prizes worth : 20000/-</h3>
         </div>
 
 
-		
+
 		  <div class="evencon_box">
             <h3>Contact Us:</h3>
             <p>For any queries:</p>
@@ -712,7 +712,7 @@ Css, BootStrap.</li>
               </table>
             </div>
           </div>
-          
+
           		<div class="evencon_box">
             <h3>Pre-Requisites :</h3>
 <ol>
@@ -728,15 +728,15 @@ SQL, node.js, etc. So basically you don’t need any prerequisite. Just start wi
 Front-End and then move to Back-End. Become a Full Stack Developer.</li>
 
 </ol>
-		</div>	
-		
+		</div>
+
 		<b>Even if you are an absolute beginner, you can still show
 up and discover if this for you. A hackathon is all about
 making what you can, and learning on the way.</b>
-          
+
         </div>
-        
-        
+
+
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
         <a href="/web problem.pdf" class="btn btn-secondary" role="button">Problem Statement</a>
@@ -744,7 +744,7 @@ making what you can, and learning on the way.</b>
           <?php
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
-			?> 
+			?>
             <a href="hackathons?event=hack-e-app"  class="btn btn-input regist-popshow">Register Now</a>
          <?php } else
 		 { ?>
@@ -766,10 +766,10 @@ making what you can, and learning on the way.</b>
 <style>
 .content_p{
 	margin-top:10px;
-	
+
 }
 .card_box{
-	
+
 	border:2px solid #fff; padding:10px; color:#2A5D88; border-radius :22px; background-color:#fff; width:200px;  margin-top:-25px; font-size:20px; font-weight:bold;
 }
 .modal-title {
@@ -806,21 +806,21 @@ making what you can, and learning on the way.</b>
           <div class="container">
             <div class="row">
                <img src="" class="team-icon">
-               
+
 				<!--
 				<div class="col-md-12 col-sm-12">
                 <div class="eventbox_wrp" >
                    <div class="evnt_cont_box" style="height:100px;">
                    <center> <h1>Coming Soon</h1></center>
-					
-                    
+
+
                   </div>
                 </div>
               </div>
               -->
-			  
-			  
-            
+
+
+
               <div class="col-md-12 col-sm-12">
                 <div class="eventbox_wrp">
                    <div class="evnt_cont_box">
@@ -830,14 +830,14 @@ everyday physical objects being connected to the internet and being able to
 identify themselves to other devices. Increasingly, organizations in a variety of
 industries are using IoT to operate more efficiently, better understand customers
 to deliver enhanced customer service, improve decision-making and increase the
-value of the business. 
+value of the business.
 </p>
-                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".hack-e-design"><span>More Detail</span></a> 
+                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".hack-e-design"><span>More Detail</span></a>
                     <?php
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-                    <a href="hackathons?event=hack-e-design" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a> 
+                    <a href="hackathons?event=hack-e-design" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
@@ -846,8 +846,8 @@ value of the business.
                   </div>
                 </div>
               </div>
-			  
-				  
+
+
 			   <div class="col-md-12 col-sm-12">
                 <div class="eventbox_wrp">
                    <div class="evnt_cont_box">
@@ -859,12 +859,12 @@ android applications to withstand the internet traffic.
 Thus if the ardour in you calls to bring some change to the world of android apps,
 join us for the Android App Hackathon whose Main focus is to attract the innovative
 ideas and brainstorming talent among college studentsin the field of Android.</p>
-                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".hack-e-app"><span>More Detail</span></a> 
+                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".hack-e-app"><span>More Detail</span></a>
                     <?php
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-                    <a href="hackathons?event=hack-e-app" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a> 
+                    <a href="hackathons?event=hack-e-app" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
@@ -873,7 +873,7 @@ ideas and brainstorming talent among college studentsin the field of Android.</p
                   </div>
                 </div>
               </div>
-			  
+
 			  <div class="col-md-12 col-sm-12">
                 <div class="eventbox_wrp">
                    <div class="evnt_cont_box">
@@ -886,12 +886,12 @@ commerce development and more. It usually ranges from creating the simplest, pla
 text to the most difficult web-based applications, social network services and electronic
 business.
 </p>
-                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".hack-e-web"><span>More Detail</span></a> 
+                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".hack-e-web"><span>More Detail</span></a>
                     <?php
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-                    <a href="hackathons?event=hack-e-web" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a> 
+                    <a href="hackathons?event=hack-e-web" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
@@ -900,9 +900,9 @@ business.
                   </div>
                 </div>
               </div>
-			  
-			 
-            
+
+
+
             </div>
           </div>
         </div>

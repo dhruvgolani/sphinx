@@ -27,7 +27,7 @@ if(isset($_REQUEST['event']))
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<title>Sphinx 2.0 | Sign In, Shine Out</title>
+<title>Sphinx'19</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <link rel="icon" type="image/png" href="images/favicon.png">
 <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
@@ -40,22 +40,22 @@ if(isset($_REQUEST['event']))
 <link href="css/responsive.css" rel="stylesheet" type="text/css">
 </head>
 <body style="overflow:hidden;">
-<script type="text/javascript" src="js/timestamp.js?v=1506980387.0" charset="utf-8"></script> 
-<script type="text/javascript" src="js/graph-calc.js?v=1506980387.0" charset="utf-8"></script> 
-<script type="text/javascript" src="js/auto-complete.js?v=1506980387.0" charset="utf-8"></script> 
-<script type="text/javascript" src="js/toolbar.js?v=1506980387.0" charset="utf-8"></script> 
-<script type="text/javascript" src="js/popper.js" charset="utf-8"></script> 
-<script type="text/javascript" src="js/bootstrap.js" charset="utf-8"></script> 
-<!--<script> 
+<script type="text/javascript" src="js/timestamp.js?v=1506980387.0" charset="utf-8"></script>
+<script type="text/javascript" src="js/graph-calc.js?v=1506980387.0" charset="utf-8"></script>
+<script type="text/javascript" src="js/auto-complete.js?v=1506980387.0" charset="utf-8"></script>
+<script type="text/javascript" src="js/toolbar.js?v=1506980387.0" charset="utf-8"></script>
+<script type="text/javascript" src="js/popper.js" charset="utf-8"></script>
+<script type="text/javascript" src="js/bootstrap.js" charset="utf-8"></script>
+<!--<script>
 
 	$(function(){
 		$('.regist-popshow').click(function(){
 			$('.modalevent').modal('hide');
-		 
+
 			$('#eventregister2').modal('show');
-			 
+
 			$('#loginbox').modal('show');
-			 
+
 		});
 	});
 </script> -->
@@ -67,23 +67,23 @@ if(isset($_REQUEST['event']))
 ?>
 <script>
 $(function(){
-	$('.teamC').change(function(){	
+	$('.teamC').change(function(){
 		$('.teamember_detial').empty();
-		var selVal = $(this).val();	
+		var selVal = $(this).val();
 		for (i = 0; i < selVal; i++) {
 			$('.teamember_detial').append('<div class="row"> <div class="col-sm-4"> <div class="form-group"> <label for="recipient-name" class="form-control-label">Registration Id</label> </div> </div> <div class="col-sm-8"> <div class="form-group"> <input type="text" class="form-control" id="recipient-name" placeholder="Enter registration id" required name="regid[]"> </div> </div> </div> <div class="row"> <div class="col-sm-4"> <div class="form-group"> <label for="recipient-name" class="form-control-label">Email Id</label> </div> </div> <div class="col-sm-8"> <div class="form-group"> <input type="email" class="form-control" id="recipient-name" placeholder="Enter email address" required name="emailid[]"> </div> </div> </div> <div class="row"> <div class="col-sm-4"> <div class="form-group"> <label for="recipient-name" class="form-control-label">Password</label> </div> </div> <div class="col-sm-8"> <div class="form-group"> <input type="Password" name="password[]" class="form-control" id="recipient-name" placeholder="Enter your password"  required> </div> </div> </div><div class="breaklinke"></div>')
 		}
 	})
 })
-</script> 
+</script>
 
-<!-- END WAYBACK TOOLBAR INSERT --> 
+<!-- END WAYBACK TOOLBAR INSERT -->
 
 <script>
 $(window).bind("load", function() {
 	//alert('hello');
   	$('#overlay').css({'left':'110%', 'transition':'all 1s ease-in-out'}, 2000);
-		 
+
 });
 </script>
 <div id="overlay" style="width:100%;">
@@ -192,7 +192,7 @@ innovation for everyone.
             <h3>Team formation: </h3>
           The team can consist of minimum 2 members and maximum 4 members.
 		  </div>
-		  
+
 		   <div class="evencon_box">
             <h3>Structure of the event:</h3>
             <ul class="checboxlist">
@@ -201,12 +201,12 @@ innovation for everyone.
 <li>2. PHASE 2 </li>
             </ul>
           </div>
-		  
+
           <div class="evencon_box">
             <h3>PHASE 1</h3>
             This will be a written elimination round consisting of questions related to aptitude and general building designing, building material, etc.
  </div>
- 
+
   <div class="evencon_box">
             <h3>PHASE 2 </h3>
 	  <p>
@@ -221,7 +221,7 @@ innovation for everyone.
       7. The thickness of adjacent sticks should not be more than thickness of 3 sticks. <br>
 	  </p>
  </div>
- 
+
 		<div class="evencon_box">
             <h3>Penalties:</h3>
 			<ul class="checboxlist">
@@ -235,7 +235,7 @@ innovation for everyone.
 				<li>8. If the floor height is less than 10 cm, then 20 points for a single floor would be deducted.</li>
 			</ul>
 			</div>
-			
+
 			 <div class="evencon_box">
             <h3>Testing:</h3>
 			<ul class="checboxlist">
@@ -243,25 +243,25 @@ innovation for everyone.
 				<li>2. Some weight will be placed on structure and then tested for earthquake in this round.</li>
 				<li>3. Finally the structure will be loaded and the load bore by the structure/weight of the structure ratio will be calculated.</li>
 			</ul>
-			
+
 			<h3>Judging Criteria:</h3>
 			<p>Model will be judged on the following basis:</p>
-            <ul class="checboxlist"> 
+            <ul class="checboxlist">
 				<li>1. Originality and Innovation</li>
 				<li>2. Technical Content</li>
 				<li>3. Practical Applicability</li>
             </ul>
         </div>
-		 
+
         <div class="evencon_box">
             <h3>Note:</h3>
 			<p>The decision of the judges and the organizers shall be final and abiding.</p>
-		</div>	
-		
+		</div>
+
 		          <div class="evencon_box">
             <h3>Prizes worth : 7000/-</h3>
         </div>
-         
+
 		  <div class="evencon_box">
             <h3>Contact Us:</h3>
             <p>For any queries:</p>
@@ -272,13 +272,13 @@ innovation for everyone.
                   <td>8875069885</td>
 				  <td>2016ucp1617@mnit.ac.in</td>
                 </tr>
-           
+
                 <tr>
                   <td>Akshit Chawla</td>
                   <td>9696409592</td>
 				   <td>2016uce1154@mnit.ac.in</td>
                 </tr>
-                
+
                 <tr>
                   <td>Muskan</td>
                   <td>9057330872</td>
@@ -293,7 +293,7 @@ innovation for everyone.
           <?php
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
-			?> 
+			?>
             <a href="civil?event=Seismic"   class="btn btn-input regist-popshow">Register Now</a>
          <?php } else
 		 { ?>
@@ -323,7 +323,7 @@ innovation for everyone.
             <h3>Team formation: </h3>
 			The team can consist of a maximum of 3 members.
 		  </div>
-		  
+
 		   <div class="evencon_box">
             <h3>Structure of the event:</h3>
             <ul class="checboxlist">
@@ -333,18 +333,18 @@ innovation for everyone.
 <li>3. ROUND 3</li>
             </ul>
           </div>
-		  
+
           <div class="evencon_box">
             <h3>ROUND 1:</h3>
             First round will be of MCQ’s without negative marking.
 			Only 20 teams will be selected after this round.
 			</div>
- 
+
 	<div class="evencon_box">
             <h3>ROUND 2:</h3>
 		Second round will consist of MCQ’s and true/false or one word problems with negative marking. Only 7 teams will be selected after this round.
 	</div>
- 			
+
 	<div class="evencon_box">
         <h3>ROUND 3:</h3>
 		<ul class="checboxlist">
@@ -353,22 +353,22 @@ innovation for everyone.
 		<li>3. 5 points will be deducted for each wrong answer.</li>
 		<li>4. Questions shall be in the form of multiple choice, visuals and specific-answer question may be of descriptive type.</li>
 	</div>
-	
+
 	<div class="evencon_box">
         <h3>Rules and Regulations:</h3>
-            <ul class="checboxlist"> 
+            <ul class="checboxlist">
 				<li>1. A team shall consist of max three students.</li>
 				<li>2. The students are supposed to bring pens with them.</li>
 				<li>3. Participants shall not be allowed to bring mobile phones or other electronic instruments.</li>
 				<li>4. The decision of the organizers will be final and will not be subjected to any change.</li>
             </ul>
     </div>
-		  		
+
 		  		          <div class="evencon_box">
             <h3>Prizes worth : 6000/-</h3>
         </div>
-		  		
-		  		           
+
+
 		  <div class="evencon_box">
             <h3>Contact Us:</h3>
             <p>For any queries:</p>
@@ -379,13 +379,13 @@ innovation for everyone.
                   <td>8875069885</td>
 				  <td>2016ucp1617@mnit.ac.in</td>
                 </tr>
-           
+
                 <tr>
                   <td>Shrishti Aggarwal</td>
                   <td>9461155261</td>
 				   <td>2016uce1174@mnit.ac.in</td>
                 </tr>
-                
+
                 <tr>
                   <td>Muskan</td>
                   <td>9057330872</td>
@@ -400,7 +400,7 @@ innovation for everyone.
           <?php
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
-			?> 
+			?>
             <a href="civil?event=Civiq"  class="btn btn-input regist-popshow">Register Now</a>
          <?php } else
 		 { ?>
@@ -422,10 +422,10 @@ innovation for everyone.
 <style>
 .content_p{
 	margin-top:10px;
-	
+
 }
 .card_box{
-	
+
 	border:2px solid #fff; padding:10px; color:#2A5D88; border-radius :22px; background-color:#fff; width:200px;  margin-top:-25px; font-size:20px; font-weight:bold;
 }
 .modal-title {
@@ -472,8 +472,8 @@ overflow-x: hidden; height: 40%;  padding-left: 210px; width:70%;border-radius: 
           <div class="container">
             <div class="row">
                <img src="" class="team-icon">
-                
-            
+
+
               <div class="col-md-12 col-sm-12">
                 <div class="eventbox_wrp">
                    <div class="evnt_cont_box seismic" style="">
@@ -483,12 +483,12 @@ dream he finds himself in a place called &#39;AMARA Island’ that is facing fre
 seismic disturbances deep down earth. People have no clue and their houses are unable to
 withstand the devastating force of nature. So if you think your design can withstand earthquakes
 come help Sputnik by showing us your skills in SEISMIC.</p>
-                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".Seismic"><span>More Detail</span></a> 
+                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".Seismic"><span>More Detail</span></a>
                     <?php
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-                    <a href="civil?event=Seismic" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a> 
+                    <a href="civil?event=Seismic" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
@@ -497,7 +497,7 @@ come help Sputnik by showing us your skills in SEISMIC.</p>
                   </div>
                 </div>
               </div>
-			  
+
 			  <div class="col-md-12 col-sm-12">
                 <div class="eventbox_wrp">
                    <div class="evnt_cont_box civiqe" style=" ">
@@ -507,12 +507,12 @@ building that stands tall with all the peculiarities in the famous ‘Dubai heat
 more about various other big buildings, tunnels, dams, roads and bridges. He likes to explore designs, constructions
 and other maintenance related work of these BIG projects. Here’s your chance to face a unique quiz ‘CIVIQ’ designed
 by Sputnik to test your knowledge about Civil Engineering.</p>
-                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".Civiq"><span>More Detail</span></a> 
+                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".Civiq"><span>More Detail</span></a>
                     <?php
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-                    <a href="civil?event=Civiq" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a> 
+                    <a href="civil?event=Civiq" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
@@ -521,7 +521,7 @@ by Sputnik to test your knowledge about Civil Engineering.</p>
                   </div>
                 </div>
               </div>
-            
+
             </div>
           </div>
         </div>

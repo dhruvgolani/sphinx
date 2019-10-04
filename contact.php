@@ -13,7 +13,7 @@ $db=new Database();
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<title>Sphinx 2.0 | Sign In, Shine Out</title>
+<title>Sphinx'19</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 
@@ -28,8 +28,8 @@ $db=new Database();
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
 <link href="css/style.css" rel="stylesheet" type="text/css">
 <link href="css/responsive.css" rel="stylesheet" type="text/css">
-<script type="text/javascript" src="js/popper.js" charset="utf-8"></script> 
-<script type="text/javascript" src="js/bootstrap.js" charset="utf-8"></script> 
+<script type="text/javascript" src="js/popper.js" charset="utf-8"></script>
+<script type="text/javascript" src="js/bootstrap.js" charset="utf-8"></script>
 <script language="javascript">
 	function send_message11(){
 	var name = document.getElementById("name").value;
@@ -37,8 +37,8 @@ $db=new Database();
 	var phone = document.getElementById("phone").value;
 	var subjectz=document.getElementById("subjectz").value;
 	var messagesss=document.getElementById("messagesss").value;
-		
-	
+
+
 	var xmlhttp;
 if (window.XMLHttpRequest)
   {// code for IE7+, Firefox, Chrome, Opera, Safari
@@ -52,7 +52,7 @@ xmlhttp.onreadystatechange=function()
   {
   if (xmlhttp.readyState==4 && xmlhttp.status==200)
     {
-		
+
     document.getElementById("messagediv").innerHTML = xmlhttp.responseText;
     document.getElementById("ff").reset();
 	}
@@ -60,7 +60,7 @@ xmlhttp.onreadystatechange=function()
 xmlhttp.open("GET","send_message.php?name="+name+"&email="+email+"&phone="+phone+"&subjectz="+subjectz+"&messagesss="+messagesss,true);
 
 
-	
+
 
 	xmlhttp.send(null);
 	return false;
@@ -68,13 +68,13 @@ xmlhttp.open("GET","send_message.php?name="+name+"&email="+email+"&phone="+phone
 </script>
 </head>
 <body style="overflow:hidden;">
-<script type="text/javascript" src="js/timestamp.js?v=1506980387.0" charset="utf-8"></script> 
-<script type="text/javascript" src="js/graph-calc.js?v=1506980387.0" charset="utf-8"></script> 
-<script type="text/javascript" src="js/auto-complete.js?v=1506980387.0" charset="utf-8"></script> 
-<script type="text/javascript" src="js/toolbar.js?v=1506980387.0" charset="utf-8"></script> 
-<script type="text/javascript" src="js/parsley.js" charset="utf-8"></script> 
+<script type="text/javascript" src="js/timestamp.js?v=1506980387.0" charset="utf-8"></script>
+<script type="text/javascript" src="js/graph-calc.js?v=1506980387.0" charset="utf-8"></script>
+<script type="text/javascript" src="js/auto-complete.js?v=1506980387.0" charset="utf-8"></script>
+<script type="text/javascript" src="js/toolbar.js?v=1506980387.0" charset="utf-8"></script>
+<script type="text/javascript" src="js/parsley.js" charset="utf-8"></script>
 
-<!-- END WAYBACK TOOLBAR INSERT --> 
+<!-- END WAYBACK TOOLBAR INSERT -->
 <script>
 $(function(){
 	$('.requiredform').parsley();
@@ -90,12 +90,12 @@ $(function(){
     }
    });
 });
-</script> 
+</script>
 <script>
 $(window).bind("load", function() {
 	//alert('hello');
   	$('#overlay').css({'left':'110%', 'transition':'all 1s ease-in-out'}, 2000);
-		 
+
 });
 </script>
 <div id="overlay" style="width:100%;">
@@ -121,12 +121,12 @@ include("header.php");
 }
 </style>
 <div id="slide-1" class="slide" data-0="transform: translate(0%,-10%);" style="width:100%;">
-<img src="images/contactus.png" class="title_img">  
+<img src="images/contactus.png" class="title_img">
 <img src="images/gramo.png" class="title_img2">
   <section class="contentbox_pwr" style="">
     <div>
       <div class="ourtemamanin_wrp">
-   
+
                 <div class="contact-info">
                   <div class="title" style="margin-bottom:-10px;">
                     <center><p><span style="font-size:20px; font-weight:bold;">Visit Us:</span></p></center>
@@ -138,7 +138,7 @@ include("header.php");
                         <p>Address: Malaviya National Institute of Technology, JLN Marg, Jhalana Gram, Jaipur, Rajasthan-302017</p>
                       </div>
                     </li>
-					
+
 					<center><li><span style="font-size:20px; font-weight:bold;">Call Us:</span></li></center>
                     <li class="phone-icon">
                       <div class="icon-holder"> <span class="flaticon-technology"></span> </div>
@@ -171,12 +171,12 @@ include("header.php");
                         <p>support@sphinxmnit.org</p>
                       </div>
                     </li>
-	
+
                   </ul>
                 </div>
-            
-            
-             
+
+
+
             </div>
           </div>
         </div>
@@ -186,13 +186,13 @@ include("header.php");
 </div>
 </div>
 </div>
-<?php 
+<?php
 
 include("footer.php");
                 ?>
-<script src="js/skrollr.min.js"></script> 
-<script src="js/jquery.ticker.js" type="text/javascript"></script> 
-<script type="text/javascript" src="js/skrollr.menu.js"></script> 
+<script src="js/skrollr.min.js"></script>
+<script src="js/jquery.ticker.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/skrollr.menu.js"></script>
 <script type="text/javascript">
         var x = screen.width;
         var y = window.innerWidth;
@@ -203,8 +203,8 @@ include("footer.php");
 
         setTimeout(function() {
         var s = skrollr.init({
-			forceHeight: false  
-            
+			forceHeight: false
+
         });
 
 
@@ -215,15 +215,15 @@ include("footer.php");
         }, 500);
          $(window).load(function(){
                 $('#loader').delay(2000).fadeOut();
-                
-        }); 
+
+        });
     }
     else{
          $('#mob_text').append("Use your device in landscape mode for better experience");
          $(window).load(function(){
                 $('#loader').delay(400).fadeOut();
 
-        });  
+        });
         $('#slides').css("display","none");
         $('.topnav').css("display","none");
         $('.mobile').show();
@@ -243,8 +243,8 @@ include("footer.php");
         if(phyWidth > 450){
 
         setTimeout(function() {
-        var s = skrollr.init({  
-            
+        var s = skrollr.init({
+
         });
 
 
@@ -260,21 +260,21 @@ include("footer.php");
          $(window).load(function(){
                 /*$('#loader').delay(350).fadeOut();*/
         });
-            
+
     }
     else{
          $('#mob_text').append("Use your device in landscape mode for better experience");
          $(window).load(function(){
                /* $('#loader').delay(400).fadeOut();*/
 
-        });  
+        });
         $('#slides').css("display","none");
         $('.topnav').css("display","none");
         $('.bottomnav').css("transform","translate(0,0)");
         $('.mobile').show();
     }
     });
-    </script> 
+    </script>
 <script type="text/javascript">
         $(function () {
   $('#js-news').ticker();

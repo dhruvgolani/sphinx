@@ -8,7 +8,7 @@ $db= new Database();
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<title>Sphinx 2.0 | Sign In, Shine Out</title>
+<title>Sphinx'19</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <link rel="icon" type="image/png" href="images/favicon.png">
 <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
@@ -23,17 +23,17 @@ $db= new Database();
 <link href="css/responsive.css" rel="stylesheet" type="text/css">
 </head>
 <body style="overflow:hidden;">
-<script type="text/javascript" src="js/popper.js" charset="utf-8"></script> 
-<script type="text/javascript" src="js/bootstrap.js" charset="utf-8"></script> 
+<script type="text/javascript" src="js/popper.js" charset="utf-8"></script>
+<script type="text/javascript" src="js/bootstrap.js" charset="utf-8"></script>
 
 
-<!-- END WAYBACK TOOLBAR INSERT --> 
+<!-- END WAYBACK TOOLBAR INSERT -->
 
 <script>
 $(window).bind("load", function() {
 	//alert('hello');
   	$('#overlay').css({'left':'110%', 'transition':'all 1s ease-in-out'}, 2000);
-		 
+
 });
 </script>
 <div id="overlay" style="width:100%;">
@@ -94,12 +94,12 @@ section::-webkit-scrollbar {
 
 </style>
 <div id="slide-1" class="slide" data-0="transform: translate(0%,-10%);" style="width:100%;">
-<img src="images/hospitality.png" class="title_img">  
+<img src="images/hospitality.png" class="title_img">
 <img src="images/hospitality2.png" class="title_img2">
   <section class="contentbox_pwr" style="">
     <div>
       <div class="ourtemamanin_wrp">
-   
+
                 <div class="contact-info">
                   <!--<div class="title">
                     <center><p><span style="font-size:20px; font-weight:bold;">Accommodation:</span></p></center>
@@ -112,9 +112,9 @@ section::-webkit-scrollbar {
 <h3 style="display:inline-block; line-height:0px;">**&nbsp;</h3>After payment is done save your e-receipt and bring it during sphinx'18 and fill the following Form to confirm your payment.</div>
 <center> <div class="payment_link"><a href="https://www.onlinesbi.com/prelogin/icollecthome.htm?corpID=873895">Click here for payment</a></div>
  <div class="payment_link"><a href="https://goo.gl/forms/qlbRf9FNVBMMHStD2">Confirm Form</a></div></center>
- 
+
                     </li>
-  
+
                   </ul>-->
                 </div>
 				<!--<hr class="hr1">-->
@@ -133,10 +133,10 @@ section::-webkit-scrollbar {
 <center> <div class="payment_link"><a href="https://www.onlinesbi.com/prelogin/icollecthome.htm?corpID=873895" > Click here for payment</a></div>
  <div class="payment_link"><a href="https://goo.gl/forms/qlbRf9FNVBMMHStD2">Confirm Form</a></div></center>
                     </li>
-  
+
                   </ul>-->
                 </div>
-				
+
 				<!--<hr class="hr1">-->
 				<div class="contact-info" style="font-size:14px;">
                  <!-- <div class="title">
@@ -151,12 +151,12 @@ section::-webkit-scrollbar {
 <center><div class="payment_link"><a href="https://www.onlinesbi.com/prelogin/icollecthome.htm?corpID=873895">Click here for payment</a></div>
  <div class="payment_link"><a href="https://goo.gl/forms/qlbRf9FNVBMMHStD2">Confirm Form</a></div>
                     </center></li>
-  
+
                   </ul>-->
                 </div>
-            
-            
-             
+
+
+
             </div>
           </div>
 		    <div  style="height:200px; margin-top:-20px; padding-left:20px; font-family:arial;">
@@ -164,7 +164,7 @@ section::-webkit-scrollbar {
                    Event registration + accommodation : <b>Rs. 700/-</b><br>
                    Event registration + workshop : <b>Rs. 1200/-</b><br>
                    Event registration + accommodation + workshop : <b>Rs. 1500/-</b><br><br>
-                   
+
                     Payment will be done on this Bank account via Internet Banking.<br><br>
                    NAME: MALVIYA NATIONAL INSTITUTE OF TECHNOLOGY<BR>
                     ACCOUNT NO: 00000037347860345<BR>
@@ -174,17 +174,17 @@ section::-webkit-scrollbar {
                    <br>
                    <a href="https://goo.gl/forms/uqlxetVNmFsZILIS2" class="btn btn-primary" role="button">Google Form</a>
 					<br><br>
-                    
+
                     Pronites are absolutely free<br>
                     Accomodation will be provided for 3-days excluding food<br>
-                    
+
                     <h3>Note:</h3>
                     <ul class="checkboxlist">
                     <li>1. The event registration fee includes registration fee for all the events in the fest.</li>
                     <li>2. For the specific events which require additional amount, it will be collected at the time of event.</li>
                     <li>3. For team events, each participant has to register and pay the charges individually.</li>
-                    <li>4. Accommodation will be provided for three days- 27, 28, 29th September.</li> 
-                    <li>5. Accommodation does not include food.</li> 
+                    <li>4. Accommodation will be provided for three days- 27, 28, 29th September.</li>
+                    <li>5. Accommodation does not include food.</li>
                     <li>6. Pronites are absolutely free.</li>
                     </ul>
 
@@ -198,13 +198,13 @@ section::-webkit-scrollbar {
                     <li>4. It is mandatory to fill the Google form after the payment is completed, otherwise the payment will not be considered.</li>
                     </ul>
                   </div>
-        </div> 
+        </div>
 <?php
 					include('footer.php');
 				?>
-<script src="js/skrollr.min.js"></script> 
-<script src="js/jquery.ticker.js" type="text/javascript"></script> 
-<script type="text/javascript" src="js/skrollr.menu.js"></script> 
+<script src="js/skrollr.min.js"></script>
+<script src="js/jquery.ticker.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/skrollr.menu.js"></script>
 <script type="text/javascript">
         var x = screen.width;
         var y = window.innerWidth;
@@ -215,8 +215,8 @@ section::-webkit-scrollbar {
 
         setTimeout(function() {
         var s = skrollr.init({
-			forceHeight: false  
-            
+			forceHeight: false
+
         });
 
 
@@ -227,15 +227,15 @@ section::-webkit-scrollbar {
         }, 500);
          $(window).load(function(){
                 $('#loader').delay(2000).fadeOut();
-                
-        }); 
+
+        });
     }
     else{
          $('#mob_text').append("Use your device in landscape mode for better experience");
          $(window).load(function(){
                 $('#loader').delay(400).fadeOut();
 
-        });  
+        });
         $('#slides').css("display","none");
         $('.topnav').css("display","none");
         $('.mobile').show();
@@ -255,8 +255,8 @@ section::-webkit-scrollbar {
         if(phyWidth > 450){
 
         setTimeout(function() {
-        var s = skrollr.init({  
-            
+        var s = skrollr.init({
+
         });
 
 
@@ -272,21 +272,21 @@ section::-webkit-scrollbar {
          $(window).load(function(){
                 /*$('#loader').delay(350).fadeOut();*/
         });
-            
+
     }
     else{
          $('#mob_text').append("Use your device in landscape mode for better experience");
          $(window).load(function(){
                /* $('#loader').delay(400).fadeOut();*/
 
-        });  
+        });
         $('#slides').css("display","none");
         $('.topnav').css("display","none");
         $('.bottomnav').css("transform","translate(0,0)");
         $('.mobile').show();
     }
     });
-    </script> 
+    </script>
 <script type="text/javascript">
         $(function () {
   $('#js-news').ticker();

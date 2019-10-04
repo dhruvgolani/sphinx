@@ -13,7 +13,7 @@ if(isset($_REQUEST['event']))
 	} else if($event=='Canvamosaic') {
 		$min=1;
 		$max=2;
-	} 
+	}
 	else{
 		header("Location:architecture");
 	}
@@ -26,7 +26,7 @@ if(isset($_REQUEST['event']))
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<title>Sphinx 2.0 | Sign In, Shine Out</title>
+<title>Sphinx'19</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <link rel="icon" type="image/png" href="images/favicon.png">
 <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
@@ -39,22 +39,22 @@ if(isset($_REQUEST['event']))
 <link href="css/responsive.css" rel="stylesheet" type="text/css">
 </head>
 <body style="overflow:hidden;">
-<script type="text/javascript" src="js/timestamp.js?v=1506980387.0" charset="utf-8"></script> 
-<script type="text/javascript" src="js/graph-calc.js?v=1506980387.0" charset="utf-8"></script> 
-<script type="text/javascript" src="js/auto-complete.js?v=1506980387.0" charset="utf-8"></script> 
-<script type="text/javascript" src="js/toolbar.js?v=1506980387.0" charset="utf-8"></script> 
-<script type="text/javascript" src="js/popper.js" charset="utf-8"></script> 
-<script type="text/javascript" src="js/bootstrap.js" charset="utf-8"></script> 
-<!--<script> 
+<script type="text/javascript" src="js/timestamp.js?v=1506980387.0" charset="utf-8"></script>
+<script type="text/javascript" src="js/graph-calc.js?v=1506980387.0" charset="utf-8"></script>
+<script type="text/javascript" src="js/auto-complete.js?v=1506980387.0" charset="utf-8"></script>
+<script type="text/javascript" src="js/toolbar.js?v=1506980387.0" charset="utf-8"></script>
+<script type="text/javascript" src="js/popper.js" charset="utf-8"></script>
+<script type="text/javascript" src="js/bootstrap.js" charset="utf-8"></script>
+<!--<script>
 
 	$(function(){
 		$('.regist-popshow').click(function(){
 			$('.modalevent').modal('hide');
-		 
+
 			$('#eventregister2').modal('show');
-			 
+
 			$('#loginbox').modal('show');
-			 
+
 		});
 	});
 </script> -->
@@ -66,23 +66,23 @@ if(isset($_REQUEST['event']))
 ?>
 <script>
 $(function(){
-	$('.teamC').change(function(){	
+	$('.teamC').change(function(){
 		$('.teamember_detial').empty();
-		var selVal = $(this).val();	
+		var selVal = $(this).val();
 		for (i = 0; i < selVal; i++) {
 			$('.teamember_detial').append('<div class="row"> <div class="col-sm-4"> <div class="form-group"> <label for="recipient-name" class="form-control-label">Registration Id</label> </div> </div> <div class="col-sm-8"> <div class="form-group"> <input type="text" class="form-control" id="recipient-name" placeholder="Enter registration id" required name="regid[]"> </div> </div> </div> <div class="row"> <div class="col-sm-4"> <div class="form-group"> <label for="recipient-name" class="form-control-label">Email Id</label> </div> </div> <div class="col-sm-8"> <div class="form-group"> <input type="email" class="form-control" id="recipient-name" placeholder="Enter email address" required name="emailid[]"> </div> </div> </div> <div class="row"> <div class="col-sm-4"> <div class="form-group"> <label for="recipient-name" class="form-control-label">Password</label> </div> </div> <div class="col-sm-8"> <div class="form-group"> <input type="Password" name="password[]" class="form-control" id="recipient-name" placeholder="Enter your password"  required> </div> </div> </div><div class="breaklinke"></div>')
 		}
 	})
 })
-</script> 
+</script>
 
-<!-- END WAYBACK TOOLBAR INSERT --> 
+<!-- END WAYBACK TOOLBAR INSERT -->
 
 <script>
 $(window).bind("load", function() {
 	//alert('hello');
   	$('#overlay').css({'left':'110%', 'transition':'all 1s ease-in-out'}, 2000);
-		 
+
 });
 </script>
 <div id="overlay" style="width:100%;">
@@ -190,14 +190,14 @@ $(window).bind("load", function() {
             <h3>Team formation: </h3>
           The team can consist of minimum 2 participants and maximum 3 participants.
 		  </div>
-		  
+
 		   <div class="evencon_box">
             <h3>Structure of the event:</h3>
 			The competition will be conducted in 1 phase only.<br>
 			Time duration: 1 hr 30 minutes
             </ul>
           </div>
- 
+
 <div class="evencon_box">
             <h3>Rules and Regulations:</h3>
       This is a team event for 2 members. Some images will be shown one by one and questions will be asked about those images which can have any type of riddle and the teams will have to write their answers on a sheet in a specific time and submit it to the judges. Negative marks will be awarded on every wrong answer.
@@ -207,7 +207,7 @@ $(window).bind("load", function() {
 				<li>Bamboo Sticks (40 sticks per team)</li>
 				<li>Cello tape</li>
 				<li>Fevicol</li>
-				<li>Thread</li> 
+				<li>Thread</li>
 				<li>All pins</li>
 				<li>Cutter</li>
 		<li>2. A3 size of cardboard will be given to the participants on which they have to stick their model.</li>
@@ -217,13 +217,13 @@ $(window).bind("load", function() {
 		<div class="evencon_box">
             <h3>Note:</h3>
 			The participants can bring their own materials if they want.
-		</div>	
-		
+		</div>
+
 		<div class="evencon_box">
             <h3>Testing:</h3>
 			Some weight would be placed on the cantilever and the ratio of weight / length will be calculated.
 		</div>
-		
+
 	  <h3>Judging Criteria:</h3>
 	The model will be judged on the basis of the following criteria:
 	  <ul class="checboxlist">
@@ -233,17 +233,17 @@ $(window).bind("load", function() {
 		<li>Maximum load the cantilever can hold.</li>
 	  </ul>
  </div>
-       
+
 		<div class="evencon_box">
             <h3>Note:</h3>
 			<li>The decision of the judges and organizers shall be final and abiding.</li>
 			<li>Rules for the event can be changed by the organizers at the time of the event.</li>
 		</div>
-		
+
 		          <div class="evencon_box">
             <h3>Prizes worth : 6000/-</h3>
         </div>
-		
+
 		  <div class="evencon_box">
             <h3>Contact Us:</h3>
             <p>For any queries:</p>
@@ -268,7 +268,7 @@ $(window).bind("load", function() {
           <?php
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
-			?> 
+			?>
             <a href="architecture?event=Cantilivo"  class="btn btn-input regist-popshow">Register Now</a>
          <?php } else
 		 { ?>
@@ -297,14 +297,14 @@ $(window).bind("load", function() {
             <h3>Team formation: </h3>
           A team of maximum two members can participate.
 		  </div>
-		  
+
 		  <div class="evencon_box">
             <h3>Registration:</h3>
 			<ul class="checboxlist">
 				<li>Anyone can participate; you just have to use your own creativity.</li>
 				<li>Registrations will be done on first come first basis through website.</li>
 		  </div>
-		  
+
 		   <div class="evencon_box">
             <h3>Structure of the event:</h3>
             This event will be held in only 1 round.<br>
@@ -312,12 +312,12 @@ $(window).bind("load", function() {
 			 <ul class="checboxlist">
 				<li>1. In this, participants will design a mosaic art with craft paper.</li>
 				<li>2. A geometrical pattern will be given to the participating team.</li>
-				<li>3. They have to fill the geometrical pattern with provided craft papers.</li> 
+				<li>3. They have to fill the geometrical pattern with provided craft papers.</li>
 				<li>4. They can fill it either with the papers of different colors or can choose different shades of one color.</li>
 				<li>5. The materials required for the event will be provided on the spot for the event.</li>
 			</ul>
           </div>
-		  
+
           <div class="evencon_box">
             <h3>Judging Criteria:</h3>
 			The art work will be judged on the following basis:
@@ -327,7 +327,7 @@ $(window).bind("load", function() {
 				<li>3. Application and innovation of pattern filling.</li>
 			</ul>
 		</div>
- 
+
 		<div class="evencon_box">
 			<h3>Note:</h3>
 			<ul class="checboxlist">
@@ -335,11 +335,11 @@ $(window).bind("load", function() {
 				<li>2. Rules for the event can be changed by the organizers at the time of the event.</li>
 			</ul>
 		</div>
-		
+
 		          <div class="evencon_box">
             <h3>Prizes worth : 6000/-</h3>
         </div>
- 
+
 		  <div class="evencon_box">
             <h3>Contact Us:</h3>
             <p>For any queries:</p>
@@ -350,7 +350,7 @@ $(window).bind("load", function() {
                   <td>8239006824</td>
 				  <td>2016uar1112@mnit.ac.in</td>
                 </tr>
-           
+
                 <tr>
                   <td>Ritu Choudhary</td>
                   <td>9602412495</td>
@@ -365,7 +365,7 @@ $(window).bind("load", function() {
           <?php
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
-			?> 
+			?>
             <a href="architecture?event=Canvamosaic"  class="btn btn-input regist-popshow">Register Now</a>
          <?php } else
 		 { ?>
@@ -387,10 +387,10 @@ $(window).bind("load", function() {
 <style>
 .content_p{
 	margin-top:10px;
-	
+
 }
 .card_box{
-	
+
 	border:2px solid #fff; padding:10px; color:#2A5D88; border-radius :22px; background-color:#fff; width:200px;  margin-top:-25px; font-size:20px; font-weight:bold;
 }
 .modal-title {
@@ -426,8 +426,8 @@ $(window).bind("load", function() {
           <div class="container">
             <div class="row">
                <img src="" class="team-icon">
-                
-            
+
+
               <div class="col-md-12 col-sm-12">
                 <div class="eventbox_wrp">
                    <div class="evnt_cont_box">
@@ -436,12 +436,12 @@ $(window).bind("load", function() {
 Golden Gate Bridge. He found out that complicated Cantilever structures like bridges are first
 designed and modelled using simple construction materials to encourage hands on approach to
 solving design problems. Can your structure be the next architectural marvel ?</p>
-                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".Cantilivo"><span>More Detail</span></a> 
+                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".Cantilivo"><span>More Detail</span></a>
                     <?php
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-                    <a href="architecture?event=Cantilivo" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a> 
+                    <a href="architecture?event=Cantilivo" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
@@ -450,8 +450,8 @@ solving design problems. Can your structure be the next architectural marvel ?</
                   </div>
                 </div>
               </div>
-			  
-				  
+
+
 			   <div class="col-md-12 col-sm-12">
                 <div class="eventbox_wrp">
                    <div class="evnt_cont_box">
@@ -460,12 +460,12 @@ solving design problems. Can your structure be the next architectural marvel ?</
 gorgeous mosaic patterns of his own. Sputnik holds a competition to make mosaic artwork in craft
 paper in a kaleidoscope of colors much like pieces of a puzzle coming together to create an image.
 Set your creative spirits free and make your own masterpiece that’ll be a feast for the eyes.</p>
-                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".Canvamosaic"><span>More Detail</span></a> 
+                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".Canvamosaic"><span>More Detail</span></a>
                     <?php
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-                    <a href="architecture?event=Canvamosaic" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a> 
+                    <a href="architecture?event=Canvamosaic" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
@@ -474,7 +474,7 @@ Set your creative spirits free and make your own masterpiece that’ll be a feas
                   </div>
                 </div>
               </div>
-            
+
             </div>
           </div>
         </div>

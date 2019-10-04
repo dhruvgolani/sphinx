@@ -8,7 +8,7 @@ $db= new Database();
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<title>Sphinx 2.0 | Sign In, Shine Out</title>
+<title>Sphinx'19</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 
@@ -26,17 +26,17 @@ $db= new Database();
 <link href="css/responsive.css" rel="stylesheet" type="text/css">
 </head>
 <body style="overflow:hidden;">
-<script type="text/javascript" src="js/popper.js" charset="utf-8"></script> 
-<script type="text/javascript" src="js/bootstrap.js" charset="utf-8"></script> 
+<script type="text/javascript" src="js/popper.js" charset="utf-8"></script>
+<script type="text/javascript" src="js/bootstrap.js" charset="utf-8"></script>
 
 
-<!-- END WAYBACK TOOLBAR INSERT --> 
+<!-- END WAYBACK TOOLBAR INSERT -->
 
 <script>
 $(window).bind("load", function() {
 	//alert('hello');
   	$('#overlay').css({'left':'110%', 'transition':'all 1s ease-in-out'}, 2000);
-		 
+
 });
 </script>
 <div id="overlay" style="width:100%;">
@@ -82,12 +82,12 @@ board, Bull Riding, Hoop and many more fun and eco friendly games await you,
 it’s time to feed the child inside of you.</p>
         </div>
         <div class="about_text_wrp">
-        
+
         </div>
- 
+
     </div>
   </section>
-  
+
   <!--<div class="balls" style="border-radius:50%; box-shadow: -1px 2px 20px 12px #fff; box-shadow-color:#FFF; vertical-align:middle;color:#fff; position:absolute; bottom:300px; width:100px; height:100px; background-color:#2A5A88; display:inline-block;">
   bnknk
   </div>-->
@@ -95,9 +95,9 @@ it’s time to feed the child inside of you.</p>
 <?php
 					include('footer.php');
 				?>
-<script src="js/skrollr.min.js"></script> 
-<script src="js/jquery.ticker.js" type="text/javascript"></script> 
-<script type="text/javascript" src="js/skrollr.menu.js"></script> 
+<script src="js/skrollr.min.js"></script>
+<script src="js/jquery.ticker.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/skrollr.menu.js"></script>
 <script type="text/javascript">
         var x = screen.width;
         var y = window.innerWidth;
@@ -108,8 +108,8 @@ it’s time to feed the child inside of you.</p>
 
         setTimeout(function() {
         var s = skrollr.init({
-			forceHeight: false  
-            
+			forceHeight: false
+
         });
 
 
@@ -120,15 +120,15 @@ it’s time to feed the child inside of you.</p>
         }, 500);
          $(window).load(function(){
                 $('#loader').delay(2000).fadeOut();
-                
-        }); 
+
+        });
     }
     else{
          $('#mob_text').append("Use your device in landscape mode for better experience");
          $(window).load(function(){
                 $('#loader').delay(400).fadeOut();
 
-        });  
+        });
         $('#slides').css("display","none");
         $('.topnav').css("display","none");
         $('.mobile').show();
@@ -148,8 +148,8 @@ it’s time to feed the child inside of you.</p>
         if(phyWidth > 450){
 
         setTimeout(function() {
-        var s = skrollr.init({  
-            
+        var s = skrollr.init({
+
         });
 
 
@@ -165,21 +165,21 @@ it’s time to feed the child inside of you.</p>
          $(window).load(function(){
                 /*$('#loader').delay(350).fadeOut();*/
         });
-            
+
     }
     else{
          $('#mob_text').append("Use your device in landscape mode for better experience");
          $(window).load(function(){
                /* $('#loader').delay(400).fadeOut();*/
 
-        });  
+        });
         $('#slides').css("display","none");
         $('.topnav').css("display","none");
         $('.bottomnav').css("transform","translate(0,0)");
         $('.mobile').show();
     }
     });
-    </script> 
+    </script>
 <script type="text/javascript">
         $(function () {
   $('#js-news').ticker();
