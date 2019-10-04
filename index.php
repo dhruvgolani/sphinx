@@ -526,7 +526,7 @@ $("#t2").mouseleave(function(){
 
                     <div class="planet" id="p1" data-0="transform: translate(0%,75%);" data-50p="transform: translate(0%,116.96%);" data-80p="" data-100p="transform: translate(-48%,157.1%);" data-120p="transform: translate(-100%,197.24%);" data-140p="transform: translate(-148%,157.24%);" data-160p="transform: translate(-200%,116.96%);" data-180p="" data-200p="transform: translate(-200%,75%);" data-220p="transform: translate(-200%,75%); dispaly:none;" style="width:29%;">
 
-                    <img src="images/chandrayan.png" width="100%" class="hui">
+                    <img src="images/rover.png" width="100%" class="hui">
                     </div>
 
                     <section id="initiatives" class="events" data-0="display:none;" data-120p="display:block;">
@@ -623,7 +623,7 @@ escapade to explore the best of tech !
                     </section>
                     <div id="astronaut" class="deselements" data-0p="display:none;" data-500p="display:block; transform:translate(90%,+85%);" data-530p="transform:translate(0%,0%);" data-580p="transform:translate(-210%,-165%);" data-630p="transform:translate(-420%,-325%);" data-680p="transform:translate(-630%,-485%);" data-700p="transform:translate(-725%,-572.5%);" data-730p="transform:translate(-820%,-645%);" data-830p="transform:translate(-955%,-750%);" data-930p="transform:translate(-1200%,-850%);" data-1130p="transform:translate(-1450%,-1000%);" data-1300p="transform:translate(-1600%,-1200%);">
                     <div id="astronautr"  data-930p="transform:rotateZ(300deg);" data-1130p="transform:rotateZ(350deg);" data-1300p="transform:rotateZ(350deg);">
-                    <img src="images/astronaut.png" width="250%">
+                    <img src="images/ufo2.png" width="250%">
                     </div>
                     </div>
                     <div id="astronaut" data-450p="transform:translate(90%,85%);">
@@ -661,7 +661,7 @@ escapade to explore the best of tech !
 
 
                      <div id="asteroid" class="deselements" data-0p="top:-15%; left:95%; width:15%; display:none;" data-700p="top:-15%; left:95%; width:15%; display:block;" data-800p="" data-820p="top:-5%; left:85%; width:12%; display:block;" data-840p="top:5%; left:65%; width:15%; display:block;" data-860p="top:15%; left:45%; width:17%; display:block;" data-880p="top:25%; left:25%; width:18.5%; display:block;" data-900p="top:35%; left:5%; width:20%; display:block;" data-920p="top:45%; left:-20%; width:21.5%; display:block;" data-930p="top:55%; left:-40%; width:21.5%; display:block;">
-                    <img src="images/asteroid.png" width="80%">
+                    <img src="images/rocket.png" width="200%">
                     </div>
                    <!-- <div class="planet" id="p4" style="width:58%;" data-0="transform: translate(248%,75%);" data-500p="" data-550p="transform: translate(294.82%,116.96%);" data-580p="" data-600p="transform: translate(251.72%,157.1%);" data-620p="transform: translate(208.62%,197.24%);" data-640p="transform: translate(165.61%,157.24%);" data-660p="transform: translate(122.41%,116.96%);" data-680p="" data-700p="transform: translate(122.41%,75%);" data-740p="" data-900p="transform: translate(-48%,75%);" data-905p="transform: translate(-48%,116.96%);" data-910p="" data-915p="transform: translate(-62.25%,157.1%)" data-920p="transform: translate(-75%,197.24%)" data-930p="transform: translate(-87.25%,157.24%)" data-940p="transform: translate(-100%,116.96%)" data-950p="" data-960p="transform: translate(-100%,75%)">
 
@@ -785,7 +785,7 @@ So gear up and do not miss one of the most awaited events of SPHINX 2.0.</p>
                     </section>
 
                       <div id="comet2" class="deselements" data-0p="transform:  translate(-50%,-400%) rotate(-175deg); display:block;" data-1300="" data-1350="" data-1400p="transform:  translate(0%,-175%) rotate(-175deg);" data-1450p="" data-1550p="transform:  translate(-1000%,1000%) rotate(-175deg);">
-                    <img src="images/comet.png" width="100%">
+                    <img src="images/meteor.png" width="100%">
                     </div>
 
                     <!--<section id="exhibitions" class="events" data-0=" display:none;" data-1620p=" display:block;">
