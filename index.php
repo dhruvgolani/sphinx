@@ -526,7 +526,7 @@ $("#t2").mouseleave(function(){
 
                     <div class="planet" id="p1" data-0="transform: translate(0%,75%);" data-50p="transform: translate(0%,116.96%);" data-80p="" data-100p="transform: translate(-48%,157.1%);" data-120p="transform: translate(-100%,197.24%);" data-140p="transform: translate(-148%,157.24%);" data-160p="transform: translate(-200%,116.96%);" data-180p="" data-200p="transform: translate(-200%,75%);" data-220p="transform: translate(-200%,75%); dispaly:none;" style="width:29%;">
 
-                    <img src="images/1.png" width="50%" class="hui">
+                    <img src="images/chandrayan.png" width="100%" class="hui">
                     </div>
 
                     <section id="initiatives" class="events" data-0="display:none;" data-120p="display:block;">
@@ -563,7 +563,7 @@ escapade to explore the best of tech !
                     </div>
 
                     <div class="planet" id="p2" data-50p="transform: translate(294.82%,116.96%); display:block;" data-80p="" data-100p="transform: translate(251.72%,157.1%);" data-120p="transform: translate(208.62%,197.24%);" data-140p="transform: translate(165.61%,157.24%);" data-160p="transform: translate(122.41%,116.96%);" data-180p="" data-200p="" data-220p="" data-240p="transform: translate(122.41%,116.96%);" data-260p="transform: translate(165.61%,157.24%);" data-280p="transform: translate(208.62%,197.24%);" data-300p="transform: translate(251.72%,157.1%);" data-320p="transform: translate(294.82%,116.96%); display:none;" >
-                    <img src="images/7.png" width="25%" style="margin-top:-100px;">
+                    <img src="images/chandrayan.png" width="50%" style="margin-top:-150px; margin-right:500px;">
                     </div>
                     <section id="ideate" class="events" data-0="display:none;" data-370p=" display:block;">
                     <div style="height:100%;" data-0="transform:scale(0,0); display:none;" data-370p="transform:scale(0,0); display:block;" data-390p="transform:scale(0.5,0.5);" data-410p="transform:scale(1,1);" data-450p="" data-580p="" data-600p="transform:scale(0.5,0.5);" data-620p="transform:scale(0,0); display:none;">
@@ -754,7 +754,7 @@ escapade to explore the best of tech !
                     </section>
                     <div id="enterpreneur" class="deselements" data-0p="display:none; " data-1230p="display:block;
 			 transform:translate(100%,0%) scale(1,1)" data-1250p="transform:translate(40%,0%) scale(1,1)" data-1260p="transform:translate(-300%,0%) scale(1.1,1.1)" data-1380p="transform:translate(-700%,0%) scale(1.2,1.2)" data-1400p="transform:translate(-1100%,0%) scale(1.4,1.4)"  data-1410="display:none;">
-                    <img src="images/enterpreneur.png" width="140%">
+                    <img src="images/ufoo.png" width="140%">
                     </div>
                 <!--     <div class="planet" id="p6" style="width:58%;" data-0p="transform: translate(294.82%,75%);" data-1000p="" data-1050p="transform: translate(294.82%,116.96%);" data-1080p="" data-1100p="transform: translate(251.72%,157.1%);" data-1120p="transform: translate(208.62%,197.24%);" data-1140p="transform: translate(165.61%,157.24%);" data-1160p="transform: translate(122.41%,116.96%);" data-1180p="" data-1200p="transform: translate(122.41%,75%);" data-1240p="" data-1450p="transform: translate(-48%,75%);" data-1460p="transform: translate(-48%,116.96%);" data-1470p="" data-1180p="transform: translate(-62.25%,157.1%)" data-1485p="transform: translate(-75%,197.24%)" data-1490p="transform: translate(-87.25%,157.24%)" data-1495p="transform: translate(-100%,116.96%)" data-1500p="" data-1500p="transform: translate(-100%,75%)">
                         <img src="images/5.png" width="100%">
