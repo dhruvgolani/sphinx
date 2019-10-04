@@ -1,11 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Aldrich');
 
-<<<<<<< HEAD
-/* hello */
-=======
 
->>>>>>> 6827b8123eba196559d9ca99eda436fd91937e09
 ::-webkit-scrollbar {
      width: 0px;
     background: transparent;
@@ -606,26 +602,11 @@ a{
     height:100%;
 }
 #slide-1 {
-<<<<<<< HEAD
-    background: url('../images/test.jpg') no-repeat center center;
+    background: url('../images/starmove.jpg') no-repeat center center;
     background-size: cover;
-    width: 200%;
-    height: 140%;
-
-=======
-    /* background: url('../images/test2.jpg') no-repeat center center;
-    background-size: cover;
-    width: 200%;
-    height: 120%; */
-    /* position: absolute; */
-    /* top: 0; right: 0; bottom: 0; left: 0; */
-    background: url('../images/t5.jpg') no-repeat center center;
-    background-size: cover;
-    /* background-repeat: no-repeat; */
     width: 200%;
     height: 120%;
-    /* overflow: hidden; */
->>>>>>> 6827b8123eba196559d9ca99eda436fd91937e09
+
 }
 .bg{
   background: url('../images/homebackground.jpg') no-repeat center center;
