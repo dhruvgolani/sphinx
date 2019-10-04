@@ -15,7 +15,7 @@ class Database{
 
 	$this->host = 'localhost';
     $this->user = 'root';
-    $this->pass = '';
+    $this->pass = 'root';
     $this->db = 'sphinx';
 	/*$this->host = 'localhost';
     $this->user = 'root';
