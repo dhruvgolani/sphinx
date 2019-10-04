@@ -5,7 +5,7 @@
 	position:absolute; top:0; left:0; background:rgba(21,24,33,1.0); width:100%; height:100%; text-align:center;
 }
 .ppp2{
-	position:absolute; width:100%; height:100%; background:url('images/loading4.gif') center 100% no-repeat; background-size:800px;
+	position:absolute; width:100%; height:100%; background:url('images/loading5.gif') center 100% no-repeat; background-size:800px;
 }
 .ppp3{
 	position:absolute; width:100%; height:100%; background:url('images/title.png') center 40% no-repeat; background-size:500px;
