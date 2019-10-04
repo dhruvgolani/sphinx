@@ -56,7 +56,7 @@ if(isset($_POST['register']) && ! empty ($_POST['register']))
  		 $query="INSERT INTO `users`(`uid`, `register_id`, `name`, `email`, `phone`, `password`, `course`, `year`, `branch`, `college`, `college_id`, `city`, `accommodation`, `active`, `date_tym`) VALUES (NULL,'','$name','$email','$phone','$pss','$course','$year','$branch','$college','$colid','$city','$accommondation','1','$datesss')";
 		$result=$db->insertQuery($query);
 		$in_b=mysqli_insert_id($conn);
-		$registrationid="sphinx2.0@".$in_b;
+		$registrationid="sphinx3.0@".$in_b;
 		$update=$db->updateQuery("UPDATE `users` SET `register_id`='$registrationid' where uid='$in_b'");
 			if($result)
 			{
@@ -70,18 +70,19 @@ if(isset($_POST['register']) && ! empty ($_POST['register']))
 			 		mail($to, $subject, $message1, $headers);
 
 					*/
-					$headers  = 'MIME-Version: 1.0' . "\r\n";
-														$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-										$to = $email;
-										$subject = "Sphinx 2.0 Registration";
-										$message="Dear $name !<br>Greetings from Sphinx 2.0.<br><br>Your account has been successfully created. Please find your account details below.<br>Name: $name<br>Email: $email<br>Registration ID: $registrationid<br><br>Please don't share your registration ID and password with anyone. If you are a student outside MNIT Jaipur please complete your payment.<br><br>For payment and accomodation contact us:<br><br>Ronak Gadia<br>+91-8879755487<br>2016ucp1185@mnit.ac.in<br><br>Shubham Verma<br>+91-8290271273<br>2016uec1073@mnit.ac.in<br><br>**This is auto generated mail, please do not reply**<br>";
+					// $headers  = 'MIME-Version: 1.0' . "\r\n";
+					// $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+					$to = $email;
+					$subject = "Sphinx'19 Registration";
+					$message="Dear $name !<br>Greetings from Sphinx 2.0.<br><br>Your account has been successfully created. Please find your account details below.<br>Name: $name<br>Email: $email<br>Registration ID: $registrationid<br><br>Please don't share your registration ID and password with anyone. If you are a student outside MNIT Jaipur please complete your payment.<br><br>For payment and accomodation contact us:<br><br>Ronak Gadia<br>+91-8879755487<br>2016ucp1185@mnit.ac.in<br><br>Shubham Verma<br>+91-8290271273<br>2016uec1073@mnit.ac.in<br><br>**This is auto generated mail, please do not reply**<br>";
 
-										// $from = "support@sphinxmnit.org";
-										$from = "learnwebdevdhruv@gmail.com";
-										$headers .= 'From: '.$from."\r\n".
-							'Reply-To: '.$from."\r\n" .
-							'X-Mailer: PHP/' . phpversion();
-										mail($to,$subject,$message,$headers);
+					// $from = "support@sphinxmnit.org";
+					$from = "learnwebdevdhruv@gmail.com";
+					// $headers .= 'From: '.$from."\r\n".
+					// 'Reply-To: '.$from."\r\n" .
+					// 'X-Mailer: PHP/' . phpversion();
+					mail($to,$subject,$message,$headers);
+					mail($to,$subject,$message,"From:".$from);
 
 
 
@@ -116,5 +117,5 @@ if(isset($_POST['register']) && ! empty ($_POST['register']))
 else
 {
 	$_SESSION['f_msg']="Invalid request ";
-	header("Location:index");
+	header("Location:index.php");
 }
