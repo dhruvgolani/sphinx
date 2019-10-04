@@ -5,7 +5,7 @@ $db=new Database();
 $conn=$db->db_connect();
 if(isset($_POST['register']) && ! empty ($_POST['register']))
 {
-	           
+
 	$_SESSION['name']=$name=mysqli_real_escape_string($conn,$_POST['name']);
 	$_SESSION['email']=$email=mysqli_real_escape_string($conn,$_POST['email']);
 	$_SESSION['phone']=$phone=mysqli_real_escape_string($conn,$_POST['phone']);
@@ -19,28 +19,28 @@ if(isset($_POST['register']) && ! empty ($_POST['register']))
 	$_SESSION['city']=$city=mysqli_real_escape_string($conn,$_POST['city']);
 	$_SESSION['accommondation']=$accommondation=mysqli_real_escape_string($conn,$_POST['accommondation']);
 	$url=$_POST['url'];
-	
+
 	date_default_timezone_set("Asia/kolkata");
-	$input = date('YmdHi'); 
+	$input = date('YmdHi');
 	$datesss= date("D", strtotime($input))." ". date("d-M-Y",strtotime($input));
-	
-	 
+
+
 	if(!validate_user_name($name))
 	{
 		$_SESSION['f_msg'] = "Only letters numbers and white space allowed";
-		header("Location:".$url);	
+		header("Location:".$url);
 	}
 	else if(!validate_email($email))
 	{
 		$_SESSION['f_msg'] = "Email Address Is Not Valid";
-		header("Location:".$url);	
+		header("Location:".$url);
 	}
 	else if(!validate_phone($phone))
 	{
 		$_SESSION['f_msg'] = "Invalid Phone, Enter 10 Digits";
-		header("Location:".$url);		
+		header("Location:".$url);
 	}
-	else 
+	else
 	{
 		$querys="select * from users where email='$email'";
 		$db_num=$db->db_num($querys);
@@ -51,8 +51,8 @@ if(isset($_POST['register']) && ! empty ($_POST['register']))
 		}
 		else
 		{
-			
-			
+
+
  		 $query="INSERT INTO `users`(`uid`, `register_id`, `name`, `email`, `phone`, `password`, `course`, `year`, `branch`, `college`, `college_id`, `city`, `accommodation`, `active`, `date_tym`) VALUES (NULL,'','$name','$email','$phone','$pss','$course','$year','$branch','$college','$colid','$city','$accommondation','1','$datesss')";
 		$result=$db->insertQuery($query);
 		$in_b=mysqli_insert_id($conn);
@@ -60,39 +60,40 @@ if(isset($_POST['register']) && ! empty ($_POST['register']))
 		$update=$db->updateQuery("UPDATE `users` SET `register_id`='$registrationid' where uid='$in_b'");
 			if($result)
 			{
-			/*		$to = $email; 
+			/*		$to = $email;
 					$from = "support@sphinxmnit.org";
-			 		$subject = "Sphinx 2.0 Registration"; 
+			 		$subject = "Sphinx 2.0 Registration";
 			 		$headers = 'From:' . $from;
 			 		$message1="Dear $name\nGreetings from Sphinx 2.0.\nYour account has been successfully created.\n\nPlease find your account details below.\nName: $name\nEmail: $email\nRegistration ID: $registrationid\n\nPlease don't share your registration ID and password with anyone.\nIf you are a student outside MNIT Jaipur please complete your payment.\n\nFor payment and accomodation contact us:\nKurja Rathore\n7742419373\n2015umt1574@mnit.ac.in\n\nMeet Deshani\n7567838028\n2015uch1499@mnit.ac.in\n\n**This is auto generated mail,please do not reply**\n";
-			 
-					$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n"; 
+
+					$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 			 		mail($to, $subject, $message1, $headers);
-			 	
+
 					*/
 					$headers  = 'MIME-Version: 1.0' . "\r\n";
 														$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 										$to = $email;
-										$subject = "Sphinx 2.0 Registration"; 
+										$subject = "Sphinx 2.0 Registration";
 										$message="Dear $name !<br>Greetings from Sphinx 2.0.<br><br>Your account has been successfully created. Please find your account details below.<br>Name: $name<br>Email: $email<br>Registration ID: $registrationid<br><br>Please don't share your registration ID and password with anyone. If you are a student outside MNIT Jaipur please complete your payment.<br><br>For payment and accomodation contact us:<br><br>Ronak Gadia<br>+91-8879755487<br>2016ucp1185@mnit.ac.in<br><br>Shubham Verma<br>+91-8290271273<br>2016uec1073@mnit.ac.in<br><br>**This is auto generated mail, please do not reply**<br>";
-										
-										$from = "support@sphinxmnit.org";
+
+										// $from = "support@sphinxmnit.org";
+										$from = "learnwebdevdhruv@gmail.com";
 										$headers .= 'From: '.$from."\r\n".
 							'Reply-To: '.$from."\r\n" .
 							'X-Mailer: PHP/' . phpversion();
 										mail($to,$subject,$message,$headers);
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
-					
+
+
+
+
+
+
+
+
+
+
+
+
 				//$_SESSION["user_spix"]=$email;
 				unset($_SESSION['name']);
 				unset($_SESSION['email']);
@@ -105,12 +106,12 @@ if(isset($_POST['register']) && ! empty ($_POST['register']))
 				unset($_SESSION['accommondation']);
 				unset($_SESSION['city']);
 				$_SESSION['register_msg']="Your registration has been compeleted.Your Sphinx2.o ID is $registrationid . Please check your email for login details, also check spam and junk folder.";
-				header("Location:index");
-				
+				header("Location:index.php");
+
 			}
 		}
 	}
-					
+
 }
 else
 {

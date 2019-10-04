@@ -47,17 +47,17 @@
 		 position:fixed;
 		 left:0;
 	}
-	
+
 	@media (max-width: 767px){
 	.notifibtn h4 span {
     margin-left: 0px;
 }
 .lower_notification {
-  
+
     height: 40px;
 
     width: 70px;
- 
+
 }
 .contentbox_pwr {
     /* max-width: 1000px; */
@@ -68,14 +68,14 @@
     max-height: 500px;
     overflow: auto;
     position: fixed;
-     left: 5%; 
+     left: 5%;
     /* font-size: 20px; */
     top: 22%;
     height: 60%;
     right: 0;
     /* bottom: 48px; */
     width: 90%;
-    
+
     /* border-radius: 40px 0px 40px 0; */
      padding: 15px;
     order: 0;
@@ -105,7 +105,7 @@
 
 
 	}
-	
+
 	@media (max-width: 767px){
 
 
@@ -191,9 +191,9 @@
     height:80px;
 }
 .card_box {
-  
+
     font-size: 14px;
- 
+
 }
 .rbtlc{
     width: 200px;
@@ -233,7 +233,7 @@
 }
 
 }
-	
+
 </style>
 
 <script>
@@ -271,15 +271,15 @@ $(function(){
       </div>
       <form class="form" id="ff" action="#"   onsubmit="return send_message()">
       <div class="modal-body">
-        
+
           <div class="row">
           	<div class="col-sm-12">
             	<div class="form-group">
             <label for="recipient-name" class="form-control-label">Email ID</label>
-            <input type="email" class="form-control" name="regid" id="emailaaaa"  placeholder="Enter Email ID" required> 
+            <input type="email" class="form-control" name="regid" id="emailaaaa"  placeholder="Enter Email ID" required>
           </div>
             </div>
-            
+
           </div>
          					 <p id="messagediv"></p>
                               <?=@$_SESSION['ff_msg'];@$_SESSION['ff_msg']=null;?>
@@ -344,23 +344,23 @@ select.form-control:not([size]):not([multiple]) {
       </div>
       <form class="form" method="post" action="login_check.php">
       <div class="modal-body">
-        
+
           <div class="row">
           	<div class="col-sm-12">
             	<div class="form-group">
             <label for="recipient-name" class="form-control-label">Registration Id</label>
-            <input type="text" class="form-control" name="regid"  placeholder="Enter registration id" required> 
+            <input type="text" class="form-control" name="regid"  placeholder="Enter registration id" required>
           </div>
             </div>
-            
+
           </div>
           <div class="row">
           	<div class="col-sm-12">
             	<div class="form-group">
             <label for="recipient-name" class="form-control-label">Password </label>
-            <input type="password" class="form-control" name="password" placeholder="Enter Password" required> 
+            <input type="password" class="form-control" name="password" placeholder="Enter Password" required>
           </div>
-		  
+
             </div>
           <div class="col-sm-12">
 			<div class="forgetpaswbt">
@@ -371,8 +371,8 @@ select.form-control:not([size]):not([multiple]) {
 		  <input type="hidden" name="url" value="<?=$_SERVER['REQUEST_URI'];?>">
           <p style="color:#B50A0C;"><?=@$_SESSION['message'];?> </p>
           <p style="color:#B50A0C;"><?=@$_SESSION['messagess'];?> </p>
-          
-        
+
+
       </div>
       <div class="modal-footer">
       <span class="poppsrlo">Don't have account ?  &nbsp;<a href="#registerbox" data-toggle="modal" data-dismiss="modal"  style="color:#4871AA">Register</a></span>
@@ -395,28 +395,28 @@ select.form-control:not([size]):not([multiple]) {
       </div>
       <form class="form" method="post" action="signup.php">
       <div class="modal-body">
-        
+
           <div class="row">
           	<div class="col-sm-12">
             	<div class="form-group">
             <label for="recipient-name" class="form-control-label">Full Name <span class="mendatri-field">*</span></label>
-            <input type="text" class="form-control txtOnly" value="<?=@$_SESSION['name'];?>" placeholder="Enter your full name" required name="name"> 
+            <input type="text" class="form-control txtOnly" value="<?=@$_SESSION['name'];?>" placeholder="Enter your full name" required name="name">
           </div>
             </div>
-            
+
           </div>
           <div class="row">
-         
+
           	<div class="col-sm-6">
             	<div class="form-group">
             <label for="recipient-name" class="form-control-label">Email <span class="mendatri-field">*</span></label>
-            <input type="email" class="form-control" value="<?=@$_SESSION['email'];?>" name="email" placeholder="Enter your email address" required> 
+            <input type="email" class="form-control" value="<?=@$_SESSION['email'];?>" name="email" placeholder="Enter your email address" required>
           </div>
             </div>
             <div class="col-sm-6">
             	<div class="form-group">
             <label for="recipient-name" class="form-control-label">Phone No <span class="mendatri-field">*</span></label>
-            <input type="text" class="form-control TxtNumbers" data-parsley-length="[10, 10]" data-parsley-error-message="Enter valid phone no" maxlength="10" placeholder="Enter your phone no" required name="phone" value="<?=@$_SESSION['phone'];?>"> 
+            <input type="text" class="form-control TxtNumbers" data-parsley-length="[10, 10]" data-parsley-error-message="Enter valid phone no" maxlength="10" placeholder="Enter your phone no" required name="phone" value="<?=@$_SESSION['phone'];?>">
           </div>
             </div>
           </div>
@@ -424,17 +424,17 @@ select.form-control:not([size]):not([multiple]) {
           	<div class="col-sm-6">
             	<div class="form-group">
             <label for="recipient-name" class="form-control-label">Password <span class="mendatri-field">*</span></label>
-            <input type="password" class="form-control" id="pass" placeholder="Enter your password" required> 
+            <input type="password" class="form-control" id="pass" placeholder="Enter your password" required>
           </div>
             </div>
             <div class="col-sm-6">
             	<div class="form-group">
             <label for="recipient-name" class="form-control-label">Confirm Password <span class="mendatri-field">*</span></label>
-            <input type="password" name="password" class="form-control" data-parsley-equalto="#pass" placeholder="Enter confirm password" required> 
+            <input type="password" name="password" class="form-control" data-parsley-equalto="#pass" placeholder="Enter confirm password" required>
           </div>
             </div>
           </div>
-          
+
 		  <div class="row">
           	<div class="col-sm-4">
             	<div class="form-group">
@@ -448,7 +448,7 @@ select.form-control:not([size]):not([multiple]) {
             </select>
           </div>
             </div>
-             
+
             <div class="col-sm-4">
             	<div class="form-group">
             <label for="recipient-name" class="form-control-label">Year</label>
@@ -464,22 +464,22 @@ select.form-control:not([size]):not([multiple]) {
 			<div class="col-sm-4">
             	<div class="form-group">
             <label for="recipient-name" class="form-control-label">Branch</label>
-            <input type="text" class="form-control txtOnly" name="branch" value="<?=@$_SESSION['branch'];?>" placeholder="Enter Branch"> 
+            <input type="text" class="form-control txtOnly" name="branch" value="<?=@$_SESSION['branch'];?>" placeholder="Enter Branch">
           </div>
             </div>
           </div>
-          
+
           <div class="row">
           	 <div class="col-sm-6">
             	<div class="form-group">
             <label for="recipient-name" class="form-control-label">College <span class="mendatri-field">*</span></label>
-            <input type="text" class="form-control txtOnly" name="college" value="<?=@$_SESSION['college'];?>" placeholder="Enter your college" required> 
+            <input type="text" class="form-control txtOnly" name="college" value="<?=@$_SESSION['college'];?>" placeholder="Enter your college" required>
           </div>
             </div>
             <div class="col-sm-6">
             	<div class="form-group">
             <label for="recipient-name" class="form-control-label">College Id <span class="mendatri-field">*</span></label>
-            <input type="text" class="form-control" value="<?=@$_SESSION['colid'];?>" name="colid" placeholder="Enter your college id" required> 
+            <input type="text" class="form-control" value="<?=@$_SESSION['colid'];?>" name="colid" placeholder="Enter your college id" required>
           </div>
             </div>
           </div>
@@ -487,28 +487,28 @@ select.form-control:not([size]):not([multiple]) {
           	 <div class="col-sm-6">
             	<div class="form-group">
             <label for="recipient-name" class="form-control-label">City <span class="mendatri-field">*</span></label>
-            <input type="text" class="form-control txtOnly" value="<?=@$_SESSION['city'];?>" name="city" placeholder="Enter city" required> 
+            <input type="text" class="form-control txtOnly" value="<?=@$_SESSION['city'];?>" name="city" placeholder="Enter city" required>
           </div>
             </div>
-			
-	
-			
-      
+
+
+
+
 		  <div class="col-sm-6">
             	<div class="form-group">
-                
+
             <label for="recipient-name" class="form-control-label">Accommodation Needed <span class="mendatri-field">*</span></label>
             <div class="checkbox_wrp">
 				<label class="checkbox"><input type="radio" name="accommondation" value="Yes" <?php if((@$_SESSION['accommondation']=='Yes')) { echo "checked"; }?> required> <span>Yes</span></label>
 				<label class="checkbox"><input type="radio" name="accommondation" value="No" <?php if((@$_SESSION['accommondation']=='No')) { echo "checked"; }?>> <span>No</span></label>
 			</div>
-            
-           
+
+
           </div>
             </div>
 			      </div>
            <p style="color:#B50A0C;"><?=@$_SESSION['f_msg'];?> </p>
-           
+
         <input type="hidden" name="url" value="<?=$_SERVER['REQUEST_URI'];?>">
       </div>
       <div class="modal-footer">
@@ -528,13 +528,13 @@ if(isset($_SESSION['register_msg']))
     alert("<?=$_SESSION['register_msg'];?>");
     </script>
 <?php
-unset($_SESSION['register_msg']);	
+unset($_SESSION['register_msg']);
 }
 if(isset($_SESSION['f_msg']))
 { ?>
 	<script type="text/javascript">  $(window).load(function () {  $('#registerbox').modal('show'); });</script>
 <?php
-unset($_SESSION['f_msg']);	
+unset($_SESSION['f_msg']);
 }
 
 
@@ -555,13 +555,13 @@ if(isset($_SESSION["message"]))
 { ?>
 	<script type="text/javascript">  $(window).load(function () {  $('#loginbox').modal('show'); });</script>
 <?php
-unset($_SESSION["message"]);	
+unset($_SESSION["message"]);
 }
 if(isset($_SESSION["messagess"]))
 { ?>
 	<script type="text/javascript">  $(window).load(function () {  $('#loginbox').modal('show'); });</script>
 <?php
-//unset($_SESSION["message"]);	
+//unset($_SESSION["message"]);
 }
 
 ?>
@@ -574,7 +574,7 @@ if(isset($_SESSION["messagess"]))
 					<a href="sponsors.php" title="Sponsors" target="_blank"><i class="fa fa-money" id="lower_icon"></i></a>
 					<a href="mela.php" title="Mela" target="_blank"><i class="fa fa-gift" id="lower_icon"></i></a>
                 </ul></center>
-				
+
 </div>
 </center>
         <div class="lower_logo">  <a href="http://www.mnit.ac.in" target="_blank"><img src="images/mnit_logo.png" style="position:fixed; bottom:15px; right:20px; width:30px;"></a>
@@ -592,14 +592,14 @@ if(isset($_SESSION["messagess"]))
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-            <a href="profile">Profile</a> / 
-            <a href="logout">Logout</a>
-            <?php 
+            <a href="profile.php">Profile</a> /
+            <a href="logout.php">Logout</a>
+            <?php
 		}
 		else
 		{
 		?>
-            <a href="javascript:;"  data-toggle="modal" data-target="#registerbox">Register</a> / 
+            <a href="javascript:;"  data-toggle="modal" data-target="#registerbox">Register</a> /
             <a href="javascript:;"  data-toggle="modal" data-target="#loginbox">Login</a>
         <?php } ?>
         </li>
@@ -612,7 +612,7 @@ if(isset($_SESSION["messagess"]))
 	</div>
 	<ul>
 		<li>
-            <a href="hospitality.php">Fee Payment</a> 
+            <a href="hospitality.php">Fee Payment</a>
         </li>
 	</ul>
 </div>

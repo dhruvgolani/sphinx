@@ -40,22 +40,22 @@ if(isset($_REQUEST['event']))
 <link href="css/responsive.css" rel="stylesheet" type="text/css">
 </head>
 <body style="overflow:hidden;">
-<script type="text/javascript" src="js/timestamp.js?v=1506980387.0" charset="utf-8"></script> 
-<script type="text/javascript" src="js/graph-calc.js?v=1506980387.0" charset="utf-8"></script> 
-<script type="text/javascript" src="js/auto-complete.js?v=1506980387.0" charset="utf-8"></script> 
-<script type="text/javascript" src="js/toolbar.js?v=1506980387.0" charset="utf-8"></script> 
-<script type="text/javascript" src="js/popper.js" charset="utf-8"></script> 
-<script type="text/javascript" src="js/bootstrap.js" charset="utf-8"></script> 
-<!--<script> 
+<script type="text/javascript" src="js/timestamp.js?v=1506980387.0" charset="utf-8"></script>
+<script type="text/javascript" src="js/graph-calc.js?v=1506980387.0" charset="utf-8"></script>
+<script type="text/javascript" src="js/auto-complete.js?v=1506980387.0" charset="utf-8"></script>
+<script type="text/javascript" src="js/toolbar.js?v=1506980387.0" charset="utf-8"></script>
+<script type="text/javascript" src="js/popper.js" charset="utf-8"></script>
+<script type="text/javascript" src="js/bootstrap.js" charset="utf-8"></script>
+<!--<script>
 
 	$(function(){
 		$('.regist-popshow').click(function(){
 			$('.modalevent').modal('hide');
-		 
+
 			$('#eventregister2').modal('show');
-			 
+
 			$('#loginbox').modal('show');
-			 
+
 		});
 	});
 </script> -->
@@ -67,23 +67,23 @@ if(isset($_REQUEST['event']))
 ?>
 <script>
 $(function(){
-	$('.teamC').change(function(){	
+	$('.teamC').change(function(){
 		$('.teamember_detial').empty();
-		var selVal = $(this).val();	
+		var selVal = $(this).val();
 		for (i = 0; i < selVal; i++) {
 			$('.teamember_detial').append('<div class="row"> <div class="col-sm-4"> <div class="form-group"> <label for="recipient-name" class="form-control-label">Registration Id</label> </div> </div> <div class="col-sm-8"> <div class="form-group"> <input type="text" class="form-control" id="recipient-name" placeholder="Enter registration id" required name="regid[]"> </div> </div> </div> <div class="row"> <div class="col-sm-4"> <div class="form-group"> <label for="recipient-name" class="form-control-label">Email Id</label> </div> </div> <div class="col-sm-8"> <div class="form-group"> <input type="email" class="form-control" id="recipient-name" placeholder="Enter email address" required name="emailid[]"> </div> </div> </div> <div class="row"> <div class="col-sm-4"> <div class="form-group"> <label for="recipient-name" class="form-control-label">Password</label> </div> </div> <div class="col-sm-8"> <div class="form-group"> <input type="Password" name="password[]" class="form-control" id="recipient-name" placeholder="Enter your password"  required> </div> </div> </div><div class="breaklinke"></div>')
 		}
 	})
 })
-</script> 
+</script>
 
-<!-- END WAYBACK TOOLBAR INSERT --> 
+<!-- END WAYBACK TOOLBAR INSERT -->
 
 <script>
 $(window).bind("load", function() {
 	//alert('hello');
   	$('#overlay').css({'left':'110%', 'transition':'all 1s ease-in-out'}, 2000);
-		 
+
 });
 </script>
 <div id="overlay" style="width:100%;">
@@ -187,8 +187,8 @@ $(window).bind("load", function() {
             <h3>Overview</h3>
           Sphinx 2.0 presents Code-of-War, a competitive programming competition for the students studying in India. This is the right place to test your skills and winning exciting prizes. If you love algorithms, let us know how well you know!
  </div>
-         
-		  
+
+
 		   <div class="evencon_box">
             <h3>Structure of the event:</h3>
             <ul class="checboxlist">
@@ -201,7 +201,7 @@ $(window).bind("load", function() {
             <h3>ONLINE ELIMINATION ROUND</h3>
             It will be a 3 hour Online Elimination Round.
 The online round will be held on Codechef. Any Indian student studying in India can participate in this round however a mandatory registration is required for being eligible. For registrations visit www.sphinxmnit.org.You will also need a Codechef account to participate. For Codechef account visit www.codechef.com. Participants are allowed to form a team of maximum two members. Top 50 eligible teams according to their rankings will proceed further.
-            
+
             <br>
             <br>
             <b>Steps for complete registration for Round 1 (Elimination Round) :</b>
@@ -211,18 +211,18 @@ The online round will be held on Codechef. Any Indian student studying in India 
                 <li>Register your team at Code of War <b>CodeChef</b> page at the link <a href='https://www.codechef.com/COW2018?order=desc&sortBy=successful_submissions'>CodeChef registration link</a></li>
             </ol>
           </div>
-		  
+
 		  <div class="evencon_box">
             <h3>ONSITE FINAL</h3>
 This will be an onsite finale in which top performers of the online elimination round will participate.
-Venue: Malaviya National institute of Technology, Jaipur. 
+Venue: Malaviya National institute of Technology, Jaipur.
 To participate in this round you have to register for Sphinx 2.0 and also secure a rank within top 50 teams in Online Round. Participants will not be allowed to change team member after first round. Details of this event will be sent to eligible candidates.
 			</div>
-			
+
 			 <div class="evencon_box">
             <h3>Rules and Regulations:</h3>
             <ul class="checboxlist">
-             
+
 <li>1. This is an IOI style contest. This means that the problems will be partially graded. You will get score for passing certain test cases.</li>
 <li>2. The details of the failed test cases will also be visible on your solution page.</li>
 <li>3. You can submit solutions as many times as you like, there are no penalties for incorrect submissions. Only your best correct submission will be considered.</li>
@@ -235,10 +235,10 @@ To participate in this round you have to register for Sphinx 2.0 and also secure
 
             </ul>
           </div>
-		  
-		  
-		  
-		 
+
+
+
+
           <div class="evencon_box">
             <h3>Platform:</h3>
             <ul class="checboxlist">
@@ -247,14 +247,14 @@ CodeChef was created as a platform to help programmers make it big in the world 
 
             </ul>
           </div>
-		  
+
 		            <div class="evencon_box">
             <h3>Prizes worth : 15000/-</h3>
         </div>
-		  
-         
 
-          
+
+
+
 		  <div class="evencon_box">
             <h3>Contact Us:</h3>
             <p>For any queries:</p>
@@ -265,7 +265,7 @@ CodeChef was created as a platform to help programmers make it big in the world 
                   <td>9587000542</td>
 				  <td>2016ucp1474@mnit.ac.in</td>
                 </tr>
-           
+
                 <tr>
                   <td>Bhagwana Ram</td>
                   <td>9602607398</td>
@@ -280,8 +280,8 @@ CodeChef was created as a platform to help programmers make it big in the world 
           <?php
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
-			?> 
-            <a href="computer_science?event=Code-of-war"  class="btn btn-input regist-popshow">Register Now</a>
+			?>
+            <a href="computer_science.php?event=Code-of-war"  class="btn btn-input regist-popshow">Register Now</a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="btn btn-input regist-popshow" data-dismiss="modal">Register Now</a>
@@ -307,8 +307,8 @@ CodeChef was created as a platform to help programmers make it big in the world 
 “You have to give accurate results with minimum code characters!!”
 This competition focuses on short and succinct code. The Challenge is to produce answers to the given problems with as little code as possible. This is a war; better get your A-game on board!!
  </div>
-         
-		  
+
+
 		   <div class="evencon_box">
             <h3>Structure of the event:</h3>
             <ul class="checboxlist">
@@ -317,12 +317,12 @@ This competition focuses on short and succinct code. The Challenge is to produce
 <li>2. ROUND-2 (FINAL)</li>
             </ul>
           </div>
-		  
-		  
+
+
           <div class="evencon_box">
             <h3>ROUND-1 (ELIMINATOR)</h3>
             The First Round is a screening round comprising of an Aptitude cum Programming Quiz that will push you to think on your feet and get the best out.</div>
-		  
+
 		  <div class="evencon_box">
             <h3>Format</h3>
  <ul class="checboxlist">
@@ -330,29 +330,29 @@ This competition focuses on short and succinct code. The Challenge is to produce
 <li>Number of questions : 40</li>
 </ul>
 			</div>
-			
+
 			<div class="evencon_box">
             <h3>Judgement Criteria</h3>
  Each Correct Answer carries 3 marks and Wrong Answer will deduce 1 mark.
 			</div>
-			
+
 			 <div class="evencon_box">
             <h3>Rules and Regulations:</h3>
             <ul class="checboxlist">
-             
+
 <li>1. Bringing pens to the event is mandatory. No pens will be provided from our side.</li>
 <li>2. Team of maximum 2 members.</li>
 <li>3. Top 30-35 teams will advance to Round 2.</li>
             </ul>
           </div>
-		  
-		  
-		  
+
+
+
 		   <div class="evencon_box">
             <h3>ROUND-2 (FINAL)</h3>
 This will be an onsite finale in which top performers of the first round will participate.
 </div>
-		              
+
 		  <div class="evencon_box">
             <h3>Format</h3>
 			6 programming questions:
@@ -366,16 +366,16 @@ TIME: 3 hrs
 
 </ul>
 			</div>
-			
+
 			<div class="evencon_box">
             <h3>Judgement Criteria</h3>
 In addition to the correctness of code and the number of correct questions solved, weightage will also be given to the number of characters of the source code of the program. Time taken to solve problems does not matter.
 			</div>
-			
+
 			 <div class="evencon_box">
             <h3>Rules and Regulations:</h3>
             <ul class="checboxlist">
-             
+
 <li>1. Only ‘C’ Programming language is allowed.</li>
 <li>2. Team size of maximum 2 members.</li>
 <li>3. Coding test on Hackerearth.</li>
@@ -383,12 +383,12 @@ In addition to the correctness of code and the number of correct questions solve
 <li>5. Bringing pens to the event is mandatory. No pens will be provided from our side.</li>
             </ul>
           </div>
-          
+
                     <div class="evencon_box">
             <h3>Prizes worth : 15000/-</h3>
         </div>
-		  
-		
+
+
 		  <div class="evencon_box">
             <h3>Contact Us:</h3>
             <p>For any queries:</p>
@@ -399,13 +399,13 @@ In addition to the correctness of code and the number of correct questions solve
                   <td>9587000542</td>
 				  <td>2016ucp1474@mnit.ac.in</td>
                 </tr>
-           
+
                 <tr>
                   <td>Divya Gupta</td>
                   <td>79610521579</td>
 				   <td>2016ucp1472@mnit.ac.in</td>
                 </tr>
-                
+
                 <tr>
                   <td>Mukul Jakhar</td>
                   <td>9729724666</td>
@@ -420,8 +420,8 @@ In addition to the correctness of code and the number of correct questions solve
           <?php
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
-			?> 
-            <a href="computer_science?event=Reading-between-the-lines"  class="btn btn-input regist-popshow">Register Now</a>
+			?>
+            <a href="computer_science.php?event=Reading-between-the-lines"  class="btn btn-input regist-popshow">Register Now</a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="btn btn-input regist-popshow" data-dismiss="modal">Register Now</a>
@@ -440,10 +440,10 @@ In addition to the correctness of code and the number of correct questions solve
 <style>
 .content_p{
 	margin-top:10px;
-	
+
 }
 .card_box{
-	
+
 	border:2px solid #fff; padding:10px; color:#2A5D88; border-radius :22px; background-color:#fff; width:200px;  margin-top:-25px; font-size:20px; font-weight:bold;
 }
 .modal-title {
@@ -487,8 +487,8 @@ In addition to the correctness of code and the number of correct questions solve
           <div class="container">
             <div class="row">
                <img src="" class="team-icon">
-                
-            
+
+
               <div class="col-md-12 col-sm-12">
                 <div class="eventbox_wrp">
                    <div class="evnt_cont_box">
@@ -498,12 +498,12 @@ they struggle through complex programming questions across two grueling rounds. 
 require teams to formulate, manipulate and innovate as they scale mountains of algorithms and
 navigate their way out of trenches of test cases. In this war of epic proportions, who will be
 bestowed with the crown of the CODE OF WAR?</p>
-                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".Code-of-war"><span>More Detail</span></a> 
+                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".Code-of-war"><span>More Detail</span></a>
                     <?php
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-                    <a href="computer_science?event=Code-of-war" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a> 
+                    <a href="computer_science.php?event=Code-of-war" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
@@ -512,7 +512,7 @@ bestowed with the crown of the CODE OF WAR?</p>
                   </div>
                 </div>
               </div>
-			  
+
 			  <div class="col-md-12 col-sm-12">
                 <div class="eventbox_wrp">
                    <div class="evnt_cont_box rbtle" style="  ">
@@ -524,12 +524,12 @@ brilliant minds in programming across 2 rounds. The first round will test their 
 the fundamentals of Computer Science in the form of a quiz while the second will have them locking
 horns to write their own masterpiece program based on the question prompt. Don’t forget to read
 between the lines!</p>
-                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".Reading-between-the-lines"><span>More Detail</span></a> 
+                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".Reading-between-the-lines"><span>More Detail</span></a>
                     <?php
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-                    <a href="computer_science?event=Reading-between-the-lines" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a> 
+                    <a href="computer_science.php?event=Reading-between-the-lines" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
@@ -538,7 +538,7 @@ between the lines!</p>
                   </div>
                 </div>
               </div>
-            
+
             </div>
           </div>
         </div>

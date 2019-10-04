@@ -558,7 +558,7 @@ escapade to explore the best of tech !
                     </section>
                     <div id="warship" class="deselements" data-460p=" top:-22%; right:-12%; display:none;" data-430p=" top:-2%; right:1%;" data-400p=" top:18%; right:14%;" data-370p=" top:37%; right:27%;" data-340p=" top:56%; right:40%;" data-310p=" top:75%; right:53%;" data-290p=" top:94%; right:66%;" data-270p=" top:103%; right:79%;" data-260p=" top:122%; right:92%;" data-250p=" top:141%; right:105%;display:block;" data-0p="display:none;">
                     <div id="warshipt">
-                    <img src="images/warship.png" width="100%">
+                    <img src="images/o2.png" width="100%">
                     </div>
                     </div>
 
