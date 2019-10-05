@@ -77,8 +77,8 @@ if(isset($_POST['register']) && ! empty ($_POST['register']))
 					// $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 					$to = $email;
 					$subject = "Sphinx'19 Registration";
-					// $message="Dear $name !<br>Greetings from Sphinx 2.0.<br><br>Your account has been successfully created. Please find your account details below.<br>Name: $name<br>Email: $email<br>Registration ID: $registrationid<br><br>Please don't share your registration ID and password with anyone. If you are a student outside MNIT Jaipur please complete your payment.<br><br>For payment and accomodation contact us:<br><br>Ronak Gadia<br>+91-8879755487<br>2016ucp1185@mnit.ac.in<br><br>Shubham Verma<br>+91-8290271273<br>2016uec1073@mnit.ac.in<br><br>**This is auto generated mail, please do not reply**<br>";
-					$message = 'confirmation mail';
+					$message="Dear $name !\n\nGreetings from Sphinx'19\n\nYour account has been successfully created. Please find your account details below.\n\nName: $name\n\nEmail: $email\n\nRegistration ID: $registrationid\n\nPlease don't share your registration ID and password with anyone. If you are a student outside MNIT Jaipur please complete your payment.\n\nFor payment and accomodation contact us:\n\nRonak Gadia\n\n+91-8879755487\n\n2016ucp1185@mnit.ac.in\n\nShubham Verma\n\n+91-8290271273\n\n2016uec1073@mnit.ac.in\n\n**This is auto generated mail, please do not reply**\n\n";
+					// $message = 'confirmation mail';
 					// $from = "support@sphinxmnit.org";
 					$from = "learnwebdevdhruv@gmail.com";
 					// $headers .= 'From: '.$from."\r\n".
