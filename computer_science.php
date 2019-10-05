@@ -13,7 +13,13 @@ if(isset($_REQUEST['event']))
 	} else if($event=="Reading-between-the-lines") {
 		$min=1;
 		$max=2;
-	} else
+	} else if($event=='Blind-code') {
+		$min=1;
+		$max=2;
+	}else if($event=='Binary-battle') {
+		$min=1;
+		$max=2;
+	}  else
 	{
 		header("Location:computer_science");
 	}
@@ -163,7 +169,7 @@ $(window).bind("load", function() {
         </div>
         <div class="modal-footer">
         <input type="hidden" name="event_type" value="Computer Science">
-        <input type="hidden" name="event_name" value="<? echo $event; ?>">
+        <input type="hidden" name="event_name" value="<?php echo $event; ?>">
         <input type="hidden" name="url" value="<?=$_SERVER['REQUEST_URI'];?>">
         <p style="color:#CF5759"><?=@$_SESSION['Error']; @$_SESSION['Error']=null;?></p>
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -185,8 +191,9 @@ $(window).bind("load", function() {
         <div class="eventdetail_wpr">
          <div class="evencon_box">
             <h3>Overview</h3>
-          Sphinx 2.0 presents Code-of-War, a competitive programming competition for the students studying in India. This is the right place to test your skills and winning exciting prizes. If you love algorithms, let us know how well you know!
- </div>
+            Sphinx’19 presents Code-of-War, a competitive programming competition for the
+students. This is the right place to test your skills and winning exciting prizes. If you
+love algorithms, let us know how well you know! </div>
 
 
 		   <div class="evencon_box">
@@ -199,8 +206,7 @@ $(window).bind("load", function() {
           </div>
           <div class="evencon_box">
             <h3>ONLINE ELIMINATION ROUND</h3>
-            It will be a 3 hour Online Elimination Round.
-The online round will be held on Codechef. Any Indian student studying in India can participate in this round however a mandatory registration is required for being eligible. For registrations visit www.sphinxmnit.org.You will also need a Codechef account to participate. For Codechef account visit www.codechef.com. Participants are allowed to form a team of maximum two members. Top 50 eligible teams according to their rankings will proceed further.
+            It will be a 3 hour Online Elimination Round. The online round will be held on Codechef. Any Indian student studying in India can participate in this round however a mandatory registration is required for being eligible. For registrations visit www.sphinxmnit.org.You will also need a Codechef account to participate. For Codechef account visit www.codechef.com. Participants are allowed to form a team of maximum two members. Top 50 eligible teams according to their rankings will proceed further.
 
             <br>
             <br>
@@ -208,30 +214,30 @@ The online round will be held on Codechef. Any Indian student studying in India 
             <ol>
                 <li>Register yourself at our website and obtain SPHINX ID</li>
                 <li>Register your team at <b>CODE OF WAR</b> under Core Love -> Computer Science category using your SPHINX ID</li>
-                <li>Register your team at Code of War <b>CodeChef</b> page at the link <a href='https://www.codechef.com/COW2018?order=desc&sortBy=successful_submissions'>CodeChef registration link</a></li>
+                <li>Register your team at Code of War <b>CodeChef</b> page at the link <a href='https://www.codechef.com/COW2018?order=desc&amp;sortBy=successful_submissions'>CodeChef registration link</a></li>
             </ol>
           </div>
 
 		  <div class="evencon_box">
             <h3>ONSITE FINAL</h3>
-This will be an onsite finale in which top performers of the online elimination round will participate.
-Venue: Malaviya National institute of Technology, Jaipur.
-To participate in this round you have to register for Sphinx 2.0 and also secure a rank within top 50 teams in Online Round. Participants will not be allowed to change team member after first round. Details of this event will be sent to eligible candidates.
-			</div>
+            This will be an onsite finale in which top performers of the online elimination round will
+participate. Venue: Malaviya National institute of Technology, Jaipur. To participate in
+this round you have to register for Sphinx’19 and also secure a rank within top 50 teams
+in Online Round. Participants will not be allowed to change team member after first
+round. Details of this event will be sent to eligible candidates.			</div>
 
 			 <div class="evencon_box">
             <h3>Rules and Regulations:</h3>
             <ul class="checboxlist">
 
 <li>1. This is an IOI style contest. This means that the problems will be partially graded. You will get score for passing certain test cases.</li>
-<li>2. The details of the failed test cases will also be visible on your solution page.</li>
-<li>3. You can submit solutions as many times as you like, there are no penalties for incorrect submissions. Only your best correct submission will be considered.</li>
-<li>4. Those who achieve the score first i.e. their submission time is before, will be placed higher in the rank list in case of a tie.</li>
-<li>5. The contest is meant for students of high school and middle school though everyone is invited to participate.</li>
-<li>6. Please do not discuss strategy, suggestions or tips in the comments during a live contest.</li>
-<li>7. Decision of organizers will be final.</li>
-<li>8. Participants are requested to bring their valid identity proof during event.</li>
-<li>9. Team of maximum 2 members.</li>
+<li>2. You can submit solutions as many times as you like, there is 20 Minutes penalties for each incorrect submissions. Only your best correct submission will be considered.</li>
+<li>3. Those who achieve the highest score first i.e. their submission time is less, will be placed higher in the rank list in case of a tie.</li>
+<li>4. The contest is meant for students of high school and middle school though everyone is invited to participate.</li>
+<li>5. Please do not discuss strategy, suggestions or tips in the comments during a live contest.</li>
+<li>6. Decision of organizers will be final.</li>
+<li>7. Participants are requested to bring their valid identity proof during event.</li>
+<li>8. Team of maximum 2 members.</li>
 
             </ul>
           </div>
@@ -249,7 +255,8 @@ CodeChef was created as a platform to help programmers make it big in the world 
           </div>
 
 		            <div class="evencon_box">
-            <h3>Prizes worth : 15000/-</h3>
+            <h3>Prizes worth : TBA</h3>
+            <h3>Date : TBA </h3>
         </div>
 
 
@@ -261,16 +268,23 @@ CodeChef was created as a platform to help programmers make it big in the world 
             <div class="pptable">
               <table>
                 <tr>
-                  <td>Narendra</td>
-                  <td>9587000542</td>
-				  <td>2016ucp1474@mnit.ac.in</td>
+                  <td>Suryaprakash Agarwal</td>
+                  <td>7016268414</td>
+				  <td>2017uec1231@mnit.ac.in</td>
                 </tr>
 
                 <tr>
-                  <td>Bhagwana Ram</td>
-                  <td>9602607398</td>
-				   <td>2016ucp1389@mnit.ac.in</td>
+                  <td>Ritika Mor</td>
+                  <td>9588649104</td>
+				   <td>2017uec1194@mnit.ac.in</td>
                 </tr>
+
+                <tr>
+                  <td>Tapan Goyal</td>
+                  <td>8384859398</td>
+				   <td>2017ucp1582@mnit.ac.in</td>
+                </tr>
+
               </table>
             </div>
           </div>
@@ -303,9 +317,11 @@ CodeChef was created as a platform to help programmers make it big in the world 
         <div class="eventdetail_wpr">
          <div class="evencon_box">
             <h3>Overview</h3>
-          Hey Folks!! Ever wondered how Google gives lakhs of results in just milliseconds with so much accuracy!! Every single extra space matters a lot! Likewise:
-“You have to give accurate results with minimum code characters!!”
-This competition focuses on short and succinct code. The Challenge is to produce answers to the given problems with as little code as possible. This is a war; better get your A-game on board!!
+            Hey Folks!! Ever wondered how Google gives lakhs of results in just milliseconds with so
+much accuracy!! Every single extra space matters a lot! Likewise: “You have to give
+accurate results with minimum code characters!!” This competition focuses on short
+and succinct code. The Challenge is to produce answers to the given problems with as
+little code as possible. This is a war; better get your A-game on board!!
  </div>
 
 
@@ -321,7 +337,9 @@ This competition focuses on short and succinct code. The Challenge is to produce
 
           <div class="evencon_box">
             <h3>ROUND-1 (ELIMINATOR)</h3>
-            The First Round is a screening round comprising of an Aptitude cum Programming Quiz that will push you to think on your feet and get the best out.</div>
+            The First Round is a screening round comprising of an Aptitude cum Programming Quiz
+that will push you to think on your feet and get the best out.Teams Have to Report MNIT,
+Jaipur for the eliminator Quiz.</div>
 
 		  <div class="evencon_box">
             <h3>Format</h3>
@@ -381,11 +399,14 @@ In addition to the correctness of code and the number of correct questions solve
 <li>3. Coding test on Hackerearth.</li>
 <li>4. No electronic gadgets are allowed.</li>
 <li>5. Bringing pens to the event is mandatory. No pens will be provided from our side.</li>
+<li>6. Every Team member must have sphinx id.</li>
+<li>7. Decision of organizers will be final.</li>
             </ul>
           </div>
 
                     <div class="evencon_box">
-            <h3>Prizes worth : 15000/-</h3>
+            <h3>Prizes worth : TBA</h3>
+            <h3>Date : TBA </h3>
         </div>
 
 
@@ -394,23 +415,24 @@ In addition to the correctness of code and the number of correct questions solve
             <p>For any queries:</p>
             <div class="pptable">
               <table>
-                <tr>
-                  <td>Narendra</td>
-                  <td>9587000542</td>
-				  <td>2016ucp1474@mnit.ac.in</td>
+              <tr>
+                  <td>Suryaprakash Agarwal</td>
+                  <td>7016268414</td>
+				  <td>2017uec1231@mnit.ac.in</td>
                 </tr>
 
                 <tr>
-                  <td>Divya Gupta</td>
-                  <td>79610521579</td>
-				   <td>2016ucp1472@mnit.ac.in</td>
+                  <td>Ravi Saraswat</td>
+                  <td>9068995332</td>
+				   <td>2017uec1633@mnit.ac.in</td>
                 </tr>
 
                 <tr>
-                  <td>Mukul Jakhar</td>
-                  <td>9729724666</td>
-				  <td>2016ucp1116@mnit.ac.in</td>
+                  <td>Himanshu Gwalani</td>
+                  <td>8209487925</td>
+				   <td>2017ucp1356@mnit.ac.in</td>
                 </tr>
+
               </table>
             </div>
           </div>
@@ -431,6 +453,316 @@ In addition to the correctness of code and the number of correct questions solve
     </div>
   </div>
 </div>
+
+<div class="modal fade Blind-code  modalevent" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">BLIND CODE</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
+      </div>
+      <div class="modal-body">
+        <div class="eventdetail_wpr">
+         <div class="evencon_box">
+            <h3>Overview</h3>
+            Welcome to the ultimate challenge of Blind Coding.
+Are you confident enough to code simple programs without looking at your monitor screen?
+Then You Are At Right Place !
+Blind coding is a C programming event where competitors need to write the program by
+switching off monitors.
+Beware! You can&#39;t see the bugs you produce. </div>
+
+
+		   <div class="evencon_box">
+            <h3>Structure of the event:</h3>
+            <ul class="checboxlist">
+              This event consists of two rounds:<br>
+<li>1. ROUND-1 (ELIMINATOR)</li>
+<li>2. ROUND-2 (FINAL)</li>
+            </ul>
+          </div>
+
+
+          <div class="evencon_box">
+            <h3>ROUND-1 (ELIMINATOR)</h3>
+            The First Round is a screening round comprising of an Aptitude cum Programming Quiz
+that will need you to scratch on your head.Teams Have to Report MNIT, Jaipur for the
+eliminator Quiz.</div>
+
+		  <div class="evencon_box">
+            <h3>Format</h3>
+ <ul class="checboxlist">
+<li>TIME : 30 minutes</li>
+<li>Number of questions : 20</li>
+</ul>
+			</div>
+
+			<div class="evencon_box">
+            <h3>Judgement Criteria</h3>
+ Each Correct Answer carries 3 marks and Wrong Answer will deduce 1 mark.
+			</div>
+
+			 <div class="evencon_box">
+            <h3>Rules and Regulations:</h3>
+            <ul class="checboxlist">
+
+<li>1. Bringing pens to the event is mandatory. No pens will be provided from our side.</li>
+<li>2. Team of maximum 2 members.</li>
+<li>3. Top 30-35 teams will advance to Round 2.</li>
+            </ul>
+          </div>
+
+
+
+		   <div class="evencon_box">
+            <h3>ROUND-2 (FINAL)</h3>
+This will be an onsite finale in which top performers of the first round will participate.
+</div>
+
+		  <div class="evencon_box">
+            <h3>Format</h3>
+			2 programming questions:
+			 <ul class="checboxlist">
+<li>One Easy Questions</li>
+<li>one Medium Questions</li>
+<br>
+VENUE: Programming lab in Computer Center (200 PCs with Internet Connectivity.)<br>
+TIME: 3 hrs
+
+</ul>
+			</div>
+
+			<div class="evencon_box">
+            <h3>Judgement Criteria</h3>
+            The Judging will be made on the basis of score that you achieved in the onsite contest. In
+case of tie , there will be manually checking of your codes and teams which have least
+no. Of errors in their code would be declared as winner.
+			</div>
+
+			 <div class="evencon_box">
+            <h3>Rules and Regulations:</h3>
+            <ul class="checboxlist">
+
+<li>1. Only ‘C’ Programming language is allowed.</li>
+<li>2. Team size of maximum 2 members.</li>
+<li>3. Coding test on Hackerearth.</li>
+<li>4. No electronic gadgets are allowed.</li>
+<li>5. Bringing pens to the event is mandatory. No pens will be provided from our side.</li>
+<li>6. Every Team member must have sphinx id.</li>
+<li>7. Decision of organizers will be final.</li>
+            </ul>
+          </div>
+
+                    <div class="evencon_box">
+            <h3>Prizes worth : TBA</h3>
+            <h3>Date : TBA </h3>
+        </div>
+
+
+		  <div class="evencon_box">
+            <h3>Contact Us:</h3>
+            <p>For any queries:</p>
+            <div class="pptable">
+              <table>
+              <tr>
+                  <td>Suryaprakash Agarwal</td>
+                  <td>7016268414</td>
+				  <td>2017uec1231@mnit.ac.in</td>
+                </tr>
+
+                <tr>
+                  <td>Ravi Saraswat</td>
+                  <td>9068995332</td>
+				   <td>2017uec1633@mnit.ac.in</td>
+                </tr>
+
+                <tr>
+                  <td>Tapan Goyal</td>
+                  <td>8384859398</td>
+				   <td>2017ucp1582@mnit.ac.in</td>
+                </tr>
+
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <?php
+		if(isset($_SESSION["user_sphinx_sp"]))
+		{
+			?>
+            <a href="computer_science.php?event=Blind-code"  class="btn btn-input regist-popshow">Register Now</a>
+         <?php } else
+		 { ?>
+			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="btn btn-input regist-popshow" data-dismiss="modal">Register Now</a>
+		<?php  }?>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade Binary-battle  modalevent" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">BINARY BATTLE</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
+      </div>
+      <div class="modal-body">
+        <div class="eventdetail_wpr">
+         <div class="evencon_box">
+            <h3>Overview</h3>
+            Hey folks! Sphinx’19 presents Binary-Battle, a one-on-one programming competition.
+Are you fans of head-on challenges then you are at the right place!
+Let us know how well you are and test your skills to win exciting prizes.</div>
+
+
+		   <div class="evencon_box">
+            <h3>Structure of the event:</h3>
+            <ul class="checboxlist">
+              This event consists of two rounds:<br>
+<li>1. Online Elimination Round</li>
+<li>2. Onsite Final</li>
+            </ul>
+          </div>
+
+
+          <div class="evencon_box">
+            <h3>ONLINE ELIMINATION ROUND</h3>
+            It will be a 3 hour Online Elimination Round. The online round will be held on
+hackerearth. However you need to register prior to the competition. For registrations
+visit <a href="http://www.sphinxmnit.org/" style="color:blue"> www.sphinxmnit.org </a>. You will also need a hackerearth account to participate. For
+hackerearth account visit <a href="https://www.hackerearth.com/" style="color:blue"> www.hackerearth.com </a>.
+Top 16 participats will be qualified according to their rankings.</div>
+
+		  <div class="evencon_box">
+            <h3>Steps for complete registration for Round 1 (Elimination Round) :</h3>
+ <ul class="checboxlist">
+<li>Register yourself at our website and obtain SPHINX ID</li>
+<li>Register your team at <b>Binary Battle</b> under Core Love -&gt; Computer Science
+category using your SPHINX ID</li>
+<li>Register yourself at  <b>hackerearth</b> page at the link hackerearth registration link</li>
+</ul>
+			</div>
+
+			<div class="evencon_box">
+            <h3>Judgement Criteria</h3>
+            The winner of each head-on will be decided by the scores of the teams. However if the
+score of both the teams is same then the team which achieved the score first would
+advance to the next round.
+			</div>
+
+			 <div class="evencon_box">
+            <h3>Rules and Regulations:</h3>
+            <ul class="checboxlist">
+
+<li>1. Please do not discuss strategy, suggestions or tips in the comments during a live contest.</li>
+<li>2. Decision of organizers will be final.</li>
+<li>3. Participants are requested to bring their valid identity proof during event.</li>
+<li>4. This is a team contest – maximum of 2 team members is allowed.</li>
+<li>5. Plagiarism by any means will lead to immediate disqualification of the participant.</li>
+<li>6. Be on time for onsite round.</li>
+<li>7. Pairs will be formed by organizers randomly.</li>
+<li>8. Decision of organizers will be final.</li>
+            </ul>
+          </div>
+
+
+
+		   <div class="evencon_box">
+            <h3>ONSITE FINAL</h3>
+
+            <br>
+<b>VENUE</b>: Malaviya National institute of Technology, Jaipur.<br>
+<b>QUALIFICATION</b>: To participate in this round you have to register for Sphinx 3.0 and also
+secure a rank within the top 16 teams in Online Round.
+<br><br>
+
+    <b>CONTEST</b>        This will be a one on one contest.
+Out of 16 selected teams, 8 pairs will be formed randomly.
+These pairs of teams will compete against each other head on and the winner out of the
+two teams will advance to the next round.
+So, in next stage there will be (16/2 = 8) teams.
+This will go on (8 pairs =&gt; 4 pairs =&gt; 2 pairs =&gt; 1 pair) in each consecutive stage.
+In each stage pairs will be formed randomly by organiser.
+</div>
+
+</ul>
+			</div>
+
+			<div class="evencon_box">
+            <h3>Judgement Criteria</h3>
+            The winner of each head-on will be decided by the scores of the teams. However if the
+score of both the teams is same then the team which achieved the score first would
+advance to the next round.
+			</div>
+
+			 <div class="evencon_box">
+            <h3>Rules and Regulations:</h3>
+            <ul class="checboxlist">
+
+<li>1. Only ‘C’ Programming language is allowed.</li>
+<li>2. Team size of maximum 2 members.</li>
+<li>3. Coding test on Hackerearth.</li>
+<li>4. No electronic gadgets are allowed.</li>
+<li>5. Bringing pens to the event is mandatory. No pens will be provided from our side.</li>
+<li>6. Every Team member must have sphinx id.</li>
+<li>7. Decision of organizers will be final.</li>
+            </ul>
+          </div>
+
+                    <div class="evencon_box">
+            <h3>Prizes worth : TBA</h3>
+            <h3>Date : TBA </h3>
+        </div>
+
+
+		  <div class="evencon_box">
+            <h3>Contact Us:</h3>
+            <p>For any queries:</p>
+            <div class="pptable">
+              <table>
+              <tr>
+                  <td>Suryaprakash Agarwal</td>
+                  <td>7016268414</td>
+				  <td>2017uec1231@mnit.ac.in</td>
+                </tr>
+
+                <tr>
+                  <td>Himanshu Gwalani</td>
+                  <td>8209487925</td>
+				   <td>2017ucp1356@mnit.ac.in</td>
+                </tr>
+
+                <tr>
+                  <td>Ritika Mor</td>
+                  <td>9588649104</td>
+				   <td>2017uec1194@mnit.ac.in</td>
+                </tr>
+
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <?php
+		if(isset($_SESSION["user_sphinx_sp"]))
+		{
+			?>
+            <a href="computer_science.php?event=Binary-battle"  class="btn btn-input regist-popshow">Register Now</a>
+         <?php } else
+		 { ?>
+			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="btn btn-input regist-popshow" data-dismiss="modal">Register Now</a>
+		<?php  }?>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 <!--top nav-->
 <?php
 	include('header.php');
@@ -493,11 +825,9 @@ In addition to the correctness of code and the number of correct questions solve
                 <div class="eventbox_wrp">
                    <div class="evnt_cont_box">
                    <center> <div class="card_box">CODE-OF-WAR</div></center>
-					<p class="content_p">Sputnik has his war paint on for the greatest battle in cyberspace- the CODE OF WAR! Join his troops as
-they struggle through complex programming questions across two grueling rounds. The battle will
-require teams to formulate, manipulate and innovate as they scale mountains of algorithms and
-navigate their way out of trenches of test cases. In this war of epic proportions, who will be
-bestowed with the crown of the CODE OF WAR?</p>
+					<p class="content_p"><br><br>Sphinx’19 presents Code-of-War, a competitive programming competition for the
+students. This is the right place to test your skills and winning exciting prizes. If you
+love algorithms, let us know how well you know!</p>
                     <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".Code-of-war"><span>More Detail</span></a>
                     <?php
 		if(isset($_SESSION["user_sphinx_sp"]))
@@ -517,13 +847,11 @@ bestowed with the crown of the CODE OF WAR?</p>
                 <div class="eventbox_wrp">
                    <div class="evnt_cont_box rbtle" style="  ">
                    <center> <div class="card_box rbtlc" style="">READING BETWEEN THE LINES</div></center>
-					<p class="content_p">An avid programmer and a book lover, Sputnik believes that there are several parallels between a
-program and a novel. Just like literature, Computer Science too is made of fine nuances and details
-that are subject to interpretation by the programmer. Sputnik sets a unique challenge for the most
-brilliant minds in programming across 2 rounds. The first round will test their ability to understand
-the fundamentals of Computer Science in the form of a quiz while the second will have them locking
-horns to write their own masterpiece program based on the question prompt. Don’t forget to read
-between the lines!</p>
+					<p class="content_p"><br><br>Hey Folks!! Ever wondered how Google gives lakhs of results in just milliseconds with so
+much accuracy!! Every single extra space matters a lot! Likewise: “You have to give
+accurate results with minimum code characters!!” This competition focuses on short
+and succinct code. The Challenge is to produce answers to the given problems with as
+little code as possible. This is a war; better get your A-game on board!!</p>
                     <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".Reading-between-the-lines"><span>More Detail</span></a>
                     <?php
 		if(isset($_SESSION["user_sphinx_sp"]))
@@ -538,6 +866,54 @@ between the lines!</p>
                   </div>
                 </div>
               </div>
+
+              <div class="col-md-12 col-sm-12">
+                <div class="eventbox_wrp">
+                   <div class="evnt_cont_box">
+                   <center> <div class="card_box">BLIND CODE</div></center>
+					<p class="content_p"><br>Welcome to the ultimate challenge of Blind Coding.
+Are you confident enough to code simple programs without looking at your monitor screen?
+Then You Are At Right Place !
+Blind coding is a C programming event where competitors need to write the program by
+switching off monitors.
+Beware! You can&#39;t see the bugs you produce.</p>
+                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".Blind-code"><span>More Detail</span></a>
+                    <?php
+		if(isset($_SESSION["user_sphinx_sp"]))
+		{
+			?>
+                    <a href="computer_science.php?event=Blind-code" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
+         <?php } else
+		 { ?>
+			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
+		<?php  }?>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-12 col-sm-12">
+                <div class="eventbox_wrp">
+                   <div class="evnt_cont_box">
+                   <center> <div class="card_box">BINARY BATTLE</div></center>
+					<p class="content_p"><br><br>Hey folks! Sphinx’19 presents Binary-Battle, a one-on-one programming competition.
+Are you fans of head-on challenges then you are at the right place!
+Let us know how well you are and test your skills to win exciting prizes.</p>
+                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".Binary-battle"><span>More Detail</span></a>
+                    <?php
+		if(isset($_SESSION["user_sphinx_sp"]))
+		{
+			?>
+                    <a href="computer_science.php?event=Binary-battle" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
+         <?php } else
+		 { ?>
+			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
+		<?php  }?>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
 
             </div>
           </div>
