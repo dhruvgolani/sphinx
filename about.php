@@ -70,7 +70,7 @@ $(window).bind("load", function() {
 </style>
 <div id="slide-1" class="slide" data-0="transform: translate(0%,-10%);" style="width:100%;">
 <img src="images/aboutus2.png" class="title_img2">
-<img src="images/aboutus.png" class="title_img">
+<img src="images/aboutus (1).png" class="title_img">
    <section class="contentbox_pwr" style="">
     <div class="about_box_mainwrp" style="width:100%;">
         <div class="about_text_wrp" style="width:100%;">

@@ -534,7 +534,7 @@ $("#t2").mouseleave(function(){
                     <section id="initiatives" class="events" data-0="display:none;" data-120p="display:block;">
                     <div style="height:100%;" data-0="transform:scale(0,0); display:none;" data-120p="transform:scale(0,0); display:block;" data-140p="transform:scale(0.5,0.5);" data-160p="transform:scale(1,1);" data-200p="" data-330p="" data-350p="transform:scale(0.5,0.5);" data-370p="transform:scale(0,0); display:none;">
                     <div class="hevents">
-                    <img src="images/aboutus.png" style="width:400px;" >
+                    <img src="images/aboutus (1).png" style="width:400px;" >
                     </div>
                     <div class="evePara">
                    <p>Conceptualized in 2017, Sphinx is part of a vision to bring together technology and culture in a unique
