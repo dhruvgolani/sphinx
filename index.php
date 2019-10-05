@@ -468,8 +468,8 @@ $("#t2").mouseleave(function(){
 
 <center>
 <div class="spinximg">
-	<center><img src="images/title2.png" class="title111" style="" >
-	<img src="images/tagline.png" class="title112" style="" ></center>
+	<center><img src="images/newposter.png" class="title111" style="" >
+	<!-- <img src="images/tagline.png" class="title112" style="" ></center> -->
 </div>
 </center>
 <!--
@@ -526,7 +526,7 @@ $("#t2").mouseleave(function(){
 
                     <div class="planet" id="p1" data-0="transform: translate(0%,75%);" data-50p="transform: translate(0%,116.96%);" data-80p="" data-100p="transform: translate(-48%,157.1%);" data-120p="transform: translate(-100%,197.24%);" data-140p="transform: translate(-148%,157.24%);" data-160p="transform: translate(-200%,116.96%);" data-180p="" data-200p="transform: translate(-200%,75%);" data-220p="transform: translate(-200%,75%); dispaly:none;" style="width:29%;">
 
-                    <img src="images/rover.png" width="100%" class="hui">
+                    <!-- <img src="images/rover.png" width="100%" class="hui"> -->
                     </div>
 
                     <section id="initiatives" class="events" data-0="display:none;" data-120p="display:block;">

@@ -3,6 +3,9 @@ include("config.php");
 include("validate.php");
 $db=new Database();
 $conn=$db->db_connect();
+error_reporting(-1);
+ini_set('display_errors', 'On');
+set_error_handler("var_dump");
 if(isset($_POST['register']) && ! empty ($_POST['register']))
 {
 
@@ -74,14 +77,14 @@ if(isset($_POST['register']) && ! empty ($_POST['register']))
 					// $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 					$to = $email;
 					$subject = "Sphinx'19 Registration";
-					$message="Dear $name !<br>Greetings from Sphinx 2.0.<br><br>Your account has been successfully created. Please find your account details below.<br>Name: $name<br>Email: $email<br>Registration ID: $registrationid<br><br>Please don't share your registration ID and password with anyone. If you are a student outside MNIT Jaipur please complete your payment.<br><br>For payment and accomodation contact us:<br><br>Ronak Gadia<br>+91-8879755487<br>2016ucp1185@mnit.ac.in<br><br>Shubham Verma<br>+91-8290271273<br>2016uec1073@mnit.ac.in<br><br>**This is auto generated mail, please do not reply**<br>";
-
+					// $message="Dear $name !<br>Greetings from Sphinx 2.0.<br><br>Your account has been successfully created. Please find your account details below.<br>Name: $name<br>Email: $email<br>Registration ID: $registrationid<br><br>Please don't share your registration ID and password with anyone. If you are a student outside MNIT Jaipur please complete your payment.<br><br>For payment and accomodation contact us:<br><br>Ronak Gadia<br>+91-8879755487<br>2016ucp1185@mnit.ac.in<br><br>Shubham Verma<br>+91-8290271273<br>2016uec1073@mnit.ac.in<br><br>**This is auto generated mail, please do not reply**<br>";
+					$message = 'confirmation mail';
 					// $from = "support@sphinxmnit.org";
 					$from = "learnwebdevdhruv@gmail.com";
 					// $headers .= 'From: '.$from."\r\n".
 					// 'Reply-To: '.$from."\r\n" .
 					// 'X-Mailer: PHP/' . phpversion();
-					mail($to,$subject,$message,$headers);
+					// mail($to,$subject,$message,$headers);
 					mail($to,$subject,$message,"From:".$from);
 
 
