@@ -42,22 +42,22 @@ if(isset($_REQUEST['event']))
 <link href="css/responsive.css" rel="stylesheet" type="text/css">
 </head>
 <body style="overflow:hidden;">
-<script type="text/javascript" src="js/timestamp.js?v=1506980387.0" charset="utf-8"></script> 
-<script type="text/javascript" src="js/graph-calc.js?v=1506980387.0" charset="utf-8"></script> 
-<script type="text/javascript" src="js/auto-complete.js?v=1506980387.0" charset="utf-8"></script> 
-<script type="text/javascript" src="js/toolbar.js?v=1506980387.0" charset="utf-8"></script> 
-<script type="text/javascript" src="js/popper.js" charset="utf-8"></script> 
-<script type="text/javascript" src="js/bootstrap.js" charset="utf-8"></script> 
-<!--<script> 
+<script type="text/javascript" src="js/timestamp.js?v=1506980387.0" charset="utf-8"></script>
+<script type="text/javascript" src="js/graph-calc.js?v=1506980387.0" charset="utf-8"></script>
+<script type="text/javascript" src="js/auto-complete.js?v=1506980387.0" charset="utf-8"></script>
+<script type="text/javascript" src="js/toolbar.js?v=1506980387.0" charset="utf-8"></script>
+<script type="text/javascript" src="js/popper.js" charset="utf-8"></script>
+<script type="text/javascript" src="js/bootstrap.js" charset="utf-8"></script>
+<!--<script>
 
 	$(function(){
 		$('.regist-popshow').click(function(){
 			$('.modalevent').modal('hide');
-		 
+
 			$('#eventregister2').modal('show');
-			 
+
 			$('#loginbox').modal('show');
-			 
+
 		});
 	});
 </script> -->
@@ -69,23 +69,23 @@ if(isset($_REQUEST['event']))
 ?>
 <script>
 $(function(){
-	$('.teamC').change(function(){	
+	$('.teamC').change(function(){
 		$('.teamember_detial').empty();
-		var selVal = $(this).val();	
+		var selVal = $(this).val();
 		for (i = 0; i < selVal; i++) {
 			$('.teamember_detial').append('<div class="row"> <div class="col-sm-4"> <div class="form-group"> <label for="recipient-name" class="form-control-label">Registration Id</label> </div> </div> <div class="col-sm-8"> <div class="form-group"> <input type="text" class="form-control" id="recipient-name" placeholder="Enter registration id" required name="regid[]"> </div> </div> </div> <div class="row"> <div class="col-sm-4"> <div class="form-group"> <label for="recipient-name" class="form-control-label">Email Id</label> </div> </div> <div class="col-sm-8"> <div class="form-group"> <input type="email" class="form-control" id="recipient-name" placeholder="Enter email address" required name="emailid[]"> </div> </div> </div> <div class="row"> <div class="col-sm-4"> <div class="form-group"> <label for="recipient-name" class="form-control-label">Password</label> </div> </div> <div class="col-sm-8"> <div class="form-group"> <input type="Password" name="password[]" class="form-control" id="recipient-name" placeholder="Enter your password"  required> </div> </div> </div><div class="breaklinke"></div>')
 		}
 	})
 })
-</script> 
+</script>
 
-<!-- END WAYBACK TOOLBAR INSERT --> 
+<!-- END WAYBACK TOOLBAR INSERT -->
 
 <script>
 $(window).bind("load", function() {
 	//alert('hello');
   	$('#overlay').css({'left':'110%', 'transition':'all 1s ease-in-out'}, 2000);
-		 
+
 });
 </script>
 <div id="overlay" style="width:100%;">
@@ -187,7 +187,13 @@ $(window).bind("load", function() {
         <div class="eventdetail_wpr">
          <div class="evencon_box">
             <h3>Overview</h3>
-			Battlebots, an excellent opportunity for robotic enthusiasts to display and improve their skills in robotics as they sweat it out to win the war of the robots. Ideate, Innovate, participate and struggle to achieve it. It is a battle of life and death. If you’re looking to see the best engineers battle it out for the ultimate prize, Sphinx 2.0, Battlebots is the place to be. Expect intense competition as teams fight it out and unleash their fury. Intense matches, fierce competition, Destruction and Glory! So come and be part of one of the largest events of Sphinx 2.0 and be amazed.
+						BATTLEBOTS, an excellent opportunity to witness the UFC of robot-to-robot combat, where
+			mass destruction, carnage, and mayhem can happen in every match as participants battle it out
+			for the ULTIMATE PRIZE. It is a battle of life and death. If you’re looking to see the best
+			engineers facing off each other, Sphinx 3.0, Battlebots is the place to be. Expect intense
+			competition as teams fight it out and unleash their fury. Intense matches, fierce competition,
+			Destruction and Glory! So come and be part of one of the largest events of Sphinx 3.0 and be
+			amazed.
 </div>
           <div class="evencon_box">
             <h3>General Rules</h3>
@@ -197,7 +203,10 @@ $(window).bind("load", function() {
 <li>The organizers reserve the right to change any or all of the rules as they deem fit. Changes in rules, if any, will be highlighted on the website.</li>
 <li>Violation of any of the rules will result in immediate disqualification.</li>
 <li>The maximum time limit for the clash of combatants inside the arena is 6 minutes.</li>
-<li>A bot will be declared immobile (out) if it cannot exhibit linear motion of at least one inch within 30 seconds. A bot with one side of its drive train disabled will not be counted out if it can demonstrate some degree of controlled movement.</li>
+<li>A bot will be declared immobile (out) if it cannot exhibit linear motion of at least one inch within
+20 seconds. A bot with one side of its drive train disabled will not be counted out if it can
+demonstrate some degree of controlled movement.</li>
+<li>In case of Pin down condition the bots will be separated after 10 sec by a distance of a foot</li>
 <li>Teams that are not ready when called for battle will be considered to have declared a walkover, and will receive no points.</li>
 <li>The bot cannot be split into two sub-units. Two distinct parts connected by a flexible cable will be considered separate units.</li>
 <li>Damaging the arena will lead to immediate disqualification.</li>
@@ -207,25 +216,25 @@ $(window).bind("load", function() {
 <li>The teams are not allowed to tamper with the opponent’s robot or hinder at their time of the competition.</li>
 </ul>
 		  </div>
-		  
+
 		   <div class="evencon_box">
             <h3>Bot Specifications:</h3>
           </div>
- 
+
 <div class="evencon_box">
 
             <h3>Bot Dimensions</h3>
       <ul class="checboxlist">
-				<li>The machine should fit in a box of dimension 350mm x 350mm x 500 mm 
+				<li>The machine should fit in a box of dimension 350mm x 350mm x 500 mm
 (l x b x h) at any given point during the match. The external device used to control the machine or any external tank is not included in the size constraint.
 </li>
 				<li>The machine should not exceed 45 kilograms of weight excluding the weight of pneumatic/hydraulic source/tank and batteries, if any. Weight of remote controller will not be counted.
 </li>
 				<li>Jumping and hopping is not allowed.</li>
-				<li>Flying (using airfoil, helium balloons, ornithopters, etc.) is not allowed.</li> 
+				<li>Flying (using airfoil, helium balloons, ornithopters, etc.) is not allowed.</li>
 				</ul>
-	</div>	
-	
+	</div>
+
 		<div class="evencon_box">
             <h3>Bot Control Specifications</h3>
 			    <ul class="checboxlist">
@@ -236,8 +245,8 @@ $(window).bind("load", function() {
 <li>Team should pair up the wireless remote with the machine before putting it into the arena.</li>
 
 				</ul>
-		</div>	
-		
+		</div>
+
 		<div class="evencon_box">
             <h3>Battery Specifications</h3>
 		<ul class="checboxlist">
@@ -251,18 +260,19 @@ $(window).bind("load", function() {
 
 		</ul>
 		</div>
-<div class="evencon_box">		
+<div class="evencon_box">
 	  <h3>Weapons</h3>
 	Robots can have any kind of magnetic weapons, cutters, flippers, saws, lifting devices, spinning hammers etc. as weapons with following exceptions and limitations:
 	  <ul class="checboxlist">
 	  <li>Liquid projectiles.</li>
 <li>Any kind of inflammable liquid.</li>
 <li>Flame-based weapons.</li>
+<li>Pneumatic or hydraulic mechanism.</li>
 
-		
+
 	  </ul>
  </div>
-       
+
 		<div class="evencon_box">
             <h3>Arena Specifications</h3>
 			  <ul class="checboxlist">
@@ -274,7 +284,7 @@ $(window).bind("load", function() {
 <li>The arena might be plane ground.</li>
 </ul>
 		</div>
-		
+
 		<div class="evencon_box">
             <h3>Scoring</h3>
 			  <ul class="checboxlist">
@@ -282,11 +292,11 @@ $(window).bind("load", function() {
 <li>Pushing a bot into pebbles will fetch 50 points.</li>
 <li>Score will be calculated as: (100 X No. of times the bot pushes opponent into square region) + (50 X No. of times the bot pushes opponent into pebbles).</li>
 <li>Either the last bot standing or the bot with maximum scores will move to next round.</li>
-<li>In case of tie extra time of 1minute 30 seconds shall be provided.</li>
+<li>In case of tie extra time of 1 minute 30 seconds shall be provided.</li>
 
 </ul>
 		</div>
-		
+
 			<div class="evencon_box">
             <h3>Arena</h3>
 			  <center>
@@ -295,8 +305,8 @@ $(window).bind("load", function() {
 			<a href="images/battlebots_arena.jpg" target="_blank"><span style="color:#000;">Click here for full size image</span></a>
 	  </center>
 		</div>
-		
-		
+
+
 		<div class="evencon_box">
             <h3>Certification</h3>
 			<ul class="checboxlist">
@@ -307,22 +317,27 @@ $(window).bind("load", function() {
             <h3>Prizes worth : 10000/-</h3>
         </div>
 
-		
-		
+
+
 		  <div class="evencon_box">
             <h3>Contact Us:</h3>
             <p>For any queries:</p>
             <div class="pptable">
               <table>
                 <tr>
-                  <td>Hardik Ajmera</td>
-                  <td>8290199637</td>
-				  <td>2016uec1044@mnit.ac.in</td>
+                  <td>Tanishk dudi</td>
+                  <td>8947892024</td>
+				  <td>2017ume1366@mnit.ac.in</td>
                 </tr>
                 <tr>
-                  <td>Ronak Gadia</td>
-                  <td>8879755487</td>
-				  <td>2016ucp1185@mnit.ac.in</td>
+                  <td>Vatsal Jain</td>
+                  <td>8758190857</td>
+				  <td>2017ume1030@mnit.ac.in</td>
+                </tr>
+								<tr>
+                  <td>Dhruv Golani</td>
+                  <td>9619730222</td>
+				  <td>2017uec1056@mnit.ac.in</td>
                 </tr>
               </table>
             </div>
@@ -333,7 +348,7 @@ $(window).bind("load", function() {
           <?php
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
-			?> 
+			?>
             <a href="robotics?event=Battlebots"  class="btn btn-input regist-popshow">Register Now</a>
          <?php } else
 		 { ?>
@@ -343,70 +358,119 @@ $(window).bind("load", function() {
 		</div>
           </div>
         </div></div>
-		
-		
+
+
 		<div class="modal fade Roborush  modalevent" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">ROBO-RUSH</h5>
+        <h5 class="modal-title" id="exampleModalLabel">DRONE-RUSH</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
       </div>
       <div class="modal-body">
         <div class="eventdetail_wpr">
          <div class="evencon_box">
             <h3>Overview</h3>
-			Robotics as a whole is a competition where people can showcase their technical skills. Robo-Rush is a competition where a couple of robots compete with each other in their speed and accurate control.</div>
-      
+						Sphinx’19 is organizing ‘DroneRush’, one of the trickiest robotics competitions. Let’s design a wireless remote-controlled flying platform to complete an obstacle course in
+			minimum time without crashing.</div>
+
 	   <div class="evencon_box">
             <h3>Problem Statement</h3>
-			Teams have to build a wired or wireless Robot that can drag/push/pick the white boxes out of the black circle while traversing the arena full of obstacles and without touching any bomb.
+						Design a wireless remote-controlled flying platform to complete an obstacle course in
+			minimum time without crashing.
 		</div>
-      
-		  
-		  <div class="evencon_box">
-            <h3>Arena</h3>
-			  <ul class="checboxlist">
-<li>The game arena consists of a track having 3 different zones (shown in fig).</li>
-<li>Each zone is having some obstacles such as pebbles, sand, pipes, and bombs.</li>
-<li>At the beginning of each zone there are 4 boxes kept in 4 different black circles (as shown in fig.)</li>
-<li>The size of the box is 3 inches X 3 inches X 3 inches.</li>
 
- <center>
-			<img src="images/roborush_arena.jpg" style="width:50%;">
-			<br>
-			<a href="images/roborush_arena.jpg" target="_blank"><span style="color:#000;">Click here for full size image</span></a>
-	  </center>
-	  
+		<div class="evencon_box">
+					 <h3>Path</h3>
+					 The path will consist of pillars, loops, bends, underpass, turbines placed in
+random sequence along an aerial track. It will end with drop zone and landing pad for testing
+manoeuvrability skills.
+	 </div>
+
+	 <div class="evencon_box">
+					<h3>General Instructions</h3>
+					<ul class="checboxlist">
+						<li>The participating teams will be given max time of x minutes to complete the track.</li>
+						<li>The participating teams will be given max time of x minutes to complete the track.</li>
+						<li>The timer will stop only when the drone finally lands on the landing zone. </li>
+						<li>The time measured by the organizers will be final and will be used for scoring the
+						teams. </li>
+						<li>Time measured by any contestant by any other means is not acceptable for scoring.</li>
+						<li>In case of any disputes / discrepancies, the organizers’ decision will be final and
+						binding.</li>
+						<li>The organizers reserve the rights to change any or all of the above rules as they
+						deem fit. ​ Changes in rules, if any will be highlighted on the website and notified to the
+						registered teams.</li>
+						<li>The participating teams will be allowed to take a timeout of y minutes max. (The total
+						time would exclude the time taken during the timeout.</li>
+						<li>They must not land their drone anywhere (except for the timeout)</li>
+						<li>Each team would be allowed to skip any one of the obstacles.</li>
+						<li>Team gaining the maximum points will win and least time will win.</li>
+						<li>In case of a tie the team taking the lesser time would be declared the winner.</li>
+						<li>Quadcopter must be built within the specified dimensions.</li>
+						<li>Each team will be given two runs and best of two will be the final time and score.</li>
+					</ul>
+	</div>
+
+
+		  <div class="evencon_box">
+            <h3>Field Arena</h3>
+			  <ul class="checboxlist">
+					<li>There are marked/specified regions/spots to take off and land the quadcopter.</li>
+					<li>Hurdles will be placed at different location in the arena.</li>
+					<li>Fields will have arrows marked to depict manoeuvring path</li>
+					<li>Specific check points will be defined on the arena for changing the batteries,
+					adjusting gains, calibration of sensors, etc.</li>
+					<li>Time will be given to the teams for charging their batteries at the completion of every
+					stage. The requirement of time of charging the batteries during the conduct of
+					competition will not be entertained.</li>
+
 </ul>
 		  </div>
-		  
+
+			<div class="evencon_box">
+						 <h3>Eligibility</h3>
+						 <ul class="checkboxlist">
+							 <li>Different Teams from the same school/college must use their own individual
+   					 	Quadcopter for the competition.</li>
+  						 <li>The Quadcopter should follow the Quadcopter specifications provided. Any
+  						 deviation from the mentioned specifications will lead to disqualification</li>
+  						 <li>If the Quad is found making damage to the arena, Judges reserve the right to
+  						 eliminate a particular Stage/Checkpoint/Complete Participation.</li>
+  						 <li>The requirement of time for charging the batteries during the conduct of
+  						 competition will not be entertained.</li>
+  						 <li>Replacement of the parts of Quad will be allowed in case only if an accident
+  						 occurs and the referee permits</li>
+  						 <li>Replacement and charging of battery are allowed only before the
+  						 commencement of round.</li>
+						 </ul>
+		 </div>
+
 		   <div class="evencon_box">
-            <h3>Bot Specifications</h3>
+            <h3>The Multirotor</h3>
 			<ul class="checboxlist">
-			<li>The bot must be within the dimensions of 30cm x 30cm x 30cm (l x b x h).</li>
-<li>The robot should be wired or wireless.</li>
-<li>A power supply of max 12V and 1.5A can be used.</li>
-<li>Machine can be constructed by using any controller or mechanism except lego kit.</li>
-<li>The robot design cannot use or involve any sort of combustible/harmful/dangerous parts in it.</li>
+				<li>The Multirotor (including Battery and landing gear) should be of length
+	75cm*75cm*75cm (LxBxH) and must weigh less than 1Kg.</li>
+				<li>There is no restriction on the use of the any Quad frame material or specification of
+				the BLDC Motors, Electronic Speed Controllers, Propellers, Batteries and Weight of
+				the Quadcopter.</li>
+				<li>Ready-made toy quadcopter kits are strictly restricted.</li>
+				<li>Construction: Any building material may be used, if the Quad fits the above
+				specifications and as long as the design and construction are primarily the original
+				work of the team</li>
 </ul>
           </div>
- 
+
 <div class="evencon_box">
+	<h3>Sample Arena</h3>
+	<center>
+	 <img src="images/dronerush.jpeg" style="width:50%;">
+	 <br>
+	 <a href="images/dronerush.jpeg" target="_blank"><span style="color:#000;">Click here for full size image</span></a>
+ </center>
+</div>
 
-            <h3>Game Rules</h3>
-      <ul class="checboxlist">
-<li>The teams will have to submit their bot before the start of the competition. Only those teams which submit their bots will be allowed to participate. The bot will be handed back to the team during the time of their run.</li>
-<li>Only one bot per team is allowed.</li>
-<li>Only one team member is allowed to be near the game field.</li>
-<li>Run will start only when organizers give the signal.</li>
-<li>Only One restart is allowed (50 points penalty).</li>
-<li>In case a team wants to skip a zone a penalty of 200 points will be added to their score.</li>
 
-</ul>
-	</div>	
-
-	
 		<div class="evencon_box">
             <h3>General Rules</h3>
 			    <ul class="checboxlist">
@@ -419,9 +483,9 @@ $(window).bind("load", function() {
 <li>Register your team at www.sphinxmnit.org</li>
 
 				</ul>
-		</div>	
-		
-		<div class="evencon_box">
+		</div>
+
+		<!-- <div class="evencon_box">
             <h3>Scoring</h3>
 		<ul class="checboxlist">
 <li>T= Total time (5 min).</li>
@@ -433,56 +497,62 @@ $(window).bind("load", function() {
 <li>Total marks = Marks-P+R+Z.</li>
 
 		</ul>
-		</div>
-<div class="evencon_box">	
+	</div> -->
+<div class="evencon_box">
 	  <h3>Team Specifications</h3>
 	A team may consist of a maximum of 4 participants. Students from different institutes can form a team.
  </div>
- 
- <div class="evencon_box">	
+
+ <div class="evencon_box">
 	  <h3>Eligibility</h3>
 	All students with a valid identity card of their respective educational institutes are eligible to participate.
  </div>
- 
- <div class="evencon_box">	
+
+ <div class="evencon_box">
 	  <h3>Certification</h3>
 	  <ul class="checboxlist">
 <li>The top three teams would be awarded with certificates as per their winning position.</li>
 <li>The participation certificate will be awarded to all the participants.</li>
+<li>Participants should bring their AADHAR CARD photocopy along with original and college identity card to claim prizes and certificates and prizes.</li>
 </ul>
  </div>
- 
+
     <div class="evencon_box">
             <h3>Prizes worth : 10000/-</h3>
         </div>
 
-  
+
 		  <div class="evencon_box">
             <h3>Contact Us:</h3>
             <p>For any queries:</p>
             <div class="pptable">
               <table>
                 <tr>
-                  <td>Saksham Jain</td>
-                  <td>7976096521</td>
-				  <td>2016kucp1015@mnit.ac.in</td>
+                  <td>Vishal Kothari</td>
+                  <td>990943279</td>
+				  <td>2017uec1683@mnit.ac.in</td>
                 </tr>
                 <tr>
-                  <td>Ronak Gadia</td>
-                  <td>8879755487</td>
-				  <td>2016ucp1185@mnit.ac.in</td>
+                  <td>Keshav Sarraf</td>
+                  <td>8696784122</td>
+				  <td>2017uec1341@mnit.ac.in</td>
+                </tr>
+								<tr>
+                  <td>Dhruv Golani</td>
+                  <td>9619730222</td>
+				  <td>2017uec1056@mnit.ac.in</td>
                 </tr>
               </table>
             </div>
           </div>
         </div>
-		
+
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
           <?php
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
-			?> 
+			?>
             <a href="robotics?event=Roborush"  class="btn btn-input regist-popshow">Register Now</a>
          <?php } else
 		 { ?>
@@ -499,96 +569,89 @@ $(window).bind("load", function() {
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">ROBO TRYST</h5>
+        <h5 class="modal-title" id="exampleModalLabel">ROBOTRYST</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
       </div>
       <div class="modal-body">
         <div class="eventdetail_wpr">
          <div class="evencon_box">
             <h3>Overview</h3>
-		Sphinx 2.0 is organizing ‘RoboTryst’, one of the trickiest robotics competition. Let’s try to solve problem by building an autonomous robot which will crack the given arena in given constraints. 
+						Sphinx’19 is organizing ‘RoboTryst’, one of the trickiest robotics competitions. Let’s try to solve
+				problem by building an autonomous robot which will crack the given arena in given constraints.
 </div>
 
 	   <div class="evencon_box">
             <h3>Problem Statement</h3>
-			Teams have to build an autonomous robot which can follow black lines and keep track of directions while going through the maze. The bot has to analyze the path in the dry run and has to go through the maze from the starting point to the ending point in shortest path in actual run.
+						Teams have to build an autonomous robot which can follow black lines and aim to reach the end
+			of arena. The bot will follow the path and at random checkpoints, detect a placed box’s colour. At
+			the end of the arena, the bot will display the order of the colours encountered.
 			</div>
-      
-		  
+
+
 		  <div class="evencon_box">
             <h3>Arena</h3>
-			The game field consists of grid dimension as 330 cm x 150cm (lxb) and whole arena is 15 ft. x 15ft (lxb). It consists of the following:
-
+						The game field consists of grid dimension as 200 cm x 180cm (lxb) and whole arena is 10 ft. x
+			10ft (lxb). It consists of the following:
 			  <ul class="checboxlist">
-<li>The arena is composed of grids made by black strips and has a white background.</li> 
+<li>The arena is composed of grids made by black strips and has a white background.</li>
 <li>Angle between two adjacent black lines in the path is 90 degree. </li>
 <li>The width of all black strips will be 2.5cm.</li>
-<li>The whole arena is divided into two parts:- </li>
-<ul class="checboxlist">
-<li>The first part is a maze which will be of 150cm x 150cm size. The maze consists of 5 checkpoints which would be at the junction of the lines. The exact position of the checkpoints will be informed at the time of the event. There are certain points for each checkpoint which is shown below. The maze in the beginning is shown in the figure for the illustration. The actual maze would be different which will be informed on the spot.</li>
-<li>The second part will be is a 3*3 grid which has 3 hurdles (specifications are informed below) as shown. The grid would be 150cm x 150cm with each square block 50cmx 50cm. There would be a straight path of 30 cm between the maze and the grid. There are certain points for travelling through each column in the grid notified below. The grid would be approximately the same as shown in the figure except that the position of hurdles would change.</li>
-</ul>
-There would be a (25cmx 25cm) black square at the end of the grid which would signify the end of the run.
+<li>The maze will consist of 3 checkpoints with boxes of any of the three colours (Green, Red or
+Yellow). The exact location of the checkpoint will be informed at the time of the event. The actual
+maze would be different from the one shown in the illustration.</li>
+<li>There would be a (25cmx 25cm) black square at the end of the grid which would signify the end
+of the run.</li>
 
 
 </ul>
 		  </div>
-		  
-		  
+
+
 		   <div class="evencon_box">
             <h3>Game Play</h3>
-			The game play consists of two parts:- 
+			The game play is as follows:
 			<ul class="checboxlist">
-<li>1. The first part is the “Dry Run”.</li>
-<ul class="checboxlist">
-<li>In this run, the bot must start from the ‘Start’ and find its way to reach the ‘End’ (as indicated in figure) of the arena. </li>
-<li>The bot has to follow an algorithm to find its path to reach ‘End’ and bot can store the turns in its memory to explore the shortest path during the second part of journey.</li>
-<li>The bot has to give a signal by glowing a LED as soon as it senses the black box below it at the end. </li>
-</ul>
-
-<li>2. The second part is the “Actual Run”
-<ul class="checboxlist">
-<li>In this run, the bot has to restart from the ‘Start’ again and finds its way to the ‘End’ through the best possible path by following the path that was stored in the first run. 
-<li>The timer will be set to zero as the “Actual Run” begins.
-</ul>
-<li>3. A total of 4 minutes will be provided to complete the dry run.
-<li>4. A total of 3 minutes and 30 seconds  will be provided to complete the actual run. 
-<li>5. There are 5 checkpoints.
-<li>6. If the bot takes more than 4 minutes for completing the dry run, then the extra time taken will be deducted from the timing of the actual run which is 3 minutes and 30 seconds.
+<li>The bot will start at the START position as shown in the illustration. The bot will traverse
+through the maze by following the black lines.</li>
+<li>A path may lead to a dead end. At end of random such dead ends will be placed a box
+which may be coloured either of red, yellow or green. (There will be only one box of each
+colour).</li>
+<li>A black square of dimension (25 cm x 25 cm) will signify end of arena. The bot must
+display the order of the encountered boxes. This will be done by displaying LED of the
+respective colour for 2 seconds each. Any other method will not be accepted.</li>
 </ul>
           </div>
- 
+
 <div class="evencon_box">
 
-            <h3>Hurdles</h3>
+            <h3>Boxes</h3>
       <ul class="checboxlist">
-<li>The hurdles are shown in figure by notation ‘H’ are the 3 dimension boxes.</li>
-<li>The dimension of hurdle will be 10cm x 10 cm x 10 cm. </li>
-<li>The color of hurdle is white. </li>
-<li>The number of hurdles present on arena will be three. </li>
-<li>The Hurdles may have some changes in respect of their position (however the position will remain same for a contestant in both the runs).</li>
-<li>There would be a penalty if the bot touches the hurdle however the bot would not be stopped if it touches the hurdle.</li>
+			<li>The boxes as shown in the figure are 3 dimension boxes of dimension (10cm x 10 cm x 10 cm).</li>
+			<li>The colour of box may be Red, Yellow or Green.</li>
+			<li>The number of boxes present in the arena will be three.</li>
+			<li>The boxes may have some changes in respect of their position.</li>
+			<li>There would be a penalty if the bot touches the boxes however the bot would not be stopped if it
+touches the box.</li>
 
 </ul>
-	</div>	
-	
+	</div>
 
-	
+
+
 		<div class="evencon_box">
             <h3>Bot Specifications</h3>
 			    <ul class="checboxlist">
 <li>The autonomous bot must fit into the box of dimension of 22cm x22cm x 22cm (l x b x h). </li>
 <li>When using the electric power supply, the potential difference between any 2 points must not exceed 24 V at any point of time during the game.</li>
-<li>Bot must be started individually by only one switch. However, a team may have an onboard switch for restart. This switch has to be shown to the organizer before the run.
-<li>Bot must have a red LED which will glow once it reaches the end zone of the arena.</li>
+<li>Bot must be started individually by only one switch. However, a team may have an onboard switch for restart. This switch has to be shown to the organizer before the run.</li>
 <li> During the run, the autonomous bot must not damage the arena in any way. It is not allowed to leave anything behind or make any marks while traversing the arena. Any bot found damaging the arena will be immediately disqualified. The final decision is at the discretion of the organizers.</li>
 <li>The autonomous bot should not separate or split into two or more units. All bots/units which are touching each other or are in the starting point will be considered as one bot.</li>
 <li>Bot cannot be constructed using readymade ‘Lego kits’ or any readymade mechanism. But they can make use of readymade gear assemblies. Violating this clause will lead to disqualification of the team.</li>
 
 
 				</ul>
-		</div>	
-		
+		</div>
+
 		<div class="evencon_box">
             <h3>Game Rules</h3>
 		<ul class="checboxlist">
@@ -598,12 +661,12 @@ There would be a (25cmx 25cm) black square at the end of the grid which would si
 <li>When the autonomous bot starts, no team member is allowed to touch the bot or enter the arena.</li>
 <li>There will be one trial available for the calibration of sensor and for checking the proper working of bot.</li>
 <li>Only one team member is allowed to be near the game field while starting the bot.</li>
-<li>When the bot start, no team member is allowed to touch the bot or enter the arena.</li> 
+<li>When the bot start, no team member is allowed to touch the bot or enter the arena.</li>
 <li>Run will start only when organizers give the signal.</li>
-<li>A total of 7 minutes 30 seconds will be given. The bot have to finish the run in that period only.</li>
+<li>A total of 5 minutes will be given. The bot have to finish the run in that period only.</li>
 		</ul>
 		</div>
-		
+
 		<div class="evencon_box">
             <h3>General Rules</h3>
 		<ul class="checboxlist">
@@ -617,114 +680,117 @@ There would be a (25cmx 25cm) black square at the end of the grid which would si
 
 		</ul>
 		</div>
-		
+
 		<div class="evencon_box">
             <h3>Judging</h3>
 		<ul class="checboxlist">
-<li>25 points will be awarded as it crosses any of the checkpoints but it will be    counted only once for each checkpoint.</li> 
-<li>30 points will be provided if the bot successfully completes the Dry Run.</li>
-<li>30 points will be awarded if bot goes through the Shortest Path in Actual Run.</li>
-<li>10 points will be awarded for passing a vertical column in the second part i.e. the grid.</li>
-<li>5 points will be awarded if the bot glows the LED (for both the runs).</li>
+		<li>10 points will be awarded as it crosses any of the checkpoints but it will be counted only once for
+each checkpoint.</li>
+		<li>50 points will be provided if the bot successfully reaches end of the arena.</li>
+		<li>25 points will be provided for each correct display of colour at end of arena.</li>
+		<li>Time Bonus: 300 - T where T is the time taken by the team in seconds. Time Bonus will only be
+provided if team has successfully solved the entire problem statement.</li>
 
 
 		</ul>
 		</div>
-		
+
 		<div class="evencon_box">
             <h3>Penalties</h3>
 		<ul class="checboxlist">
 <li>10 marks will be deducted if the bot goes out of the arena or any it’s any part is not on the black line.</li>
-<li>15 marks will be deducted if the bot touches the obstacles.</li>
-<li>10 marks will be deducted for every restart in a run and a maximum of two restarts are allowed.</li>
+<li>15 marks will be deducted if the bot touches the boxes.</li>
+<li>10 marks will be deducted for every restart in a run and a maximum of two restarts are allowed.One restart will be provided without any deduction. Thus, total of three restarts may be taken.</li>
 
 
 
 		</ul>
 		</div>
-		
-		
+
+
 		<div class="evencon_box">
             <h3>Scoring</h3>
 		<ul class="checboxlist">
-<li>A = 25 points * (Number of checkpoints covered during the Dry Run).</li>
-<li>B = 30 points if the bot successfully completes the Dry Run.</li>
-<li>C = 240 - Total time taken in seconds in completing the Dry Run.</li>
-<li>S = 30 Points if Bot successfully completes through the Shortest Path.</li>
-<li>T = 210 - Total time taken to complete the Actual Run (only if the bot completes in Shortest Path).</li>
-<li>L = 5 points if the LED glows (for both the runs).</li>
-<li>M= 10 * (No. of columns traversed of the grid).</li>
+<li>A = 10 points * (Number of checkpoints covered).</li>
+<li>B = 50 points if the bot successfully reaches end of arena.</li>
+<li>T = 300 - Total time taken in seconds in completing the Dry Run.</li>
+<li>L = 25 points for each LED correctly displayed.</li>
 <li>P= penalties</li>
-<li>Total = (A + B + C + S + L + T)-P</li>
+<li>Total = (A + B + L + T)-P</li>
 
 
 
 
 		</ul>
 		</div>
-		
-		
-<div class="evencon_box">	
+
+
+<div class="evencon_box">
 	  <h3>Team Specifications</h3>
 	A team may consist of a maximum of 4 participants. Students from different institutes can form a team.
  </div>
- 
- <div class="evencon_box">	
+
+ <div class="evencon_box">
 	  <h3>Eligibility</h3>
 	All students with a valid identity card of their respective educational institutes are eligible to participate.
  </div>
- 
- <div class="evencon_box">	
+
+ <div class="evencon_box">
 	  <h3>Certification</h3>
 	  <ul class="checboxlist">
 <li>The top three teams would be awarded with certificates as per their wining position.</li>
 <li>The participation certificate will be awarded to all the participants.</li>
-<li>articipants should bring their AADHAR CARD photocopy along with original and college identity card to claim prizes and certificates and prizes.</li>
+<li>Participants should bring their AADHAR CARD photocopy along with original and college identity card to claim prizes and certificates and prizes.</li>
 
 </ul>
  </div>
- 
-  <div class="evencon_box">	
+
+  <div class="evencon_box">
 	  <h3>Arena</h3>
 	   <center>
-			<img src="images/robotryst_arena.jpg" style="width:50%;">
+			<img src="images/robotryst.png" style="width:50%;">
 			<br>
-			<a href="images/robotryst_arena.jpg" target="_blank"><span style="color:#000;">Click here for full size image</span></a>
+			<a href="images/robotryst.png" target="_blank"><span style="color:#000;">Click here for full size image</span></a>
 	  </center>
-	 
+
  </div>
- 
+
     <div class="evencon_box">
-            <h3>Prizes worth : 10000/-</h3>
+            <h3>Prizes worth : 12000/-</h3>
         </div>
 
-  
+
 		  <div class="evencon_box">
             <h3>Contact Us:</h3>
             <p>For any queries:</p>
             <div class="pptable">
               <table>
                 <tr>
-                  <td>Utkarsh Dubey</td>
-                  <td>8890986348</td>
-				  <td>2016uec1082@mnit.ac.in</td>
+                  <td>Tanmay Agarwal</td>
+                  <td>9680389686</td>
+				  <td>2017uec1547@mnit.ac.in</td>
                 </tr>
                 <tr>
-                  <td>Hardik Ajmera</td>
-                  <td>8290199637</td>
-				  <td>2016uec1044@mnit.ac.in</td>
+                  <td>Dhruv Golani</td>
+                  <td>9619730222</td>
+				  <td>2017uec1056@mnit.ac.in</td>
                 </tr>
+								<tr>
+									<td>Paarth Bir</td>
+									<td>9871856190</td>
+					<td>2017uec1096@mnit.ac.in</td>
+								</tr>
               </table>
             </div>
           </div>
         </div>
-		
+
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
           <?php
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
-			?> 
+			?>
             <a href="robotics?event=Robotryst"  class="btn btn-input regist-popshow">Register Now</a>
          <?php } else
 		 { ?>
@@ -749,10 +815,10 @@ There would be a (25cmx 25cm) black square at the end of the grid which would si
 <style>
 .content_p{
 	margin-top:10px;
-	
+
 }
 .card_box{
-	
+
 	border:2px solid #fff; padding:10px; color:#2A5D88; border-radius :22px; background-color:#fff; width:200px;  margin-top:-25px; font-size:20px; font-weight:bold;
 }
 .modal-title {
@@ -790,23 +856,25 @@ position:absolute; width:17%; top:150px; left:42%;
           <div class="container">
             <div class="row">
                <img src="" class="team-icon">
-                
-            
+
+
               <div class="col-md-12 col-sm-12">
                 <div class="eventbox_wrp">
                    <div class="evnt_cont_box">
                    <center> <div class="card_box">BATTLEBOTS</div></center>
-					<p class="content_p">Sputnik and his friends are fond of watching animated robot-fights. All of them are intrigued
-and decide to create a real time battle scenario.Hence they organize a fight of self designed
-bots. They will appreciate if you accept the challenge and put forth your bot for the battle
-with other participating robots and witness adrenaline rising high in you. As simple as
-Sputnik and his friends say &quot;The strongest and the smartest prevail&quot;.</p>
-                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".Battlebots"><span>More Detail</span></a> 
+					<p class="content_p">BATTLEBOTS, an excellent opportunity to witness the UFC of robot-to-robot combat, where
+		mass destruction, carnage, and mayhem can happen in every match as participants battle it out
+		for the ULTIMATE PRIZE. It is a battle of life and death. If you’re looking to see the best
+		engineers facing off each other, Sphinx 3.0, Battlebots is the place to be. Expect intense
+		competition as teams fight it out and unleash their fury. Intense matches, fierce competition,
+		Destruction and Glory! So come and be part of one of the largest events of Sphinx 3.0 and be
+		amazed.</p>
+                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".Battlebots"><span>More Detail</span></a>
                     <?php
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-                    <a href="robotics?event=Battlebots" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a> 
+                    <a href="robotics?event=Battlebots" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
@@ -815,22 +883,20 @@ Sputnik and his friends say &quot;The strongest and the smartest prevail&quot;.<
                   </div>
                 </div>
               </div>
-			  
-				  
+
+
 			   <div class="col-md-12 col-sm-12">
                 <div class="eventbox_wrp">
                    <div class="evnt_cont_box">
-                   <center> <div class="card_box">ROBO-RUSH</div></center>
-					<p class="content_p">Sputnik is fascinated by the emerging Robotics technology and how efficietly they are replacing humans in various
-fields especially in hazardous jobs. Sputnik recently heard about the fastest robot &#39;Cheetah&#39; developed by Boston
-Dynamics. He now plans to conduct a race between other developing robots to test their speeds. So if you think that
-your ROBOT is able to compete in this interesting race, come join us at the circuit of &#39;ROBORUSH.&#39;</p>
-                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".Roborush"><span>More Detail</span></a> 
+                   <center> <div class="card_box">DRONE RUSH</div></center>
+					<p class="content_p">Sphinx’19 is organizing ‘DroneRush’, one of the trickiest robotics competitions. Let’s design a wireless remote-controlled flying platform to complete an obstacle course in
+		minimum time without crashing.</p>
+                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".Roborush"><span>More Detail</span></a>
                     <?php
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-                    <a href="robotics?event=Roborush" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a> 
+                    <a href="robotics?event=Roborush" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
@@ -839,22 +905,19 @@ your ROBOT is able to compete in this interesting race, come join us at the circ
                   </div>
                 </div>
               </div>
-			  
+
 			  <div class="col-md-12 col-sm-12">
                 <div class="eventbox_wrp">
                    <div class="evnt_cont_box">
                    <center> <div class="card_box">ROBOTRYST</div></center>
-					<p class="content_p">Sputnik’s interest in robotics is growing and he is searching for more complex situations to test new
-robots. He has always been interested in solving mazes of different kinds. Now he wants robots to
-cross through human-made mazes full of obstacles and complexities. So he designs mazes and
-invites roboticists to test their mettle in ROBOTRYST “the ultimate maze game.” So do you think your
-robot can solve them? Come compete!</p>
-                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".Robotryst"><span>More Detail</span></a> 
+					<p class="content_p">Sphinx’19 is organizing ‘RoboTryst’, one of the trickiest robotics competitions. Let’s try to solve
+			problem by building an autonomous robot which will crack the given arena in given constraints.</p>
+                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".Robotryst"><span>More Detail</span></a>
                     <?php
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-                    <a href="robotics?event=Robotryst" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a> 
+                    <a href="robotics?event=Robotryst" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
@@ -863,9 +926,9 @@ robot can solve them? Come compete!</p>
                   </div>
                 </div>
               </div>
-			  
-			  
-            
+
+
+
             </div>
           </div>
         </div>
