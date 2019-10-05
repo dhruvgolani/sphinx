@@ -8,7 +8,7 @@ $db= new Database();
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<title>Sphinx 2.0 | Sign In, Shine Out</title>
+<title>Sphinx'19</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 
@@ -26,17 +26,17 @@ $db= new Database();
 <link href="css/responsive.css" rel="stylesheet" type="text/css">
 </head>
 <body style="overflow:hidden;">
-<script type="text/javascript" src="js/popper.js" charset="utf-8"></script> 
-<script type="text/javascript" src="js/bootstrap.js" charset="utf-8"></script> 
+<script type="text/javascript" src="js/popper.js" charset="utf-8"></script>
+<script type="text/javascript" src="js/bootstrap.js" charset="utf-8"></script>
 
 
-<!-- END WAYBACK TOOLBAR INSERT --> 
+<!-- END WAYBACK TOOLBAR INSERT -->
 
 <script>
 $(window).bind("load", function() {
 	//alert('hello');
   	$('#overlay').css({'left':'110%', 'transition':'all 1s ease-in-out'}, 2000);
-		 
+
 });
 </script>
 <div id="overlay" style="width:100%;">
@@ -67,31 +67,31 @@ width:65%; height:20%; padding-left:10px; margin:0 auto;
   <section class="contentbox_pwr" style="">
     <div class="about_box_mainwrp" style="width:100%;">
         <div class="about_text_wrp" style="width:100%;">
-          <p>SPHINX 2.0 presents to you the 2 nd edition of TECHTALK, A course of events that
+          <p>SPHINX'19 presents to you the 3<sup>rd</sup> edition of TECHTALK, A course of events that
 showcase some of the most prominent personas across India belonging to a range
 of diverse field. Connecting these minds to the young and dynamic audience present
 at the fest, the series has been continuously striving to provide an opportunity to live
 one’s dream of interacting with the best of every discipline.
 With a lineup of some of best orators, dignified personalities in the field of
-technology, SPHINX 2.0 provides you once in a lifetime opportunity to savour their
+technology, SPHINX'19 provides you once in a lifetime opportunity to savour their
 rich experience and profound knowledge.
-So gear up and do not miss one of the most awaited events of SPHINX 2.0.</p>
+So gear up and do not miss one of the most awaited events of SPHINX'19.</p>
         </div>
         <div class="about_text_wrp">
-        
+
         </div>
- 
+
     </div>
   </section>
-  
-  
+
+
 </div>
 <?php
 					include('footer.php');
 				?>
-<script src="js/skrollr.min.js"></script> 
-<script src="js/jquery.ticker.js" type="text/javascript"></script> 
-<script type="text/javascript" src="js/skrollr.menu.js"></script> 
+<script src="js/skrollr.min.js"></script>
+<script src="js/jquery.ticker.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/skrollr.menu.js"></script>
 <script type="text/javascript">
         var x = screen.width;
         var y = window.innerWidth;
@@ -102,8 +102,8 @@ So gear up and do not miss one of the most awaited events of SPHINX 2.0.</p>
 
         setTimeout(function() {
         var s = skrollr.init({
-			forceHeight: false  
-            
+			forceHeight: false
+
         });
 
 
@@ -114,15 +114,15 @@ So gear up and do not miss one of the most awaited events of SPHINX 2.0.</p>
         }, 500);
          $(window).load(function(){
                 $('#loader').delay(2000).fadeOut();
-                
-        }); 
+
+        });
     }
     else{
          $('#mob_text').append("Use your device in landscape mode for better experience");
          $(window).load(function(){
                 $('#loader').delay(400).fadeOut();
 
-        });  
+        });
         $('#slides').css("display","none");
         $('.topnav').css("display","none");
         $('.mobile').show();
@@ -142,8 +142,8 @@ So gear up and do not miss one of the most awaited events of SPHINX 2.0.</p>
         if(phyWidth > 450){
 
         setTimeout(function() {
-        var s = skrollr.init({  
-            
+        var s = skrollr.init({
+
         });
 
 
@@ -159,21 +159,21 @@ So gear up and do not miss one of the most awaited events of SPHINX 2.0.</p>
          $(window).load(function(){
                 /*$('#loader').delay(350).fadeOut();*/
         });
-            
+
     }
     else{
          $('#mob_text').append("Use your device in landscape mode for better experience");
          $(window).load(function(){
                /* $('#loader').delay(400).fadeOut();*/
 
-        });  
+        });
         $('#slides').css("display","none");
         $('.topnav').css("display","none");
         $('.bottomnav').css("transform","translate(0,0)");
         $('.mobile').show();
     }
     });
-    </script> 
+    </script>
 <script type="text/javascript">
         $(function () {
   $('#js-news').ticker();

@@ -257,7 +257,11 @@ position: absolute;
 							</div>
 							</div>
 
+<<<<<<< HEAD
 							<!-- <div class="col-lg-6 col-md-12 col-sm-12">
+=======
+							<div class="col-lg-6 col-md-12 col-sm-12">
+>>>>>>> 94e021fd9cfbe1474142e7e6397bf0b20882ed13
 							<div class="teamdeatilbox">
                            	<div class="row">
                             	<div class="col-sm-5">
@@ -399,10 +403,60 @@ position: absolute;
 							</div>
 							</div>
 
+<<<<<<< HEAD
 
 
 
 
+=======
+							<div class="col-lg-6 col-md-12 col-sm-12">
+							<div class="teamdeatilbox">
+                           	<div class="row">
+                            	<div class="col-sm-5">
+                           			<img src="images/team-member/aashish.jpg" class="img-fluid" draggable="false">
+                           		</div>
+                                <div class="col-sm-7">
+                                	<h3>Aashish Goel</h3>
+									<p><i class="fa fa-briefcase" aria-hidden="true"></i> <span> Joint Secretary</span></p>
+                                    <p><i class="fa fa-phone" aria-hidden="true"></i> +91-8398948495</p>
+									<p><i class="fa fa-envelope" aria-hidden="true"></i> 2016ucp1404@mnit.ac.in</p>
+                                </div>
+                            </div>
+							</div>
+							</div>
+
+							<div class="col-lg-6 col-md-12 col-sm-12">
+							<div class="teamdeatilbox">
+                           	<div class="row">
+                            	<div class="col-sm-5">
+                           			<img src="images/team-member/narender.jpg" class="img-fluid" draggable="false">
+                           		</div>
+                                <div class="col-sm-7">
+                                	<h3>Narender Singh</h3>
+									<p><i class="fa fa-briefcase" aria-hidden="true"></i> <span> Joint Secretary</span></p>
+                                    <p><i class="fa fa-phone" aria-hidden="true"></i> +91-9587000542</p>
+									<p><i class="fa fa-envelope" aria-hidden="true"></i> 2016ucp1474@mnit.ac.in</p>
+                                </div>
+                            </div>
+							</div>
+							</div>
+
+							<div class="col-lg-6 col-md-12 col-sm-12">
+							<div class="teamdeatilbox">
+                           	<div class="row">
+                            	<div class="col-sm-5">
+                           			<img src="images/team-member/sakshi.jpg" class="img-fluid" draggable="false">
+                           		</div>
+                                <div class="col-sm-7">
+                                	<h3>Sakshi Maheshwari</h3>
+									<p><i class="fa fa-briefcase" aria-hidden="true"></i> <span> Joint Secretary</span></p>
+                                    <p><i class="fa fa-phone" aria-hidden="true"></i> +91-8875069885</p>
+									<p><i class="fa fa-envelope" aria-hidden="true"></i> 2016ucp1617@mnit.ac.in</p>
+                                </div>
+                            </div>
+							</div>
+							</div>
+>>>>>>> 94e021fd9cfbe1474142e7e6397bf0b20882ed13
 
 
 						   </div>
@@ -457,11 +511,61 @@ position: absolute;
                             </div>
 							</div>
 							</div>
+<<<<<<< HEAD
 
 
 
 
 
+=======
+							<div class="col-lg-6 col-md-12 col-sm-12">
+							<div class="teamdeatilbox">
+                           	<div class="row">
+                            	<div class="col-sm-5">
+                           			<img src="images/team-member/shubham.jpg" class="img-fluid" draggable="false">
+                           		</div>
+                                <div class="col-sm-7">
+                                	<h3>Shubham Verma</h3>
+									<p><i class="fa fa-briefcase" aria-hidden="true"></i> <span>Publicity Secretary</span></p>
+                                    <p><i class="fa fa-phone" aria-hidden="true"></i> +91-8290271273</p>
+									<p><i class="fa fa-envelope" aria-hidden="true"></i> 2016uec1073@mnit.ac.in</p>
+                                </div>
+                            </div>
+							</div>
+							</div>
+
+							<div class="col-lg-6 col-md-12 col-sm-12">
+							<div class="teamdeatilbox">
+                           	<div class="row">
+                            	<div class="col-sm-5">
+                           			<img src="images/team-member/shrishti.jpg" class="img-fluid" draggable="false">
+                           		</div>
+                                <div class="col-sm-7">
+                                	<h3>Shrishti Singh</h3>
+									<p><i class="fa fa-briefcase" aria-hidden="true"></i> <span>Publicity Secretary</span></p>
+                                    <p><i class="fa fa-phone" aria-hidden="true"></i> +91-9571653662</p>
+									<p><i class="fa fa-envelope" aria-hidden="true"></i> 2016uec1102@mnit.ac.in</p>
+                                </div>
+                            </div>
+							</div>
+							</div>
+
+							<div class="col-lg-6 col-md-12 col-sm-12">
+							<div class="teamdeatilbox">
+                           	<div class="row">
+                            	<div class="col-sm-5">
+                           			<img src="images/team-member/akash.jpg" class="img-fluid" draggable="false">
+                           		</div>
+                                <div class="col-sm-7">
+                                	<h3>Akash Gupta</h3>
+									<p><i class="fa fa-briefcase" aria-hidden="true"></i> <span>Publicity Secretary</span></p>
+                                    <p><i class="fa fa-phone" aria-hidden="true"></i> +91-9887481650</p>
+									<p><i class="fa fa-envelope" aria-hidden="true"></i> 2016ume1588@mnit.ac.in</p>
+                                </div>
+                            </div>
+							</div>
+							</div>
+>>>>>>> 94e021fd9cfbe1474142e7e6397bf0b20882ed13
 
 
 
@@ -506,6 +610,7 @@ position: absolute;
 							</div>
 							</div>
 
+<<<<<<< HEAD
               <div class="col-lg-6 col-md-12 col-sm-12">
              <div class="teamdeatilbox">
                            <div class="row">
@@ -522,6 +627,8 @@ position: absolute;
              </div>
              </div>
 
+=======
+>>>>>>> 94e021fd9cfbe1474142e7e6397bf0b20882ed13
 
 						   </div>
 						   </div>
@@ -606,8 +713,57 @@ position: absolute;
                            <div class="container">
 						   <div class="row">
 
+<<<<<<< HEAD
 
 
+=======
+						   <div class="col-sm-6">
+							<div class="teamdeatilbox">
+                           	<div class="row">
+                            	<div class="col-sm-5">
+                           			<img src="images/team-member/russell.jpg" class="img-fluid" draggable="false">
+                           		</div>
+                                <div class="col-sm-7">
+                                	<h3>Russell Moopen</h3>
+									<p><i class="fa fa-briefcase" aria-hidden="true"></i> <span>Design Secretary</span></p>
+                                    <p><i class="fa fa-phone" aria-hidden="true"></i> +91-9521426615</p>
+									<p><i class="fa fa-envelope" aria-hidden="true"></i> 2016uec1031@mnit.ac.in</p>
+                                </div>
+                            </div>
+							</div>
+							</div>
+                           <div class="col-sm-6">
+							<div class="teamdeatilbox">
+                           	<div class="row">
+                            	<div class="col-sm-5">
+                           			<img src="images/team-member/dheivameena.jpg" class="img-fluid" draggable="false">
+                           		</div>
+                                <div class="col-sm-7">
+                                	<h3>Dheivameena Karuppanchetty</h3>
+									<p><i class="fa fa-briefcase" aria-hidden="true"></i> <span>Design Secretary</span></p>
+                                    <p><i class="fa fa-phone" aria-hidden="true"></i> +91-7665952084</p>
+									<p><i class="fa fa-envelope" aria-hidden="true"></i> 2016uec1024@mnit.ac.in</p>
+                                </div>
+                            </div>
+							</div>
+							</div>
+
+							<div class="col-sm-6">
+							<div class="teamdeatilbox">
+                           	<div class="row">
+                            	<div class="col-sm-5">
+                           			<img src="images/team-member/sambhav.jpeg" class="img-fluid" draggable="false">
+                           		</div>
+                                <div class="col-sm-7">
+                                	<h3>Sambhav Jain</h3>
+									<p><i class="fa fa-briefcase" aria-hidden="true"></i> <span>Design Secretary</span></p>
+                                    <p><i class="fa fa-phone" aria-hidden="true"></i> +91-8850074900</p>
+									<p><i class="fa fa-envelope" aria-hidden="true"></i> 2016uar1429@mnit.ac.in</p>
+                                </div>
+                            </div>
+							</div>
+							</div>
+>>>>>>> 94e021fd9cfbe1474142e7e6397bf0b20882ed13
 
 						   </div>
 						   </div>
@@ -653,7 +809,44 @@ position: absolute;
 							<div class="teamdeatilbox">
                            	<div class="row">
                             	<div class="col-sm-5">
+<<<<<<< HEAD
                            			<img src="images/team19/Kshitiz.jpeg" class="img-fluid" draggable="false">
+=======
+                           			<img src="images/team-member/ambesh.jpeg" class="img-fluid" draggable="false">
+                           		</div>
+                                <div class="col-sm-7">
+                                	<h3>Ambesh Gupta</h3>
+									<p><i class="fa fa-briefcase" aria-hidden="true"></i> <span>Logistic Secretary</span></p>
+                                    <p><i class="fa fa-phone" aria-hidden="true"></i> +91-8562862325</p>
+									<p><i class="fa fa-envelope" aria-hidden="true"></i> 2016umt1357@mnit.ac.in</p>
+                                </div>
+                            </div>
+							</div>
+							</div>
+
+							<div class="col-sm-6">
+							<div class="teamdeatilbox">
+                           	<div class="row">
+                            	<div class="col-sm-5">
+                           			<img src="images/team-member/utsav.jpg" class="img-fluid" draggable="false">
+                           		</div>
+                                <div class="col-sm-7">
+                                	<h3>Utsav Chouhan</h3>
+									<p><i class="fa fa-briefcase" aria-hidden="true"></i> <span>Logistic Secretary</span></p>
+                                    <p><i class="fa fa-phone" aria-hidden="true"></i> +91-8104590018</p>
+									<p><i class="fa fa-envelope" aria-hidden="true"></i> 2016uec1092@mnit.ac.in</p>
+                                </div>
+                            </div>
+							</div>
+							</div>
+
+
+							<div class="col-sm-6">
+							<div class="teamdeatilbox">
+                           	<div class="row">
+                            	<div class="col-sm-5">
+                           			<img src="images/team-member/aman.jpg" class="img-fluid" draggable="false">
+>>>>>>> 94e021fd9cfbe1474142e7e6397bf0b20882ed13
                            		</div>
                                 <div class="col-sm-7">
                                 	<h3>Kshitiz Kain</h3>
@@ -666,11 +859,14 @@ position: absolute;
 							</div>
 
 
+<<<<<<< HEAD
 
 
 
 
 
+=======
+>>>>>>> 94e021fd9cfbe1474142e7e6397bf0b20882ed13
 						   </div>
 						   </div>
                         </div>
@@ -808,6 +1004,7 @@ position: absolute;
 						 <div class="teampoppwrp">
                            <div class="container">
 						   <div class="row">
+<<<<<<< HEAD
                  <div class="col-lg-6 col-md-12 col-sm-12">
                  <div class="teamdeatilbox">
                                	<div class="row">
@@ -840,6 +1037,24 @@ position: absolute;
                                </div>
    							</div>
    							</div>
+=======
+
+						   <div class="col-lg-6 col-md-12 col-sm-12">
+							<div class="teamdeatilbox">
+                           	<div class="row">
+                            	<div class="col-sm-5">
+                           			<img src="images/team-member/abhishek.jpg" class="img-fluid" draggable="false">
+                           		</div>
+                                <div class="col-sm-7">
+                                	<h3>Abhishek Bharti</h3>
+									<p><i class="fa fa-briefcase" aria-hidden="true"></i> <span>Web-Developer</span></p>
+                                    <p><i class="fa fa-phone" aria-hidden="true"></i> +91-8477818581</p>
+									<p><i class="fa fa-envelope" aria-hidden="true"></i> 2016uec1081@mnit.ac.in</p>
+                                </div>
+                            </div>
+							</div>
+							</div>
+>>>>>>> 94e021fd9cfbe1474142e7e6397bf0b20882ed13
 
 
 						   </div>
@@ -884,7 +1099,27 @@ position: absolute;
 							<div class="teamdeatilbox">
                            	<div class="row">
                             	<div class="col-sm-5">
+<<<<<<< HEAD
                            			<img src="images/team19/Prasanna.jpg" class="img-fluid" draggable="false">
+=======
+                           			<img src="images/team-member/leena.png" class="img-fluid" draggable="false">
+                           		</div>
+                                <div class="col-sm-7">
+                                	<h3>Leenashree Chaudhary</h3>
+									<p><i class="fa fa-briefcase" aria-hidden="true"></i> <span>Mass and Media Secretary</span></p>
+                                    <p><i class="fa fa-phone" aria-hidden="true"></i> +91-8239042033</p>
+									<p><i class="fa fa-envelope" aria-hidden="true"></i> 2016uec1013@mnit.ac.in</p>
+                                </div>
+                            </div>
+							</div>
+							</div>
+
+							<div class="col-sm-6">
+							<div class="teamdeatilbox">
+                           	<div class="row">
+                            	<div class="col-sm-5">
+                           			<img src="images/team-member/akshita.jpeg" class="img-fluid" draggable="false">
+>>>>>>> 94e021fd9cfbe1474142e7e6397bf0b20882ed13
                            		</div>
                                 <div class="col-sm-7">
                                 	<h3>Prasanna Venkatesh V</h3>
@@ -900,8 +1135,11 @@ position: absolute;
 
 
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 94e021fd9cfbe1474142e7e6397bf0b20882ed13
 						   </div>
 						   </div>
                         </div>

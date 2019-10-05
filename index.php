@@ -769,15 +769,15 @@ escapade to explore the best of tech !
                     </div>
                     <div class="evePara">
 
-					<p>SPHINX 2.0 presents to you the 2nd edition of TECHTALK, A course of events that
+					<p>SPHINX'19 presents to you the 3 <sup>rd</sup> edition of TECHTALK, A course of events that
 showcase some of the most prominent personas across India belonging to a range
 of diverse field. Connecting these minds to the young and dynamic audience present
 at the fest, the series has been continuously striving to provide an opportunity to live
 one’s dream of interacting with the best of every discipline.
 With a lineup of some of best orators, dignified personalities in the field of
-technology, SPHINX 2.0 provides you once in a lifetime opportunity to savour their
+technology, SPHINX'19 provides you once in a lifetime opportunity to savour their
 rich experience and profound knowledge.
-So gear up and do not miss one of the most awaited events of SPHINX 2.0.</p>
+So gear up and do not miss one of the most awaited events of SPHINX'19.</p>
 
 
                     </div>
@@ -882,13 +882,13 @@ Shreya Jain : 9783080753 (Cultural) </span>
 					   text-decoration:none;
 				   }
 				   </style>
-				   <div class="contact_circle_1">
+				   <!-- <div class="contact_circle_1">
 				   <a href="contact.php">
                     <div class="contact_circle" style="">
                     	Now
                     </div>
                      </a>
-                    </div>
+                    </div> -->
 					 </div>
 
 

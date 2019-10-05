@@ -29,7 +29,7 @@ if(isset($_REQUEST['event']))
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<title>Sphinx 2.0 | Sign In, Shine Out</title>
+<title>Sphinx'19</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <link rel="icon" type="image/png" href="images/favicon.png">
 <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
@@ -42,22 +42,22 @@ if(isset($_REQUEST['event']))
 <link href="css/responsive.css" rel="stylesheet" type="text/css">
 </head>
 <body style="overflow:hidden;">
-<script type="text/javascript" src="js/timestamp.js?v=1506980387.0" charset="utf-8"></script> 
-<script type="text/javascript" src="js/graph-calc.js?v=1506980387.0" charset="utf-8"></script> 
-<script type="text/javascript" src="js/auto-complete.js?v=1506980387.0" charset="utf-8"></script> 
-<script type="text/javascript" src="js/toolbar.js?v=1506980387.0" charset="utf-8"></script> 
-<script type="text/javascript" src="js/popper.js" charset="utf-8"></script> 
-<script type="text/javascript" src="js/bootstrap.js" charset="utf-8"></script> 
-<!--<script> 
+<script type="text/javascript" src="js/timestamp.js?v=1506980387.0" charset="utf-8"></script>
+<script type="text/javascript" src="js/graph-calc.js?v=1506980387.0" charset="utf-8"></script>
+<script type="text/javascript" src="js/auto-complete.js?v=1506980387.0" charset="utf-8"></script>
+<script type="text/javascript" src="js/toolbar.js?v=1506980387.0" charset="utf-8"></script>
+<script type="text/javascript" src="js/popper.js" charset="utf-8"></script>
+<script type="text/javascript" src="js/bootstrap.js" charset="utf-8"></script>
+<!--<script>
 
 	$(function(){
 		$('.regist-popshow').click(function(){
 			$('.modalevent').modal('hide');
-		 
+
 			$('#eventregister2').modal('show');
-			 
+
 			$('#loginbox').modal('show');
-			 
+
 		});
 	});
 </script> -->
@@ -69,23 +69,23 @@ if(isset($_REQUEST['event']))
 ?>
 <script>
 $(function(){
-	$('.teamC').change(function(){	
+	$('.teamC').change(function(){
 		$('.teamember_detial').empty();
-		var selVal = $(this).val();	
+		var selVal = $(this).val();
 		for (i = 0; i < selVal; i++) {
 			$('.teamember_detial').append('<div class="row"> <div class="col-sm-4"> <div class="form-group"> <label for="recipient-name" class="form-control-label">Registration Id</label> </div> </div> <div class="col-sm-8"> <div class="form-group"> <input type="text" class="form-control" id="recipient-name" placeholder="Enter registration id" required name="regid[]"> </div> </div> </div> <div class="row"> <div class="col-sm-4"> <div class="form-group"> <label for="recipient-name" class="form-control-label">Email Id</label> </div> </div> <div class="col-sm-8"> <div class="form-group"> <input type="email" class="form-control" id="recipient-name" placeholder="Enter email address" required name="emailid[]"> </div> </div> </div> <div class="row"> <div class="col-sm-4"> <div class="form-group"> <label for="recipient-name" class="form-control-label">Password</label> </div> </div> <div class="col-sm-8"> <div class="form-group"> <input type="Password" name="password[]" class="form-control" id="recipient-name" placeholder="Enter your password"  required> </div> </div> </div><div class="breaklinke"></div>')
 		}
 	})
 })
-</script> 
+</script>
 
-<!-- END WAYBACK TOOLBAR INSERT --> 
+<!-- END WAYBACK TOOLBAR INSERT -->
 
 <script>
 $(window).bind("load", function() {
 	//alert('hello');
   	$('#overlay').css({'left':'110%', 'transition':'all 1s ease-in-out'}, 2000);
-		 
+
 });
 </script>
 <div id="overlay" style="width:100%;">
@@ -208,25 +208,25 @@ $(window).bind("load", function() {
 <li>The teams are not allowed to tamper with the opponent’s robot or hinder at their time of the competition.</li>
 </ul>
 		  </div>
-		  
+
 		   <div class="evencon_box">
             <h3>Bot Specifications:</h3>
           </div>
- 
+
 <div class="evencon_box">
 
             <h3>Bot Dimensions</h3>
       <ul class="checboxlist">
-				<li>The machine should fit in a box of dimension 350mm x 350mm x 500 mm 
+				<li>The machine should fit in a box of dimension 350mm x 350mm x 500 mm
 (l x b x h) at any given point during the match. The external device used to control the machine or any external tank is not included in the size constraint.
 </li>
 				<li>The machine should not exceed 45 kilograms of weight excluding the weight of pneumatic/hydraulic source/tank and batteries, if any. Weight of remote controller will not be counted.
 </li>
 				<li>Jumping and hopping is not allowed.</li>
-				<li>Flying (using airfoil, helium balloons, ornithopters, etc.) is not allowed.</li> 
+				<li>Flying (using airfoil, helium balloons, ornithopters, etc.) is not allowed.</li>
 				</ul>
-	</div>	
-	
+	</div>
+
 		<div class="evencon_box">
             <h3>Bot Control Specifications</h3>
 			    <ul class="checboxlist">
@@ -237,8 +237,8 @@ $(window).bind("load", function() {
 <li>Team should pair up the wireless remote with the machine before putting it into the arena.</li>
 
 				</ul>
-		</div>	
-		
+		</div>
+
 		<div class="evencon_box">
             <h3>Battery Specifications</h3>
 		<ul class="checboxlist">
@@ -252,7 +252,7 @@ $(window).bind("load", function() {
 
 		</ul>
 		</div>
-<div class="evencon_box">		
+<div class="evencon_box">
 	  <h3>Weapons</h3>
 	Robots can have any kind of magnetic weapons, cutters, flippers, saws, lifting devices, spinning hammers etc. as weapons with following exceptions and limitations:
 	  <ul class="checboxlist">
@@ -260,10 +260,10 @@ $(window).bind("load", function() {
 <li>Any kind of inflammable liquid.</li>
 <li>Flame-based weapons.</li>
 
-		
+
 	  </ul>
  </div>
-       
+
 		<div class="evencon_box">
             <h3>Arena Specifications</h3>
 			  <ul class="checboxlist">
@@ -275,7 +275,7 @@ $(window).bind("load", function() {
 <li>The arena might be plane ground.</li>
 </ul>
 		</div>
-		
+
 		<div class="evencon_box">
             <h3>Scoring</h3>
 			  <ul class="checboxlist">
@@ -287,7 +287,7 @@ $(window).bind("load", function() {
 
 </ul>
 		</div>
-		
+
 			<div class="evencon_box">
             <h3>Arena</h3>
 			  <center>
@@ -296,8 +296,8 @@ $(window).bind("load", function() {
 			<a href="images/battlebots_arena.jpg" target="_blank"><span style="color:#000;">Click here for full size image</span></a>
 	  </center>
 		</div>
-		
-		
+
+
 		<div class="evencon_box">
             <h3>Certification</h3>
 			<ul class="checboxlist">
@@ -305,8 +305,8 @@ $(window).bind("load", function() {
 <li>The participation certificate will be awarded to all the participants.</li>
 </ul>
 		</div>
-		
-		
+
+
 		  <div class="evencon_box">
             <h3>Contact Us:</h3>
             <p>For any queries:</p>
@@ -331,7 +331,7 @@ $(window).bind("load", function() {
           <?php
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
-			?> 
+			?>
             <a href="robotics?event=battlebots"  class="btn btn-input regist-popshow">Register Now</a>
          <?php } else
 		 { ?>
@@ -341,8 +341,8 @@ $(window).bind("load", function() {
 		</div>
           </div>
         </div></div>
-		
-		
+
+
 		<div class="modal fade roborush  modalevent" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
@@ -355,13 +355,13 @@ $(window).bind("load", function() {
          <div class="evencon_box">
             <h3>Overview</h3>
 			Robotics as a whole is a competition where people can showcase their technical skills. Robo-Rush is a competition where a couple of robots compete with each other in their speed and accurate control.</div>
-      
+
 	   <div class="evencon_box">
             <h3>Problem Statement</h3>
 			Teams have to build a wired or wireless Robot that can drag/push/pick the white boxes out of the black circle while traversing the arena full of obstacles and without touching any bomb.
 		</div>
-      
-		  
+
+
 		  <div class="evencon_box">
             <h3>Arena</h3>
 			  <ul class="checboxlist">
@@ -375,10 +375,10 @@ $(window).bind("load", function() {
 			<br>
 			<a href="images/roborush_arena.jpg" target="_blank"><span style="color:#000;">Click here for full size image</span></a>
 	  </center>
-	  
+
 </ul>
 		  </div>
-		  
+
 		   <div class="evencon_box">
             <h3>Bot Specifications</h3>
 			<ul class="checboxlist">
@@ -389,7 +389,7 @@ $(window).bind("load", function() {
 <li>The robot design cannot use or involve any sort of combustible/harmful/dangerous parts in it.</li>
 </ul>
           </div>
- 
+
 <div class="evencon_box">
 
             <h3>Game Rules</h3>
@@ -402,9 +402,9 @@ $(window).bind("load", function() {
 <li>In case a team wants to skip a zone a penalty of 200 points will be added to their score.</li>
 
 </ul>
-	</div>	
+	</div>
 
-	
+
 		<div class="evencon_box">
             <h3>General Rules</h3>
 			    <ul class="checboxlist">
@@ -417,8 +417,8 @@ $(window).bind("load", function() {
 <li>Register your team at www.sphinxmnit.org</li>
 
 				</ul>
-		</div>	
-		
+		</div>
+
 		<div class="evencon_box">
             <h3>Scoring</h3>
 		<ul class="checboxlist">
@@ -432,26 +432,26 @@ $(window).bind("load", function() {
 
 		</ul>
 		</div>
-<div class="evencon_box">	
+<div class="evencon_box">
 	  <h3>Team Specifications</h3>
 	A team may consist of a maximum of 4 participants. Students from different institutes can form a team.
  </div>
- 
- <div class="evencon_box">	
+
+ <div class="evencon_box">
 	  <h3>Eligibility</h3>
 	All students with a valid identity card of their respective educational institutes are eligible to participate.
  </div>
- 
- <div class="evencon_box">	
+
+ <div class="evencon_box">
 	  <h3>Certification</h3>
 	  <ul class="checboxlist">
 <li>The top three teams would be awarded with certificates as per their winning position.</li>
 <li>The participation certificate will be awarded to all the participants.</li>
 </ul>
  </div>
- 
- 
-  
+
+
+
 		  <div class="evencon_box">
             <h3>Contact Us:</h3>
             <p>For any queries:</p>
@@ -471,13 +471,13 @@ $(window).bind("load", function() {
             </div>
           </div>
         </div>
-		
+
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
           <?php
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
-			?> 
+			?>
             <a href="robotics?event=roborush"  class="btn btn-input regist-popshow">Register Now</a>
          <?php } else
 		 { ?>
@@ -501,21 +501,21 @@ $(window).bind("load", function() {
         <div class="eventdetail_wpr">
          <div class="evencon_box">
             <h3>Overview</h3>
-		Sphinx 2.0 is organizing ‘RoboTryst’, one of the trickiest robotics competition. Let’s try to solve problem by building an autonomous robot which will crack the given arena in given constraints. 
+		Sphinx 2.0 is organizing ‘RoboTryst’, one of the trickiest robotics competition. Let’s try to solve problem by building an autonomous robot which will crack the given arena in given constraints.
 </div>
 
 	   <div class="evencon_box">
             <h3>Problem Statement</h3>
 			Teams have to build an autonomous robot which can follow black lines and keep track of directions while going through the maze. The bot has to analyze the path in the dry run and has to go through the maze from the starting point to the ending point in shortest path in actual run.
 			</div>
-      
-		  
+
+
 		  <div class="evencon_box">
             <h3>Arena</h3>
 			The game field consists of grid dimension as 330 cm x 150cm (lxb) and whole arena is 15 ft. x 15ft (lxb). It consists of the following:
 
 			  <ul class="checboxlist">
-<li>The arena is composed of grids made by black strips and has a white background.</li> 
+<li>The arena is composed of grids made by black strips and has a white background.</li>
 <li>Angle between two adjacent black lines in the path is 90 degree. </li>
 <li>The width of all black strips will be 2.5cm.</li>
 <li>The whole arena is divided into two parts:- </li>
@@ -528,11 +528,11 @@ There would be a (25cmx 25cm) black square at the end of the grid which would si
 
 </ul>
 		  </div>
-		  
-		  
+
+
 		   <div class="evencon_box">
             <h3>Game Play</h3>
-			The game play consists of two parts:- 
+			The game play consists of two parts:-
 			<ul class="checboxlist">
 <li>1. The first part is the “Dry Run”.</li>
 <ul class="checboxlist">
@@ -543,16 +543,16 @@ There would be a (25cmx 25cm) black square at the end of the grid which would si
 
 <li>2. The second part is the “Actual Run”
 <ul class="checboxlist">
-<li>In this run, the bot has to restart from the ‘Start’ again and finds its way to the ‘End’ through the best possible path by following the path that was stored in the first run. 
+<li>In this run, the bot has to restart from the ‘Start’ again and finds its way to the ‘End’ through the best possible path by following the path that was stored in the first run.
 <li>The timer will be set to zero as the “Actual Run” begins.
 </ul>
 <li>3. A total of 4 minutes will be provided to complete the dry run.
-<li>4. A total of 3 minutes and 30 seconds  will be provided to complete the actual run. 
+<li>4. A total of 3 minutes and 30 seconds  will be provided to complete the actual run.
 <li>5. There are 5 checkpoints.
 <li>6. If the bot takes more than 4 minutes for completing the dry run, then the extra time taken will be deducted from the timing of the actual run which is 3 minutes and 30 seconds.
 </ul>
           </div>
- 
+
 <div class="evencon_box">
 
             <h3>Hurdles</h3>
@@ -565,10 +565,10 @@ There would be a (25cmx 25cm) black square at the end of the grid which would si
 <li>There would be a penalty if the bot touches the hurdle however the bot would not be stopped if it touches the hurdle.</li>
 
 </ul>
-	</div>	
-	
+	</div>
 
-	
+
+
 		<div class="evencon_box">
             <h3>Bot Specifications</h3>
 			    <ul class="checboxlist">
@@ -582,8 +582,8 @@ There would be a (25cmx 25cm) black square at the end of the grid which would si
 
 
 				</ul>
-		</div>	
-		
+		</div>
+
 		<div class="evencon_box">
             <h3>Game Rules</h3>
 		<ul class="checboxlist">
@@ -593,12 +593,12 @@ There would be a (25cmx 25cm) black square at the end of the grid which would si
 <li>When the autonomous bot starts, no team member is allowed to touch the bot or enter the arena.</li>
 <li>There will be one trial available for the calibration of sensor and for checking the proper working of bot.</li>
 <li>Only one team member is allowed to be near the game field while starting the bot.</li>
-<li>When the bot start, no team member is allowed to touch the bot or enter the arena.</li> 
+<li>When the bot start, no team member is allowed to touch the bot or enter the arena.</li>
 <li>Run will start only when organizers give the signal.</li>
 <li>A total of 7 minutes 30 seconds will be given. The bot have to finish the run in that period only.</li>
 		</ul>
 		</div>
-		
+
 		<div class="evencon_box">
             <h3>General Rules</h3>
 		<ul class="checboxlist">
@@ -612,11 +612,11 @@ There would be a (25cmx 25cm) black square at the end of the grid which would si
 
 		</ul>
 		</div>
-		
+
 		<div class="evencon_box">
             <h3>Judging</h3>
 		<ul class="checboxlist">
-<li>25 points will be awarded as it crosses any of the checkpoints but it will be    counted only once for each checkpoint.</li> 
+<li>25 points will be awarded as it crosses any of the checkpoints but it will be    counted only once for each checkpoint.</li>
 <li>30 points will be provided if the bot successfully completes the Dry Run.</li>
 <li>30 points will be awarded if bot goes through the Shortest Path in Actual Run.</li>
 <li>10 points will be awarded for passing a vertical column in the second part i.e. the grid.</li>
@@ -625,7 +625,7 @@ There would be a (25cmx 25cm) black square at the end of the grid which would si
 
 		</ul>
 		</div>
-		
+
 		<div class="evencon_box">
             <h3>Penalties</h3>
 		<ul class="checboxlist">
@@ -637,8 +637,8 @@ There would be a (25cmx 25cm) black square at the end of the grid which would si
 
 		</ul>
 		</div>
-		
-		
+
+
 		<div class="evencon_box">
             <h3>Scoring</h3>
 		<ul class="checboxlist">
@@ -657,19 +657,19 @@ There would be a (25cmx 25cm) black square at the end of the grid which would si
 
 		</ul>
 		</div>
-		
-		
-<div class="evencon_box">	
+
+
+<div class="evencon_box">
 	  <h3>Team Specifications</h3>
 	A team may consist of a maximum of 4 participants. Students from different institutes can form a team.
  </div>
- 
- <div class="evencon_box">	
+
+ <div class="evencon_box">
 	  <h3>Eligibility</h3>
 	All students with a valid identity card of their respective educational institutes are eligible to participate.
  </div>
- 
- <div class="evencon_box">	
+
+ <div class="evencon_box">
 	  <h3>Certification</h3>
 	  <ul class="checboxlist">
 <li>The top three teams would be awarded with certificates as per their wining position.</li>
@@ -678,19 +678,19 @@ There would be a (25cmx 25cm) black square at the end of the grid which would si
 
 </ul>
  </div>
- 
-  <div class="evencon_box">	
+
+  <div class="evencon_box">
 	  <h3>Arena</h3>
 	   <center>
 			<img src="images/robotryst_arena.jpg" style="width:50%;">
 			<br>
 			<a href="images/robotryst_arena.jpg" target="_blank"><span style="color:#000;">Click here for full size image</span></a>
 	  </center>
-	 
+
  </div>
- 
- 
-  
+
+
+
 		  <div class="evencon_box">
             <h3>Contact Us:</h3>
             <p>For any queries:</p>
@@ -710,13 +710,13 @@ There would be a (25cmx 25cm) black square at the end of the grid which would si
             </div>
           </div>
         </div>
-		
+
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
           <?php
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
-			?> 
+			?>
             <a href="robotics?event=robotryst"  class="btn btn-input regist-popshow">Register Now</a>
          <?php } else
 		 { ?>
@@ -741,10 +741,10 @@ There would be a (25cmx 25cm) black square at the end of the grid which would si
 <style>
 .content_p{
 	margin-top:10px;
-	
+
 }
 .card_box{
-	
+
 	border:2px solid #fff; padding:10px; color:#2A5D88; border-radius :22px; background-color:#fff; width:200px;  margin-top:-25px; font-size:20px; font-weight:bold;
 }
 .modal-title {
@@ -783,10 +783,10 @@ position:absolute; width:17%; top:150px; left:42%;
           <div class="container">
             <div class="row">
                <img src="" class="team-icon">
-  
-			  
-			
-              
+
+
+
+
                 			   <div class="col-md-12 col-sm-12">
                 <div class="eventbox_wrp">
                    <div class="evnt_cont_box">
@@ -795,13 +795,13 @@ position:absolute; width:17%; top:150px; left:42%;
                       <br>
                      <img src="images/manyagroup.png" style="width:300px;height:165px;">
 
-                      
+
                   </div>
                   </div>
                 </div>
               </div
-			  
-				  
+
+
 			   <div class="col-md-12 col-sm-12">
                 <div class="eventbox_wrp">
                    <div class="evnt_cont_box">
@@ -813,121 +813,121 @@ position:absolute; width:17%; top:150px; left:42%;
                        <div class="col-sm-6">
                         <img src="images/patrika.jpg" style="width:100px;height:60px;">
 
-                           
+
                        </div>
                        <div class="col-sm-6">
                                                 <img src="images/myfm.jpg" style="width:100px;height:60px;">
 
                        </div>
-                    
+
                    </div>
-                   
+
                   <br>
                    <div class="row">
                        <div class="col-sm-6">
                         <img src="images/india.jpg" style="width:100px;height:60px;">
 
-                           
+
                        </div>
                        <div class="col-sm-6">
                                                 <img src="images/dainik.jpeg" style="width:100px;height:60px;">
 
                        </div>
-                    
+
                    </div>
-				
+
                   </div>
                 </div>
               </div>
-              
+
   			   <div class="col-md-12 col-sm-12">
                 <div class="eventbox_wrp">
                    <div class="evnt_cont_box">
                    <center> <div class="card_box">MUSIC PARTNER</div></center>
-                   
+
                                <br>
-                            
+
                     <div>
                       <br>
                      <img src="images/9xm.jpg" style="width:300px;height:165px;">
 
-                      
+
                   </div>
-				
+
                   </div>
                 </div>
               </div>
-             
-              
-              
+
+
+
   			   <div class="col-md-12 col-sm-12">
                 <div class="eventbox_wrp">
                    <div class="evnt_cont_box">
                    <center> <div class="card_box">BIKE RIDE PARTNER</div></center>
-                   
+
                    <div>
                       <br>
                      <img src="images/onnbikes.png" style="width:300px;height:165px;">
 
-                      
+
                   </div>
-                   
-                   
-				
+
+
+
                   </div>
                 </div>
               </div>
-			  
+
 			  <div class="col-md-12 col-sm-12">
                 <div class="eventbox_wrp">
                    <div class="evnt_cont_box">
                    <center> <div class="card_box">FOOD PARTNER</div></center>
-				                   
+
                    <div>
                       <br>
                      <img src="images/eggking.jpeg" style="width:300px;height:165px;">
 
-                      
+
                   </div>
-            
+
                   </div>
                 </div>
               </div>
-              
+
               			  <div class="col-md-12 col-sm-12">
                 <div class="eventbox_wrp">
                    <div class="evnt_cont_box">
                    <center> <div class="card_box">WORKSHOP PARTNER</div></center>
-				                   
+
                    <div>
                       <br>
                      <img src="images/workshop-sponser.jpg" style="width:300px;height:165px;">
 
-                      
+
                   </div>
-            
+
                   </div>
                 </div>
               </div>
-              
+
                             			  <div class="col-md-12 col-sm-12">
                 <div class="eventbox_wrp">
                    <div class="evnt_cont_box">
                    <center> <div class="card_box">TECHNOLOGY PARTNER</div></center>
-				                   
+
                    <div>
                       <br>
                      <img src="images/proxo.png" style="width:300px;height:165px;">
 
-                      
+
                   </div>
-            
+
                   </div>
                 </div>
               </div>
-			  
-			 
-            
+
+
+
             </div>
           </div>
         </div>
