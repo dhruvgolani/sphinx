@@ -13,7 +13,7 @@ $db= new Database();
 
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<title>Sphinx'19</title>
+<title>Sphinx 2.0 | Sign In, Shine Out</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <link rel="icon" type="image/png" href="images/favicon.png">
 <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
