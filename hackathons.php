@@ -351,7 +351,7 @@ freedom to use varied and desired technology stacks but no freedom of plagiarism
 
 
                               <div class="evencon_box">
-            <h3>Prizes worth : 20000/-</h3>
+            <h3>Prizes worth : TBA</h3>
         </div>
 
 
