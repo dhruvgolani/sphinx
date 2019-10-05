@@ -180,52 +180,92 @@ $(window).bind("load", function() {
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">HACK-E-DESIGN</h5>
+        <h5 class="modal-title" id="exampleModalLabel">HACK-24</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
       </div>
       <div class="modal-body">
         <div class="eventdetail_wpr">
          <div class="evencon_box">
             <h3>Overview</h3>
-            The Internet of Things (IoT) is a computing concept that describes the idea of
-everyday physical objects being connected to the internet and being able to
-identify themselves to other devices. Increasingly, organizations in a variety of
-industries are using IoT to operate more efficiently, better understand customers
-to deliver enhanced customer service, improve decision-making and increase the
-value of the business. The IoT allows objects to be sensed or controlled remotely
-across existing network infrastructure, creating opportunities for more direct
-integration of physical world into computer-based systems.
-Thus, it's a challenge in the field of Internet of Things to propose an idea or
-solution to a problem that is existing in the society. The Main idea is to
-collaborate and explore the possibilities of IoT to solve a problem in a smart and
-efficient manner.
+						Linguistically, "Hackathon" happens to be a portmanteau of the words "hack" and "marathon",
+						where "hack" is used in the sense of exploratory programming, but not its alternate meaning
+						as a reference to computer security.
+
+						Knitting the same spirit of an ideal Hackathon, Sphinx proudly presents its annual Hackathon,
+						HACK-24. A fervent event with a mixed concoction of innovation, technology, teamwork and a
+						marvelous profusion of computer "codes" flowing in torrents. HACK-24 Hackathon is an idyllic
+						platform where you can showcase your ideas and technical skills at a scale never imagined before.
+						Whether it be meeting like-minded throng of individuals or exercising draining mental calisthenics
+						during the coding hours, you'll just have an experience of a lifetime. So, Join us for this fun-packed event
+						and witness yourself grow amid a diverse pool of tech enthusiasts and participants.
+</div>
+<div class="evencon_box">
+				<h3>ITINERARY:</h3>
+			<ul class="checboxlist">
+		<li>All the participants would gather in one of the classrooms at VLTC for the inauguration session. </li>
+		<li>The event kicks off with a short presentation from the co-ordinators highlighting the main objectives of
+		the event. The presentation would also include highlighting the mission of the Technical Society (SPHINX).</li>
+		<li>As a welcoming gesture, we would conduct a short technical quiz with the aim of incorporating all the participants
+		across all the teams. This would be accompanied by a short interactive session with the participants so as to make them
+	confortable with the environment.</li>
+	<li>After this refreshing session, the participants would proceed to the guided Computer Center room for the main event.</li>
+	<li>Further guidance and instruction will be given in the respective labs.</li>
+
+<br>
+<br>
+	<b> <u>NOTE: </u> </b><i>Participants are expected to bring in their own stationery items for rough design implementation and also
+	their required multi-plugs, powerbank, chargers, etc. Amenities such as multiplugs and chargers won't be provided by the organizers.</i>
+
+		</ul>
 </div>
 <div class="evencon_box">
             <h3>FORMAT:</h3>
-            Number of round : 1
+            Number of round(s) : 1 (24 hours)
+
       <ul class="checboxlist">
-				<li><b>TEAM EVENT :</b> Maximum 1 to 2 members.
-</li>
-				<li> <b>MAIN ROUND :</b> Problem statement will be uploaded on the site on 15th September 2018.
-(Or sent to registered mail ID).
-You need to design an innovative IOT Solution and PPT (presentation of
-your idea) 15 to 20 minutes maximum. PPT must include the working
-implementation in detail, and the explanation of the solution that you have
-submitted.
-</li>
-				<li><b>REGISTRATION AND TEAM FORMATION : </b>You will have to register individually. <br>
-• In case if you are forming a team then you have to mention the
-Registration id of all members while sending your submission over email.
-You can form a team with maximum 2 members. While forming teams
-choose a Team id and all the members should add that Team Id.</li>
+				<br>
+				<b>TEAM EVENT :</b> Maximum 2 to 4 members. <br>
+				 <b>MAIN ROUND :</b>
+				Problem statement will be uploaded onsite.<br> Each team has to select one problem statement and work on it.
+				Problem statements can be one of the trending categories like Education, Games, Health, Social Networking, Media, etc.<br>
+				Each team has to develop a Web or App, according to their convenience, which should solve the problem statement
+				selected by the team.<br>
+				Teams can avail from any of the technology stacks commonly being used in the market ranging from Node.js to Ruby on Rails.
+				However, at the end of the competition, participants are expected to have a fully funtioning App or Website.
+				<br>
+				<br>
+				<b> <i>NOTE: </i>The team faces immediate disqualification should they indulge in any kind of plagiarism or any of the "code copying" fraudulent practices. </b>
+				<br>
+				<br>
+
+				<i>Expectations from the Teams:</i>
+				<ul>
+					<li>PPT (presentation of your product) for 10-15 minutes maximum.</li>
+					<li>PPT should include all the necessary details about your website like key features of your website or app, tech talk,
+					Scalability of your product, future scope, target audience, revenue, SWOT analysis, etc.</li>
+					<li>Source Code (Application webpage with source code / README.txt (running instruction) / synopsis / report). We expect a fully "up and running" application
+					for the evaluation.</li>
+					<li>If applicable, Demo URL.</li>
+					<li>Screenshots of design (wherever applicable).</li>
+				</ul>
+
+<br>
+				<b>REGISTRATION AND TEAM FORMATION : </b>
+					 <br>
+					 <ul>
+					 	<li>You can form a team with minimum of 2 and a maximum of 4 members.</li>
+						<li>All the members of the team should have their SPHINX Id.</li>
+						<li>Only the team leader has to register on the website and should mention the SPHINX Id of his/her teammates during the registration.</li>
+						<li>Every team will get unique team ID which they have to show onsite for participation.</li>
+					 </ul>
 				</ul>
 	</div>
-
 		<div class="evencon_box">
             <h3>TIME DURATION:</h3>
 			    <ul class="checboxlist">
-				<li>Time Duration: 4 HOURS. Each Team will be given 15 – 20 minutes.</li>
-				<li>All the participants should be present on the evaluation day.</li>
+				<li>Time Duration: 24 HOURS. </li>
+				<li>Each Team will be given 18-20 hours for the development of their product. This includes time spent during lunch break, dinner break, and other refreshment activities.</li>
+				<li>The judgement round will be of 4 hours. Each Team will be given 10-15 minutes for their presentation.</li>
 
 				</ul>
 		</div>
@@ -238,36 +278,76 @@ choose a Team id and all the members should add that Team Id.</li>
 
 		</ul>
 		</div>
+		<div class="evencon_box">
+						<h3>Judging criteria:</h3>
+				<ul class="checboxlist">
+					<li>The Webpage or App developed and submitted should be strictly in accordance with the
+					Problem Statement.</li>
+					<li> <b>The Originality</b> of the idea proposed. </li>
+					<li>Security</li>
+					<li>Understanding of the problem.</li>
+					<li>Functioning of App or Website.</li>
+					<li>Code/Scalability [quality of code, documentation].</li>
+					<li>Design/Wireframe/Blueprints [quality of design].</li>
+</ul>
+In case of any dispute, decision of the organizers or Judges will be final and binding on all.
+		</div>
+
+		<div class="evencon_box">
+            <h3><u>Main Points that will be considered:</u></h3>
+			  <ul class="checboxlist">
+					<ul>
+						<li> <b>Quality of Content: </b>All the entries would be judged on the basis of the relevancy of
+						content, their accuracy, technical correctness, conciseness and originality. </li>
+						<li> <b>Design Quality: </b> All the entries would also be subjected to yardstick of attractive appearance,
+						style consistency, the effectiveness of links used for toggling across the pages of the website, appropriate
+					use of multimedia contents and animation features and <i>responsiveness</i> of the website. </li>
+					<li> <b>Adherence to the theme of the competition: </b> A website developed and submitted should strictly in accordance
+					with the one the aforesaid Arena and in accordance to the Problem Statement. </li>
+					<li> <b>Functional Quality: </b>Compatibility to various Browsers, relevant modules that serve the intended purpose and easy to use and
+					adaptable by the user would be the key functionality measure while judging the entries. </li>
+					</ul>
+</ul>
+		</div>
+
+
 <div class="evencon_box">
 	  <h3>Event Rules:</h3>
 	  <ul class="checboxlist">
-	  <li>Each Team has to bring one working Laptop to present their ppts.</li>
-<li>Team members:- Minimum: 1 and Maximum: 2.</li>
+	  <li>Each Team has to bring working Laptop according to their need.</li>
+<li>Team members:- Minimum: 2 and Maximum: 4.</li>
 <li>The participants should not leave the competition (evaluation of the
 problem) during the competition time Otherwise the team will be
 disqualified.</li>
-<li>The decision of the judges shall be treated as final and binding on all.</li>
-
+<li>Any team attempting to communicate with another team, to tamper with the machiner, or
+disrupt the competition environment in any way will be disqualified. However, socializing with other teammates
+always gives a symbiotic advantage if done righteously.</li>
+<li>Web pages designed for the competition should be original, i.e, design template or contents
+should not be copied from any resources. In case found copied the participants will be disqualified. <b>(Plagiarism will be checked)</b>.</li>
+<li>A template should be designed from scratch only.</li>
+<li>Bring your own laptops with pre-installed tools necessary for competition <b>(Strongly recommended)</b>.</li>
+<li>You can use any of the programming languages, Frameworks, Databases unless the code base is not copied from another source. There is
+freedom to use varied and desired technology stacks but no freedom of plagiarism.</li>
+<li> <b>The decision made by the organizing team will be final.</b> </li>
 
 	  </ul>
  </div>
 
-		<div class="evencon_box">
-            <h3>Judging criteria:</h3>
-			  <ul class="checboxlist">
-<li>Entries will be judged by a panel of experts.</li>
-<li>Following are the broad guidelines for judging :</li>
-<ol>
-    <li>Innovation and creativity</li>
-    <li>Impact and Usability</li>
-    <li>Acceptability (Practicality)</li>
-    <li>Market Value and acceptance (Effectiveness)</li>
-    <li>Performance.</li>
-    <li>Understandability and easiness in use.</li>
-</ol>
+ <div class="evencon_box">
+					<h3>Pre-Requisites: </h3>
+		 <ul class="checboxlist">
+			 <li>You should have Knowledge of Web or App Development.</li>
 </ul>
-In case of any dispute, decision of the organizers or Judges will be final and binding on all.
-		</div>
+ </div>
+ <div class="evencon_box">
+					<h3>Accomodation and Food:</h3>
+		 <ul class="checboxlist">
+			 <li>The Accomodation facility will be provided to the teams by SPHINX'19.</li>
+			 <li>Teams will be provided with snacks (tea, coffee, etc) and dinner.</li>
+</ul>
+ </div>
+
+
 
 
                               <div class="evencon_box">
@@ -281,24 +361,32 @@ In case of any dispute, decision of the organizers or Judges will be final and b
             <div class="pptable">
               <table>
                 <tr>
-                  <td>Aashish Goel</td>
-                  <td>+91-8398948495</td>
-				  <td>2016ucp1404@mnit.ac.in</td>
+                  <td>Anmol Mittal</td>
+                  <td>7895200248</td>
+				  <td>2017umt1501@mnit.ac.in</td>
                 </tr>
                 <tr>
-                  <td>Varun Kumar   Verma</td>
-                  <td>+91-7014578315</td>
-				  <td>2016ucp1398@mnit.ac.in</td>
+                  <td>Prastik Gyawali</td>
+                  <td>9680398528</td>
+				  <td>2017uec1250@mnit.ac.in</td>
+                </tr>
+								<tr>
+                  <td>Gaurab Dahit</td>
+                  <td>9680397046</td>
+				  <td>2017ucp1313@mnit.ac.in</td>
+                </tr>
+								<tr>
+                  <td>Suryaprakash Agarwal</td>
+                  <td>7016268414</td>
+				  <td>2017uec1231@mnit.ac.in</td>
                 </tr>
               </table>
             </div>
           </div>
 
-          		<div class="evencon_box">
-            <h3>Pre-Requisites :</h3>
-You need to know at least one programming language of a microcontroller to implement your solution in and the working details.
-		</div>
-
+<br>
+<br>
+<br>
 		<b>Even if you are an absolute beginner, you can still show
 up and discover if this for you. A hackathon is all about
 making what you can, and learning on the way.</b>
@@ -322,7 +410,7 @@ making what you can, and learning on the way.</b>
         </div></div>
 
 
-
+<!--
 <div class="modal fade hack-e-app modalevent" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
@@ -525,9 +613,9 @@ making what you can, and learning on the way.</b>
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
-
+<!--
 <div class="modal fade hack-e-web modalevent" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
@@ -754,7 +842,7 @@ making what you can, and learning on the way.</b>
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
 
 <!--top nav-->
@@ -824,13 +912,14 @@ making what you can, and learning on the way.</b>
               <div class="col-md-12 col-sm-12">
                 <div class="eventbox_wrp">
                    <div class="evnt_cont_box">
-                   <center> <div class="card_box">HACK-E-DESIGN</div></center>
-					<p class="content_p">The Internet of Things (IoT) is a computing concept that describes the idea of
-everyday physical objects being connected to the internet and being able to
-identify themselves to other devices. Increasingly, organizations in a variety of
-industries are using IoT to operate more efficiently, better understand customers
-to deliver enhanced customer service, improve decision-making and increase the
-value of the business.
+                   <center> <div class="card_box">HACK-24</div></center>
+					<p class="content_p">Linguistically, "Hackathon" happens to be a portmanteau of the words "hack" and "marathon",
+					where "hack" is used in the sense of exploratory programming, but not its alternate meaning
+					as a reference to computer security.
+
+					Knitting the same spirit of an ideal Hackathon, Sphinx proudly presents its annual Hackathon,
+					HACK-24. A fervent event with a mixed concoction of innovation, technology, teamwork and a
+					marvelous profusion of computer "codes" flowing in torrents.
 </p>
                     <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".hack-e-design"><span>More Detail</span></a>
                     <?php
@@ -848,7 +937,7 @@ value of the business.
               </div>
 
 
-			   <div class="col-md-12 col-sm-12">
+			   <!-- <div class="col-md-12 col-sm-12">
                 <div class="eventbox_wrp">
                    <div class="evnt_cont_box">
                    <center> <div class="card_box">HACK-E-APP</div></center>
@@ -899,7 +988,7 @@ business.
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> -->
 
 
 
