@@ -218,7 +218,7 @@ demonstrate some degree of controlled movement.</li>
 		  </div>
 
 		   <div class="evencon_box">
-            <h3>Bot Specifications:</h3>
+            <h3>Bot Specifications :-</h3>
           </div>
 
 <div class="evencon_box">
