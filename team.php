@@ -13,7 +13,7 @@ $db= new Database();
 
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<title>Sphinx 2.0 | Sign In, Shine Out</title>
+<title>Sphinx'19</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <link rel="icon" type="image/png" href="images/favicon.png">
 <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
@@ -49,9 +49,9 @@ $db= new Database();
 $(window).bind("load", function() {
 	//alert('hello');
   	$('#overlay').css({'left':'110%', 'transition':'all 1s ease-in-out'}, 2000);
-		 
+
 });
-</script>  
+</script>
 
 
 </head>
@@ -68,15 +68,15 @@ $(window).bind("load", function() {
 <?php
 	include('header.php');
 ?>
-  
+
    <style>
 .card{color:#2A5A88;
- width:60px; 
- font-weight:bold; 
+ width:60px;
+ font-weight:bold;
  padding-top:12px;
- height:60px;  
+ height:60px;
  background-color:#fff;
- border-radius:50%; 
+ border-radius:50%;
  box-shadow:0px 0px 20px 10px #2A5A88;
  display:inline-block;
  font-size:28px;
@@ -86,12 +86,12 @@ $(window).bind("load", function() {
 	 background-color:#2A5A88;
 	  box-shadow:0px 0px 20px 10px #fff;
  }
- 
+
  .post_heading{
-	 position:fixed; 
+	 position:fixed;
 	 width:100%;
-	 top:25px; 
-	
+	 top:25px;
+
 	 font-size:25px;
 	 font-weight:bold;
 	 font-family:text;
@@ -99,56 +99,56 @@ $(window).bind("load", function() {
  }
   .post_heading2{
 	 background-color:#fff;
-	 width:22%; 
-	 color:#2A5D88; 
+	 width:22%;
+	 color:#2A5D88;
 	 border-radius:40px;
  }
- 
- 
+
+
  .contentbox_pwr {
 width: 700px;
 position: absolute;
-    
+
     top: 235px;
     height: auto;
    left:25px;
 }
 .title_img2{
 	position:absolute; width:600px; top:250px; margin:0 auto; right:100px;
-	
+
 }
 .title_img{
 
 		position:absolute; width:17%; top:150px; margin:0 auto; left:250px;
 }
-</style>	     
-        
-        
+</style>
 
 
 
-                
 
-                 
+
+
+
+
                <div id="slide-1" style="width:100%;">
-<img src="images/team.png" class="title_img2"> 
-                    
-                    
-                    
-          <img src="images/teamsphinx.png" class="title_img">     
-<center>		  
+<img src="images/team.png" class="title_img2">
+
+
+
+          <img src="images/teamsphinx.png" class="title_img">
+<center>
 <section class="contentbox_pwr" style="
 ">
                     <div>
                     <div class="about_box_mainwrp">
-	
+
 
 <div class="ourtemamanin_wrp">
-	
+
 	<div class="ourtema_marverman_wrp row">
         	<div class="col-sm-12">
             	<div class="ourteamtedablog">
-                	
+
                     <!--p>We understand, how much important is it for you to know who we are and how we approach your business. This page will let you know about the people, who make us a BIG ever expanding family and put efforts regularly to make our company unique to deliever your project with perfection. Let's start the journey...</p-->
                 </div>
             </div>
@@ -166,12 +166,12 @@ position: absolute;
 						 <div class="post_heading2">President</div>
 						 </center>
 						 </div>
-						 
+
 						   <div class="teampoppwrp">
                            <div class="container">
-						   
+
 						   <div class="row">
-							
+
 						   <div class="col-lg-6 col-md-12 col-sm-12">
 							<div class="teamdeatilbox">
                            	<div class="row">
@@ -187,10 +187,10 @@ position: absolute;
                             </div>
 							</div>
 							</div>
-							
+
 							<div class="col-lg-6 col-md-12 col-sm-12">
 							<div class="teamdeatilbox">
-                           	<div class="row"> 
+                           	<div class="row">
                             	<div class="col-sm-5">
                            			<img src="images/team-member/satyam.jpg" class="img-fluid" draggable="false">
                            		</div>
@@ -208,8 +208,8 @@ position: absolute;
                         </div>
 						</div>
 						</li>
-						
-						
+
+
 						                    	<li><a data-fancybox data-src="#hidden-content2" href="javascript:;" >
                                   							  <div class="card" style="">
                             <span title="Vice-President"><i class="fa fa-user" aria-hidden="true"></i></span>
@@ -224,7 +224,7 @@ position: absolute;
 						 <div class="teampoppwrp">
                            <div class="container">
 						   <div class="row">
-							
+
 						   <div class="col-lg-6 col-md-12 col-sm-12">
 							<div class="teamdeatilbox">
                            	<div class="row">
@@ -240,10 +240,10 @@ position: absolute;
                             </div>
 							</div>
 							</div>
-							
+
 							<div class="col-lg-6 col-md-12 col-sm-12">
 							<div class="teamdeatilbox">
-                           	<div class="row"> 
+                           	<div class="row">
                             	<div class="col-sm-5">
                            			<img src="images/team-member/shubhangi.jpeg" class="img-fluid" draggable="false">
                            		</div>
@@ -256,10 +256,10 @@ position: absolute;
                             </div>
 							</div>
 							</div>
-							
+
 							<div class="col-lg-6 col-md-12 col-sm-12">
 							<div class="teamdeatilbox">
-                           	<div class="row"> 
+                           	<div class="row">
                             	<div class="col-sm-5">
                            			<img src="images/team-member/devendra.jpg" class="img-fluid" draggable="false">
                            		</div>
@@ -277,15 +277,15 @@ position: absolute;
                         </div>
 						</div>
 						</li>
-						
-						
+
+
                         <li><a  data-fancybox data-src="#hidden-content3" href="javascript:;" >
                         	<div class="card" style="">
                               <span title="General Secretary"><i class="fa fa-user-plus" aria-hidden="true"></i></span>
 						</div>
                         </a>
-                        
-                        
+
+
                         <div id="hidden-content3" class="ourtema_de_Wr twoboxPop" style="display:none;">
 						   <div class="post_heading">
 						 <center>
@@ -295,7 +295,7 @@ position: absolute;
 						 <div class="teampoppwrp">
                            <div class="container">
 						   <div class="row">
-							
+
 						   <div class="col-lg-6 col-md-12 col-sm-12">
 							<div class="teamdeatilbox">
                            	<div class="row">
@@ -311,7 +311,7 @@ position: absolute;
                             </div>
 							</div>
 							</div>
-							
+
 							<div class="col-lg-6 col-md-12 col-sm-12">
 							<div class="teamdeatilbox">
                            	<div class="row">
@@ -327,7 +327,7 @@ position: absolute;
                             </div>
 							</div>
 							</div>
-							
+
 							<div class="col-lg-6 col-md-12 col-sm-12">
 							<div class="teamdeatilbox">
                            	<div class="row">
@@ -343,7 +343,7 @@ position: absolute;
                             </div>
 							</div>
 							</div>
-							
+
                            <div class="col-lg-6 col-md-12 col-sm-12">
 							<div class="teamdeatilbox">
                            	<div class="row">
@@ -359,15 +359,15 @@ position: absolute;
                             </div>
 							</div>
 							</div>
-						   
+
 						   </div>
 						   </div>
                         </div>
 						</div>
-                        
+
 						</li>
-						
-					
+
+
                     	<li><a  data-fancybox data-src="#hidden-content4" href="javascript:;" >
                         	<div class="card" style="">
                               <span title="Joint Secretary"><i class="fa fa-link" aria-hidden="true"></i></span>
@@ -382,7 +382,7 @@ position: absolute;
 						 <div class="teampoppwrp">
                            <div class="container">
 						   <div class="row">
-							
+
 						   <div class="col-lg-6 col-md-12 col-sm-12">
 							<div class="teamdeatilbox">
                            	<div class="row">
@@ -398,7 +398,7 @@ position: absolute;
                             </div>
 							</div>
 							</div>
-							
+
 							<div class="col-lg-6 col-md-12 col-sm-12">
 							<div class="teamdeatilbox">
                            	<div class="row">
@@ -414,7 +414,7 @@ position: absolute;
                             </div>
 							</div>
 							</div>
-							
+
 							<div class="col-lg-6 col-md-12 col-sm-12">
 							<div class="teamdeatilbox">
                            	<div class="row">
@@ -430,7 +430,7 @@ position: absolute;
                             </div>
 							</div>
 							</div>
-							
+
 							<div class="col-lg-6 col-md-12 col-sm-12">
 							<div class="teamdeatilbox">
                            	<div class="row">
@@ -446,14 +446,14 @@ position: absolute;
                             </div>
 							</div>
 							</div>
-                           
-						   
+
+
 						   </div>
 						   </div>
                         </div>
-						
+
 						</div>
-                        
+
 						</li>
                         <li><a data-fancybox data-src="#hidden-content5" href="javascript:;" >
                         	<div class="card" style="">
@@ -469,7 +469,7 @@ position: absolute;
 						 <div class="teampoppwrp">
                            <div class="container">
 						   <div class="row">
-							
+
 						   <div class="col-lg-6 col-md-12 col-sm-12">
 							<div class="teamdeatilbox">
                            	<div class="row">
@@ -515,7 +515,7 @@ position: absolute;
                             </div>
 							</div>
 							</div>
-							
+
 							<div class="col-lg-6 col-md-12 col-sm-12">
 							<div class="teamdeatilbox">
                            	<div class="row">
@@ -531,7 +531,7 @@ position: absolute;
                             </div>
 							</div>
 							</div>
-							
+
 							<div class="col-lg-6 col-md-12 col-sm-12">
 							<div class="teamdeatilbox">
                            	<div class="row">
@@ -547,18 +547,18 @@ position: absolute;
                             </div>
 							</div>
 							</div>
-							
-							
-						   
+
+
+
 						   </div>
 						   </div>
                         </div>
 						</div>
-                        
-						
+
+
 						</li>
-						
-						
+
+
 						 <li><a data-fancybox data-src="#hidden-content6" href="javascript:;" >
                         	<div class="card" style="">
                              <span title="Marketing Secretary"><i class="fa fa-handshake-o" aria-hidden="true" ></i></span>
@@ -570,11 +570,11 @@ position: absolute;
 						 <div class="post_heading2">Marketing Secretary</div>
 						 </center>
 						 </div>
-						 
+
 						 <div class="teampoppwrp">
                            <div class="container">
 						   <div class="row">
-							
+
 						   <div class="col-lg-6 col-md-12 col-sm-12">
 							<div class="teamdeatilbox">
                            	<div class="row">
@@ -590,14 +590,14 @@ position: absolute;
                             </div>
 							</div>
 							</div>
-                          
+
 
 						   </div>
 						   </div>
                         </div>
 						</div>
-                        
-						
+
+
 						</li>
                         <li><a  data-fancybox data-src="#hidden-content7" href="javascript:;" >
                         	<div class="card" style="">
@@ -613,7 +613,7 @@ position: absolute;
 						 <div class="teampoppwrp">
                            <div class="container">
 						   <div class="row">
-							
+
 						   <div class="col-lg-6 col-md-12 col-sm-12">
 							<div class="teamdeatilbox">
                            	<div class="row">
@@ -644,22 +644,22 @@ position: absolute;
                             </div>
 							</div>
 							</div>
-							
+
 						   </div>
 						   </div>
                         </div>
 						</div>
-                        
-						
-						
+
+
+
 						</li>
-                    
-						
-						
-					
-                    
-					
-				
+
+
+
+
+
+
+
                     	<li><a  data-fancybox data-src="#hidden-content8" href="javascript:;" >
                         <div class="card" style="">
                               <span title="Design Secretary"><i class="fa fa-paint-brush" aria-hidden="true"></i></span>
@@ -674,7 +674,7 @@ position: absolute;
 						 <div class="teampoppwrp">
                            <div class="container">
 						   <div class="row">
-							
+
 						   <div class="col-sm-6">
 							<div class="teamdeatilbox">
                            	<div class="row">
@@ -705,7 +705,7 @@ position: absolute;
                             </div>
 							</div>
 							</div>
-							
+
 							<div class="col-sm-6">
 							<div class="teamdeatilbox">
                            	<div class="row">
@@ -721,16 +721,16 @@ position: absolute;
                             </div>
 							</div>
 							</div>
-							
+
 						   </div>
 						   </div>
                         </div>
 						</div>
-                        
-						
-						
+
+
+
 						</li>
-                      
+
 					<li><a  data-fancybox data-src="#hidden-content9" href="javascript:;" >
                         <div class="card" style="">
                                <span title="Logistic Secretary"><i class="fa fa-motorcycle" aria-hidden="true"></i></span>
@@ -742,11 +742,11 @@ position: absolute;
 						 <div class="post_heading2">Logistic Secretary</div>
 						 </center>
 						 </div>
-						 
+
 						 <div class="teampoppwrp">
                            <div class="container">
 						   <div class="row">
-							
+
 						   <div class="col-sm-6">
 							<div class="teamdeatilbox">
                            	<div class="row">
@@ -777,7 +777,7 @@ position: absolute;
                             </div>
 							</div>
 							</div>
-							
+
 							<div class="col-sm-6">
 							<div class="teamdeatilbox">
                            	<div class="row">
@@ -793,8 +793,8 @@ position: absolute;
                             </div>
 							</div>
 							</div>
-							
-							
+
+
 							<div class="col-sm-6">
 							<div class="teamdeatilbox">
                            	<div class="row">
@@ -810,18 +810,18 @@ position: absolute;
                             </div>
 							</div>
 							</div>
-							
-						   
+
+
 						   </div>
 						   </div>
                         </div>
 						</div>
-                        
-						
-						
+
+
+
 						</li>
-						
-						
+
+
 						<li><a  data-fancybox data-src="#hidden-content10" href="javascript:;" >
                         <div class="card" style="">
                              <span title="Finance Secretary"><i class="fa fa-money" aria-hidden="true" ></i></span>
@@ -836,8 +836,8 @@ position: absolute;
 						 <div class="teampoppwrp">
                            <div class="container">
 						   <div class="row">
-							
-						
+
+
 						  <div class="col-sm-6">
 							<div class="teamdeatilbox">
                            	<div class="row">
@@ -853,7 +853,7 @@ position: absolute;
                             </div>
 							</div>
 							</div>
-                         
+
 						  <div class="col-sm-6">
 							<div class="teamdeatilbox">
                            	<div class="row">
@@ -868,19 +868,19 @@ position: absolute;
                                 </div>
                             </div>
 							</div>
-							</div>  
-						
+							</div>
+
 						   </div>
 						   </div>
                         </div>
 						</div>
-                        
-						
-						
+
+
+
 						</li>
-						
-						
-						
+
+
+
 						<li><a  data-fancybox data-src="#hidden-content11" href="javascript:;" >
                         <div class="card" style="">
                               <span title="Technical Secretary"><i class="fa fa-code" aria-hidden="true"></i></span>
@@ -895,7 +895,7 @@ position: absolute;
 						 <div class="teampoppwrp">
                            <div class="container">
 						   <div class="row">
-							
+
 						   <div class="col-sm-6">
 							<div class="teamdeatilbox">
                            	<div class="row">
@@ -931,9 +931,9 @@ position: absolute;
                         </div>
 						</div>
 						</li>
-						
-						
-						
+
+
+
 						 <li><a data-fancybox data-src="#hidden-content14" href="javascript:;" >
                         	<div class="card" style="">
                              <span title="Web-Developer"><i class="fa fa-globe" aria-hidden="true"></i></span>
@@ -945,11 +945,11 @@ position: absolute;
 						 <div class="post_heading2">Web-Developer</div>
 						 </center>
 						 </div>
-						 
+
 						 <div class="teampoppwrp">
                            <div class="container">
 						   <div class="row">
-							
+
 						   <div class="col-lg-6 col-md-12 col-sm-12">
 							<div class="teamdeatilbox">
                            	<div class="row">
@@ -965,15 +965,15 @@ position: absolute;
                             </div>
 							</div>
 							</div>
-                          
+
 
 						   </div>
 						   </div>
                         </div>
 						</div>
 						</li>
-						
-				
+
+
 						<li><a  data-fancybox data-src="#hidden-content12" href="javascript:;" >
                         <div class="card" style="">
                               <span title="Mass and Media Secretary"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></span>
@@ -985,11 +985,11 @@ position: absolute;
 						 <div class="post_heading2">Mass & Media Secretary</div>
 						 </center>
 						 </div>
-						 
+
 						 <div class="teampoppwrp">
                            <div class="container">
 						   <div class="row">
-							
+
 						   <div class="col-sm-6">
 							<div class="teamdeatilbox">
                            	<div class="row">
@@ -1020,7 +1020,7 @@ position: absolute;
                             </div>
 							</div>
 							</div>
-							
+
 							<div class="col-sm-6">
 							<div class="teamdeatilbox">
                            	<div class="row">
@@ -1036,21 +1036,21 @@ position: absolute;
                             </div>
 							</div>
 							</div>
-							
-							
-							
-							
-						   
+
+
+
+
+
 						   </div>
 						   </div>
                         </div>
 						</div>
-                        
-						
-						
+
+
+
 						</li>
-						
-						
+
+
 									<li><a  data-fancybox data-src="#hidden-content13" href="javascript:;" >
                         <div class="card" style="">
                              <span title="Cultural Secretary"><i class="fa fa-headphones" aria-hidden="true"></i></span>
@@ -1065,7 +1065,7 @@ position: absolute;
 						 <div class="teampoppwrp">
                            <div class="container">
 						   <div class="row">
-							
+
 						   <div class="col-sm-6">
 							<div class="teamdeatilbox">
                            	<div class="row">
@@ -1096,71 +1096,71 @@ position: absolute;
                             </div>
 							</div>
 							</div>
-							
-						
-							
-							
-							
-						   
+
+
+
+
+
+
 						   </div>
 						   </div>
                         </div>
 						</div>
-                        
-						
-						
+
+
+
 						</li>
 					</ul>
-					
+
                 </div></center>
             </div>
-        
+
     </div>
 </div>
 
 
 
 
-	
+
 </div>
 
                     </div>
                     </section>
-                    </center>	
-              
-                    
-              </div>      
-                     
-                    
-                    
-                    
-                    
-                    
-                     
-                    
-                    
-                    
-                    
-                    
-                    
-                     
-                    
+                    </center>
 
-                      
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                    
+
+              </div>
 
 
 
-                    
-                    </div>      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    </div>
                 </div>
 
 
@@ -1168,7 +1168,7 @@ position: absolute;
   <?php
 	include('footer.php');
 ?>
-       
-  
+
+
     </body>
 </html>

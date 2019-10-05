@@ -70,13 +70,13 @@ $(window).bind("load", function() {
     <div class="about_box_mainwrp" style="width:100%;">
         <div class="about_text_wrp" style="width:100%;">
           <p>This year witness the technical prowess of MNIT Jaipur as we bring to you
-the much-awaited Technical Festival SPHINX 2.0. </p>
+the much-awaited Technical Festival SPHINX'19. </p>
 <p>Apart from a plethora of techno-centric events, We bring you the highly
 anticipated MELA to reinvigorate yourself after the exquisite but tiring quizzes
 and competitions. A Carnival is the event to enjoy with your friends and
 acquaintances. Whether it be Air hockey, Paintball or even driving a car through a
 trick arena - You want it, we’ve got it. So Come enjoy MELA, the Carnival and
-make memories, worth cherishing for a long long time during SPHINX 2.0. Come
+make memories, worth cherishing for a long long time during SPHINX'19. Come
 and rediscover your childhood and relive those memories again. Air Hockey, Dart
 board, Bull Riding, Hoop and many more fun and eco friendly games await you,
 it’s time to feed the child inside of you.</p>

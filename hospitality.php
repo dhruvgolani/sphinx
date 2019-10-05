@@ -165,10 +165,10 @@ section::-webkit-scrollbar {
                    Event registration + workshop : <b>Rs. 1200/-</b><br>
                    Event registration + accommodation + workshop : <b>Rs. 1500/-</b><br><br>
 
-                    Payment will be done on this Bank account via Internet Banking.<br><br>
+                   Payment will be done on this Bank account via Internet Banking.<br><br>
                    NAME: MALVIYA NATIONAL INSTITUTE OF TECHNOLOGY<BR>
-                    ACCOUNT NO: 00000037347860345<BR>
-                    IFS CODE: SBIN0015921<BR><BR>
+                   ACCOUNT NO: 00000037347860345<BR>
+                   IFS CODE: SBIN0015921<BR><BR>
                    It is mandatory to fill this below google form after payment has been done, otherwise your payment will not be considered.
                    <br>Transaction ID obtained after payment should be filled in the form.<br>
                    <br>
@@ -183,7 +183,7 @@ section::-webkit-scrollbar {
                     <li>1. The event registration fee includes registration fee for all the events in the fest.</li>
                     <li>2. For the specific events which require additional amount, it will be collected at the time of event.</li>
                     <li>3. For team events, each participant has to register and pay the charges individually.</li>
-                    <li>4. Accommodation will be provided for three days- 27, 28, 29th September.</li>
+                    <li>4. Accommodation will be provided for three days- 6<sup>th</sup>, 7<sup>th</sup> and 8<sup>th</sup> November.</li>
                     <li>5. Accommodation does not include food.</li>
                     <li>6. Pronites are absolutely free.</li>
                     </ul>

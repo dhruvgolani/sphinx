@@ -29,7 +29,7 @@ if(isset($_REQUEST['event']))
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<title>Sphinx 2.0 | Sign In, Shine Out</title>
+<title>Sphinx'19</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <link rel="icon" type="image/png" href="images/favicon.png">
 <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
@@ -42,22 +42,22 @@ if(isset($_REQUEST['event']))
 <link href="css/responsive.css" rel="stylesheet" type="text/css">
 </head>
 <body style="overflow:hidden;">
-<script type="text/javascript" src="js/timestamp.js?v=1506980387.0" charset="utf-8"></script> 
-<script type="text/javascript" src="js/graph-calc.js?v=1506980387.0" charset="utf-8"></script> 
-<script type="text/javascript" src="js/auto-complete.js?v=1506980387.0" charset="utf-8"></script> 
-<script type="text/javascript" src="js/toolbar.js?v=1506980387.0" charset="utf-8"></script> 
-<script type="text/javascript" src="js/popper.js" charset="utf-8"></script> 
-<script type="text/javascript" src="js/bootstrap.js" charset="utf-8"></script> 
-<!--<script> 
+<script type="text/javascript" src="js/timestamp.js?v=1506980387.0" charset="utf-8"></script>
+<script type="text/javascript" src="js/graph-calc.js?v=1506980387.0" charset="utf-8"></script>
+<script type="text/javascript" src="js/auto-complete.js?v=1506980387.0" charset="utf-8"></script>
+<script type="text/javascript" src="js/toolbar.js?v=1506980387.0" charset="utf-8"></script>
+<script type="text/javascript" src="js/popper.js" charset="utf-8"></script>
+<script type="text/javascript" src="js/bootstrap.js" charset="utf-8"></script>
+<!--<script>
 
 	$(function(){
 		$('.regist-popshow').click(function(){
 			$('.modalevent').modal('hide');
-		 
+
 			$('#eventregister2').modal('show');
-			 
+
 			$('#loginbox').modal('show');
-			 
+
 		});
 	});
 </script> -->
@@ -69,23 +69,23 @@ if(isset($_REQUEST['event']))
 ?>
 <script>
 $(function(){
-	$('.teamC').change(function(){	
+	$('.teamC').change(function(){
 		$('.teamember_detial').empty();
-		var selVal = $(this).val();	
+		var selVal = $(this).val();
 		for (i = 0; i < selVal; i++) {
 			$('.teamember_detial').append('<div class="row"> <div class="col-sm-4"> <div class="form-group"> <label for="recipient-name" class="form-control-label">Registration Id</label> </div> </div> <div class="col-sm-8"> <div class="form-group"> <input type="text" class="form-control" id="recipient-name" placeholder="Enter registration id" required name="regid[]"> </div> </div> </div> <div class="row"> <div class="col-sm-4"> <div class="form-group"> <label for="recipient-name" class="form-control-label">Email Id</label> </div> </div> <div class="col-sm-8"> <div class="form-group"> <input type="email" class="form-control" id="recipient-name" placeholder="Enter email address" required name="emailid[]"> </div> </div> </div> <div class="row"> <div class="col-sm-4"> <div class="form-group"> <label for="recipient-name" class="form-control-label">Password</label> </div> </div> <div class="col-sm-8"> <div class="form-group"> <input type="Password" name="password[]" class="form-control" id="recipient-name" placeholder="Enter your password"  required> </div> </div> </div><div class="breaklinke"></div>')
 		}
 	})
 })
-</script> 
+</script>
 
-<!-- END WAYBACK TOOLBAR INSERT --> 
+<!-- END WAYBACK TOOLBAR INSERT -->
 
 <script>
 $(window).bind("load", function() {
 	//alert('hello');
   	$('#overlay').css({'left':'110%', 'transition':'all 1s ease-in-out'}, 2000);
-		 
+
 });
 </script>
 <div id="overlay" style="width:100%;">
@@ -186,10 +186,10 @@ $(window).bind("load", function() {
 <style>
 .content_p{
 	margin-top:10px;
-	
+
 }
 .card_box{
-	
+
 	border:2px solid #fff; padding:10px; color:#2A5D88; border-radius :22px; background-color:#fff; width:200px;  margin-top:-25px; font-size:20px; font-weight:bold;
 }
 .modal-title {
@@ -247,15 +247,15 @@ tr{height:auto;}
           <div class="container">
             <div class="row">
                <img src="" class="team-icon">
-               
-				
+
+
 				<div class="col-md-12 col-sm-12">
                 <div class="eventbox_wrp" >
                     <center>
                     <b><h3>27<sup>TH</sup> SEPTEMBER</h3> </b>
                     <table>
                     <tr><th>EVENTS</th><th>ROUND</th><th>VENUE</th><th>TIMINGS</th></tr>
-                    
+
                     <tr><td>DIGILOG</td><td>                    FIRST</td><td>VLTC-L004, L005</td><td>12:30-1:15PM</td></tr>
                     <tr><td>INQUIZITIVE</td><td>                FIRST</td><td>VLTC-L008,L009</td><td>12:30-1:15PM</td></tr>
                     <tr><td>CHEMICAL EXTRAVAGANZA</td><td>	    FIRST</td><td>VLTC-L006,L007</td><td>		12:30-1:30PM</td></tr>
@@ -272,19 +272,19 @@ tr{height:auto;}
                     <b><h3>28<sup>TH</sup> SEPTEMBER</h3> </b>
                     <table border="2">
                     <tr><th>EVENTS</th><th>ROUND</th><th>VENUE</th><th>TIMINGS</th></tr>
-                    <tr><td>ELECTRABUG</td><td>		        FIRST</td><td>		VLTC-L004,L005</td><td>		            8:30-9:30AM</td></tr>	
-                    <tr><td>AQUA MISSILE</td><td>	       	FIRST</td><td>		FOOTBALL GROUND</td><td>		                    9:00-11:00AM</td></tr>	
-                    <tr><td>CODE OF WAR</td><td>		    SECOND</td><td>		LAB-1,2,3(COMPUTER CENTER)</td><td>		9:00-12:00AM</td></tr>	
-					<tr><td>CADASTROPHE</td><td>			---</td><td>	        LAB-6(COMPUTER CENTER)</td><td>		    9:00AM-12:00PM</td></tr>	
-					<tr><td>DESIGN IT</td><td>	        	---</td><td>		HEAT TRANSFER AND FPM LAB</td><td>		            9:00AM-1:00PM</td></tr>	
-                    <tr><td>SHARK TANK</td><td>	        	FIRST</td><td>		VLTC-L207</td><td>		                9:00AM-12:30PM</td></tr>	
+                    <tr><td>ELECTRABUG</td><td>		        FIRST</td><td>		VLTC-L004,L005</td><td>		            8:30-9:30AM</td></tr>
+                    <tr><td>AQUA MISSILE</td><td>	       	FIRST</td><td>		FOOTBALL GROUND</td><td>		                    9:00-11:00AM</td></tr>
+                    <tr><td>CODE OF WAR</td><td>		    SECOND</td><td>		LAB-1,2,3(COMPUTER CENTER)</td><td>		9:00-12:00AM</td></tr>
+					<tr><td>CADASTROPHE</td><td>			---</td><td>	        LAB-6(COMPUTER CENTER)</td><td>		    9:00AM-12:00PM</td></tr>
+					<tr><td>DESIGN IT</td><td>	        	---</td><td>		HEAT TRANSFER AND FPM LAB</td><td>		            9:00AM-1:00PM</td></tr>
+                    <tr><td>SHARK TANK</td><td>	        	FIRST</td><td>		VLTC-L207</td><td>		                9:00AM-12:30PM</td></tr>
                     <tr><td>SEISMIC</td><td>		        FIRST</td><td>		VLTC-L002,L003</td><td>		            9:30-10:30AM</td></tr>
-                    <tr><td>MOODLE</td><td>		            FIRST</td><td>		VLTC-L208,L209</td><td>		            10:00-11:30AM</td></tr>	
-                    <tr><td>URJA</td><td>		            SECOND</td><td>		VLTC-L008</td><td>		                10:00AM-2:00PM</td></tr>	
-                    <tr><td>DIGILOG</td><td>		        SECOND</td><td>		VLTC-L007</td><td>	                10:30AM-12:00PM</td></tr>	
-                    <tr><td>PULGGED IN</td><td>		        SECOND</td><td>		VLTC-L009</td><td>		                11:00AM-12:00PM</td></tr>	
-                    <tr><td>AQUA MISSLE</td><td>		    SECOND</td><td>		GROUND FLOOR, VLTC</td><td>		            12:00-1:00PM</td></tr></td></tr>	
-                    <tr><td>EGG DROP CHALLENGE</td><td>		---</td><td> 	THIRD FLOOR, VLTC</td><td>	                                12:30-3:30PM</td></tr>	
+                    <tr><td>MOODLE</td><td>		            FIRST</td><td>		VLTC-L208,L209</td><td>		            10:00-11:30AM</td></tr>
+                    <tr><td>URJA</td><td>		            SECOND</td><td>		VLTC-L008</td><td>		                10:00AM-2:00PM</td></tr>
+                    <tr><td>DIGILOG</td><td>		        SECOND</td><td>		VLTC-L007</td><td>	                10:30AM-12:00PM</td></tr>
+                    <tr><td>PULGGED IN</td><td>		        SECOND</td><td>		VLTC-L009</td><td>		                11:00AM-12:00PM</td></tr>
+                    <tr><td>AQUA MISSLE</td><td>		    SECOND</td><td>		GROUND FLOOR, VLTC</td><td>		            12:00-1:00PM</td></tr></td></tr>
+                    <tr><td>EGG DROP CHALLENGE</td><td>		---</td><td> 	THIRD FLOOR, VLTC</td><td>	                                12:30-3:30PM</td></tr>
                     <tr><td>MATHEMATICA</td><td>		    FIRST</td><td>		VLTC-L002,L003,L004,L005,L006</td><td>	1:00-2:00PM</td></tr>
 					<tr><td>SHARK TANK</td><td>		        SECOND</td><td>		VLTC-L207</td><td>		                1:30-3:30PM</td></tr>
                     <tr><td>CIVIQ</td><td>		            SECOND</td><td>		VLTC-L007</td><td>		                2:00-3:00PM</td></tr>
@@ -295,8 +295,8 @@ tr{height:auto;}
                     <tr><td>MATHEMATICA</td><td>		    SECOND</td><td>		VLTC-L009</td><td>		                5:00-6:00PM</td></tr>
                     <tr><td>WORDLY WISE</td><td>		    FIRST</td><td>		VLTC-L005,L004</td><td>		            4:00-5:00PM</td></tr>
                     </table>
-                    
-                    
+
+
                     <b><h3>29<sup>TH</sup> SEPTEMBER</h3> </b>
                     <table border="2">
                     <tr><th>EVENTS</th><th>ROUND</th><th>VENUE</th><th>TIMINGS</th></tr>
@@ -314,21 +314,21 @@ tr{height:auto;}
                     <tr><td>WORDLY WISE</td><td>		        SECOND</td><td>		VLTC-L204</td><td>		            3:30PM-5:00PM</td></tr>
                     <tr><td>CIVIQ</td><td>		                THIRD</td><td>		VLTC-L007</td><td>		            4:00PM-5:00PM</td></tr>
                     </table>
-                    
+
                     <br><br>
                     <b><h3>WORKSHOPS</h3></b>
                     <table border="2">
                     <tr><th>NAME</th><th width="400px">TIMINGS</th><th>VENUE</th></tr>
-                    <tr><td >IOT</td><td width="400px">			                8:00AM-1:00PM (28th Sept. +29th Sept.)</td><td>			    Computer Science Dept</td></tr>	
-                    <tr><td>Ethical Hacking</td><td width="400px">		        8:00AM-1:00PM(28th Sept. +29th Sept.)</td><td>				VLTC-L108</td></tr>	
-                    <tr><td>Digital Marketing</td><td width="400px">	            2:00PM-5:00PM(27th Sept. +28th Sept. +29th Sept.)</td><td>	VLTC-L109</td></tr>				
-					<tr><td>Aerodynamics</td><td width="400px">		            2:00PM-5:00PM (27th Sept. +28th Sept. +29th Sept.)</td><td>	LAB-4(Computer Center)</td></tr>	
-					<tr><td>Robotics</td><td width="400px">			            2:00PM-5:00PM (27th Sept. +28th Sept. +29th Sept.)</td><td>	VLTC-L106</td></tr>	
-                    <tr><td>Machine Learning</td><td width="400px">			    2:00PM-5:00PM(27th Sept. +28th Sept. +29th Sept.)</td><td>	Computer Science Dept</td></tr>	
-                    <tr><td>Advanced Industrial	Automation</td><td width="400px">	2:00PM-5:00PM(27th Sept. +28th Sept. +29th Sept.)</td><td>	VLTC-L105</td></tr>	
-                    <tr><td>Fusion 360 Workshop</td><td width="400px">		    2:00PM-5:00PM(27th Sept. +28th Sept. +29th Sept.)</td><td>	LAB-7(Computer Center)</td></tr>	
+                    <tr><td >IOT</td><td width="400px">			                8:00AM-1:00PM (28th Sept. +29th Sept.)</td><td>			    Computer Science Dept</td></tr>
+                    <tr><td>Ethical Hacking</td><td width="400px">		        8:00AM-1:00PM(28th Sept. +29th Sept.)</td><td>				VLTC-L108</td></tr>
+                    <tr><td>Digital Marketing</td><td width="400px">	            2:00PM-5:00PM(27th Sept. +28th Sept. +29th Sept.)</td><td>	VLTC-L109</td></tr>
+					<tr><td>Aerodynamics</td><td width="400px">		            2:00PM-5:00PM (27th Sept. +28th Sept. +29th Sept.)</td><td>	LAB-4(Computer Center)</td></tr>
+					<tr><td>Robotics</td><td width="400px">			            2:00PM-5:00PM (27th Sept. +28th Sept. +29th Sept.)</td><td>	VLTC-L106</td></tr>
+                    <tr><td>Machine Learning</td><td width="400px">			    2:00PM-5:00PM(27th Sept. +28th Sept. +29th Sept.)</td><td>	Computer Science Dept</td></tr>
+                    <tr><td>Advanced Industrial	Automation</td><td width="400px">	2:00PM-5:00PM(27th Sept. +28th Sept. +29th Sept.)</td><td>	VLTC-L105</td></tr>
+                    <tr><td>Fusion 360 Workshop</td><td width="400px">		    2:00PM-5:00PM(27th Sept. +28th Sept. +29th Sept.)</td><td>	LAB-7(Computer Center)</td></tr>
                     </table>
-                    
+
                     <br><br>
                     <b><h3>ROBOTICS</h3></b>
                     <table border="2">
@@ -337,7 +337,7 @@ tr{height:auto;}
                     <tr><td>Robotryst</td><td>	2:30PM onwards</td><td>		28th Sept.</td><td>	    VLTC-L203</td></tr>
                     <tr><td>Roborush</td><td>	11:00AM onwards</td><td>	29th Sept.</td><td>	    SECOND FLOOR, VLTC</td></tr>
                     </table>
-                    
+
                     <br><br>
                     <b><h3>HACKATHONS</h3></b>
                     <table border="2">
@@ -346,7 +346,7 @@ tr{height:auto;}
                     <tr><td>Hack-E-App</td><td>		1:30PM-5:00PM</td><td>		28th Sept.</td><td>	Lab-8 (Computer Center)</td></tr>
                     <tr><td>Hack-E-Web</td><td>		1:30PM-5:00PM</td><td>		29th Sept.</td><td>	Lab-8 (Computer Center)</td></tr>
                     </table>
-                    
+
                     <br><br>
                    <b> <h3>GAMING</h3></b>
                     <table border="2">
@@ -359,8 +359,8 @@ tr{height:auto;}
                       </center>
                 </div>
               </div>
-			  
-            
+
+
             </div>
           </div>
         </div>
