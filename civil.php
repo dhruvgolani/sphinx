@@ -10,10 +10,14 @@ if(isset($_REQUEST['event']))
 	if($event=="Seismic"){
 		$min=2;
 		$max=4;
-	} else if($event=="Civiq") {
+	} else if($event=="CostaRica") {
 		$min=1;
 		$max=3;
-	} else
+	}
+	else if($event=="QuantroCivil") {
+		$min=1;
+		$max=3;
+	}  else
 	{
 		header("Location:civil");
 	}
@@ -294,7 +298,7 @@ $(window).bind("load", function() {
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-            <a href="civil?event=Seismic"   class="btn btn-input regist-popshow">Register Now</a>
+            <a href="civil.php?event=Seismic"   class="btn btn-input regist-popshow">Register Now</a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="btn btn-input regist-popshow" data-dismiss="modal">Register Now</a>
@@ -306,7 +310,7 @@ $(window).bind("load", function() {
 </div>
 
 
-<div class="modal fade Civiq  modalevent" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+<div class="modal fade CostaRica  modalevent" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
@@ -478,7 +482,7 @@ After the failure of third trial, model will be disqualified.
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-            <a href="civil?event=Civiq"  class="btn btn-input regist-popshow">Register Now</a>
+            <a href="civil.php?event=CostaRica"  class="btn btn-input regist-popshow">Register Now</a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="btn btn-input regist-popshow" data-dismiss="modal">Register Now</a>
@@ -492,7 +496,7 @@ After the failure of third trial, model will be disqualified.
 
 
 
-<div class="modal fade Civiq  modalevent" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+<div class="modal fade QuantroCivil  modalevent" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
@@ -593,7 +597,7 @@ Quantro-Civil is the best opportunity for the intellect and the quizzing genius 
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-            <a href="civil?event=Civiq"  class="btn btn-input regist-popshow">Register Now</a>
+            <a href="civil.php?event=QuantroCivil"  class="btn btn-input regist-popshow">Register Now</a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="btn btn-input regist-popshow" data-dismiss="modal">Register Now</a>
@@ -679,7 +683,7 @@ come help Sputnik by showing us your skills in SEISMIC.</p>
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-                    <a href="civil?event=Seismic" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
+                    <a href="civil.php?event=Seismic" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
@@ -696,12 +700,12 @@ come help Sputnik by showing us your skills in SEISMIC.</p>
 					<p class="content_p">Have you ever experienced the thrill of riding a roller coaster? Gives Goosebumps, no? Quick Fact: Roller coasters don’t have engines. So how do they run exactly?
 						Roller coaster must be pulled by a motorized chain to the top of the first big hill. As the roller coaster rises higher, its potential energy increases and reaches maximum at crest of hill.
 						The potential energy accumulated by the rise in height is transferred to kinetic energy as the cars race down the first downward slope.</p>
-                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".Civiq"><span>More Detail</span></a>
+                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".CostaRica"><span>More Detail</span></a>
                     <?php
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-                    <a href="civil?event=Civiq" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
+                    <a href="civil.php?event=CostaRica" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
@@ -718,12 +722,12 @@ come help Sputnik by showing us your skills in SEISMIC.</p>
 			                   <div class="evnt_cont_box civiqe" style=" ">
 			                   <center> <div class="card_box civiqc" style="">QUANTRO-CIVIL</div></center>
 								<p class="content_p">Quantro-Civil is a revolutionized style of conducting a quizzing event testing the knowledge of participants in a wide range of fields of Civil Engineering. Quantro-Civil is the best opportunity for the intellect and the quizzing genius to test their knowledge and challenge their quick thinking.</p>
-			                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".Civiq"><span>More Detail</span></a>
+			                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".QuantroCivil"><span>More Detail</span></a>
 			                    <?php
 					if(isset($_SESSION["user_sphinx_sp"]))
 					{
 						?>
-			                    <a href="civil?event=Civiq" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
+			                    <a href="civil.php?event=QuantroCivil" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
 			         <?php } else
 					 { ?>
 						 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
