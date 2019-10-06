@@ -43,22 +43,22 @@ if(isset($_REQUEST['event']))
 <link href="css/responsive.css" rel="stylesheet" type="text/css">
 </head>
 <body style="overflow:hidden;">
-<script type="text/javascript" src="js/timestamp.js?v=1506980387.0" charset="utf-8"></script> 
-<script type="text/javascript" src="js/graph-calc.js?v=1506980387.0" charset="utf-8"></script> 
-<script type="text/javascript" src="js/auto-complete.js?v=1506980387.0" charset="utf-8"></script> 
-<script type="text/javascript" src="js/toolbar.js?v=1506980387.0" charset="utf-8"></script> 
-<script type="text/javascript" src="js/popper.js" charset="utf-8"></script> 
-<script type="text/javascript" src="js/bootstrap.js" charset="utf-8"></script> 
-<!--<script> 
+<script type="text/javascript" src="js/timestamp.js?v=1506980387.0" charset="utf-8"></script>
+<script type="text/javascript" src="js/graph-calc.js?v=1506980387.0" charset="utf-8"></script>
+<script type="text/javascript" src="js/auto-complete.js?v=1506980387.0" charset="utf-8"></script>
+<script type="text/javascript" src="js/toolbar.js?v=1506980387.0" charset="utf-8"></script>
+<script type="text/javascript" src="js/popper.js" charset="utf-8"></script>
+<script type="text/javascript" src="js/bootstrap.js" charset="utf-8"></script>
+<!--<script>
 
 	$(function(){
 		$('.regist-popshow').click(function(){
 			$('.modalevent').modal('hide');
-		 
+
 			$('#eventregister2').modal('show');
-			 
+
 			$('#loginbox').modal('show');
-			 
+
 		});
 	});
 </script> -->
@@ -70,23 +70,23 @@ if(isset($_REQUEST['event']))
 ?>
 <script>
 $(function(){
-	$('.teamC').change(function(){	
+	$('.teamC').change(function(){
 		$('.teamember_detial').empty();
-		var selVal = $(this).val();	
+		var selVal = $(this).val();
 		for (i = 0; i < selVal; i++) {
 			$('.teamember_detial').append('<div class="row"> <div class="col-sm-4"> <div class="form-group"> <label for="recipient-name" class="form-control-label">Registration Id</label> </div> </div> <div class="col-sm-8"> <div class="form-group"> <input type="text" class="form-control" id="recipient-name" placeholder="Enter registration id" required name="regid[]"> </div> </div> </div> <div class="row"> <div class="col-sm-4"> <div class="form-group"> <label for="recipient-name" class="form-control-label">Email Id</label> </div> </div> <div class="col-sm-8"> <div class="form-group"> <input type="email" class="form-control" id="recipient-name" placeholder="Enter email address" required name="emailid[]"> </div> </div> </div> <div class="row"> <div class="col-sm-4"> <div class="form-group"> <label for="recipient-name" class="form-control-label">Password</label> </div> </div> <div class="col-sm-8"> <div class="form-group"> <input type="Password" name="password[]" class="form-control" id="recipient-name" placeholder="Enter your password"  required> </div> </div> </div><div class="breaklinke"></div>')
 		}
 	})
 })
-</script> 
+</script>
 
-<!-- END WAYBACK TOOLBAR INSERT --> 
+<!-- END WAYBACK TOOLBAR INSERT -->
 
 <script>
 $(window).bind("load", function() {
 	//alert('hello');
   	$('#overlay').css({'left':'110%', 'transition':'all 1s ease-in-out'}, 2000);
-		 
+
 });
 </script>
 <div id="overlay" style="width:100%;">
@@ -187,109 +187,92 @@ $(window).bind("load", function() {
       <div class="modal-body">
         <div class="eventdetail_wpr">
          <div class="evencon_box">
-            <h3>Overview</h3>
-          Design is thinking, made visible. With this theme, we present you “DIGILOG”, an event based on analog and digital circuit design and behaviour.
+            <h3>Event Description:</h3>
+						In this event, each team will have to solve digital and analog circuits. This will consist of three rounds. First round will be qualification round which will be a written
+		quiz. The qualifying teams after first round will have to solve some digital circuits (pen and paper based). Last and the final round will be a circuit hunt.
 </div>
           <div class="evencon_box">
-            <h3>Team formation: </h3>
-          The team can consist of maximum 2 members.
-		  </div>
-		  
-		   <div class="evencon_box">
-            <h3>Structure of the event:</h3>
-            <ul class="checboxlist">
-              The event consists of three rounds:<br>
-<li>1. ROUND 1 (PEN-PAPER TEST)</li>
-<li>2. ROUND 2 (PEN-PAPER TEST)</li>
-<li>3. ROUND 3 (PRACTICAL)</li>
-            </ul>
-          </div>
-		  
-          <div class="evencon_box">
-            <h3>ROUND 1 (PEN-PAPER TEST)</h3>
-            This will be a written elimination round consisting of questions related to aptitude and basic electronics. This round will be of 45 minutes. The test will consist of MCQ's along with negative marking.
-It will consist of 30 questions: 10 of logical reasoning, 10 of analog and 10 of digital.
- </div>
- 
-  <div class="evencon_box">
-            <h3>ROUND 2 (PEN-PAPER TEST)</h3>
-      Teams selected from first round will have to go through second round quiz consisting of some circuit solving problems. This round will be of 1:30 hours. The questions will consist of MCQ's and integer types. Teams will have to solve the circuits on paper and submit it to the examiner/coordinator present there on the spot.
- </div>
- 
-   <div class="evencon_box">
-            <h3>ROUND 3 (PRACTICAL)</h3>
-      This round will be the final round of the event. Teams will have to design the circuit which will be provided to them on the spot (practical). The circuit will be evaluated taking into consideration the neatness of designing, the correctness and efficiency of it.
-This round will be of 2 hours.
- </div>
- 
-		  <div class="evencon_box">
-            <h3>Note:</h3>
-Total points will be calculated as the cumulative of first, second and final round, on the basis of that winner will be decided.
 
-			</div>
-			
-			 <div class="evencon_box">
+						<div class="evencon_box">
+							<h3> FORMAT: </h3>
+							<h3>Level 1:</h3>
+							This will be a written elimination round consisting of questions related to
+	aptitude and basic electrical and electronics. Test will be of 45 minutes and consists of 30 questions, 10 from logical reasoning, 10 from analog and 10 from digital.
+	 </div>
+	 <div class="evencon_box">
+		 <h3>Level 2:</h3>
+		 Teams will have to solve analog and digital circuits (pen and paper based).
+This will be one and a half hour test. Teams will have to solve the circuits on paper and submit it to the examiner/coordinator present on the spot.
+Selected teams will proceed further for next round.
+</div>
+<div class="evencon_box">
+	<h3>Level 3:</h3>
+	This round will be the final round of the event. This round is a circuit hunt round in which each team will have to solve a circuit to get to the next clue.
+Total points will be calculated cumulative of first second and final round
+on the basis of that winner will be decided.
+
+</div>
+
+
+
+		  </div>
+
+		   <div class="evencon_box">
             <h3>Rules and Regulations:</h3>
             <ul class="checboxlist">
-             
-<li>1. Every team has to register for SPHINX.</li>
-<li>2. The final decision of judges and event coordinators shall be treated as final and binding to all.</li>
-<li>3. The participants are supposed to bring pens with them.</li>
-<li>4. Any malpractice will be strictly treated and will be submitted to "SPHINX COMMITTEE (on spot examiner/coordinators)".</li>
-<li>5. Time sense will be appreciated.</li>
-            </ul>
-          </div>
-		  
-		  
-		  
-		 
-          <div class="evencon_box">
-            <h3>Prerequisites:</h3>
-            <ul class="checboxlist">
-      
-A basic knowledge of digital and analog circuitry is necessary.
 
+<li>Every team should consist of a maximum of Two members.</li>
+<li>Every team has to register for SPHINX.</li>
+<li>The final decision of judges and event coordinators shall be treated as final and
+binding to all.</li>
+<li>A basic knowledge of digital and analog circuitry is necessary.</li>
+<li>Any malpractice will be strictly treated and will be submitted to "SPHINX
+Committee” (on spot examiner/coordinators).</li>
+<li>Time sense will be appreciated.</li>
             </ul>
           </div>
-		  
-		  
-			 <div class="evencon_box">
+
+
+
+  <div class="evencon_box">
             <h3>Judging Criteria:</h3>
-            <ul class="checboxlist">
-             
-<li>1. Level I evaluatation will be based on number of questions answered correctly.</li>
-<li>2. Level II evaluatation will be based on the solution and approach to a given question.</li>
-<li>3. Level III evaluatation will be based on output, time taken and efficiency of the solution.</li>
-            </ul>
-          </div>
-          
-                    <div class="evencon_box">
-            <h3>Prizes worth : 7000/-</h3>
-        </div>
-         
+      <ul class="checboxlist">
+				<li><b>Level I</b> is evaluated based on number of questions answered correctly.</li>
+				<li><b>Level II</b> is based on the solution and approach to a given question.</li>
+				<li><b>Level III</b> is based Time taken to solve each circuit.</li>
+			</ul>
+ </div>
 
-          
+
+				<div class="evencon_box">
+            <h3>Prizes</h3>
+						<li>First:</li>
+						<li>Second:</li>
+						<li>Third:</li>
+        </div>
+
+
+
 		  <div class="evencon_box">
             <h3>Contact Us:</h3>
-            <p>For any queries:</p>
             <div class="pptable">
               <table>
                 <tr>
-                  <td>Samihan Nandedkar</td>
-                  <td>7972228793</td>
-				  <td>2016uec1051@mnit.ac.in</td>
+                  <td>Suryaprakash Agarwal</td>
+                  <td>7383935784</td>
+				  <td>2017uec1231@mnit.ac.in</td>
                 </tr>
-           
+
                 <tr>
-                  <td>Raju Raj Purohit</td>
-                  <td>9587026256</td>
-				   <td>2016uec1146@mnit.ac.in</td>
+                  <td>Avinash Mehto</td>
+                  <td>7023461289</td>
+				   <td>2017uec1315@mnit.ac.in</td>
                 </tr>
-                
+
                 <tr>
-                  <td>Varun Raj</td>
-                  <td>9912396355</td>
-				   <td>2016uec1094@mnit.ac.in</td>
+                  <td>Vipul Raj</td>
+                  <td>8987444598</td>
+				   <td>2017uec1207@mnit.ac.in</td>
                 </tr>
               </table>
             </div>
@@ -300,7 +283,7 @@ A basic knowledge of digital and analog circuitry is necessary.
           <?php
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
-			?> 
+			?>
             <a href="electrical_and_electronics?event=Digilog"  class="btn btn-input regist-popshow">Register Now</a>
          <?php } else
 		 { ?>
@@ -316,108 +299,100 @@ A basic knowledge of digital and analog circuitry is necessary.
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">ELECTRA-BUG</h5>
+        <h5 class="modal-title" id="exampleModalLabel">ELECTRO CROSSWORD</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
       </div>
       <div class="modal-body">
         <div class="eventdetail_wpr">
          <div class="evencon_box">
-            <h3>Overview</h3>
-          We step up, we transform. With this motivation, we present you ‘ELECTRA-BUG’, an event to test your understanding of electrical and electronics concepts.
+            <h3><u>Event Description</u></h3>
+          In this event, each team will have to solve electronic and electrical crossword. This will consist of two rounds. First round will be qualification round which will be a written quiz. The qualifying teams after first round will have to design a circuit in the second round with the help of the crossword.
 
 </div>
           <div class="evencon_box">
-            <h3>Team formation: </h3>
-          The team can consist of maximum 2 members.
+            <h3><u>Format:</u></h3>
 		  </div>
-		  
+
 		   <div class="evencon_box">
-            <h3>Structure of the event:</h3>
             <ul class="checboxlist">
-              The event consists of two rounds:<br>
-<li>1. ROUND 1</li>
-<li>2. ROUND 2</li>
+
+<ul><b>Level 1:</b>
+	This will be a written elimination round consisting of questions and a crossword related to aptitude and basic electrical and electronics. This will be of one hour. This will consist of 2 sections. Section-A will contain 30 questions, 10 of logical reasoning, 10 of analog and 10 of digital and Section-B will be a technical crossword related to electrical and electronics. There might be provision for negative marking.
+</ul>
+
+<ul><b>Level 2:</b>
+	<li><b>Round 1</b>- Qualified teams will have to first solve a crossword. This will be of 25 minutes. According to number of crossword answers, teams will be given certain number of LEDs that will help them in next round.</li>
+	<li><b>Round 2</b>- Teams will have to solve the problems and circuits given to them and predict the correct output and finally display the answer on the breadboard using LEDs provided in the first round.</li>
+</ul>
 
             </ul>
           </div>
-		  
-          <div class="evencon_box">
-            <h3>ROUND 1</h3>
-            This will be a written elimination round consisting of questions related to aptitude and basic electrical and electronics. This will be of 45 minutes. This will consist of 30 questions:  10 of logical reasoning, 10 of analog and 10 of digital.
- </div>
- 
-   <div class="evencon_box">
-            <h3>ROUND 2</h3>
-    This round will be the final round of the event. Teams will have to solve and debug circuits (pen and paper based). This will be one and half hour test. Teams will have to solve the circuits on paper and submit it to the examiner/coordinator present there on the spot.
- </div>
- 
-			
+
+
 			 <div class="evencon_box">
-            <h3>Rules and Regulations:</h3>
+            <h3><u>Rules and Regulations:</u></h3>
             <ul class="checboxlist">
-             
-<li>1. Every team has to register for SPHINX.</li>
-<li>2. The final decision of judges and event coordinators shall be treated as final and binding to all.</li>
-<li>3. The participants are supposed to bring pens with them.</li>
-<li>4. Any malpractice will be strictly treated and will be submitted to "SPHINX COMMITTEE (on spot examiner/coordinators)".</li>
+
+<li>Every team should consist a maximum of Two members.</li>
+<li>Every team has to be registered for SPHINX prior to it.</li>
+<li>The final decision of judges and event coordinators shall be treated as final and binding to all.</li>
+<li>Any malpractice will not be tolerated and you will be disqualified on the spot.</li>
+<li>Time sense will be appreciated.</li>
+<li>Calculator and mobile phones will not be allowed in any round.</li>
             </ul>
           </div>
-		  
-		  
-		  
-		 
+
+
+
+
           <div class="evencon_box">
-            <h3>Prerequisites:</h3>
+            <h3><u>Prerequisites:</u></h3>
             <ul class="checboxlist">
-      
+
 A basic knowledge of electrical and electronics is necessary.
 
             </ul>
           </div>
-		  
-		  
+
+
 			 <div class="evencon_box">
-            <h3>Judging Criteria:</h3>
+            <h3><u>Judging Criteria:</u></h3>
             <ul class="checboxlist">
-             
-<li>1. Level I will be evaluated based on number of questions answered correctly.</li>
-<li>2. Level II will be evaluated on the solution and approach to a given question.</li>
+
+<li><b>Level I</b> will be evaluated based on number of questions answered correctly.</li>
+<li><b>Level II</b> is based on the solution and time taken to solve the given question.</li>
             </ul>
           </div>
-         
-                             <div class="evencon_box">
-            <h3>Prizes worth : 7000/-</h3>
-        </div>
-         
 
-          
+                             <div class="evencon_box">
+            <h3><u>Prizes:</u></h3>
+						<li>First:</li>
+						<li>Second:</li>
+						<li>Third:</li>
+        </div>
+
+
+
 		  <div class="evencon_box">
-            <h3>Contact Us:</h3>
-            <p>For any queries:</p>
+            <h3><u>Contact Us:</u></h3>
             <div class="pptable">
               <table>
                 <tr>
-                  <td>Ashish Dhinwa</td>
-                  <td>7232857290</td>
-				  <td>2016uec1087@mnit.ac.in</td>
+                  <td>SURYAPRAKASH   AGARWAL</td>
+                  <td>7383935784</td>
+				  <td>2017uec1231@mnit.ac.in </td>
                 </tr>
-           
+
                 <tr>
-                  <td>Vivek Kumar</td>
-                  <td>9570752678</td>
-				   <td>2016uee1442@mnit.ac.in</td>
+                  <td>ADITI SINGHAL</td>
+                  <td>9460097308</td>
+				   <td>2017uec1289@mnit.ac.in </td>
                 </tr>
-                
+
                 <tr>
-                  <td>Raju Raj Purohit</td>
-                  <td>9587026256</td>
-				   <td>2016uec1146@mnit.ac.in</td>
-                </tr>
-                
-                <tr>
-                  <td>Varun Raj</td>
-                  <td>9912396355</td>
-				   <td>2016uec1094@mnit.ac.in</td>
+                  <td>SOURABH KUMAR</td>
+                  <td>9532471137</td>
+				   <td>2017uec1292@mnit.ac.in</td>
                 </tr>
               </table>
             </div>
@@ -428,7 +403,7 @@ A basic knowledge of electrical and electronics is necessary.
           <?php
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
-			?> 
+			?>
             <a href="electrical_and_electronics?event=Electrabug"  class="btn btn-input regist-popshow">Register Now</a>
          <?php } else
 		 { ?>
@@ -451,18 +426,23 @@ A basic knowledge of electrical and electronics is necessary.
       <div class="modal-body">
         <div class="eventdetail_wpr">
          <div class="evencon_box">
-            <h3>Overview</h3>
-         Electrical Science has revealed to us the true nature of light , has provided us with innumerable appliances and instruments of precision, and has thereby vastly added to the exactness of our knowledge. With this in mind, we present you ‘Plugged In’, an event that will test the teams on the basis of their understanding of high voltage circuits, their ability to find the bugs in a given circuit and application of electrical science principles in day to day life. 
+            <h3>Event Description</h3>
+						This event will consist of two different rounds. Teams will be tested on the basis of their understanding of high voltage circuits, their ability to find bugs in a given circuit and application of electrical science principles in day to day life.<br><br>
+	 <u><b>Round 1</b></u> will be a qualifying round. It will be a pen paper test consisting of MCQs based on Reasoning and Aptitude and Basic Electrical Engineering.<br>
+	 <u><b>Round 2</b></u> will be the final round consisting of problems from electrical science based on finding fault in circuits and understand the cause behind a particular electrical problem and find its solution. There will also be problems on design and analysis of electrical circuit.
 
 
 </div>
           <div class="evencon_box">
-            <h3>Team formation: </h3>
-          The team can consist of maximum 2 members.
-		  </div>
-		  
+            <h3>Format: </h3>
+						<u>Event will be conducted in two rounds:</u><br>
+						<ul><b>Round 1</b> is the elimination round. This round will decide the finalist for the event.</ul>
+          	<ul><b>Round 2</b> will be the final round and its result will decide the winners.</u>
+		  		</div>
+
+
 		   <div class="evencon_box">
-            <h3>Structure of the event:</h3>
+            <h3><u>Round Wise Rules:</u></h3>
             <ul class="checboxlist">
               The event consists of two rounds:<br>
 <li>1. ROUND 1</li>
@@ -470,101 +450,96 @@ A basic knowledge of electrical and electronics is necessary.
 
             </ul>
           </div>
-		  
+
           <div class="evencon_box">
             <h3>ROUND 1</h3>
-             It will be a qualifying round. It will be a pen paper test consisting of MCQs based upon Reasoning, Aptitude and Basic Electrical Engineering.
+
 	<ul class="checboxlist">
-	<li>There will be 30 MCQs in the paper: 10 based on aptitude and logical reasoning and 20 on basic electrical engineering.</li>
+	<li>There will be 30 MCQs in the paper. 10 based on aptitude and logical reasoning and 20 on basic electrical engineering.</li>
 	<li>Question paper will be provided to the teams and answer has to be marked on the same sheet.</li>
 	<li>The paper will be of 45 minutes.</li>
 	<li>Calculators won’t be allowed.</li>
 	<li>Only teams clearing the set cut-off will qualify for next round. Cut-off will be decided after considering the performance of teams in this round</li>
 	<li>There might be provision of negative marking for few sections of the question paper.</li>
-	
+
 	</ul>
-	
+
 	</div>
-	
+
 	 <div class="evencon_box">
             <h3>ROUND 2</h3>
-             This will be the final round consisting of problems from the electrical science based on finding faults in a circuit, to understand the cause behind a particular electrical problem and find its solution. There will also be problems on design and analysis of electrical circuit. This round will be of 2 hours and will again be a pen paper test.
-<br>The question paper will consist of questions in 3 categories:
-
+    This round will be of 2 hours and will again be a pen paper test.
+		The paper will consist of questions in 3categories :
 	<ul class="checboxlist">
 	<li>Category 1 – Circuit designing and analysis: Teams will be provided with a problem statement along with technical constraints. They have to design a circuit on paper based on the problem or they will be provided with a circuit and they will have to analyze its behavior.</li>
 	<li>Category 2 - Fix the problem: In this category, we will provide you with a situation in which your power circuit will be malfunctioning. You need to find the problem and fix it.</li>
 	<li>Category 3 – Play with Electrical Machines: In this category, fundamental problems of simple electrical machines will be asked.</li>
-	
-	</ul>
-	
-	</div>
- 
 
- 
-   
- 
-			
+	</ul>
+
+	</div>
+
+
+
+
+
+
 			 <div class="evencon_box">
             <h3>Rules and Regulations:</h3>
             <ul class="checboxlist">
-             
+
 <li>1. Every team has to register for SPHINX.</li>
 <li>2. The final decision of judges and event coordinators shall be treated as final and binding to all.</li>
 <li>3. The participants are supposed to bring pens with them.</li>
 <li>4. Any malpractice will be strictly treated and will be submitted to "SPHINX COMMITTEE (on spot examiner/coordinators)".</li>
             </ul>
           </div>
-		  
-		  
-		  
-		 
-       
-		  
-		  
+
+
+
+
+
+
+
 			 <div class="evencon_box">
             <h3>Judging Criteria:</h3>
             <ul class="checboxlist">
-             
-<li>1. For Round 1, teams will be judged on the basis of no. of correct attempts in paper.</li>
-<li>2. For Round 2, teams will be judged on basis of their understanding of electrical circuits and their behaviors, their designing approach and ability to find faults  in an electrical circuit and their understanding of operation and behavior of electrical machines.</li>
+
+<li>1. For <b>Round 1</b>, teams will be judged on the basis of no. of correct attempts in paper.</li>
+<li>2. For <b>Round 2</b>, teams will be judged on basis of their understanding of electrical circuits and their behaviors, their designing approach and ability to find faults  in an electrical circuit and their understanding of operation and behavior of electrical machines.</li>
             </ul>
           </div>
-         
+
                     <div class="evencon_box">
-            <h3>Prizes worth : 7000/-</h3>
+            <h3>Prizes worth : </h3>
+						<ul>First:</ul>
+						<ul>Second:</ul>
+						<ul>Third:</ul>
         </div>
-         
-          
+
+
 		  <div class="evencon_box">
             <h3>Contact Us:</h3>
-            <p>For any queries:</p>
             <div class="pptable">
               <table>
                 <tr>
-                  <td>Samihan Nandedkar</td>
-                  <td>7972228793</td>
-				  <td>2016uec1051@mnit.ac.in</td>
+                  <td>SURYAPRAKASH AGARWAL</td>
+                  <td>7383935784</td>
+				  <td>2017uec1231@mnit.ac.in</td>
                 </tr>
-           
+
                 <tr>
-                  <td>Vivek Kumar</td>
-                  <td>9570752678</td>
-				   <td>2016uee1442@mnit.ac.in</td>
+                  <td>GOURAV KHADRIA</td>
+                  <td>8239609645</td>
+				   <td>2017uee1477@mnit.ac.in</td>
                 </tr>
-                
+
                 <tr>
-                  <td>Raju Raj Purohit</td>
-                  <td>9587026256</td>
-				   <td>2016uec1146@mnit.ac.in</td>
+                  <td> SOURABH KUMAR</td>
+                  <td>9532471137</td>
+				   <td>2017uec1292@mnit.ac.in</td>
                 </tr>
-                
-                <tr>
-                  <td>Varun Raj</td>
-                  <td>9912396355</td>
-				   <td>2016uec1094@mnit.ac.in</td>
-                </tr>
-                
+
               </table>
             </div>
           </div>
@@ -574,7 +549,7 @@ A basic knowledge of electrical and electronics is necessary.
           <?php
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
-			?> 
+			?>
             <a href="electrical_and_electronics?event=Pluggedin"  class="btn btn-input regist-popshow">Register Now</a>
          <?php } else
 		 { ?>
@@ -594,10 +569,10 @@ A basic knowledge of electrical and electronics is necessary.
 <style>
 .content_p{
 	margin-top:10px;
-	
+
 }
 .card_box{
-	
+
 	border:2px solid #fff; padding:10px; color:#2A5D88; border-radius :22px; background-color:#fff; width:200px;  margin-top:-25px; font-size:20px; font-weight:bold;
 }
 .modal-title {
@@ -636,8 +611,8 @@ overflow-x: hidden; height: 40%;  padding-left: 210px; width:70%;border-radius: 
           <div class="container">
             <div class="row">
                <img src="" class="team-icon">
-                
-            
+
+
               <div class="col-md-12 col-sm-12">
                 <div class="eventbox_wrp">
                    <div class="evnt_cont_box">
@@ -647,12 +622,12 @@ Sputnik has understood the importance of circuits that power the whole world. Sp
 form a group of potential pioneers who understand the basics of electronics and electrical
 engineering and those who can design efficient circuits for various problems. The catch? Only those
 who can clear his test can be a part of this elite group. Are you ready to take up this challenge?</p>
-                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".Digilog"><span>More Detail</span></a> 
+                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".Digilog"><span>More Detail</span></a>
                     <?php
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-                    <a href="electrical_and_electronics?event=Digilog" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a> 
+                    <a href="electrical_and_electronics?event=Digilog" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
@@ -661,22 +636,18 @@ who can clear his test can be a part of this elite group. Are you ready to take 
                   </div>
                 </div>
               </div>
-			  
+
 			  <div class="col-md-12 col-sm-12">
                 <div class="eventbox_wrp">
                    <div class="evnt_cont_box" style="    ">
-                   <center> <div class="card_box electrac" style="">ELECTRA-BUG</div></center>
-					<p class="content_p">Sputnik has caught the electronics bug and constantly tinkers with electronic circuits to debug them
-and learn good design practices. In his quest to understand electronic and electrical circuits, Sputnik
-realizes that basic aptitude and analytical skills, coupled with knowledge of analog and digital
-concepts is essential. He sets forth a challenge to find other likeminded ‘Electra bugs’ like him who
-are passionate about the circuits that power the world around us.</p>
-                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".Electrabug"><span>More Detail</span></a> 
+                   <center> <div class="card_box electrac" style="">ELECRTO CROSSWORD</div></center>
+					<p class="content_p">In this event, each team will have to solve electronic and electrical crossword.</p>
+                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".Electrabug"><span>More Detail</span></a>
                     <?php
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-                    <a href="electrical_and_electronics?event=Electrabug" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a> 
+                    <a href="electrical_and_electronics?event=Electrabug" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
@@ -685,7 +656,7 @@ are passionate about the circuits that power the world around us.</p>
                   </div>
                 </div>
               </div>
-			  
+
 			   <div class="col-md-12 col-sm-12">
                 <div class="eventbox_wrp">
                    <div class="evnt_cont_box">
@@ -695,12 +666,12 @@ from the complicated diagrams that he has studied in his Electrical Engineering 
 decides to read about the applications of electrical science in real life and then moves onto
 identifying faults in the circuit such as the one that caused the power cut. Help Sputnik navigate his
 way through the world of complex circuitry to master the concepts of electrical engineering.</p>
-                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".Pluggedin"><span>More Detail</span></a> 
+                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".Pluggedin"><span>More Detail</span></a>
                     <?php
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-                    <a href="electrical_and_electronics?event="Pluggedin" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a> 
+                    <a href="electrical_and_electronics?event="Pluggedin" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
@@ -709,7 +680,7 @@ way through the world of complex circuitry to master the concepts of electrical 
                   </div>
                 </div>
               </div>
-            
+
             </div>
           </div>
         </div>
