@@ -869,8 +869,8 @@ position: absolute;
                                <div class="col-sm-7">
                                  <h3>Anmol Mittal</h3>
                  <p><i class="fa fa-briefcase" aria-hidden="true"></i> <span>Web-Developer</span></p>
-                                   <p><i class="fa fa-phone" aria-hidden="true"></i> fill-in</p>
-                 <p><i class="fa fa-envelope" aria-hidden="true"></i> fill-in</p>
+                                   <p><i class="fa fa-phone" aria-hidden="true"></i> +91-7895200248</p>
+                 <p><i class="fa fa-envelope" aria-hidden="true"></i> 2017umt1501@mnit.ac.in</p>
                                </div>
                            </div>
 
