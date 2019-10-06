@@ -812,6 +812,34 @@ position: absolute;
                             </div>
 
 							</div>
+              <div class="teamdeatilbox">
+                           	<div class="row">
+                            	<div class="col-sm-5">
+                           			<img src="images/team19/prastik.jpg" class="img-fluid" draggable="false">
+                           		</div>
+                                <div class="col-sm-7">
+                                	<h3>Prastik Gyawali</h3>
+									<p><i class="fa fa-briefcase" aria-hidden="true"></i> <span>Web-Developer</span></p>
+                                    <p><i class="fa fa-phone" aria-hidden="true"></i> +91-9680398528</p>
+									<p><i class="fa fa-envelope" aria-hidden="true"></i> 2017uec1250@mnit.ac.in</p>
+                                </div>
+                            </div>
+
+							</div>
+              <div class="teamdeatilbox">
+                            <div class="row">
+                              <div class="col-sm-5">
+                                <img src="" class="img-fluid" draggable="false">
+                              </div>
+                                <div class="col-sm-7">
+                                  <h3>Ritika Mor</h3>
+                  <p><i class="fa fa-briefcase" aria-hidden="true"></i> <span>Web-Developer</span></p>
+                                    <p><i class="fa fa-phone" aria-hidden="true"></i>fill-in</p>
+                  <p><i class="fa fa-envelope" aria-hidden="true"></i> fill-in</p>
+                                </div>
+                            </div>
+
+              </div>
               <div class="team">
 
               </div>
@@ -830,12 +858,37 @@ position: absolute;
                                </div>
                            </div>
 
-             </div>
-             <div class="team">
 
              </div>
-             </div>
 
+             <div class="teamdeatilbox">
+                           <div class="row">
+                             <div class="col-sm-5">
+                               <img src="images/team19/anmol.jpg" class="img-fluid" draggable="false">
+                             </div>
+                               <div class="col-sm-7">
+                                 <h3>Anmol Mittal</h3>
+                 <p><i class="fa fa-briefcase" aria-hidden="true"></i> <span>Web-Developer</span></p>
+                                   <p><i class="fa fa-phone" aria-hidden="true"></i> fill-in</p>
+                 <p><i class="fa fa-envelope" aria-hidden="true"></i> fill-in</p>
+                               </div>
+                           </div>
+
+             </div>
+             <div class="teamdeatilbox">
+                           <div class="row">
+                             <div class="col-sm-5">
+                               <img src="" class="img-fluid" draggable="false">
+                             </div>
+                               <div class="col-sm-7">
+                                 <h3>Saloni Goyal</h3>
+                 <p><i class="fa fa-briefcase" aria-hidden="true"></i> <span>Web-Developer</span></p>
+                                   <p><i class="fa fa-phone" aria-hidden="true"></i>fill-in</p>
+                 <p><i class="fa fa-envelope" aria-hidden="true"></i> fill-in</p>
+                               </div>
+                           </div>
+
+             </div>
 
 						   </div>
 						   </div>
