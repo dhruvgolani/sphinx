@@ -810,8 +810,31 @@ position: absolute;
 									<p><i class="fa fa-envelope" aria-hidden="true"></i> 2017uec1231@mnit.ac.in</p>
                                 </div>
                             </div>
+
 							</div>
+              <div class="team">
+
+              </div>
 							</div>
+              <div class="col-lg-6 col-md-12 col-sm-12">
+             <div class="teamdeatilbox">
+                           <div class="row">
+                             <div class="col-sm-5">
+                               <img src="images/team19/DhruvGolani.jpeg" class="img-fluid" draggable="false">
+                             </div>
+                               <div class="col-sm-7">
+                                 <h3>Dhruv Golani</h3>
+                 <p><i class="fa fa-briefcase" aria-hidden="true"></i> <span>Web-Developer</span></p>
+                                   <p><i class="fa fa-phone" aria-hidden="true"></i> +91-9619730222</p>
+                 <p><i class="fa fa-envelope" aria-hidden="true"></i> 2017uec1056@mnit.ac.in</p>
+                               </div>
+                           </div>
+
+             </div>
+             <div class="team">
+
+             </div>
+             </div>
 
 
 						   </div>
