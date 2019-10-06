@@ -10,7 +10,7 @@ if(isset($_REQUEST['event']))
 	if($event=="Battlebots"){
 		$min=1;
 		$max=4;
-	} else if($event=='Roborush') {
+	} else if($event=='DroneRush') {
 		$min=1;
 		$max=4;
 	} else if($event=='Robotryst') {
@@ -349,7 +349,7 @@ demonstrate some degree of controlled movement.</li>
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-            <a href="robotics?event=Battlebots"  class="btn btn-input regist-popshow">Register Now</a>
+            <a href="robotics.php?event=Battlebots"  class="btn btn-input regist-popshow">Register Now</a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="btn btn-input regist-popshow" data-dismiss="modal">Register Now</a>
@@ -360,7 +360,7 @@ demonstrate some degree of controlled movement.</li>
         </div></div>
 
 
-		<div class="modal fade Roborush  modalevent" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+		<div class="modal fade DroneRush  modalevent" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
@@ -553,7 +553,7 @@ manoeuvrability skills.
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-            <a href="robotics?event=Roborush"  class="btn btn-input regist-popshow">Register Now</a>
+            <a href="robotics.php?event=DroneRush"  class="btn btn-input regist-popshow">Register Now</a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="btn btn-input regist-popshow" data-dismiss="modal">Register Now</a>
@@ -791,7 +791,7 @@ provided if team has successfully solved the entire problem statement.</li>
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-            <a href="robotics?event=Robotryst"  class="btn btn-input regist-popshow">Register Now</a>
+            <a href="robotics.php?event=Robotryst"  class="btn btn-input regist-popshow">Register Now</a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="btn btn-input regist-popshow" data-dismiss="modal">Register Now</a>
@@ -874,7 +874,7 @@ position:absolute; width:17%; top:150px; left:42%;
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-                    <a href="robotics?event=Battlebots" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
+                    <a href="robotics.php?event=Battlebots" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
@@ -891,12 +891,12 @@ position:absolute; width:17%; top:150px; left:42%;
                    <center> <div class="card_box">DRONE RUSH</div></center>
 					<p class="content_p">Sphinx’19 is organizing ‘DroneRush’, one of the trickiest robotics competitions. Let’s design a wireless remote-controlled flying platform to complete an obstacle course in
 		minimum time without crashing.</p>
-                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".Roborush"><span>More Detail</span></a>
+                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".DroneRush"><span>More Detail</span></a>
                     <?php
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-                    <a href="robotics?event=Roborush" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
+                    <a href="robotics.php?event=DroneRush" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
@@ -917,7 +917,7 @@ position:absolute; width:17%; top:150px; left:42%;
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-                    <a href="robotics?event=Robotryst" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
+                    <a href="robotics.php?event=Robotryst" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
