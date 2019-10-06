@@ -238,7 +238,7 @@ $(window).bind("load", function() {
 				<br>
 				<br>
 
-				<i>Expectations from the Teams:</i>
+				<i><u>Expectations from the Teams:</u></i>
 				<ul>
 					<li>PPT (presentation of your product) for 10-15 minutes maximum.</li>
 					<li>PPT should include all the necessary details about your website like key features of your website or app, tech talk,
