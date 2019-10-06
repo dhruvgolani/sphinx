@@ -912,12 +912,13 @@ making what you can, and learning on the way.</b>
                    <div class="evnt_cont_box">
                    <center> <div class="card_box">HACK-24</div></center>
 					<p class="content_p">Linguistically, "Hackathon" happens to be a portmanteau of the words "hack" and "marathon",
-					where "hack" is used in the sense of exploratory programming, but not its alternate meaning
-					as a reference to computer security.
+					where "hack" is used in the sense of exploratory programming.<br>
 
 					Knitting the same spirit of an ideal Hackathon, Sphinx proudly presents its annual Hackathon,
 					HACK-24. A fervent event with a mixed concoction of innovation, technology, teamwork and a
-					marvelous profusion of computer "codes" flowing in torrents.
+					marvelous profusion of computer "codes" flowing in torrents.<br>
+					So, join us for this fun-packed event
+					and witness yourself grow amid a diverse pool of tech enthusiasts and participants.
 </p>
                     <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".hack-e-design"><span>More Detail</span></a>
                     <?php
