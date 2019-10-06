@@ -1,5 +1,4 @@
 <style>
-
 tr{
     height:100px;
 }
@@ -12,19 +11,16 @@ $servername = "localhost";
 $username = "sphinx5w";
 $password = "6^Np#FnH8+!0";
 $dbname = "sphinx5w_sphinx";
-
 $conn = mysqli_connect($servername, $username, $password, $dbname);
 // Check connection
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
 }
-
 $sql = "SELECT * FROM registration WHERE event_name = 'Hack-e-web' or event_name = 'Hack-e-app' or event_name = 'Hack-e-design' order by event_name";
 $result = mysqli_query($conn, $sql);
-
 $counter = 0;
 if (mysqli_num_rows($result) > 0) {
-    
+
 	echo "<table border='1'><tr><th>Sno.</th><th>Event_type</th><th>Event_name</th><th>Team_size</th><th>Team_reg_id</th><th>Date</th></tr>";
     while($row = mysqli_fetch_assoc($result)) {
        $counter++;
@@ -34,10 +30,9 @@ echo "</table>";
 } else {
     echo "0 results";
 }
-
 echo "<br><br>Total = ".$counter;
 mysqli_close($conn);
-?> 
+?>
 
 </body>
 </html>

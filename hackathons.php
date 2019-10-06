@@ -189,9 +189,7 @@ $(window).bind("load", function() {
             <h3>Overview</h3>
 						Linguistically, "Hackathon" happens to be a portmanteau of the words "hack" and "marathon",
 						where "hack" is used in the sense of exploratory programming, but not its alternate meaning
-						as a reference to computer security.
-
-						Knitting the same spirit of an ideal Hackathon, Sphinx proudly presents its annual Hackathon,
+						as a reference to computer security.<br><br>Knitting the same spirit of an ideal Hackathon, Sphinx proudly presents its annual Hackathon,
 						HACK-24. A fervent event with a mixed concoction of innovation, technology, teamwork and a
 						marvelous profusion of computer "codes" flowing in torrents. HACK-24 Hackathon is an idyllic
 						platform where you can showcase your ideas and technical skills at a scale never imagined before.
