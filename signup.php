@@ -59,7 +59,7 @@ if(isset($_POST['register']) && ! empty ($_POST['register']))
  		 $query="INSERT INTO `users`(`uid`, `register_id`, `name`, `email`, `phone`, `password`, `course`, `year`, `branch`, `college`, `college_id`, `city`, `accommodation`, `active`, `date_tym`) VALUES (NULL,'','$name','$email','$phone','$pss','$course','$year','$branch','$college','$colid','$city','$accommondation','1','$datesss')";
 		$result=$db->insertQuery($query);
 		$in_b=mysqli_insert_id($conn);
-		$registrationid="sphinx3.0@".$in_b;
+		$registrationid="sphinx'19@".$in_b;
 		$update=$db->updateQuery("UPDATE `users` SET `register_id`='$registrationid' where uid='$in_b'");
 			if($result)
 			{

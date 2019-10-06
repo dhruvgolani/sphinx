@@ -13,7 +13,7 @@ header("Location:".$url);
 }
 else
 {
-	
+
 	 $query="select * from users where register_id='".$email."'";
 	$nums=$db->db_num($query);
 	if($nums>0)
@@ -24,23 +24,23 @@ else
 			$emailsss=$row['email'];
 		$_SESSION["user_sphinx_sp"]=$emailsss;
 		header("Location:".$url);
-	
+
 		}
 		else{
 			$_SESSION["message"]="Registration id or password is incorrect.";
 			header("Location:".$url);
 
-	
-			
+
+
 			}
 	}
 	else
 	{
-			$_SESSION["message"]="Registration id or password is incorrect.";
+			$_SESSION["message"]="Registration id Not Found.";
 			header("Location:".$url);
 
 	}
-	
+
 }
 
 ?>
