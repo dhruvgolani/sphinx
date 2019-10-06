@@ -18,7 +18,7 @@ if(isset($_REQUEST['event']))
 		$max=4;
 	}
 	else{
-		header("Location:robotics");
+		header("Location:robotics.php");
 	}
 
 }

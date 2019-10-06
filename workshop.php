@@ -43,7 +43,7 @@ if(isset($_REQUEST['event']))
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<title>Sphinx 2.0 | Sign In, Shine Out</title>
+<title>Sphinx'19</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <link rel="icon" type="image/png" href="images/favicon.png">
 <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
@@ -195,32 +195,6 @@ $(window).bind("load", function() {
 			  There are no prerequisites to attend this workshop.
 		</div>
 
-		<div class="evencon_box">
-            <h3>Topics:</h3>
-			<ul class="checboxlist">
-			    <li>1. Network concept</li>
-                <li>2. Ethical hacking & cyber security & overview</li>
-                <li>3. VPN technology</li>
-                <li>4. Information gathering</li>
-                <li>5. Windows, Linux hacking & security</li>
-                <li>6. Data recovery</li>
-                <li>7. Steganography and cryptography</li>
-                <li>8. Fake calling & SMS</li>
-                <li>9. Denial of service attack (DOS – attack)</li>
-                <li>10. Google hacking and Google hacking database</li>
-                <li>11. E-mail/social sites hacking and security issues</li>
-                <li>12. SQL Injection (Website hacking)</li>
-                <li>13. Kali-Linux training with fully live Demo</li>
-                <li>14. Hacking by viruses, Trojans, key loggers</li>
-                <li>15. Wireless hacking</li>
-                <li>16. Wi-Fi Jammer</li>
-                <li>17. Scanning</li>
-                <li>18. VAPT</li>
-                <li>19. Security</li>
-                <li>20. Cyber crime case study</li>
-                <li>21. Overview of cyber law</li>
-			</ul>
-		</div>
 
 <div class="evencon_box">
 	  <h3>Benefits:</h3>
@@ -234,6 +208,11 @@ $(window).bind("load", function() {
 	  <h3>Note:</h3>
 	    Students are required to bring laptop and pendrive during the workshop.
     </div>
+		<div class="evencon_box">
+		  <h3>The event information can be viewed below:</h3><br>
+		   <embed src="Ethical.pdf" type="application/pdf" width="100%" height="600px" />
+	    </div>
+
 
 		  <div class="evencon_box">
             <h3>Contact Us:</h3>
@@ -241,14 +220,9 @@ $(window).bind("load", function() {
             <div class="pptable">
               <table>
                 <tr>
-                  <td>Sumit Kumar</td>
-                  <td>7073357606</td>
-				  <td>2016ucp1459@mnit.ac.in</td>
-                </tr>
-                <tr>
-                  <td>Shubham Verma</td>
-                  <td>8290271273</td>
-				  <td>2016uec1073@mnit.ac.in</td>
+                  <td>(Update Name)</td>
+                  <td>(Update Number)</td>
+				  <td>(Update ID)</td>
                 </tr>
               </table>
             </div>
@@ -277,7 +251,7 @@ $(window).bind("load", function() {
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">ROBOTICS</h5>
+        <h5 class="modal-title" id="exampleModalLabel">ARDUINO-ROBOTICS</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
       </div>
       <div class="modal-body">
@@ -293,45 +267,6 @@ These technologies deal with automated machines that can take the place of human
 			  There are no prerequisites to attend this workshop.
 		</div>
 
-		<div class="evencon_box">
-            <h3>Topics:</h3>
-			<ul class="checboxlist">
-			       <li>1. Introduction to Robots</li>
-			            <ul class="checboxlist">
-                        <li>What are Robots?</li>
-                        <li>Types of Robots</li>
-                        <li>What is Robotics Engineering?</li>
-                        </ul>
-                    <li>2. Microcontroller</li>
-                        <ul class="checboxlist">
-                        <li>Microcontroller vs Microprocessor</li>
-                        <li>Basics of Microcontroller</li>
-                        <li>Arduino Microcontroller</li>
-                        <li>Arduino IDE and Overview</li>
-                        <li>Why Arduino?</li>
-                        <li>Arduino Installation</li>
-                        <li>Interfacing LED</li>
-                        </ul>
-                    <li>3. Communication Protocol</li>
-                        <ul class="checboxlist">
-                        <li>Communication Protocols</li>
-                        <li>I2C & SPI</li>
-                        </ul>
-                    <li>4. Basics of Arduino Programming</li>
-                        <ul class="checboxlist">
-                        <li>LED Blinking</li>
-                        <li>LED Matrix</li>
-                        <li>Switch</li>
-                        <li>Sensors Interfacing (Digital and Analog)</li>
-                        <li>Motor Control</li>
-                        </ul>
-                    <li>5. Person Follower Robot MCU</li>
-                    <li>6. Bluetooth Controlled Robot</li>
-                    <li>7. HOME AUTOMATION</li>
-                    <li>8. Task based Ques</li>
-                    <li>9. Obstacle Avoider</li>
-			</ul>
-		</div>
 
 <div class="evencon_box">
 	  <h3>Benefits:</h3>
@@ -340,6 +275,11 @@ These technologies deal with automated machines that can take the place of human
         <li>Real Time Project Option</li>
 	  </ul>
  </div>
+
+	 <div class="evencon_box">
+		 <h3>The event information can be viewed below:</h3><br>
+			<embed src="Robotics.pdf" type="application/pdf" width="100%" height="600px" />
+		 </div>
 
 <!--	<div class="evencon_box">
 	  <h3>Note:</h3>
@@ -352,14 +292,9 @@ These technologies deal with automated machines that can take the place of human
             <div class="pptable">
               <table>
                 <tr>
-                  <td>Sumit Kumar</td>
-                  <td>7073357606</td>
-				  <td>2016ucp1459@mnit.ac.in</td>
-                </tr>
-                <tr>
-                  <td>Shubham Verma</td>
-                  <td>8290271273</td>
-				  <td>2016uec1073@mnit.ac.in</td>
+                  <td>(Update name)</td>
+                  <td>(Update Number)</td>
+				  <td>(Update ID)</td>
                 </tr>
               </table>
             </div>
@@ -404,20 +339,6 @@ These technologies deal with automated machines that can take the place of human
 			  There are no prerequisites to attend this workshop.
 		</div>
 
-		<div class="evencon_box">
-            <h3>Topics:</h3>
-			<ul class="checboxlist">
-			       <li>1. Introduction to Python:
-The course is designed to provide Basic knowledge of Python. Python programming is intended for software engineers, system analysts, program managers and user support personnel who wish to learn the Python programming language to increase program solving capabilities.
-Python Basics - Strings, libraries, lists, tuples, dictionaries, functions, file handling.
-                    </li>
-                    <li>2. Anaconda & Python Development environment setup:
-Using Scientific libraries in python- Numpy, Scipy, Matplotlib and pandas
-                    </li>
-                <li>3. Simple liner regression ,Multiple Linear regression, Decision tree and random forest classification, Logistic regression.</li>
-			</ul>
-		</div>
-
 <div class="evencon_box">
 	  <h3>Benefits:</h3>
 	  <ul class="checboxlist">
@@ -425,6 +346,10 @@ Using Scientific libraries in python- Numpy, Scipy, Matplotlib and pandas
         <li>Real Time Project Option</li>
 	  </ul>
  </div>
+ <div class="evencon_box">
+	 <h3>The event information can be viewed below:</h3><br>
+		<embed src="ML.pdf" type="application/pdf" width="100%" height="600px" />
+	 </div>
 
 <!--	<div class="evencon_box">
 	  <h3>Note:</h3>
@@ -433,18 +358,12 @@ Using Scientific libraries in python- Numpy, Scipy, Matplotlib and pandas
 
 		  <div class="evencon_box">
             <h3>Contact Us:</h3>
-            <p>For any queries:</p>
             <div class="pptable">
               <table>
                 <tr>
-                  <td>Sumit Kumar</td>
-                  <td>7073357606</td>
-				  <td>2016ucp1459@mnit.ac.in</td>
-                </tr>
-                <tr>
-                  <td>Shubham Verma</td>
-                  <td>8290271273</td>
-				  <td>2016uec1073@mnit.ac.in</td>
+                  <td>(Update Name)</td>
+                  <td>(Update Number)</td>
+				  <td>(Update ID)</td>
                 </tr>
               </table>
             </div>
@@ -487,26 +406,6 @@ Using Scientific libraries in python- Numpy, Scipy, Matplotlib and pandas
 			  There are no prerequisites to attend this workshop.
 		</div>
 
-		<div class="evencon_box">
-            <h3>Topics:</h3>
-			<ul class="checboxlist">
-			    <li>1. Introduction to IOT</li>
-                <li>2. Introduction to Arduino</li>
-                <li>3. Introduction to wireless devices(hc05,esp8266)</li>
-                <li>4. Basic programming of electronic devices</li>
-                <li>5. Interfacing of the devices with Bluetooth</li>
-                <li>6. Controlling of rgb through android app</li>
-                <li>7. Controlling of lcd through android app</li>
-                <li>8. Basic Home automation through android app</li>
-                <li>9. Introduction to node mcu Esp8266</li>
-                <li>10. Installation and setting of node mcu</li>
-                <li>11. Interfacing of devices with esp8266</li>
-                <li>12. Online connection of the esp8266</li>
-                <li>13. Programming of the device control with esp8266</li>
-                <li>14. Sending data on internet through esp8266</li>
-			</ul>
-		</div>
-
 <div class="evencon_box">
 	  <h3>Benefits:</h3>
 	  <ul class="checboxlist">
@@ -515,6 +414,10 @@ Using Scientific libraries in python- Numpy, Scipy, Matplotlib and pandas
 	  </ul>
  </div>
 
+ <div class="evencon_box">
+	 <h3>The event information can be viewed below:</h3><br>
+		<embed src="IOT.pdf" type="application/pdf" width="100%" height="600px" />
+</div>
 <!--	<div class="evencon_box">
 	  <h3>Note:</h3>
 	    Students are required to bring laptop and pendrive during the workshop.
@@ -526,14 +429,9 @@ Using Scientific libraries in python- Numpy, Scipy, Matplotlib and pandas
             <div class="pptable">
               <table>
                 <tr>
-                  <td>Sumit Kumar</td>
-                  <td>7073357606</td>
-				  <td>2016ucp1459@mnit.ac.in</td>
-                </tr>
-                <tr>
-                  <td>Shubham Verma</td>
-                  <td>8290271273</td>
-				  <td>2016uec1073@mnit.ac.in</td>
+                  <td>(Update Name)</td>
+                  <td>(Update Number)</td>
+				  <td>(Update ID)</td>
                 </tr>
               </table>
             </div>
@@ -560,49 +458,16 @@ Using Scientific libraries in python- Numpy, Scipy, Matplotlib and pandas
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">AERODYNAMICS</h5>
+        <h5 class="modal-title" id="exampleModalLabel">QUADCOPTER</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
       </div>
       <div class="modal-body">
         <div class="eventdetail_wpr">
-         <div class="evencon_box">
-            <h3>Overview:</h3>
-            Aerodynamics is the way air moves around things. The rules of aerodynamics explain how an airplane is able to fly. Anything that moves through air reacts to aerodynamics. A rocket blasting off the launch pad and a kite in the sky react to aerodynamics. Aerodynamics even acts on cars, since air flows around cars.
-        </div>
 
-        <div class="evencon_box">
-            <h3>Prerequisites:</h3>
-			  There are no prerequisites to attend this workshop.
-		</div>
-
-		<div class="evencon_box">
-            <h3>Topics:</h3>
-			<ul class="checboxlist">
-			    <li>1. Introduction to Aeromodelling</li>
-                <li>2. Introduction to Aerodynamics</li>
-                <li>3. Principle of Aerodynamics (Bernoulli theorem of pressure)</li>
-                <li>4. Types of Forces used to fly an aircraft</li>
-                <li>5. Types of aircraft</li>
-                <li>6. Types of wings</li>
-                <li>7. Parts of Aircraft</li>
-                <li>8. Black Box</li>
-                <li>9. Introduction to Balsa wood and craft</li>
-                <li>10. Crafting of Balsa plane</li>
-                <li>11. Flying of Balsa Plane</li>
-                <li>12. Introduction to RC Plane</li>
-                <li>13. Components of RC plane</li>
-                <li>14. </li>Virtual Flying practice on Real Flight Software</li>
-                <li>15. Mapping of RC Plane</li>
-			</ul>
-		</div>
-
-<div class="evencon_box">
-	  <h3>Benefits:</h3>
-	  <ul class="checboxlist">
-	    <li>Internship/Placement Opportunities</li>
-        <li>Real Time Project Option</li>
-	  </ul>
- </div>
+					<div class="evencon_box">
+						<h3>The event information can be viewed below:</h3><br>
+						 <embed src="Quadcopter.pdf" type="application/pdf" width="100%" height="600px" />
+					</div>
 
 <!--	<div class="evencon_box">
 	  <h3>Note:</h3>
@@ -615,14 +480,9 @@ Using Scientific libraries in python- Numpy, Scipy, Matplotlib and pandas
             <div class="pptable">
               <table>
                 <tr>
-                  <td>Sumit Kumar</td>
-                  <td>7073357606</td>
-				  <td>2016ucp1459@mnit.ac.in</td>
-                </tr>
-                <tr>
-                  <td>Shubham Verma</td>
-                  <td>8290271273</td>
-				  <td>2016uec1073@mnit.ac.in</td>
+                  <td>(Update Name)</td>
+                  <td>(Update Number)</td>
+				  <td>(Update ID)</td>
                 </tr>
               </table>
             </div>
@@ -646,119 +506,10 @@ Using Scientific libraries in python- Numpy, Scipy, Matplotlib and pandas
                 </div>
 
 
-    <div class="modal fade industrial-automation modalevent" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Advanced Industrial Automation</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
-      </div>
-      <div class="modal-body">
-        <div class="eventdetail_wpr">
-         <div class="evencon_box">
-            <h3>Overview:</h3>
-            The most used guiding force behind an Automated Industrial Plant is a "Programmable Logic Controller" generally known as A PLC. PLCs along with certain other necessary ingredients like Sensors, Motors, Actuators, Valves, Conveyors, Boilers, Computers and many more makes a Real Automated Manufacturing Plant. <br>
-            The main objective of PLC Workshop is to make the aspiring engineers acquainted with the conceptual as well as practical knowledge of the Industrial Automation & latest technologies being used to achieve  industrial automation. The idea of organizing this workshop is to inculcate the basic fundamentals of automation in the students and provide them with a platform to work on in the near future.
-        </div>
 
-        <div class="evencon_box">
-            <h3>Prerequisites:</h3>
-			  There are no prerequisites to attend this workshop.
-		</div>
 
-		<div class="evencon_box">
-            <h3>Topics:</h3>
-			<ul class="checboxlist">
-			    <li>1. Introductory & Theoretical session
-			    <ul class="checboxlist">
-                    <li>Introduction to Automation</li>
-                    <li>Definition of Real Time Automation Systems</li>
-                    <li>Careers in Automation Systems</li>
-                    <li>Techniques used for Automation</li>
-                    <li>Sciences Involved, Terminologies used</li>
-                    <li>Brief Description of a Automation Control System</li>
-                </ul> </li>
-                <li>2. Controller
-                <ul class="checboxlist">
-                    <li>Brief introduction about relay and contactor</li>
-                    <li>Concept of Starter like star – delta their applications in industry.</li>
-                </ul> </li>
-                <li>Getting familiar with PLC
-                    <li>Introduction with PLC-SCADA</li>
-                    <li>Brief Introduction to Basic Analog & Digital Electronics</li>
-                    <li>Basic Concept of Processing & Controlling</li>
-                    <li>Concept of PLC and Classification of PLCs</li>
-                    <li>PLC & their Functional Architectures</li>
-                    <li>Addressing Format</li>
-                    <li>Software description and installation</li>
-                    <li>Communication protocols and cables used in PLC</li>
-                    <li>Programming Language of a PLC</li>
-                </ul> </li>
-                <li>Introduction of IOT in industrial Automation
-                    <li>Introduction of IOT System</li>
-                    <li>Need of IOT in Industrial Automation</li>
-                    <li>Protocols used in industrial communication</li>
-                    <li>Working with controller in different Network / wifi</li>
-                </ul> </li>
-                <li>Programming based on Timer and counter
-                    <li>Use Of reset Command</li>
-                    <li>Counter Instruction</li>
-                    <li>Use Compare Instructions</li>
-                    <li>Mathematical Concept ADD, SUB, MUL, DIV, SCL and etc.</li>
-                </ul> </li>
-                <li>Getting familiar with SCADA
-                    <li>Introduction to SCADA Software</li>
-                    <li>Creating new SCADA Project</li>
-                    <li>Graphical Designing of industrial projects</li>
-                    <li>Tag Substitutions</li>
-                    <li>Alarm system </li>
-                    <li>Represent data on Trends</li>
-                    <li>Introduction to graphic Properties like filling, location, orientation, Visibility etc.</li>
-                    <li>Recipe Management</li>
-                    <li>Interfacing sensor with PLC</li>
-                </ul> </li>
-                <li>Practical
-                    <li>Operating Motor using PLC</li>
-                    <li>Beverage Industry Prototype (Operating Different load according to time)</li>
-                    <li>Fault and Load sharing system</li>
-                    <li>Home Automation</li>
-                    <li>Industrial process graphical designing on SCADA. (Beverage Plant, Power plant etc.)</li>
-                </ul> </li>
-			</ul>
-		</div>
 
-<div class="evencon_box">
-	  <h3>Benefits:</h3>
-	  <ul class="checboxlist">
-	    <li>Internship/Placement Opportunities</li>
-        <li>Real Time Project Option</li>
-	  </ul>
- </div>
 
-	<div class="evencon_box">
-	  <h3>Note:</h3>
-	    Students are required to bring laptop and pendrive during the workshop.
-    </div>
-
-		  <div class="evencon_box">
-            <h3>Contact Us:</h3>
-            <p>For any queries:</p>
-            <div class="pptable">
-              <table>
-                <tr>
-                  <td>Sumit Kumar</td>
-                  <td>7073357606</td>
-				  <td>2016ucp1459@mnit.ac.in</td>
-                </tr>
-                <tr>
-                  <td>Shubham Verma</td>
-                  <td>8290271273</td>
-				  <td>2016uec1073@mnit.ac.in</td>
-                </tr>
-              </table>
-            </div>
-          </div>
-        </div>
 		<div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
           <?php
@@ -776,75 +527,6 @@ Using Scientific libraries in python- Numpy, Scipy, Matplotlib and pandas
             </div>
                 </div>
 
-
-<div class="modal fade digital-marketing modalevent" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">DIGITAL MARKETING</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
-      </div>
-      <div class="modal-body">
-        <div class="eventdetail_wpr">
-         <div class="evencon_box">
-            <h3>Overview:</h3>
-            Have you ever given a thought to the concept of Digital Marketing? Are you not fascinated by the ways in which things/ products/ services etc. are marketed digitally with use of Internet? Well, in case you are wondering how all of this works, we bring to you a mini-guide that will help you know more about a career in Digital Marketing.<br>
-            Digital Marketing is nothing but the process of promoting of products or brands and organisations through the internet that are accessed in more than one forms of digital channels and electronic media like personal computers, cell phones or smartphones, tablets and many futuristic devices, that effectively engage and manage a relationship with stakeholders and customers online.
-        </div>
-
-        <div class="evencon_box">
-            <h3>Prerequisites:</h3>
-			  There are no prerequisites to attend this workshop.
-		</div>
-
-		<div class="evencon_box">
-            <h3>Topics:</h3>
-			<ul class="checboxlist">
-			    <li>Digital marketing fundamentals</li>
-                <li>History of search and social platforms</li>
-                <li>Search Engine optimization (Onpage and Offpage )- Keyword research activities</li>
-                <li>Content Marketing (outreach, guest post and paid post)</li>
-                <li>Search Engine Marketing, competitor analysis</li>
-                <li>Analytics and webmaster activities</li>
-                <li>Pay-per-click (PPC) advertising</li>
-                <li>Display advertising</li>
-                <li>Social media marketing (SMM)- Facebook ads, LinkedIn ads, Instagram ads etc.</li>
-                <li>Online reputation management (ORM) Activities</li>
-			</ul>
-		</div>
-
-<div class="evencon_box">
-	  <h3>Benefits:</h3>
-	  <ul class="checboxlist">
-	    <li>Internship/Placement Opportunities</li>
-        <li>Real Time Project Option</li>
-	  </ul>
- </div>
-
-<!--	<div class="evencon_box">
-	  <h3>Note:</h3>
-	    Students are required to bring laptop and pendrive during the workshop.
-    </div>      -->
-
-		  <div class="evencon_box">
-            <h3>Contact Us:</h3>
-            <p>For any queries:</p>
-            <div class="pptable">
-              <table>
-                <tr>
-                  <td>Sumit Kumar</td>
-                  <td>7073357606</td>
-				  <td>2016ucp1459@mnit.ac.in</td>
-                </tr>
-                <tr>
-                  <td>Shubham Verma</td>
-                  <td>8290271273</td>
-				  <td>2016uec1073@mnit.ac.in</td>
-                </tr>
-              </table>
-            </div>
-          </div>
-        </div>
 		<div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
           <?php
@@ -983,7 +665,7 @@ alert("<?=$_SESSION['suc_msg'];?>");
 			   <div class="col-md-12 col-sm-12">
                 <div class="eventbox_wrp">
                    <div class="evnt_cont_box">
-                   <center> <div class="card_box">ROBOTICS</div></center>
+                   <center> <div class="card_box">ARDUINO-ROBOTICS</div></center>
 					<p class="content_p">Robotics is the branch of mechanical engineering, electrical engineering and computer science that deals with the design, construction, operation, and application of robots, as well as computer systems for their control, sensory feedback, and information processing.
 These technologies deal with automated machines that can take the place of humans in dangerous environments or manufacturing processes, or resemble humans in appearance, behavior, and/or cognition.</p>
                     <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".robotics"><span>More Detail</span></a>
@@ -1046,7 +728,7 @@ These technologies deal with automated machines that can take the place of human
         <div class="col-md-12 col-sm-12">
                 <div class="eventbox_wrp">
                    <div class="evnt_cont_box">
-                   <center> <div class="card_box">AERODYNAMICS</div></center>
+                   <center> <div class="card_box">QUADCOPTER</div></center>
 					<p class="content_p">Aerodynamics is the way air moves around things. The rules of aerodynamics explain how an airplane is able to fly. Anything that moves through air reacts to aerodynamics. A rocket blasting off the launch pad and a kite in the sky react to aerodynamics. Aerodynamics even acts on cars, since air flows around cars.</p>
                     <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".aerodynamics"><span>More Detail</span></a>
                     <?php
@@ -1064,46 +746,9 @@ These technologies deal with automated machines that can take the place of human
               </div>
 
 
-        <div class="col-md-12 col-sm-12">
-                <div class="eventbox_wrp">
-                   <div class="evnt_cont_box">
-                   <center> <div class="card_box">ADVANCED INDUSTRIAL AUTOMATION</div></center>
-					<p class="content_p">The most used guiding force behind an Automated Industrial Plant is a "Programmable Logic Controller" generally known as A PLC. PLCs along with certain other necessary ingredients like Sensors, Motors, Actuators, Valves, Conveyors, Boilers, Computers and many more makes a Real Automated Manufacturing Plant. </p>
-                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".industrial-automation"><span>More Detail</span></a>
-                    <?php
-		if(isset($_SESSION["user_sphinx_sp"]))
-		{
-			?>
-                    <a href="workshop?event=industrial-automation" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
-         <?php } else
-		 { ?>
-			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
-		<?php  }?>
-                    </div>
-                  </div>
-                </div>
-              </div>
 
 
-        <div class="col-md-12 col-sm-12">
-                <div class="eventbox_wrp">
-                   <div class="evnt_cont_box">
-                   <center> <div class="card_box">DIGITAL MARKETING</div></center>
-					<p class="content_p">Digital Marketing is nothing but the process of promoting of products or brands and organisations through the internet that are accessed in more than one forms of digital channels and electronic media like personal computers, cell phones or smartphones, tablets and many futuristic devices, that effectively engage and manage a relationship with stakeholders and customers online. </p>
-                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".digital-marketing"><span>More Detail</span></a>
-                    <?php
-		if(isset($_SESSION["user_sphinx_sp"]))
-		{
-			?>
-                    <a href="workshop?event=digital-marketing" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
-         <?php } else
-		 { ?>
-			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
-		<?php  }?>
-                    </div>
-                  </div>
-                </div>
-              </div>
+
 
 
             </div>
