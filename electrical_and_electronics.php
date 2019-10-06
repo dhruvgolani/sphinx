@@ -641,7 +641,7 @@ who can clear his test can be a part of this elite group. Are you ready to take 
                 <div class="eventbox_wrp">
                    <div class="evnt_cont_box" style="    ">
                    <center> <div class="card_box electrac" style="">ELECRTO CROSSWORD</div></center>
-					<p class="content_p">In this event, each team will have to solve electronic and electrical crossword.</p>
+					<p class="content_p">Here crosswords related to aptitude and basic electrical and electronics rifle at you. So how would you defend it? Infact how would you thrive in such an environ? Come show us your problem solving skills here at "Electro Crossword"<br> In this event, each team will have to solve various electronic and electrical science related crosswords.</p>
                     <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".Electrabug"><span>More Detail</span></a>
                     <?php
 		if(isset($_SESSION["user_sphinx_sp"]))
