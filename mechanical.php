@@ -10,7 +10,7 @@ if(isset($_REQUEST['event']))
 	if($event=="Aqua-missile"){
 		$min=1;
 		$max=3;
-	} else if($event=="Inquizitive") {
+	} else if($event=="Cadastrophe") {
 		$min=1;
 		$max=3;
 	} else
@@ -198,8 +198,17 @@ $(window).bind("load", function() {
    Design a water rocket that is completely powered by the thrust provided by compressed air in the bottle and using water as the fuel to increase the mass fraction.
 	</div>
 
+		<div class="evencon_box">
+			<h3>Guidelines for model:</h3>
+			<ul class="checboxlist">
+				<li>Materials which are allowed in model making.</li>
+				<li>Materials provided by Sphinx team.</li>
+				<li>What participants have to bring with them.</li>
+			</ul>
+		</div>
+
 		   <div class="evencon_box">
-            <h3>Structure of the event:</h3>
+            <h3>Judging Criteria:</h3>
             <ul class="checboxlist">
               The event will consist of two rounds:<br>
 <li>1. ROUND 1</li>
@@ -209,10 +218,8 @@ $(window).bind("load", function() {
           <div class="evencon_box">
             <h3>ROUND 1</h3>
            This round tests the stability of rocket. Only one chance will be provided for launching the rocket. There will be 4 regions in the arena, having different points (P).
-		   </div>
 
-		   <div class="evencon_box">
-            <h3>Judging Criteria</h3>
+
            Total points = {Region score + Time of flight (in seconds)}
 <ul class="checboxlist">
 <li>1. Region BRONZE(50-70 meters) :  P = 20 points</li>
@@ -220,7 +227,7 @@ $(window).bind("load", function() {
 <li>3. Region GOLD(90-110 meters) :  P = 40 points</li>
 <li>4. Region PLATINUM (110-130 meters) : P = 50 points</li>
 </ul>
-		   </div>
+</div>
 
 		    <div class="evencon_box">
             <h3>ROUND 2</h3>
@@ -236,7 +243,7 @@ $(window).bind("load", function() {
 </ul>
 		   </div>
 
-		   <div class="evencon_box">
+		   <!-- <div class="evencon_box">
             <h3>Rules and Regulations</h3>
 <ul class="checboxlist">
 <li>1. Team can consist of maximum 3 members.</li>
@@ -248,7 +255,36 @@ $(window).bind("load", function() {
 <li>7. Working fluid is water and it will be provided by organizers.</li>
 <li>8. Decision of the organizers is final.</li>
 </ul>
-		   </div>
+		   </div> -->
+
+			 <div class="evencon_box">
+			 	<h3>MODEL SPECIFICATIONS:</h3>
+				<ul class="checboxlist">
+					<li>The size of rocket system (rocket mounted on the launcher) must fit into the launching zone which is a sector of 2.5 m radius.</li>
+					<li>The rocket body should be made only with plastic bottles of aerated soft drinks of maximum capacity 2.5L</li>
+				</ul>
+			 </div>
+
+			 <div class="evencon_box">
+			 	<h3>GUIDELINES FOR MODEL:</h3>
+				<ul class="checboxlist">
+					<li>Participants are supposed to get their own launching pads which can’t be shared with other teams.
+</li>
+					<li>Participants are advised to make different models for different rounds, in case of any damage to one, but water rockets must be identical.</li>
+					<li>Use of electronic components and chemical explosives are banned</li>
+					<li>Working fluid is water and it will be provided by organizers.</li>
+					<li>Team consists of maximum 3 members.</li>
+				</ul>
+			 </div>
+
+			 <div class="evencon_box">
+			 	<h3>CERTIFICATES AND PRIZES:</h3>
+				<ul class="checboxlist">
+					<li>Top 3 teams will be awarded Certificates and Cash Prizes.</li>
+					<li>Certificates and Cash prizes will also be awarded to the team with “Best Innovative Model” (apart from the top 3 teams).</li>
+					<li>Certificates will be given to all participating teams.</li>
+				</ul>
+			 </div>
 
 		  <div class="evencon_box">
             <h3>Venue</h3>
@@ -276,15 +312,15 @@ Football Ground, MNIT Jaipur
             <div class="pptable">
               <table>
                 <tr>
-                  <td>Devendra Sahu</td>
-                  <td>8989698223</td>
-				  <td>2016UME1101@mnit.ac.in</td>
+                  <td>Pulkit Aggarwal</td>
+                  <td> 7834962157</td>
+				  <td>2017UME1616@mnit.ac.in</td>
                 </tr>
 
                 <tr>
-                  <td>Himanshu Pawar</td>
-                  <td>7746894572</td>
-				   <td>2016UME1226@mnit.ac.in</td>
+                  <td>Adit Agarwal</td>
+                  <td>9785988778</td>
+				   <td>2017UME1136@mnit.ac.in</td>
                 </tr>
               </table>
             </div>
@@ -308,74 +344,46 @@ Football Ground, MNIT Jaipur
 </div>
 
 
-<div class="modal fade Inquizitive  modalevent" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+<div class="modal fade Cadastrophe  modalevent" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">INQUIZITIVE</h5>
+        <h5 class="modal-title" id="exampleModalLabel">CADastrophe</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
       </div>
       <div class="modal-body">
         <div class="eventdetail_wpr">
          <div class="evencon_box">
             <h3>Overview</h3>
-         The Department of Mechanical Engineering presents you a quiz contest ‘Inquzitive’. The idea is to test your knowledge in the field of Mechanical and Automobile engineering as well learn new things through fun.
+						CAE Society presents to you “CADastrophe”, a design challenge that will spur you to think outside the box and prove your mettle and creativity.
+
+	 You have to create a 3D model using Autodesk AutoCAD, Inventor and Fusion 360.
+
  </div>
 
   <div class="evencon_box">
-            <h3>Team formation</h3>
+            <h3>Event Description:</h3>
+						A problem statement will be provided based on which you have to provide the following files:
 			<ul class="checboxlist">
-				<li>1. Each team can consist of maximum 3 members.</li>
-<li>2. A team can have members from same year only, like a team from 1st year should consist of members from 1st year only.</li>
+				<li>3D model file of any above-listed software.</li>
+<li>Rendered images in .jpeg format.</li>
+<li>A Presentation file of the design including the feasibility, manufacturing
+          details and estimated cost report.</li>
+			</ul>
+			The problem statement will be released on the social media pages of CAE Society & SPHINX  a few days prior to the start of the fest.
+<br>
+There will be a presentation round in which the participants are required to give a short presentation of their design and submit the above-mentioned files.
+
 
 	</div>
 
-
-
-		   <div class="evencon_box">
-            <h3>Structure of the event:</h3>
-            <ul class="checboxlist">
-              The event will consist of two rounds:<br>
-<li>1. ROUND 1</li>
-<li>2. ROUND 2</li>
-            </ul>
-          </div>
-          <div class="evencon_box">
-            <h3>ROUND 1</h3>
-           This round will be a written test consisting of 30 Multiple Objective type questions. The time limit for this round will be 30 minutes.
-		   </div>
-
-		   <div class="evencon_box">
-            <h3>Marking Scheme</h3>
-<ul class="checboxlist">
-<li>1. Each correct answer will be awarded as +2 Marks</li>
-<li>2. Each incorrect answer will be penalized with -1 mark.</li>
-<li>3. If none of the answers have been marked teams will get 0 marks.</li>
-<li>4. Maximum marks for this round = 60 marks.</li>
-
-</ul>
-		   </div>
-
-		   <div class="evencon_box">
-            <h3>Note</h3>
-          The written test will be separate for 1st, 2nd and 3rd year students.
-		  </div>
-
-		    <div class="evencon_box">
-            <h3>ROUND 2</h3>
-           <ul class="checboxlist">
-<li>1. Top 15 teams from the first round (5 teams from each year) will be selected according to the judging criteria mentioned above. </li>
-<li>2. Round 2 is a buzzer round. In this round all teams will be shown 10 different questions on the board and teams will get 2 minutes to read the question and after that 5 seconds will be given to press the buzzer.</li>
-<li>3. The teams will get +10 for each correct answer, +5 for partially correct answer and -5 for incorrect.</li>
-<li>4. If a team does not press the buzzer in 5 seconds they will not be allowed to answer the question.</li>
+	<div class="evencon_box">
+		<h3>CERTIFICATES AND PRIZES:</h3>
+		<ul class="checboxlist">
+			<li>Top 3 teams will be awarded Certificates and Cash Prizes.</li>
+			<li>Certificates and Cash prizes will also be awarded to the team with “Best Innovative Model” (apart from the top 3 teams).</li>
 		</ul>
-		</div>
-
-
-		                     <div class="evencon_box">
-            <h3>Prizes worth : 7000/-</h3>
-        </div>
-
+	</div>
 
 
 		  <div class="evencon_box">
@@ -384,15 +392,27 @@ Football Ground, MNIT Jaipur
             <div class="pptable">
               <table>
                 <tr>
-                  <td>Devendra Sahu</td>
-                  <td>8989698223</td>
-				  <td>2016UME1101@mnit.ac.in</td>
+                  <td>Saumay Gupta</td>
+                  <td>+918947878575</td>
+				  <td>2017UME1353@mnit.ac.in</td>
                 </tr>
 
                 <tr>
-                  <td>Himanshu Pawar</td>
-                  <td>7746894572</td>
-				   <td>2016UME1226@mnit.ac.in</td>
+                  <td>ParamPreet</td>
+                  <td>+918433474126</td>
+				   <td>2017UME1451@mnit.ac.in</td>
+                </tr>
+
+								<tr>
+                  <td> Pulkit Aggarwal</td>
+                  <td>+917834962157</td>
+				  <td>2017UME1616@mnit.ac.in</td>
+                </tr>
+
+                <tr>
+                  <td>Adit Agarwal</td>
+                  <td>+919785988778</td>
+				   <td>2017UME1136@mnit.ac.in</td>
                 </tr>
               </table>
             </div>
@@ -404,7 +424,7 @@ Football Ground, MNIT Jaipur
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-            <a  href="mechanical.php?event=Inquizitive"  class="btn btn-input regist-popshow">Register Now</a>
+            <a  href="mechanical.php?event=Cadastrophe"  class="btn btn-input regist-popshow">Register Now</a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="btn btn-input regist-popshow" data-dismiss="modal">Register Now</a>
@@ -480,7 +500,8 @@ overflow-x: hidden; height: 40%;  padding-left: 210px; width:70%;border-radius: 
                 <div class="eventbox_wrp">
                    <div class="evnt_cont_box aqua" style="">
                    <center> <div class="card_box" >AQUA MISSILE</div></center>
-					<p class="content_p">Sputnik is always surprised to see flying jets and missiles but does not like the pollution they cause. Sputnik finds out about water missiles which use compressed air and water only to power missiles for various ranges. He starts to build one for his own but fails. Poor Sputnik doesn't know where he went wrong. Come help Sputnik in  building the best 'AQUA MISSILE'.
+					<p class="content_p">Water rocket have been a source of entertainment and education for many years. They are usually made with an empty plastic bottle by adding water and pressurizing it with air for launching. So come, innovate and show us your product making skills by making an outstanding water rocket.
+
 </p>
                     <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".Aqua-missile"><span>More Detail</span></a>
                     <?php
@@ -500,18 +521,17 @@ overflow-x: hidden; height: 40%;  padding-left: 210px; width:70%;border-radius: 
 			  <div class="col-md-12 col-sm-12">
                 <div class="eventbox_wrp">
                    <div class="evnt_cont_box inquie" style="">
-                   <center> <div class="card_box inquic" style="">INQUIZITIVE</div></center>
-					<p class="content_p">Sputnik has always been curious about moving vehicles, their machinery, motors, and the science that works behind
-them. He keeps an eye on every new vehicle that comes to the road, looks at its specifications and compares it with
-others. He is fascinated by the world of machinery and is always ready to learn new stuffs being discovered or
-modified. Basically Sputnik is an ‘avid mind’ in the field of ‘MECHANICAL AND AUTOMOBILES.’ Now here’s your
-chance to compete with Sputnik in this quiz designed to test your Mechanical and Automobile knowledge.</p>
-                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".Inquizitive"><span>More Detail</span></a>
+                   <center> <div class="card_box inquic" style="">CADastrophe</div></center>
+					<p class="content_p">CAE Society presents to you “CADastrophe”, a design challenge that will spur you to think outside the box and prove your mettle and creativity.
+
+You have to create a 3D model using Autodesk AutoCAD, Inventor and Fusion 360.
+</p>
+                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".Cadastrophe"><span>More Detail</span></a>
                     <?php
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-                    <a href="mechanical.php?event=Inquizitive" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
+                    <a href="mechanical.php?event=Cadastrophe" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
