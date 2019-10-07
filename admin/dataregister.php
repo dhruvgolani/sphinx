@@ -1,9 +1,9 @@
 <?php
 	$servername = "localhost";
-	$username = "sphinx5w";
-	$password = "6^Np#FnH8+!0";
-	$dbname = "sphinx5w_sphinx";
-	
+	$username = "root";
+	$password = "root";
+	$dbname = "sphinx";
+
 	$conn = mysqli_connect($servername, $username, $password, $dbname);
 	if (!$conn) {
 		die("Connection failed: " . mysqli_connect_error());
@@ -29,14 +29,14 @@
 			<th>DATE</th>
 		</tr>";
 		while($row = mysqli_fetch_assoc($result)) {
-		
+
 		echo "<tr><td>".$row['uid']."</td><td width='100px'>".$row['register_id']."</td><td width='150px'>".$row['name']."</td><td width='180px'>".$row['email']."</td><td>".$row['phone']."</td><td>".$row['course']."</td><td>".$row['year']."</td><td width='100px'>".$row['branch']."</td><td>".$row['college']."</td><td>".$row['college_id']."</td><td>".$row['city']."</td><td>".$row['accommodation']."</td><td>".$row['date_tym']."</td></tr>";
-		
-			
+
+
 		}echo "</table>";
 	} else {
 		echo "0 results";
 	}
 
 mysqli_close($conn);
-?> 
+?>

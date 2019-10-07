@@ -9,9 +9,9 @@ td{
 </style>
 <?php
 $servername = "localhost";
-$username = "sphinx5w";
-$password = "6^Np#FnH8+!0";
-$dbname = "sphinx5w_sphinx";
+$username = "root";
+$password = "root";
+$dbname = "sphinx";
 
 $conn = mysqli_connect($servername, $username, $password, $dbname);
 // Check connection
@@ -24,7 +24,7 @@ $result = mysqli_query($conn, $sql);
 
 $counter = 0;
 if (mysqli_num_rows($result) > 0) {
-    
+
 	echo "<table border='1'><tr><th>Sno.</th><th>Event_type</th><th>Event_name</th><th>Team_size</th><th>Team_reg_id</th><th>Date</th></tr>";
     while($row = mysqli_fetch_assoc($result)) {
        $counter++;
@@ -37,7 +37,7 @@ echo "</table>";
 
 echo "<br><br>Total = ".$counter;
 mysqli_close($conn);
-?> 
+?>
 
 </body>
 </html>
