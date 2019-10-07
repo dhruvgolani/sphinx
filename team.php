@@ -70,6 +70,7 @@ $(window).bind("load", function() {
 ?>
 
    <style>
+
 .card{color:#2A5A88;
  width:60px;
  font-weight:bold;
@@ -878,13 +879,13 @@ position: absolute;
              <div class="teamdeatilbox">
                            <div class="row">
                              <div class="col-sm-5">
-                               <img src="" class="img-fluid" draggable="false">
+                               <img src="images/team19/saloni.jpeg" class="img-fluid" draggable="false">
                              </div>
                                <div class="col-sm-7">
                                  <h3>Saloni Goyal</h3>
                  <p><i class="fa fa-briefcase" aria-hidden="true"></i> <span>Web-Developer</span></p>
-                                   <p><i class="fa fa-phone" aria-hidden="true"></i>fill-in</p>
-                 <p><i class="fa fa-envelope" aria-hidden="true"></i> fill-in</p>
+                                   <p><i class="fa fa-phone" aria-hidden="true"></i>+91-9782630559</p>
+                 <p><i class="fa fa-envelope" aria-hidden="true"></i> 2017ucp1061@mnit.ac.in</p>
                                </div>
                            </div>
 
