@@ -12,7 +12,7 @@ if(isset($_REQUEST['event']))
 		$max=1;
 	}
 	else{
-		header("Location:fifa");
+		header("Location:fifa.php");
 	}
 
 }
@@ -271,7 +271,7 @@ $(window).bind("load", function() {
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-            <a href="fifa?event=fifa"  class="btn btn-input regist-popshow">Register Now</a>
+            <a href="fifa.php?event=fifa"  class="btn btn-input regist-popshow">Register Now</a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="btn btn-input regist-popshow" data-dismiss="modal">Register Now</a>
@@ -337,7 +337,7 @@ $(window).bind("load", function() {
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-                    <a href="fifa?event=fifa" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
+                    <a href="fifa.php?event=fifa" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>

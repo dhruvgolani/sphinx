@@ -21,7 +21,7 @@ if(isset($_REQUEST['event']))
 	    $max=3;
 	} else
 	{
-		header("Location:socevents");
+		header("Location:socevents.php");
 	}
 
 }
@@ -46,22 +46,22 @@ if(isset($_REQUEST['event']))
 <link href="css/responsive.css" rel="stylesheet" type="text/css">
 </head>
 <body style="overflow:hidden;">
-<script type="text/javascript" src="js/timestamp.js?v=1506980387.0" charset="utf-8"></script> 
-<script type="text/javascript" src="js/graph-calc.js?v=1506980387.0" charset="utf-8"></script> 
-<script type="text/javascript" src="js/auto-complete.js?v=1506980387.0" charset="utf-8"></script> 
-<script type="text/javascript" src="js/toolbar.js?v=1506980387.0" charset="utf-8"></script> 
-<script type="text/javascript" src="js/popper.js" charset="utf-8"></script> 
-<script type="text/javascript" src="js/bootstrap.js" charset="utf-8"></script> 
-<!--<script> 
+<script type="text/javascript" src="js/timestamp.js?v=1506980387.0" charset="utf-8"></script>
+<script type="text/javascript" src="js/graph-calc.js?v=1506980387.0" charset="utf-8"></script>
+<script type="text/javascript" src="js/auto-complete.js?v=1506980387.0" charset="utf-8"></script>
+<script type="text/javascript" src="js/toolbar.js?v=1506980387.0" charset="utf-8"></script>
+<script type="text/javascript" src="js/popper.js" charset="utf-8"></script>
+<script type="text/javascript" src="js/bootstrap.js" charset="utf-8"></script>
+<!--<script>
 
 	$(function(){
 		$('.regist-popshow').click(function(){
 			$('.modalevent').modal('hide');
-		 
+
 			$('#eventregister2').modal('show');
-			 
+
 			$('#loginbox').modal('show');
-			 
+
 		});
 	});
 </script> -->
@@ -73,23 +73,23 @@ if(isset($_REQUEST['event']))
 ?>
 <script>
 $(function(){
-	$('.teamC').change(function(){	
+	$('.teamC').change(function(){
 		$('.teamember_detial').empty();
-		var selVal = $(this).val();	
+		var selVal = $(this).val();
 		for (i = 0; i < selVal; i++) {
 			$('.teamember_detial').append('<div class="row"> <div class="col-sm-4"> <div class="form-group"> <label for="recipient-name" class="form-control-label">Registration Id</label> </div> </div> <div class="col-sm-8"> <div class="form-group"> <input type="text" class="form-control" id="recipient-name" placeholder="Enter registration id" required name="regid[]"> </div> </div> </div> <div class="row"> <div class="col-sm-4"> <div class="form-group"> <label for="recipient-name" class="form-control-label">Email Id</label> </div> </div> <div class="col-sm-8"> <div class="form-group"> <input type="email" class="form-control" id="recipient-name" placeholder="Enter email address" required name="emailid[]"> </div> </div> </div> <div class="row"> <div class="col-sm-4"> <div class="form-group"> <label for="recipient-name" class="form-control-label">Password</label> </div> </div> <div class="col-sm-8"> <div class="form-group"> <input type="Password" name="password[]" class="form-control" id="recipient-name" placeholder="Enter your password"  required> </div> </div> </div><div class="breaklinke"></div>')
 		}
 	})
 })
-</script> 
+</script>
 
-<!-- END WAYBACK TOOLBAR INSERT --> 
+<!-- END WAYBACK TOOLBAR INSERT -->
 
 <script>
 $(window).bind("load", function() {
 	//alert('hello');
   	$('#overlay').css({'left':'110%', 'transition':'all 1s ease-in-out'}, 2000);
-		 
+
 });
 </script>
 <div id="overlay" style="width:100%;">
@@ -193,13 +193,13 @@ $(window).bind("load", function() {
             <h3>Overview</h3>
          CAE Society presents to you “CADastrophe”, a design challenge that will spur you to think outside the box and prove your mettle and creativity.
 		 </div>
-		 
+
 		 <div class="evencon_box">
             <h3>Team Formation</h3>
-You can participate individually or as a team (Maximum 3 members).         
+You can participate individually or as a team (Maximum 3 members).
 		 </div>
-         
-		  
+
+
 		   <div class="evencon_box">
             <h3>Structure of the event:</h3>
 			You will have to create a 3D model using Autodesk AutoCAD, Inventor and Fusion 360.A problem statement will be provided based on which you will have to provide the following files:
@@ -214,27 +214,27 @@ There will be a presentation round in which the participants will be required to
 
             </ul>
           </div>
-		  
-		  
+
+
           <div class="evencon_box">
             <h3>Judging Criteria</h3>
-            Design of the product will be evaluated on the basis of: 
+            Design of the product will be evaluated on the basis of:
  <ul class="checboxlist">
 <li>Creativity and originality of design concept.</li>
 <li>Feasibility of design & design validations.</li>
 <li>Use of the Product Design application tools for modelling, Visualization and Rendering of the product.</li>
 
 
- 
+
  </ul>
 			</div>
-		  
-		
-			
+
+
+
 			 <div class="evencon_box">
             <h3>Rules and Regulations</h3>
             <ul class="checboxlist">
-             
+
 <li>Any duplicate/existing product design/idea or Copyright ideas/design will stand for rejection.</li>
 <li>The Product Design must be compatible with manufacturing and ready to use. </li>
 <li>The decision of organizers will be final. </li>
@@ -242,15 +242,15 @@ There will be a presentation round in which the participants will be required to
 
             </ul>
           </div>
-		  
+
 		   <div class="evencon_box">
             <h3>Registration Fee</h3>
             <ul class="checboxlist">
 <li>Free of Cost</li>
             </ul>
           </div>
-		  
-		 
+
+
           <div class="evencon_box">
             <h3>Venue</h3>
             <ul class="checboxlist">
@@ -258,7 +258,7 @@ There will be a presentation round in which the participants will be required to
 
             </ul>
           </div>
-		  
+
 		   <div class="evencon_box">
             <h3>Problem Statement</h3>
             <ul class="checboxlist">
@@ -273,17 +273,17 @@ compact at the same time.</p>
 
             </ul>
           </div>
-          
-          		 
+
+
           <div class="evencon_box">
             <h3>Prizes worth : 6000/-</h3>
         </div>
-            
-		  
-		  
-         
 
-          
+
+
+
+
+
 		  <div class="evencon_box">
             <h3>Contact Us:</h3>
             <p>For any queries:</p>
@@ -294,7 +294,7 @@ compact at the same time.</p>
                   <td>9460248138</td>
 				  <td>2016ume1165@mnit.ac.in</td>
                 </tr>
-           
+
                 <tr>
                   <td>Tushar Singh Chauhan </td>
                   <td>9950223731</td>
@@ -309,8 +309,8 @@ compact at the same time.</p>
           <?php
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
-			?> 
-            <a href="socevents?event=Cadastrophe"  class="btn btn-input regist-popshow">Register Now</a>
+			?>
+            <a href="socevents.php?event=Cadastrophe"  class="btn btn-input regist-popshow">Register Now</a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="btn btn-input regist-popshow" data-dismiss="modal">Register Now</a>
@@ -332,9 +332,9 @@ compact at the same time.</p>
         <div class="eventdetail_wpr">
          <div class="evencon_box">
             <h3>Overview</h3>
-         Hey buddies!!  Ever wondered why personal selling is a major element of marketing!! Or why sales managers always have their pockets full!! This is an event about knowing your influencing and convincing power to create the need for the people out there, who ultimately provide you with profits and huge experience of trading. 
+         Hey buddies!!  Ever wondered why personal selling is a major element of marketing!! Or why sales managers always have their pockets full!! This is an event about knowing your influencing and convincing power to create the need for the people out there, who ultimately provide you with profits and huge experience of trading.
 		 </div>
-		 
+
 		 <div class="evencon_box">
             <h3>General Rules</h3>
 		<ul class="checboxlist">
@@ -343,7 +343,7 @@ compact at the same time.</p>
 <li>Initially a token amount of Rs. “X” will be provided to each team.</li>
 <li>The team has to buy items available in the Shop Stores, in the best way they can utilize their token money.</li>
 <li>Items will be disclosed on the spot and involve your skill how you can sell that product with earning maximum profit.</li>
-<li>There will be 3 counters for the event: 
+<li>There will be 3 counters for the event:
 <ul class="dot">
     <li>Counter 1(Shop Store 1): where items for Round 1 will be provided</li>
     <li>Counter 2(Shop Store 2): where items for Round 2 will be provided</li>
@@ -353,7 +353,7 @@ compact at the same time.</p>
 
             </ul>
           </div>
-		  
+
 		   <div class="evencon_box">
             <h3>Structure of the event:</h3>
 			The event will include 2 rounds:
@@ -362,7 +362,7 @@ compact at the same time.</p>
 <li>Teams will buy their products from Shop Store 1 with the token money given. The Initial 30 minutes will be provided for Planning, Buying and Modification of the product (if any) and next 45 minutes will be given to go into market and sell your products.
 </li><li>After completion of the 1st round (75 minutes from the start), each team has to assemble at the Shop stores.
 </li><li>If teams have sold all their items before the time provided, you can buy the Round 1 items again from the profit which you have earned. This will continue till the time slot for 1st round gets over.
-</li><li>The teams have to sell all the products purchased for 1st round, only after that the round will be considered completed. 
+</li><li>The teams have to sell all the products purchased for 1st round, only after that the round will be considered completed.
 </li><li>If the team is taking more than 1 hour to sell the products, for every 1 minute delay a penalty of Re. 1 would be charged.</li>
 
 
@@ -377,21 +377,21 @@ compact at the same time.</p>
 
             </ul>
           </div>
-		  
-		  
+
+
           <div class="evencon_box">
             <h3>Judging Criteria</h3>
             The final profit of a team will be calculated after deducting the cost incurred for purchasing the items (which includes the initial virtual token money also) from the total revenue generated.
 			</div>
-		  
-		
-			
+
+
+
 			 <div class="evencon_box">
             <h3>Rules and Regulations</h3>
             *Rules are subjected to change according to the participation in the event.
           </div>
-		  
-          
+
+
 		  <div class="evencon_box">
             <h3>Contact Us:</h3>
             <p>For any queries:</p>
@@ -402,7 +402,7 @@ compact at the same time.</p>
                   <td>9414543011</td>
 				  <td>2017pbm5002@mnit.ac.in</td>
                 </tr>
-           
+
                 <tr>
                   <td>Pragya Batra </td>
                   <td> 7597508363</td>
@@ -422,8 +422,8 @@ compact at the same time.</p>
           <?php
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
-			?> 
-            <a href="socevents?event=Vend"  class="btn btn-input regist-popshow">Register Now</a>
+			?>
+            <a href="socevents.php?event=Vend"  class="btn btn-input regist-popshow">Register Now</a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="btn btn-input regist-popshow" data-dismiss="modal">Register Now</a>
@@ -445,19 +445,19 @@ compact at the same time.</p>
         <div class="eventdetail_wpr">
          <div class="evencon_box">
             <h3>Overview</h3>
-         Do you have what it takes to show your business brain? Now we are giving you a platform to showcase your intellect in business sector which includes current scenario of business focused on developing the business world knowledge. Event shows the knowledge of the participants towards the industries , companies and product. 
+         Do you have what it takes to show your business brain? Now we are giving you a platform to showcase your intellect in business sector which includes current scenario of business focused on developing the business world knowledge. Event shows the knowledge of the participants towards the industries , companies and product.
                            <br>“Knowledge is of no value unless you put it into practice”
 
          </div>
-		  
+
 		   <div class="evencon_box">
             <h3>Structure of the event:</h3>
 			The event will include 3 rounds:
 			<h4>Round 1:</h4>
             <ul class="checboxlist">
 <li>Only team entries are eligible with 2 members.
-</li><li>The round consists of 20 questions related to Business and Management 
-</li><li>Every question will be displayed on projector for 1 minute. 
+</li><li>The round consists of 20 questions related to Business and Management
+</li><li>Every question will be displayed on projector for 1 minute.
 </li><li>Every team has to answer the quiz on the sheet provided.
 </li><li>No negative marking for incorrect answers
 </li><li>Only 6 teams will be selected for the second round</li>
@@ -474,7 +474,7 @@ compact at the same time.</p>
 </li><li>In case of tie between two or more teams further questions would be asked for final selection.
 </li><li>Only two teams will be selected for the final round</li>
          </ul>
-          
+
 		  <h4>Round 3:</h4>
             <ul class="checboxlist">
                 <li>Both the teams will be provided with a product on spot.
@@ -483,9 +483,9 @@ compact at the same time.</p>
  </li><li>Final Judgment will be taken by the Jury and audience voting.</li>
 </ul>
           </div>
-		  
-         
-          
+
+
+
 		  <div class="evencon_box">
             <h3>Contact Us:</h3>
             <p>For any queries:</p>
@@ -496,7 +496,7 @@ compact at the same time.</p>
                   <td>9414543011</td>
 				  <td>2017pbm5002@mnit.ac.in</td>
                 </tr>
-           
+
                 <tr>
                   <td>Pragya Batra </td>
                   <td> 7597508363</td>
@@ -516,8 +516,8 @@ compact at the same time.</p>
           <?php
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
-			?> 
-            <a href="socevents?event=Quiz"  class="btn btn-input regist-popshow">Register Now</a>
+			?>
+            <a href="socevents.php?event=Quiz"  class="btn btn-input regist-popshow">Register Now</a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="btn btn-input regist-popshow" data-dismiss="modal">Register Now</a>
@@ -542,7 +542,7 @@ compact at the same time.</p>
 This advanced workshop on FUSION360 will help the attendees to
 explore the further features of this versatile software which will
 enhance their designing capability.		 </div>
-		 
+
 		 <div class="evencon_box">
             <h3>Structure of Workshop</h3>
             The structure of the workshop is -
@@ -552,8 +552,8 @@ enhance their designing capability.		 </div>
                 <li>September 29 th , 2018 – Day 3 - On-spot Problem Statement (3 hours)</li>
             </ol>
 		 </div>
-		
-         
+
+
 		  <div class="evencon_box">
             <h3>Contact Us:</h3>
             <p>For any queries:</p>
@@ -563,7 +563,7 @@ enhance their designing capability.		 </div>
                   <td>Amit Kabdal </td>
                   <td>8003163575</td>
                 </tr>
-           
+
                 <tr>
                   <td>Purushottam Sharma </td>
                   <td>8946936808</td>
@@ -577,8 +577,8 @@ enhance their designing capability.		 </div>
           <?php
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
-			?> 
-            <a href="socevents?event=fusion360"  class="btn btn-input regist-popshow">Register Now</a>
+			?>
+            <a href="socevents.php?event=fusion360"  class="btn btn-input regist-popshow">Register Now</a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="btn btn-input regist-popshow" data-dismiss="modal">Register Now</a>
@@ -597,10 +597,10 @@ enhance their designing capability.		 </div>
 <style>
 .content_p{
 	margin-top:10px;
-	
+
 }
 .card_box{
-	
+
 	border:2px solid #fff; padding:10px; color:#2A5D88; border-radius :22px; background-color:#fff; width:200px;  margin-top:-25px; font-size:20px; font-weight:bold;
 }
 .modal-title {
@@ -637,20 +637,20 @@ enhance their designing capability.		 </div>
           <div class="container">
             <div class="row">
                <img src="" class="team-icon">
-                
-                
+
+
             <div class="col-md-12 col-sm-12">
                 <div class="eventbox_wrp">
                    <div class="evnt_cont_box">
                    <center> <div class="card_box">Quizopedia</div></center>
 					<p class="content_p">Sputnik strongly believes that business is extremely important to a country's economy because businesses provide both goods and services and jobs.
  So to familiarise ourselves with the skills that are required in  the business environment and the impact these skills can have on our own lives and on society, Sputnik has organized a business quiz,"Quizopedia", which provides an ideal platform to showcase your intellect in business sector and will highlight your continuous efforts in developing  the  modern business world</p>
-                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".Quiz"><span>More Detail</span></a> 
+                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".Quiz"><span>More Detail</span></a>
                     <?php
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-                    <a href="socevents?event=Quiz" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a> 
+                    <a href="socevents.php?event=Quiz" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
@@ -659,19 +659,19 @@ enhance their designing capability.		 </div>
                   </div>
                 </div>
               </div>
-                  
-                
+
+
              <div class="col-md-12 col-sm-12">
                 <div class="eventbox_wrp">
                    <div class="evnt_cont_box">
                    <center> <div class="card_box">Vendeurpreneur</div></center>
 					<p class="content_p">Sputnik is an able and talented salesperson . He gets selected for an interview for the post of senior sales manager at a well reputed company,which is in fact  his dream job. So ,to fulfill the dreams of people like him, Sputnik organized "Vendeurpreneur",to test one's influencing  and convincing power.</p>
-                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".Vend"><span>More Detail</span></a> 
+                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".Vend"><span>More Detail</span></a>
                     <?php
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-                    <a href="socevents?event=Vend" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a> 
+                    <a href="socevents.php?event=Vend" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
@@ -680,7 +680,7 @@ enhance their designing capability.		 </div>
                   </div>
                 </div>
               </div>
-            
+
               <div class="col-md-12 col-sm-12">
                 <div class="eventbox_wrp">
                    <div class="evnt_cont_box">
@@ -689,12 +689,12 @@ enhance their designing capability.		 </div>
 being a CAD geek, Sputnik presents her a CAD layout. Now annoyed by Sputnik, Pixel
 challenge her to design an arduous layout. Now as poor Alex is busy convincing Pixel,its up
 to you figure out the problem.Help Sputnik out.</p>
-                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".Cadastrophe"><span>More Detail</span></a> 
+                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".Cadastrophe"><span>More Detail</span></a>
                     <?php
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-                    <a href="socevents?event=Cadastrophe" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a> 
+                    <a href="socevents.php?event=Cadastrophe" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
@@ -703,7 +703,7 @@ to you figure out the problem.Help Sputnik out.</p>
                   </div>
                 </div>
               </div>
-              
+
               <div class="col-md-12 col-sm-12">
                 <div class="eventbox_wrp">
                    <div class="evnt_cont_box">
@@ -711,12 +711,12 @@ to you figure out the problem.Help Sputnik out.</p>
 					<p class="content_p">This advanced workshop on FUSION360 will help the attendees to
 explore the further features of this versatile software which will
 enhance their designing capability.</p>
-                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".fusion360"><span>More Detail</span></a> 
+                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".fusion360"><span>More Detail</span></a>
                     <?php
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-                    <a href="socevents?event=fusion360" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a> 
+                    <a href="socevents.php?event=fusion360" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
@@ -725,9 +725,9 @@ enhance their designing capability.</p>
                   </div>
                 </div>
               </div>
-			  
-			 
-            
+
+
+
             </div>
           </div>
         </div>

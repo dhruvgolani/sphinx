@@ -14,7 +14,7 @@ if(isset($_REQUEST['event']))
 		$min=1;
 		$max=4;
 	} else {
-		header("Location:chemical");
+		header("Location:chemical.php");
 	}
 
 }
@@ -191,8 +191,8 @@ $(window).bind("load", function() {
             <h3>Abstract</h3>
             Being a chemical engineer (or scientist) involves a life-long quest of learning. In this profession we constantly learn new ideas and try to better ourselves. Our increasing reliance on the digital world means that to succeed we all need to be aware of the latest technology. Computing is an important part of chemical engineering and all chemical engineers are trained to be numerate, IT literate and develop new technologies.
             <br><br>
-            In a position paper specifying a particular set of computing competencies that all chemical engineering graduates should possess the main recommendations from the body of the report are as follows: 
-           
+            In a position paper specifying a particular set of computing competencies that all chemical engineering graduates should possess the main recommendations from the body of the report are as follows:
+
             <ul class="checboxlist">
 
             <li>The chemical engineering graduate must have experience in the computer aided acquisition and processing of information. </li>
@@ -252,7 +252,7 @@ Any use of unfair means will lead to disqualification of team. </li>
 
  <div class="evencon_box">
             <h3>ROUND-2 : EXPERTLY CHEMICAL</h3>
-            Every successful presentation is built on four pillars: People, Idea, Passion, and Presentation so if you can speak you can influence if you can influence you can change lives. Engineering is about visualizing the concepts and using science to find creative practical solutions. 
+            Every successful presentation is built on four pillars: People, Idea, Passion, and Presentation so if you can speak you can influence if you can influence you can change lives. Engineering is about visualizing the concepts and using science to find creative practical solutions.
             </div>
 
  <div class="evencon_box">
@@ -376,7 +376,7 @@ Any use of unfair means will lead to disqualification of team. </li>
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-            <a href="chemical?event=Chemathon"  class="btn btn-input regist-popshow">Register Now</a>
+            <a href="chemical.php?event=Chemathon"  class="btn btn-input regist-popshow">Register Now</a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="btn btn-input regist-popshow" data-dismiss="modal">Register Now</a>
@@ -407,7 +407,7 @@ Any use of unfair means will lead to disqualification of team. </li>
             <h3>PROBLEM STATEMENT:</h3>
             The objective of the competition is to design a chemically powered car which is capable of travelling along a well defined path in a specified amount of time.
             <br><br>
-            The mechanism used in driving the car must be should be non conventional sources, which might consist of chemical, physical and thermodynamic changes, but no manufactured electrical sources. The track taken is straight which is of approximately 1m with (including 200cm of extra track) which will mark the completion of the race. 
+            The mechanism used in driving the car must be should be non conventional sources, which might consist of chemical, physical and thermodynamic changes, but no manufactured electrical sources. The track taken is straight which is of approximately 1m with (including 200cm of extra track) which will mark the completion of the race.
 		  </div>
 
 		   <div class="evencon_box">
@@ -518,7 +518,7 @@ Let the Overall Deflection of the car (for Region 3) measured perpendicular to t
 
 The effective length for this region will be calculated as follows.<br>
 Effective Length=L3-Y3/3<br>
-Now, the Ideal Length for Region 3 is 400 cm from the figure. Therefore,<b>Normalised Score (N3)</b> for this region out of 20 is calculated as- 
+Now, the Ideal Length for Region 3 is 400 cm from the figure. Therefore,<b>Normalised Score (N3)</b> for this region out of 20 is calculated as-
 N3 = (Effective Length/400)*20<br><br>
 
 The combined Nominal Score (N) out of a total of 70 is given by –<br>
@@ -627,7 +627,7 @@ N = N1 + N2 + N3+10(for extra region)<br><br>
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-            <a href="chemical?event=Chem-e-car"   class="btn btn-input regist-popshow">Register Now</a>
+            <a href="chemical.php?event=Chem-e-car"   class="btn btn-input regist-popshow">Register Now</a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="btn btn-input regist-popshow" data-dismiss="modal">Register Now</a>
@@ -706,7 +706,7 @@ N = N1 + N2 + N3+10(for extra region)<br><br>
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-                    <a href="chemical?event=Chemathon"  class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
+                    <a href="chemical.php?event=Chemathon"  class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
@@ -727,7 +727,7 @@ N = N1 + N2 + N3+10(for extra region)<br><br>
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-                    <a href="chemical?event=Chem-e-car"  class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
+                    <a href="chemical.php?event=Chem-e-car"  class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>

@@ -12,7 +12,7 @@ if(isset($_REQUEST['event']))
 		$max=1;
 	}
 	else{
-		header("Location:nfs");
+		header("Location:nfs.php");
 	}
 }
 ?>
@@ -281,7 +281,7 @@ $(window).bind("load", function() {
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-            <a href="nfs?event=nfs"  class="btn btn-input regist-popshow">Register Now</a>
+            <a href="nfs.php?event=nfs"  class="btn btn-input regist-popshow">Register Now</a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="btn btn-input regist-popshow" data-dismiss="modal">Register Now</a>
@@ -353,7 +353,7 @@ $(window).bind("load", function() {
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-                    <a href="nfs?event=nfs" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
+                    <a href="nfs.php?event=nfs" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>

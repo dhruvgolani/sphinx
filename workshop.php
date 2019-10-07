@@ -10,7 +10,7 @@ if(isset($_REQUEST['event']))
 	if($event=="ethical-hacking"){
 		$min=1;
 		$max=1;
-	} else if($event=="robotics") {
+	} else if($event=="arduino-robotics") {
 		$min=1;
 		$max=1;
 	} else if($event=="machine-learning") {
@@ -19,7 +19,7 @@ if(isset($_REQUEST['event']))
 	} else if($event=="iot") {
 		$min=1;
 		$max=1;
-	} else if($event=="aerodynamics") {
+	} else if($event=="quadcopter") {
 		$min=1;
 		$max=1;
 	}else if($event=="industrial-automation") {
@@ -32,7 +32,7 @@ if(isset($_REQUEST['event']))
 	}
 	 else
 	{
-		header("Location:workshop");
+		header("Location:workshop.php");
 	}
 
 }
@@ -235,7 +235,7 @@ $(window).bind("load", function() {
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-            <a href="workshop?event=ethical-hacking"  class="btn btn-input regist-popshow">Register Now</a>
+            <a href="workshop.php?event=ethical-hacking"  class="btn btn-input regist-popshow">Register Now</a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="btn btn-input regist-popshow" data-dismiss="modal">Register Now</a>
@@ -247,7 +247,7 @@ $(window).bind("load", function() {
                 </div>
 
 
-<div class="modal fade robotics  modalevent" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+<div class="modal fade arduino-robotics  modalevent" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
@@ -306,7 +306,7 @@ These technologies deal with automated machines that can take the place of human
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-            <a href="workshop?event=robotics"  class="btn btn-input regist-popshow">Register Now</a>
+            <a href="workshop.php?event=arduino-robotics"  class="btn btn-input regist-popshow">Register Now</a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="btn btn-input regist-popshow" data-dismiss="modal">Register Now</a>
@@ -375,7 +375,7 @@ These technologies deal with automated machines that can take the place of human
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-            <a href="workshop?event=machine-learning"  class="btn btn-input regist-popshow">Register Now</a>
+            <a href="workshop.php?event=machine-learning"  class="btn btn-input regist-popshow">Register Now</a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="btn btn-input regist-popshow" data-dismiss="modal">Register Now</a>
@@ -443,7 +443,7 @@ These technologies deal with automated machines that can take the place of human
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-            <a href="workshop?event=iot"  class="btn btn-input regist-popshow">Register Now</a>
+            <a href="workshop.php?event=iot"  class="btn btn-input regist-popshow">Register Now</a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="btn btn-input regist-popshow" data-dismiss="modal">Register Now</a>
@@ -454,7 +454,7 @@ These technologies deal with automated machines that can take the place of human
             </div>
                 </div>
 
-<div class="modal fade aerodynamics modalevent" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+<div class="modal fade quadcopter modalevent" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
@@ -494,7 +494,7 @@ These technologies deal with automated machines that can take the place of human
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-            <a href="workshop?event=aerodynamics"  class="btn btn-input regist-popshow">Register Now</a>
+            <a href="workshop.php?event=quadcopter"  class="btn btn-input regist-popshow">Register Now</a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="btn btn-input regist-popshow" data-dismiss="modal">Register Now</a>
@@ -516,7 +516,7 @@ These technologies deal with automated machines that can take the place of human
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-            <a href="workshop?event=industrial-automation"  class="btn btn-input regist-popshow">Register Now</a>
+            <a href="workshop.php?event=industrial-automation"  class="btn btn-input regist-popshow">Register Now</a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="btn btn-input regist-popshow" data-dismiss="modal">Register Now</a>
@@ -533,7 +533,7 @@ These technologies deal with automated machines that can take the place of human
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-            <a href="workshop?event=digital-marketing"  class="btn btn-input regist-popshow">Register Now</a>
+            <a href="workshop.php?event=digital-marketing"  class="btn btn-input regist-popshow">Register Now</a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="btn btn-input regist-popshow" data-dismiss="modal">Register Now</a>
@@ -651,7 +651,7 @@ alert("<?=$_SESSION['suc_msg'];?>");
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-                    <a href="workshop?event=ethical-hacking" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
+                    <a href="workshop.php?event=ethical-hacking" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
@@ -673,7 +673,7 @@ These technologies deal with automated machines that can take the place of human
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-                    <a href="workshop?event=robotics" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
+                    <a href="workshop.php?event=arduino-robotics" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
@@ -693,7 +693,7 @@ These technologies deal with automated machines that can take the place of human
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-                    <a href="workshop?event=machine-learning" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
+                    <a href="workshop.php?event=machine-learning" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
@@ -714,7 +714,7 @@ These technologies deal with automated machines that can take the place of human
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-                    <a href="workshop?event=iot" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
+                    <a href="workshop.php?event=iot" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
@@ -730,12 +730,12 @@ These technologies deal with automated machines that can take the place of human
                    <div class="evnt_cont_box">
                    <center> <div class="card_box">QUADCOPTER</div></center>
 					<p class="content_p">Aerodynamics is the way air moves around things. The rules of aerodynamics explain how an airplane is able to fly. Anything that moves through air reacts to aerodynamics. A rocket blasting off the launch pad and a kite in the sky react to aerodynamics. Aerodynamics even acts on cars, since air flows around cars.</p>
-                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".aerodynamics"><span>More Detail</span></a>
+                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".quadcopter"><span>More Detail</span></a>
                     <?php
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-                    <a href="workshop?event=aerodynamics" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
+                    <a href="workshop.php?event=quadcopter" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>

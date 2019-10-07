@@ -12,7 +12,7 @@ if(isset($_REQUEST['event']))
 		$max=5;
 	}
 	else{
-		header("Location:csgo");
+		header("Location:csgo.php");
 	}
 
 }

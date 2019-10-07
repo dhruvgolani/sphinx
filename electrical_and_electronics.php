@@ -10,7 +10,7 @@ if(isset($_REQUEST['event']))
 	if($event=="Digilog"){
 		$min=1;
 		$max=2;
-	} else if($event=='Electrabug') {
+	} else if($event=='Electrocrossword') {
 		$min=1;
 		$max=2;
 	} else if($event=='Pluggedin') {
@@ -18,7 +18,7 @@ if(isset($_REQUEST['event']))
 		$max=2;
 	}
 	else{
-		header("Location:electrical_and_electronics");
+		header("Location:electrical_and_electronics.php");
 	}
 
 }
@@ -284,7 +284,7 @@ Committee” (on spot examiner/coordinators).</li>
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-            <a href="electrical_and_electronics?event=Digilog"  class="btn btn-input regist-popshow">Register Now</a>
+            <a href="electrical_and_electronics.php?event=Digilog"  class="btn btn-input regist-popshow">Register Now</a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="btn btn-input regist-popshow" data-dismiss="modal">Register Now</a>
@@ -295,7 +295,7 @@ Committee” (on spot examiner/coordinators).</li>
   </div>
 </div>
 
-<div class="modal fade Electrabug  modalevent" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+<div class="modal fade Electrocrossword  modalevent" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
@@ -404,7 +404,7 @@ A basic knowledge of electrical and electronics is necessary.
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-            <a href="electrical_and_electronics?event=Electrabug"  class="btn btn-input regist-popshow">Register Now</a>
+            <a href="electrical_and_electronics.php?event=Electrocrossword"  class="btn btn-input regist-popshow">Register Now</a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="btn btn-input regist-popshow" data-dismiss="modal">Register Now</a>
@@ -550,7 +550,7 @@ A basic knowledge of electrical and electronics is necessary.
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-            <a href="electrical_and_electronics?event=Pluggedin"  class="btn btn-input regist-popshow">Register Now</a>
+            <a href="electrical_and_electronics.php?event=Pluggedin"  class="btn btn-input regist-popshow">Register Now</a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="btn btn-input regist-popshow" data-dismiss="modal">Register Now</a>
@@ -627,7 +627,7 @@ who can clear his test can be a part of this elite group. Are you ready to take 
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-                    <a href="electrical_and_electronics?event=Digilog" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
+                    <a href="electrical_and_electronics.php?event=Digilog" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
@@ -642,12 +642,12 @@ who can clear his test can be a part of this elite group. Are you ready to take 
                    <div class="evnt_cont_box" style="    ">
                    <center> <div class="card_box electrac" style="">ELECRTO CROSSWORD</div></center>
 					<p class="content_p">Here crosswords related to aptitude and basic electrical and electronics rifle at you. So how would you defend it? Infact how would you thrive in such an environ? Come show us your problem solving skills here at "Electro Crossword"<br> In this event, each team will have to solve various electronic and electrical science related crosswords.</p>
-                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".Electrabug"><span>More Detail</span></a>
+                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".Electrocrossword"><span>More Detail</span></a>
                     <?php
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-                    <a href="electrical_and_electronics?event=Electrabug" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
+                    <a href="electrical_and_electronics.php?event=Electrocrossword" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
@@ -671,7 +671,7 @@ way through the world of complex circuitry to master the concepts of electrical 
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-                    <a href="electrical_and_electronics?event="Pluggedin" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
+                    <a href="electrical_and_electronics.php?event="Pluggedin" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>

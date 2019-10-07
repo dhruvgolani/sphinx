@@ -15,7 +15,7 @@ if(isset($_REQUEST['event']))
 		$max=4;
 	} else
 	{
-		header("Location:metallurgy");
+		header("Location:metallurgy.php");
 	}
 
 }
@@ -338,7 +338,7 @@ $(window).bind("load", function() {
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-            <a href="metallurgy?event=Entrophy"  class="btn btn-input regist-popshow">Register Now</a>
+            <a href="metallurgy.php?event=Entrophy"  class="btn btn-input regist-popshow">Register Now</a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="btn btn-input regist-popshow" data-dismiss="modal">Register Now</a>
@@ -443,7 +443,7 @@ $(window).bind("load", function() {
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-            <a href="metallurgy?event=Urja"  class="btn btn-input regist-popshow">Register Now</a>
+            <a href="metallurgy.php?event=Urja"  class="btn btn-input regist-popshow">Register Now</a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="btn btn-input regist-popshow" data-dismiss="modal">Register Now</a>
@@ -527,7 +527,7 @@ us to know if you think you can crack this quiz and join Sputnik in his work.</p
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-                    <a href="metallurgy?event=Entrophy" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
+                    <a href="metallurgy.php?event=Entrophy" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
@@ -550,7 +550,7 @@ Sputnik to explore more about this interesting field of Metallurgy by taking par
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-                    <a href="metallurgy?event=Urja" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
+                    <a href="metallurgy.php?event=Urja" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>

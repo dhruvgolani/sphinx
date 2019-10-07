@@ -19,7 +19,7 @@ if(isset($_REQUEST['event']))
 		$max=3;
 	}  else
 	{
-		header("Location:civil");
+		header("Location:civil.php");
 	}
 
 }

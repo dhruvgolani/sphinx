@@ -15,7 +15,7 @@ if(isset($_REQUEST['event']))
 		$max=2;
 	}
 	else{
-		header("Location:architecture");
+		header("Location:architecture.php");
 	}
 
 }
@@ -269,7 +269,7 @@ $(window).bind("load", function() {
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-            <a href="architecture?event=Cantilivo"  class="btn btn-input regist-popshow">Register Now</a>
+            <a href="architecture.php?event=Cantilivo"  class="btn btn-input regist-popshow">Register Now</a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="btn btn-input regist-popshow" data-dismiss="modal">Register Now</a>
@@ -366,7 +366,7 @@ $(window).bind("load", function() {
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-            <a href="architecture?event=Canvamosaic"  class="btn btn-input regist-popshow">Register Now</a>
+            <a href="architecture.php?event=Canvamosaic"  class="btn btn-input regist-popshow">Register Now</a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="btn btn-input regist-popshow" data-dismiss="modal">Register Now</a>
@@ -441,7 +441,7 @@ solving design problems. Can your structure be the next architectural marvel ?</
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-                    <a href="architecture?event=Cantilivo" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
+                    <a href="architecture.php?event=Cantilivo" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
@@ -465,7 +465,7 @@ Set your creative spirits free and make your own masterpiece that’ll be a feas
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-                    <a href="architecture?event=Canvamosaic" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
+                    <a href="architecture.php?event=Canvamosaic" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>

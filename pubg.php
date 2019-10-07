@@ -18,7 +18,7 @@ if(isset($_REQUEST['event']))
 		$max=2;
 	}
 	else{
-		header("Location:pubg");
+		header("Location:pubg.php");
 	}
 }
 ?>
@@ -41,22 +41,22 @@ if(isset($_REQUEST['event']))
 <link href="css/responsive.css" rel="stylesheet" type="text/css">
 </head>
 <body style="overflow:hidden;">
-<script type="text/javascript" src="js/timestamp.js?v=1506980387.0" charset="utf-8"></script> 
-<script type="text/javascript" src="js/graph-calc.js?v=1506980387.0" charset="utf-8"></script> 
-<script type="text/javascript" src="js/auto-complete.js?v=1506980387.0" charset="utf-8"></script> 
-<script type="text/javascript" src="js/toolbar.js?v=1506980387.0" charset="utf-8"></script> 
-<script type="text/javascript" src="js/popper.js" charset="utf-8"></script> 
-<script type="text/javascript" src="js/bootstrap.js" charset="utf-8"></script> 
-<!--<script> 
+<script type="text/javascript" src="js/timestamp.js?v=1506980387.0" charset="utf-8"></script>
+<script type="text/javascript" src="js/graph-calc.js?v=1506980387.0" charset="utf-8"></script>
+<script type="text/javascript" src="js/auto-complete.js?v=1506980387.0" charset="utf-8"></script>
+<script type="text/javascript" src="js/toolbar.js?v=1506980387.0" charset="utf-8"></script>
+<script type="text/javascript" src="js/popper.js" charset="utf-8"></script>
+<script type="text/javascript" src="js/bootstrap.js" charset="utf-8"></script>
+<!--<script>
 
 	$(function(){
 		$('.regist-popshow').click(function(){
 			$('.modalevent').modal('hide');
-		 
+
 			$('#eventregister2').modal('show');
-			 
+
 			$('#loginbox').modal('show');
-			 
+
 		});
 	});
 </script> -->
@@ -68,27 +68,27 @@ if(isset($_REQUEST['event']))
 ?>
 <script>
 $(function(){
-	$('.teamC').change(function(){	
+	$('.teamC').change(function(){
 		$('.teamember_detial').empty();
-		var selVal = $(this).val();	
+		var selVal = $(this).val();
 		for (i = 0; i < selVal; i++) {
 			$('.teamember_detial').append('<div class="row"> <div class="col-sm-4"> <div class="form-group"> <label for="recipient-name" class="form-control-label">Registration Id</label> </div> </div> <div class="col-sm-8"> <div class="form-group"> <input type="text" class="form-control" id="recipient-name" placeholder="Enter registration id" required name="regid[]"> </div> </div> </div> <div class="row"> <div class="col-sm-4"> <div class="form-group"> <label for="recipient-name" class="form-control-label">Email Id</label> </div> </div> <div class="col-sm-8"> <div class="form-group"> <input type="email" class="form-control" id="recipient-name" placeholder="Enter email address" required name="emailid[]"> </div> </div> </div> <div class="row"> <div class="col-sm-4"> <div class="form-group"> <label for="recipient-name" class="form-control-label">Password</label> </div> </div> <div class="col-sm-8"> <div class="form-group"> <input type="Password" name="password[]" class="form-control" id="recipient-name" placeholder="Enter your password"  required> </div> </div> </div><div class="breaklinke"></div>')
 		}
 	})
 })
-</script> 
+</script>
 
-<!-- END WAYBACK TOOLBAR INSERT --> 
+<!-- END WAYBACK TOOLBAR INSERT -->
 
 <script>
 $(window).bind("load", function() {
 	//alert('hello');
   	$('#overlay').css({'left':'110%', 'transition':'all 1s ease-in-out'}, 2000);
-		 
+
 });
 </script>
 <div id="overlay" style="width:100%;">
-   
+
 	<div style="position:absolute; top:0; left:0; background:rgba(21,24,33,1.0); width:100%; height:100%; text-align:center;" >
 		 <div style="position:absolute; width:100%; height:100%; background:url('images/loading4.gif') center 100% no-repeat; background-size:800px;"></div>
 		 <div style="position:absolute; width:100%; height:100%; background:url('images/title.png') center 40% no-repeat; background-size:500px;"></div>
@@ -199,7 +199,7 @@ locations i.e. you do not need to visit our campus to participate in this event.
 your team rank is first or last. This is mandatory in order to confirm your position. Send
 the screenshot to the admin of the Whatsapp group of the teams playing in that
 slot.(Whatsapp group will be made by us prior to match).</li>
-                <li> Don’t use PC emulator, it will show an icon on your profile and you will be removed from match.</li> 
+                <li> Don’t use PC emulator, it will show an icon on your profile and you will be removed from match.</li>
                 <li>Tournament bracket size are subject to change based on the total number of eligible
 teams at the end of registration.</li>
                 <li>Some professional players would be spectating the match, Hacking or cheating are not allowed.</li>
@@ -214,8 +214,8 @@ spelling and the character sensitivity while filling the form. You yourself will
 responsible for any mismatch.</li>
             </ul>
             </div>
-            
-            
+
+
                         <div class="evencon_box">
             <h3>Registration Process:</h3>
             <ul class="checboxlist">
@@ -238,7 +238,7 @@ the Rulebook of PUBG on our website.</li>
                 <li> We will cross verify all the payments. Confirmation mail would be sent if the payment is
 received successfully. If your payment is not received by us then we will not be
 responsible for it.</li>
-                <li> Registration will be closed at 6:00 pm on 26th Sept 18.</li> 
+                <li> Registration will be closed at 6:00 pm on 26th Sept 18.</li>
                 <li>Whatsapp groups will be made for every match and all the match related info (Match
 time, Room ID and pass) will be shared in the group.You will be added to the Whatsapp
 group as soon as we receive and confirm your payment.</li>
@@ -255,8 +255,8 @@ initiated in case you are unable to play the match.</li>
 completed in order to participate.</li>
             </ul>
             </div>
-            
-            
+
+
             <div class="evencon_box">
             <h3>Tournament Structure</h3>
 			  <ul class="checboxlist">
@@ -270,13 +270,13 @@ completed in order to participate.</li>
             <h3> Fill your payment details :</h3>
 		    <a href="https://goo.gl/forms/CoDT6XhCZWCdYEnn1" class="btn btn-primary" role="button">Click here</a>
 		    </div>
-            
+
             <div class="evencon_box">
             <h3>Note:</h3>
                 <p> Any change in Tournament Structure or rules of the tournament is at the
 discretion of tournament officials and are subject to change without any further notice. </p>
             </div>
-            
+
 		    <div class="evencon_box">
             <h3>Contact Us:</h3>
             <p>For any queries:</p>
@@ -301,8 +301,8 @@ discretion of tournament officials and are subject to change without any further
           <?php
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
-			?> 
-            <a href="pubg?event=pubg"  class="btn btn-input regist-popshow">Register Now</a>
+			?>
+            <a href="pubg.php?event=pubg"  class="btn btn-input regist-popshow">Register Now</a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="btn btn-input regist-popshow" data-dismiss="modal">Register Now</a>
@@ -311,7 +311,7 @@ discretion of tournament officials and are subject to change without any further
 		</div>
           </div>
         </div></div>
-		
+
 
 <!--top nav-->
 <?php
@@ -322,10 +322,10 @@ discretion of tournament officials and are subject to change without any further
 <style>
 .content_p{
 	margin-top:10px;
-	
+
 }
 .card_box{
-	
+
 	border:2px solid #fff; padding:10px; color:#2A5D88; border-radius :22px; background-color:#fff; width:200px;  margin-top:-25px; font-size:20px; font-weight:bold;
 }
 .modal-title {
@@ -352,20 +352,20 @@ discretion of tournament officials and are subject to change without any further
           <div class="container">
             <div class="row">
                <img src="" class="team-icon">
-        
-		  
+
+
     			  <div class="col-md-12 col-sm-12">
                 <div class="eventbox_wrp">
                    <div class="evnt_cont_box">
                    <center> <div class="card_box">PUBG</div></center>
 					<p class="content_p">Over the last few months, PUBG an online survival shooting game has taken the gaming world by storm
 and it’s this game that’s pegging the needle of Sputnnik's interest.And  he firmly believes that if you win in PUBG, you feel like you have accomplished a hell  lot in your life because of the difficulty to win and all the adrenaline just keeps pilling up until you finally win or lose.So he decides to organize a PUBG competition, to battle against the best in  business and to experience the pleasure and enthrallment of winning one of the toughest competitions the gaming world has ever produced!</p>
-                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".pubg"><span>More Detail</span></a> 
+                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".pubg"><span>More Detail</span></a>
                     <?php
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-                    <a href="pubg?event=pubg" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a> 
+                    <a href="pubg.php?event=pubg" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
@@ -374,7 +374,7 @@ and it’s this game that’s pegging the needle of Sputnnik's interest.And  he 
                   </div>
                 </div>
               </div>
-        
+
             </div>
           </div>
         </div>

@@ -7,18 +7,18 @@ if(isset($_REQUEST['event']))
 	$min="";
 	$max="";
 	$event=mysqli_real_escape_string($conn,$_REQUEST['event']);
-	if($event=="hack-e-design"){
+	if($event=="Hack-24"){
 		$min=1;
-		$max=2;
-	} else if($event=="hack-e-app") {
-		$min=1;
-		$max=3;
-	} else if($event=="hack-e-web") {
-		$min=1;
-		$max=3;
+		$max=4;
+	// } else if($event=="hack-e-app") {
+	// 	$min=1;
+	// 	$max=3;
+	// } else if($event=="hack-e-web") {
+	// 	$min=1;
+	// 	$max=3;
 	}
 	else{
-		header("Location:hackathons");
+		header("Location:hackathons.php");
 	}
 
 }
@@ -176,7 +176,7 @@ $(window).bind("load", function() {
   </div>
 </div>
 
-<div class="modal fade hack-e-design modalevent" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+<div class="modal fade Hack-24 modalevent" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
@@ -397,7 +397,7 @@ making what you can, and learning on the way.</b>
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-            <a href="hackathons?event=hack-e-design"  class="btn btn-input regist-popshow">Register Now</a>
+            <a href="hackathons.php?event=Hack-24"  class="btn btn-input regist-popshow">Register Now</a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="btn btn-input regist-popshow" data-dismiss="modal">Register Now</a>
@@ -920,12 +920,12 @@ making what you can, and learning on the way.</b>
 					So, join us for this fun-packed event
 					and witness yourself grow amid a diverse pool of tech enthusiasts and participants.
 </p>
-                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".hack-e-design"><span>More Detail</span></a>
+                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".Hack-24"><span>More Detail</span></a>
                     <?php
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-                    <a href="hackathons?event=hack-e-design" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
+                    <a href="hackathons.php?event=Hack-24" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>

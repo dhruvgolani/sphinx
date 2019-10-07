@@ -15,7 +15,7 @@ if(isset($_REQUEST['event']))
 		$max=3;
 	} else
 	{
-		header("Location:mechanical");
+		header("Location:mechanical.php");
 	}
 
 }
@@ -296,7 +296,7 @@ Football Ground, MNIT Jaipur
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-            <a  href="mechanical?event=Aqua-missile" class="btn btn-input regist-popshow">Register Now</a>
+            <a  href="mechanical.php?event=Aqua-missile" class="btn btn-input regist-popshow">Register Now</a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="btn btn-input regist-popshow" data-dismiss="modal">Register Now</a>
@@ -404,7 +404,7 @@ Football Ground, MNIT Jaipur
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-            <a  href="mechanical?event=Inquizitive"  class="btn btn-input regist-popshow">Register Now</a>
+            <a  href="mechanical.php?event=Inquizitive"  class="btn btn-input regist-popshow">Register Now</a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="btn btn-input regist-popshow" data-dismiss="modal">Register Now</a>
@@ -487,7 +487,7 @@ overflow-x: hidden; height: 40%;  padding-left: 210px; width:70%;border-radius: 
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-                    <a href="mechanical?event=Aqua-missile" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
+                    <a href="mechanical.php?event=Aqua-missile" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
@@ -511,7 +511,7 @@ chance to compete with Sputnik in this quiz designed to test your Mechanical and
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-                    <a href="mechanical?event=Inquizitive" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
+                    <a href="mechanical.php?event=Inquizitive" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
