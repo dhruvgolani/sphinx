@@ -88,7 +88,9 @@ CREATE TABLE `registration` (
   `event_name` text NOT NULL,
   `team_size` int(11) DEFAULT NULL,
   `team_reg_id` text NOT NULL,
-  `date_tym` text NOT NULL
+  `date_tym` text NOT NULL,
+  `payment` text DEFAULT NULL,
+  `transaction_id` text DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------

@@ -2,6 +2,30 @@
 include("config.php");
 include("check_user.php");
 $db= new Database();
+$conn=$db->db_connect();
+// if(isset($_REQUEST['event']))
+// {
+// 	$min="";
+// 	$max="";
+// 	$event=mysqli_real_escape_string($conn,$_REQUEST['event']);
+// 	if($event=="Battlebots"){
+// 		$min=1;
+// 		$max=4;
+// 	} else if($event=='DroneRush') {
+// 		$min=1;
+// 		$max=4;
+// 	} else if($event=='Binary-battle') {
+// 		$min=1;
+// 		$max=4;
+// 	}
+// 	else{
+// 		header("Location:registered-events.php");
+// 	}
+//
+// }
+if(isset($_REQUEST['rid'])){
+	$rid=mysqli_real_escape_string($conn,$_REQUEST['rid']);
+}
 ?>
 
 <!DOCTYPE html>
@@ -49,7 +73,12 @@ $db= new Database();
 
 
 <!-- END WAYBACK TOOLBAR INSERT -->
-
+<?php
+if(isset($_REQUEST['rid']))
+{ ?>
+	<script type="text/javascript">  $(window).load(function () {  $('#eventregister2').modal('show'); });</script>
+<?php }
+?>
 <script>
 $(window).bind("load", function() {
 	//alert('hello');
@@ -62,6 +91,42 @@ $(window).bind("load", function() {
 		 <div class="ppp2"></div>
 		 <div class="ppp3"></div>
 	</div>
+</div>
+
+<div class="modal fade" id="eventregister2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Payment Verification</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
+      </div>
+      <form class="form" method="post" action="process_transaction.php">
+        <div class="modal-body">
+					<div class="row">
+						<div class="col-sm-4">
+							<div class="form-group">
+								<label for="recipient-name" class="form-control-label">Transaction ID</label>
+							</div>
+						</div>
+						<div class="col-sm-8">
+							<div class="form-group">
+								<input type="text" class="form-control" id="transactionID" placeholder="Enter transaction ID" name="transactionID" required>
+							</div>
+						</div>
+					</div>
+        </div>
+        <div class="modal-footer">
+        <!-- <input type="hidden" name="event_type" value="Robotics">
+        <input type="hidden" name="event_name" value="<?=$event;?>"> -->
+        <input type="hidden" name="url" value="<?=$_SERVER['REQUEST_URI'];?>">
+				<input type="hidden" name="rid" value="<?=$rid;?>">
+        <p style="color:#CF5759"><?=@$_SESSION['Error']; @$_SESSION['Error']=null;?></p>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="submit" name="submitreg" class="btn btn-input">Submit</button>
+        </div>
+      </form>
+    </div>
+  </div>
 </div>
 
 <style>
@@ -119,6 +184,7 @@ width:70%;     border-radius: 40px 40px 0px 0;
 										<th>No. of Team Members</th>
 										<th>Registraion Id</th>
 										<th>Name</th>
+										<th>Payment Status</th>
 									</tr>
 								</thead>
 								<tbody>
@@ -154,6 +220,21 @@ width:70%;     border-radius: 40px 40px 0px 0;
 										<td><span class="tb-title">No. of Team Members</span><span class="tb-content"><?=($row_reg['team_size']);?></span></td>
 										<td><span class="tb-title">Registraion Id</span><span class="tb-content"><?=$no1;?></span></td>
 										<td><span class="tb-title">Name</span><span class="tb-content"><?=$uer['name']?></span></td>
+										<?php
+											if($row_reg['payment']==NULL){ ?>
+												<td class="btn btn-input">NONE</td>
+											<?php }
+											else if($row_reg['transaction_id']==NULL){ ?>
+												<!-- <td><a href="registered-events.php?event=<?=ucfirst($row_reg['event_name'])?>"  class="btn btn-input regist-popshow">Enter Transaction ID</a></td> -->
+												<td><a href="registered-events.php?rid=<?=ucfirst($row_reg['rid'])?>"  class="btn btn-input regist-popshow">Enter Transaction ID</a></td>
+											<?php }
+											else if($row_reg['transaction_id']!='SUCCESS'){ ?>
+												<td class="btn btn-input">UNDER VERIFICATION</td>
+											<?php }
+											else{ ?>
+												<td class="btn btn-input">SUCCESS</td>
+										<?php }
+										?>
 									</tr>
                                     <?php
 									if($team>1)
@@ -170,6 +251,7 @@ width:70%;     border-radius: 40px 40px 0px 0;
 										<td></td>
 										<td><?=$next;?></td>
 										<td><?=$uer['name'];?></td>
+
 									</tr>
 									<?php
 									 $j++;
