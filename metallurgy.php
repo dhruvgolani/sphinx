@@ -255,62 +255,68 @@ $(window).bind("load", function() {
   </div>
 </div>
 
-<div class="modal fade Entrophy  modalevent" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+<div class="modal fade Entrophy  modalevent" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" style="height: auto; overflow: auto;">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">ENTROPHY</h5>
+        <h5 class="modal-title" id="exampleModalLabel">THE MATERIAL WORLD</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
       </div>
       <div class="modal-body">
         <div class="eventdetail_wpr">
          <div class="evencon_box">
-            <h3>Overview</h3>
-			Sphinx 2.0 presents ‘ENTROPHY’, an event that tests your knowledge about extractive metallurgy, physical metallurgy, engineering materials, general metallurgical ideas and applications of these topics.
+            <h3>ABSTRACT: </h3>
+						Materials are an integral part of our existence, and in this developing era we are keen to know more about materials and their various applications. <br> <br>
+						The material world will revolve around engineering material, their applications and nanotechnology.
+
 </div>
           <div class="evencon_box">
-            <h3>Team formation: </h3>
-          Each team shall have 2 members.
+            <h3>ROUND-1 : QUIZ</h3>
+
+						<ol>
+							<li>A quiz based on materials and their applications.</li>
+							<ol type="i">
+								<li>Engineering Materials</li>
+								<li>Nanotechnology</li>
+								<li>Characterisation of Materials</li>
+							</ol>
+							<li>Each team will be provided with a question paper consisting of 60 questions of objective type.</li>
+							<li>The time limit for this round will be 60 minutes.</li>
+						</ol>
+
+						<b> ~ Top 5 Teams would be selected for Round-2 </b>
 		  </div>
 
-		   <div class="evencon_box">
-            <h3>Structure of the event:</h3>
-            <ul class="checboxlist">
-              The event will consist of 2 rounds:<br>
-<li>1. ROUND 1 </li>
-<li>2. ROUND 2 </li>
-            </ul>
-          </div>
 
         <div class="evencon_box">
-            <h3>ROUND 1: CHAIN REACTION</h3>
-            Two teams will be merged randomly together for this first round. There will be a total of 4 tasks to be performed by the merged teams’ members individually. Next task in this round will be given to the other member of merged team when the preceding member completes his/her task. The tasks may include - crosswords, match the column, etc.
-			<h3>Judging Criteria:</h3>
-			<ul class="checboxlist">
-			<li>1. The time taken for each event.</li>
-			<li>2. The accuracy and precision in solving the problems.</li>
-			<li>3. Cross Team Working.</li>
-			<br>
-			The two teams merged will be given the same score as their overall merged team score. After 1st round, better performing teams will be selected for the next round.
-		</div>
+            <h3>ROUND 2:</h3>
+						<ol>
+							<li>In this round each team will be provided with a well known metallurgical process or equipment and teams will have to modify the process/equipment giving a detailed analysis of the merits, demerits and cost incurred.</li>
+							<li>The time limit for this round will be 45 minutes.</li>
+						</ol>
+					</div>
 
   <div class="evencon_box">
-            <h3>ROUND 2: THE PICTIONARY</h3>
-      This is a team event for 2 members. Some images will be shown one by one and questions will be asked about those images which can have any type of riddle and the teams will have to write their answers on a sheet in a specific time and submit it to the judges. Negative marks will be awarded on every wrong answer.
-	  <h3>Judging Criteria:</h3>
-	  <ul class="checboxlist">
-	  <li>1. The precision in answering the questions.</li>
-	  <li>2. Team work.</li>
-	  </ul>
+            <h3>TEAM STRUCTURE AND RULES:</h3>
+						<ul class="checboxlist">
+							<li>A team shall consist of maximum 3 students.</li>
+							<li>In case of tie between 2 or more teams, the team with lesser wrong answers will get a higher rank.</li>
+							<li> <b>Participants shall not be allowed to use mobile or other electronic instruments.</b> </li>
+							<li>Organisers have the right to change the quiz format and specifications until the event day.</li>
+							<li>Final decision making authority lies with organising team.</li>
+						</ol>
  </div>
 
         <div class="evencon_box">
-            <h3>Note:</h3>
-			<p>The decision of the judges and the organizers shall be final and abiding.</p>
+            <h3>CERTIFICATES AND PRIZES:</h3>
+						<ul class="checboxlist">
+							<li>Top 3 teams will be awarded with Cash Prizes.</li>
+							<li>Certificates will be given to all the participating teams.</li>
+						</ul>
 		</div>
 
                    <div class="evencon_box">
-            <h3>Prizes worth : 7000/-</h3>
+            <h3>Prizes worth : TBA</h3>
         </div>
 
 		  <div class="evencon_box">
@@ -319,14 +325,14 @@ $(window).bind("load", function() {
             <div class="pptable">
               <table>
                 <tr>
-                  <td>Ambesh Gupta</td>
-                  <td>8562862325</td>
-				  <td>2016umt1357@mnit.ac.in</td>
+                  <td>Aniket Soni</td>
+                  <td>9950891716</td>
+				  <td>2017umt1730@mnit.ac.in</td>
                 </tr>
                 <tr>
-                  <td>Rohit Agrawal</td>
-                  <td>8989514993</td>
-				   <td>2016umt1473@mnit.ac.in</td>
+                  <td>Samyak Srivastava</td>
+                  <td>8005328897</td>
+				   <td>2017umt1716@mnit.ac.in</td>
                 </tr>
               </table>
             </div>
@@ -349,72 +355,72 @@ $(window).bind("load", function() {
   </div>
 </div>
 
-<div class="modal fade Urja  modalevent" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+<div class="modal fade Urja  modalevent" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" style="height: auto; overflow: auto;">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">URJA</h5>
+        <h5 class="modal-title" id="exampleModalLabel">JUST INNOVATIVE SEIN</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
       </div>
       <div class="modal-body">
         <div class="eventdetail_wpr">
          <div class="evencon_box">
-            <h3>Overview</h3>
-          Why not a space flower? Why do we always expect metal ships? It’s because metals are the gold standards of the industry. So we present you “URJA” that tests your knowledge about metals and metallurgy!
+            <h3>ABSTRACT: </h3>
+						Blending materials and creating an entirely different sort of composition is one of the alluring traits of an engineer. <br> <br>
+						COMPOSITE will provide you an opportunity to create a material of your own.
+
 		</div>
           <div class="evencon_box">
-            <h3>Team formation: </h3>
-          Each team should have 4 members.
+            <h3>ROUND-1: QUIZ </h3>
+
+					<ol>
+						<li>The quiz will be in two parts.</li>
+						<li>Each team will be provided with a question paper consisting of 30 objective type questions related to general aptitude.</li>
+						<li>As soon as a team completes the first question paper, they will be provided with a new question paper consisting of 20-30 objective type questions related to technical knowledge. <br>
+							Topics:
+							<ol type="i">
+								<li>Physical Metallurgy </li>
+								<li>Engineering Materials </li>
+								<li>Extractive Metallurgy </li>
+								<li>Foundry </li>
+								<li>Fuels and Furnaces.</li>
+							</ol>
+							<li>Time limit: 60 minutes</li>
+						</li>
+					</ol>
+
+					<b>~ Top 5 Teams would be selected for Round-2.</b>
 		  </div>
 
 		   <div class="evencon_box">
-            <h3>Structure of the event:</h3>
+            <h3>ROUND-2:</h3>
             <ul class="checboxlist">
-              The event consists of two rounds:<br>
-<li>1. ROUND 1</li>
-<li>2. ROUND 2</li>
-
+							<li>In this round riddles will be asked, which will have elements as their solutions, participants need to identify the correct elements and with the help of these elements form an alloy composition best suited for the required application (provided on the spot).</li>
+							<li>If a team identifies a wrong element they will be provided with the correct answer with a penalty.</li>
+							<li>A list of related properties with every element will be provided to the teams.</li>
             </ul>
           </div>
 
           <div class="evencon_box">
-            <h3>ROUND 1</h3>
-			The quiz will consist of 50 questions consisting of 2 parts:
+            <h3>TEAM STRUCTURE AND RULES:</h3>
 			<ul class="checboxlist">
-			<li>Part 1: It consists of Aptitude Questions which will be answered by 2 members.</li>
-			<li>Part 2: It consists of General Metallurgical Questions which will be answered by the other 2 members.</li>
-			<br>The questions will cover the basics of following topics: Physical metallurgy, Extractive metallurgy, Foundry technology, Engineering materials, General corrosion science, and Mineral dressing. <br>
-			On the basis of first round performance, teams will be selected for second round.
+			<li>A team shall consist of maximum 3 students.</li>
+			<li>In case of tie between 2 or more teams, team with less number of wrong answers will be ranked higher.</li>
+			<li> <b>Participants shall not be allowed to use mobile or other electronic instruments.</b> </li>
+			<li>Organisers have the right to change the quiz format and specifications until the event day.</li>
+			<li>Final decision making authority lies with organising team, MNIT Jaipur.</li>
  </div>
 
 		<div class="evencon_box">
-			<h3>Note:</h3>
-			There will be discussion session for Round 2 on the next day of the quiz for the selected teams.
-		</div>
-
-   <div class="evencon_box">
-            <h3>ROUND 2</h3>
-      This is the final round which is an ‘Industrial Problem Solving and Presenting Round’. The participants will be given 6 days to make the model after the discussion session.
- </div>
-
-			 <div class="evencon_box">
-            <h3>Judging Criteria:</h3>
-            <ul class="checboxlist">
-            <li>1. Solution of the problem</li>
-			<li>2. Innovation</li>
-			<li>3. Cost Efficiency</li>
-			<li>4. Practical Knowledge</li>
-            </ul>
-          </div>
-
-
-		<div class="evencon_box">
-            <h3>Note:</h3>
-		Topics covered in round 2 will be disclosed in the discussion session only.
+			<h3>CERTIFICATES AND PRIZES:</h3>
+			<ul class="checboxlist">
+				<li>Top 3 teams will be awarded with Cash Prizes.  </li>
+				<li>Certificates will be given to all participating teams.</li>
+			</ul>
 		</div>
 
 		          <div class="evencon_box">
-            <h3>Prizes worth : 7000/-</h3>
+            <h3>Prizes worth : TBA</h3>
         </div>
 
 		  <div class="evencon_box">
@@ -423,15 +429,15 @@ $(window).bind("load", function() {
             <div class="pptable">
               <table>
                 <tr>
-                  <td>Ashish Chaudhary</td>
-                  <td>9462794980</td>
-				  <td>2016umt1424@mnit.ac.in</td>
+                  <td>Samyak Srivastava</td>
+                  <td>8005328897</td>
+				  <td>2017umt1716@mnit.ac.in</td>
                 </tr>
 
                 <tr>
-                  <td>Ambesh Gupta</td>
-                  <td>8562862325</td>
-				   <td>2016umt1357@mnit.ac.in </td>
+                  <td>Yashank Dixit</td>
+                  <td>9001793429</td>
+				   <td>2017umt1108@mnit.ac.in </td>
                 </tr>
               </table>
             </div>
@@ -470,7 +476,7 @@ $(window).bind("load", function() {
 }
 .card_box{
 
-	border:2px solid #fff; padding:10px; color:#2A5D88; border-radius :22px; background-color:#fff; width:200px;  margin-top:-25px; font-size:20px; font-weight:bold;
+	border:2px solid #fff; padding:10px; color:#2A5D88; border-radius :22px; background-color:#fff; width:230px;  margin-top:-25px; font-size:20px; font-weight:bold;
 }
 .modal-title {
     margin-bottom: 0;
@@ -494,7 +500,10 @@ $(window).bind("load", function() {
 .title_img{
 	position:absolute; width:17.5%; top:150px; left:41%;
 }
+.modal{
+	height: 1000px;
 
+}
 .entrophy{
     height:230px;
 }
@@ -517,11 +526,9 @@ $(window).bind("load", function() {
               <div class="col-md-12 col-sm-12">
                 <div class="eventbox_wrp">
                    <div class="evnt_cont_box entrophy" style="">
-                   <center> <div class="card_box" >ENTROPHY</div></center>
-					<p class="content_p">Sputnik’S interest in the field metallurgy and material science is growing. Now he is interested in its industrial
-applications and wants other people who are skilled enough to join him explore the field. He designs a unique quiz
-‘ENTROPHY’ to test deep understanding of concepts, time management and team efforts to get through. Come join
-us to know if you think you can crack this quiz and join Sputnik in his work.</p>
+                   <center> <div class="card_box" >THE MATERIAL WORLD</div></center>
+					<p class="content_p">Materials are an integral part of our existence, and in this developing era we are keen to know more about materials and their various applications. <br> <br>
+The material world will revolve around engineering material, their applications and nanotechnology.</p>
                     <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".Entrophy"><span>More Detail</span></a>
                     <?php
 		if(isset($_SESSION["user_sphinx_sp"]))
@@ -540,11 +547,9 @@ us to know if you think you can crack this quiz and join Sputnik in his work.</p
 			  <div class="col-md-12 col-sm-12">
                 <div class="eventbox_wrp">
                    <div class="evnt_cont_box" style="">
-                   <center> <div class="card_box" style="width: 150px;">URJA</div></center>
-					<p class="content_p">Sputnik recently visited a mine with one of his uncle and saw different processes by which various metals are
-extracted from deep down the earth. Sputnik is amazed to know that there’s so much hidden within our Earth. As a
-curious kid he wants to know more about metallurgical fields, foundry technology, mining and material science. Help
-Sputnik to explore more about this interesting field of Metallurgy by taking part in URJA.</p>
+                   <center> <div class="card_box">JUST INNOVATIVE SEIN</div></center>
+					<p class="content_p">Blending materials and creating an entirely different sort of composition is one of the alluring traits of an engineer. <br> <br>
+COMPOSITE will provide you an opportunity to create a material of your own.</p>
                     <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".Urja"><span>More Detail</span></a>
                     <?php
 		if(isset($_SESSION["user_sphinx_sp"]))
