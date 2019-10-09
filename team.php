@@ -156,60 +156,79 @@ position: absolute;
             <div class="col-sm-12">
              <center>	<div class="mervelblock_wrp">
                	<ul>
-                    	<li><a data-fancybox data-src="#hidden-content" href="javascript:;" >
-                                  							  <div class="card" style="">
-                            <span title="President"><i class="fa fa-graduation-cap" aria-hidden="true"></i></span>
-						</div>
-                        </a>
-                         <div id="hidden-content" class="ourtema_de_Wr twoboxPop" style="display:none;">
-						 <div class="post_heading">
-						 <center>
-						 <div class="post_heading2">President</div>
-						 </center>
-						 </div>
+                  <li>
+                    <a data-fancybox data-src="#hidden-content" href="javascript:;" > <div class="card" style="">
+                    <span title="Advisor"><i class="fa fa-address-book" aria-hidden="true"></i></span></div> </a>
+                    <div id="hidden-content" class="ourtema_de_Wr twoboxPop" style="display:none;">
+                       <div class="post_heading">
+                       <center>
+                       <div class="post_heading2">Advisor</div>
+                       </center>
+                       </div>
 
-						   <div class="teampoppwrp">
-                           <div class="container">
+                         <div class="teampoppwrp">
+                                     <div class="container">
 
-						   <div class="row">
+                         <div class="row">
 
-						   <div class="col-lg-6 col-md-12 col-sm-12">
-							<div class="teamdeatilbox">
-                           	<div class="row">
-                            	<div class="col-sm-5">
-                           			<img src="images/team19/varun.jpg" class="img-fluid" draggable="false">
-                           		</div>
-                                <div class="col-sm-7">
-                                	<h3>Varun Verma</h3>
-									<p><i class="fa fa-briefcase" aria-hidden="true"></i> <span>Advisor</span></p>
-                                    <p><i class="fa fa-phone" aria-hidden="true"></i> +91-7014578315</p>
-									<p><i class="fa fa-envelope" aria-hidden="true"></i> 2016ucp1368@mnit.ac.in</p>
-                                </div>
-                            </div>
-							</div>
-							</div>
-
-							<div class="col-lg-6 col-md-12 col-sm-12">
-							<div class="teamdeatilbox">
-                           	<div class="row">
-                            	<div class="col-sm-5">
-                           			<img src="images/team19/anuj.jpg" class="img-fluid" draggable="false">
-                           		</div>
-                                <div class="col-sm-7">
-                                	<h3>Anuj Srivastava</h3>
-									<p><i class="fa fa-briefcase" aria-hidden="true"></i> <span>President</span></p>
-                                    <p><i class="fa fa-phone" aria-hidden="true"></i> +91-9588072917</p>
-									<p><i class="fa fa-envelope" aria-hidden="true"></i>2017UCH1743@mnit.ac.in
-</p>
-                                </div>
-                            </div>
-							</div>
-							</div>
-                              </div>
-						   </div>
+                         <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="teamdeatilbox">
+                                      <div class="row">
+                                        <div class="col-sm-5">
+                                          <img src="images/team19/varun.jpg" class="img-fluid" draggable="false">
+                                        </div>
+                                          <div class="col-sm-7">
+                                            <h3>Varun Verma</h3>
+                            <p><i class="fa fa-briefcase" aria-hidden="true"></i> <span>Advisor</span></p>
+                                              <p><i class="fa fa-phone" aria-hidden="true"></i> +91-7014578315</p>
+                            <p><i class="fa fa-envelope" aria-hidden="true"></i> 2016ucp1368@mnit.ac.in</p>
+                                          </div>
+                                      </div>
                         </div>
-						</div>
-						</li>
+                        </div>
+                          </div>
+                         </div>
+                                  </div>
+                </div>
+                </li>
+
+                  <li>
+                    <a data-fancybox data-src="#hidden-content1" href="javascript:;" > <div class="card" style="">
+                    <span title="President"><i class="fa fa-graduation-cap" aria-hidden="true"></i></span></div> </a>
+                    <div id="hidden-content1" class="ourtema_de_Wr twoboxPop" style="display:none;">
+          						 <div class="post_heading">
+          						 <center>
+          						 <div class="post_heading2">President</div>
+          						 </center>
+          						 </div>
+
+          						   <div class="teampoppwrp">
+                                     <div class="container">
+
+          						   <div class="row">
+
+
+
+          							<div class="col-lg-6 col-md-12 col-sm-12">
+          							<div class="teamdeatilbox">
+                                     	<div class="row">
+                                      	<div class="col-sm-5">
+                                     			<img src="images/team19/anuj.jpg" class="img-fluid" draggable="false">
+                                     		</div>
+                                          <div class="col-sm-7">
+                                          	<h3>Anuj Srivastava</h3>
+          									<p><i class="fa fa-briefcase" aria-hidden="true"></i> <span>President</span></p>
+                                              <p><i class="fa fa-phone" aria-hidden="true"></i> +91-9588072917</p>
+          									<p><i class="fa fa-envelope" aria-hidden="true"></i>2017UCH1743@mnit.ac.in </p>
+                                          </div>
+                                      </div>
+          							</div>
+          							</div>
+                                        </div>
+          						   </div>
+                                  </div>
+    						</div>
+    						</li>
 
 
 						                    	<li><a data-fancybox data-src="#hidden-content2" href="javascript:;" >
@@ -579,7 +598,7 @@ position: absolute;
 
 
 
-                    	<li><a  data-fancybox data-src="#hidden-content8" href="javascript:;" >
+                    	<!-- <li><a  data-fancybox data-src="#hidden-content8" href="javascript:;" >
                         <div class="card" style="">
                               <span title="Design Secretary"><i class="fa fa-paint-brush" aria-hidden="true"></i></span>
 						</div>
@@ -606,7 +625,7 @@ position: absolute;
 
 
 
-						</li>
+						</li> -->
 
 					<li><a  data-fancybox data-src="#hidden-content9" href="javascript:;" >
                         <div class="card" style="">

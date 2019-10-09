@@ -143,25 +143,25 @@ include("header.php");
                     <li class="phone-icon">
                       <div class="icon-holder"> <span class="flaticon-technology"></span> </div>
                       <div class="text-holder">
-                        <p> Sumit Kumar : 7073357606 (Workshop)</p>
+                        <p> Divyaman : 8963052212 (Workshop)</p>
                       </div>
                     </li>
 					<li class="phone-icon">
                       <div class="icon-holder"> <span class="flaticon-technology"></span> </div>
                       <div class="text-holder">
-                        <p> Aditya Sinha : 8949296150 (Events registration)</p>
+                        <p> Suryaprakash Agarwal : 7016268414 (Events registration)</p>
                       </div>
                     </li>
 					<li class="phone-icon">
                       <div class="icon-holder"> <span class="flaticon-technology"></span> </div>
                       <div class="text-holder">
-                        <p> Ronak Gadia : 8879755487 (Marketing)</p>
+                        <p> Ayush Singh : 9149225262 (Marketing)</p>
                       </div>
                     </li>
 					<li class="phone-icon">
                       <div class="icon-holder"> <span class="flaticon-technology"></span> </div>
                       <div class="text-holder">
-                        <p> Shreya Jain : 9783080753 (Cultural) </p>
+                        <p> Devanshu Khandelwal : 9314655304 (Cultural) </p>
                       </div>
                     </li>
 					<center><li><span style="font-size:20px; font-weight:bold;">Mail Us:</span></li></center>
