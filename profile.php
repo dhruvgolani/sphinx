@@ -2,6 +2,11 @@
 include("config.php");
 include("check_user.php");
 $db=new Database();
+$conn=$db->db_connect();
+if(isset($_REQUEST['rid'])){
+	$rid=mysqli_real_escape_string($conn,$_REQUEST['rid']);
+	// $uid=mysqli_real_escape_string($conn,$_REQUEST['uid']);
+}
 ?>
 <!DOCTYPE html>
 <html class="skrollr skrollr-desktop">
@@ -43,6 +48,14 @@ $db=new Database();
 	P-profile
 
 </script>
+
+<?php
+if(isset($_REQUEST['rid']))
+{ ?>
+	<script type="text/javascript">  $(window).load(function () {  $('#eventregister2').modal('show'); });</script>
+<?php }
+?>
+
 <script>
 $(window).bind("load", function() {
 	//alert('hello');
@@ -55,6 +68,42 @@ $(window).bind("load", function() {
 		 <div class="ppp2"></div>
 		 <div class="ppp3"></div>
 	</div>
+</div>
+
+<div class="modal fade" id="eventregister2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Payment Verification</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
+      </div>
+      <form class="form" method="post" action="process_transaction.php">
+        <div class="modal-body">
+					<div class="row">
+						<div class="col-sm-4">
+							<div class="form-group">
+								<label for="recipient-name" class="form-control-label">Transaction ID</label>
+							</div>
+						</div>
+						<div class="col-sm-8">
+							<div class="form-group">
+								<input type="text" class="form-control" id="transactionID" placeholder="Enter transaction ID" name="transactionID" required>
+							</div>
+						</div>
+					</div>
+        </div>
+        <div class="modal-footer">
+        <!-- <input type="hidden" name="event_type" value="Robotics">
+        <input type="hidden" name="event_name" value="<?=$event;?>"> -->
+        <input type="hidden" name="url" value="<?=$_SERVER['REQUEST_URI'];?>">
+				<input type="hidden" name="rid" value="<?=$rid;?>">
+        <p style="color:#CF5759"><?=@$_SESSION['Error']; @$_SESSION['Error']=null;?></p>
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="submit" name="submitreg2" class="btn btn-input">Submit</button>
+        </div>
+      </form>
+    </div>
+  </div>
 </div>
 
 <style>
@@ -155,11 +204,36 @@ $(window).bind("load", function() {
 					<td class="lefty">City</td>
 					<td><?=$query['city'];?></td>
 				</tr>
+				<?php
+					if($query['mnit']=='No'){ ?>
+						<td class="lefty">Entry Fee</td>
+						<?php if($query['entry_fee_trid']==NULL){ ?>
+						<td><a href="profile.php?rid=entryfee"  class="btn btn-input regist-popshow">Enter Transaction ID</a></td>
+						<?php }
+					 else if($query['entry_fee_trid']!='SUCCESS'){ ?>
+						<td>UNDER VERIFICATION</td>
+						<?php }
+					 else{ ?>
+						<td>SUCCESS</td>
+						<?php } ?>
+					<?php } ?>
 				<tr>
 					<td class="lefty">Accomodation</td>
 					<td><?=$query['accommodation'];?></td>
 				</tr>
-
+				<?php
+					if($query['accommodation']=='Yes'){ ?>
+						<td class="lefty">Accomodation Fee</td>
+						<?php if($query['accomodation_fee_trid']==NULL){ ?>
+						<td><a href="profile.php?rid=accomodationfee"  class="btn btn-input regist-popshow">Enter Transaction ID</a></td>
+						<?php }
+					 else if($query['accomodation_fee_trid']!='SUCCESS'){ ?>
+						<td>UNDER VERIFICATION</td>
+						<?php }
+					 else{ ?>
+						<td>SUCCESS</td>
+						<?php } ?>
+					<?php } ?>
 				<tr>
 					<td class="lefty">Registered on</td>
 					<td><?=$query['date_tym'];?></td>

@@ -17,6 +17,26 @@ if(isset($_POST['submitreg']))
   header("Location:registered-events.php");
 
 }
+else if(isset($_POST['submitreg2']))
+{
+
+	$url=$_POST['url'];
+	$rid=mysqli_real_escape_string($conn,$_POST['rid']);
+	// $uid=mysqli_real_escape_string($conn,$_POST['uid']);
+	$email=$_SESSION["user_sphinx_sp"];
+	$query=$db->SinglerunQuery("select * from users where email='$email'");
+	$uid=$query['uid'];
+	$transactionID=mysqli_real_escape_string($conn,$_POST['transactionID']);
+
+	if($rid=='entryfee'){
+  $update=$db->updateQuery("UPDATE `users` SET `entry_fee_trid`='$transactionID' where uid='$uid'");
+  }
+	if($rid=='accomodationfee'){
+  $update=$db->updateQuery("UPDATE `users` SET `accomodation_fee_trid`='$transactionID' where uid='$uid'");
+  }
+  header("Location:profile.php");
+
+}
 else
 {
 	echo "Invalid";
