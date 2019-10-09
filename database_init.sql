@@ -113,6 +113,9 @@ CREATE TABLE `users` (
   `college_id` text,
   `city` text NOT NULL,
   `accommodation` text NOT NULL,
+  `mnit` text DEFAULT NULL,
+  `entry_fee_trid` text DEFAULT NULL,
+  `accomodation_fee_trid` text DEFAULT NULL,
   `referral` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci DEFAULT NULL,
   `active` int(11) DEFAULT NULL,
   `date_tym` text NOT NULL

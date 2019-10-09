@@ -826,13 +826,13 @@ So gear up and do not miss one of the most awaited events of SPHINX'19.</p>
                             <div class="text-holder" >
                               <p><span style="font-size:18px; font-weight:bold; margin-bottom:10px;">Contact No:</span><br><br>
 								<span style="text-align:left;"></span>
-								    Sumit Kumar : 7073357606 (Workshop)<br>
+								    Divyaman : 8963052212 (Workshop)<br>
 
-Aditya Sinha : 8949296150 (Events registration)<br>
+Suryaprakash Agarwal : 7016268414 (Events registration)<br>
 
-Ronak Gadia : 8879755487 (Marketing) <br>
+Ayush Singh : 9149225262 (Marketing) <br>
 
-Shreya Jain : 9783080753 (Cultural) </span>
+Devanshu Khandelwal : 9314655304 (Cultural) </span>
 								</p>
                             </div>
                         </li>

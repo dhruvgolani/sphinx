@@ -194,7 +194,7 @@ $(window).bind("load", function() {
 				</tr>
 				<tr>
 					<td class="lefty">College</td>
-					<td><?=$query['college'];?></td>
+					<td><?=$query['collegename'];?></td>
 				</tr>
 				<tr>
 					<td class="lefty">College ID</td>

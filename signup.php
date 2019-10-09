@@ -18,6 +18,14 @@ if(isset($_POST['register']) && ! empty ($_POST['register']))
 	$_SESSION['year']=$year=mysqli_real_escape_string($conn,$_POST['year']);
 	$_SESSION['branch']=$branch=mysqli_real_escape_string($conn,$_POST['branch']);
 	$_SESSION['college']=$college=mysqli_real_escape_string($conn,$_POST['college']);
+	if($college=='MNIT' || $college=='NIT UK' || $college=='IIIT Kota'){
+		$_SESSION['collegename']=$collegename=$college;
+		$_SESSION['mnit']=$mnit='Yes';
+	}
+	else{
+			$_SESSION['collegename']=$collegename=mysqli_real_escape_string($conn,$_POST['collegename']);
+			$_SESSION['mnit']=$mnit='No';
+	}
 	$_SESSION['colid']=$colid=mysqli_real_escape_string($conn,$_POST['colid']);
 	$_SESSION['city']=$city=mysqli_real_escape_string($conn,$_POST['city']);
 	$_SESSION['accommondation']=$accommondation=mysqli_real_escape_string($conn,$_POST['accommondation']);
@@ -56,10 +64,10 @@ if(isset($_POST['register']) && ! empty ($_POST['register']))
 		{
 
 
- 		 $query="INSERT INTO `users`(`uid`, `register_id`, `name`, `email`, `phone`, `password`, `course`, `year`, `branch`, `college`, `college_id`, `city`, `accommodation`, `active`, `date_tym`) VALUES (NULL,'','$name','$email','$phone','$pss','$course','$year','$branch','$college','$colid','$city','$accommondation','1','$datesss')";
+ 		 $query="INSERT INTO `users`(`uid`, `register_id`, `name`, `email`, `phone`, `password`, `course`, `year`, `branch`, `college`,`collegename`, `college_id`, `city`, `accommodation`,`mnit`, `active`, `date_tym`) VALUES (NULL,'','$name','$email','$phone','$pss','$course','$year','$branch','$college','$collegename','$colid','$city','$accommondation','$mnit','1','$datesss')";
 		$result=$db->insertQuery($query);
 		$in_b=mysqli_insert_id($conn);
-		$registrationid="sphinx'19@".$in_b;
+		$registrationid="sphinx19@".$in_b;
 		$update=$db->updateQuery("UPDATE `users` SET `register_id`='$registrationid' where uid='$in_b'");
 			if($result)
 			{
