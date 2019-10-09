@@ -7,10 +7,10 @@ if(isset($_REQUEST['event']))
 	$min="";
 	$max="";
 	$event=mysqli_real_escape_string($conn,$_REQUEST['event']);
-	if($event=="Entrophy"){
+	if($event=="material-world"){
 		$min=2;
 		$max=2;
-	} else if($event=="Urja") {
+	} else if($event=="innovative-sein") {
 		$min=3;
 		$max=4;
 	} else
@@ -255,7 +255,7 @@ $(window).bind("load", function() {
   </div>
 </div>
 
-<div class="modal fade Entrophy  modalevent" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" style="height: auto; overflow: auto;">
+<div class="modal fade material-world  modalevent" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" style="height: auto; overflow: auto;">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
@@ -344,7 +344,7 @@ $(window).bind("load", function() {
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-            <a href="metallurgy.php?event=Entrophy"  class="btn btn-input regist-popshow">Register Now</a>
+            <a href="metallurgy.php?event=material-world"  class="btn btn-input regist-popshow">Register Now</a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="btn btn-input regist-popshow" data-dismiss="modal">Register Now</a>
@@ -355,7 +355,7 @@ $(window).bind("load", function() {
   </div>
 </div>
 
-<div class="modal fade Urja  modalevent" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" style="height: auto; overflow: auto;">
+<div class="modal fade innovative-sein  modalevent" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" style="height: auto; overflow: auto;">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
@@ -449,7 +449,7 @@ $(window).bind("load", function() {
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-            <a href="metallurgy.php?event=Urja"  class="btn btn-input regist-popshow">Register Now</a>
+            <a href="metallurgy.php?event=innovative-sein"  class="btn btn-input regist-popshow">Register Now</a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="btn btn-input regist-popshow" data-dismiss="modal">Register Now</a>
@@ -525,16 +525,16 @@ $(window).bind("load", function() {
 
               <div class="col-md-12 col-sm-12">
                 <div class="eventbox_wrp">
-                   <div class="evnt_cont_box entrophy" style="">
+                   <div class="evnt_cont_box material-world" style="">
                    <center> <div class="card_box" >THE MATERIAL WORLD</div></center>
 					<p class="content_p">Materials are an integral part of our existence, and in this developing era we are keen to know more about materials and their various applications. <br> <br>
 The material world will revolve around engineering material, their applications and nanotechnology.</p>
-                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".Entrophy"><span>More Detail</span></a>
+                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".material-world"><span>More Detail</span></a>
                     <?php
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-                    <a href="metallurgy.php?event=Entrophy" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
+                    <a href="metallurgy.php?event=material-world" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
@@ -550,12 +550,12 @@ The material world will revolve around engineering material, their applications 
                    <center> <div class="card_box">JUST INNOVATIVE SEIN</div></center>
 					<p class="content_p">Blending materials and creating an entirely different sort of composition is one of the alluring traits of an engineer. <br> <br>
 COMPOSITE will provide you an opportunity to create a material of your own.</p>
-                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".Urja"><span>More Detail</span></a>
+                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".innovative-sein"><span>More Detail</span></a>
                     <?php
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-                    <a href="metallurgy.php?event=Urja" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
+                    <a href="metallurgy.php?event=innovative-sein" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>

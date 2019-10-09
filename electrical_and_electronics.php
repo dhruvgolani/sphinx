@@ -671,7 +671,7 @@ way through the world of complex circuitry to master the concepts of electrical 
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-                    <a href="electrical_and_electronics.php?event="Pluggedin" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
+                    <a href="electrical_and_electronics.php?event=Pluggedin" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
