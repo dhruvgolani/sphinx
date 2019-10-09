@@ -110,6 +110,7 @@ CREATE TABLE `users` (
   `year` text,
   `branch` text NOT NULL,
   `college` text,
+  `collegename` text,
   `college_id` text,
   `city` text NOT NULL,
   `accommodation` text NOT NULL,
