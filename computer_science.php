@@ -4,8 +4,8 @@ $db=new Database();
 $conn=$db->db_connect();
 if(isset($_REQUEST['event']))
 {
-	$min="";
-	$max="";
+	$min=1;
+	$max=1;
 	$event=mysqli_real_escape_string($conn,$_REQUEST['event']);
 	if($event=="Code-of-war"){
 		$min=1;
@@ -15,7 +15,7 @@ if(isset($_REQUEST['event']))
 		$max=2;
 	} else if($event=='Blind-code') {
 		$min=1;
-		$max=2;
+		$max=1;
 	}else if($event=='Binary-battle') {
 		$min=1;
 		$max=2;
@@ -122,7 +122,7 @@ $(window).bind("load", function() {
 				  for($i=$min;$i<=$max;$i++)
 				  {
 				  ?>
-                  <option value="<?=$i;?>"><?=$i;?></option>
+                  <option value="<?=$i;?>"  ><?=$i;?></option>
                   <?php } ?>
                 </select>
               </div>

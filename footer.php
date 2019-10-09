@@ -6,6 +6,10 @@
 		color:#ffffff;
 		text-decoration:none;
 	}
+
+.form-control{
+  height: 34px !important;
+}
 .bottomnav{
 		border-radius:20px 20px 0px 0px;
 		 background-color:rgba(0,0,0,0.4);
@@ -470,19 +474,45 @@ select.form-control:not([size]):not([multiple]) {
           </div>
 
           <div class="row">
+              	 <!-- <div class="col-sm-6">
+                	<div class="form-group">
+                <label for="recipient-name" class="form-control-label">College <span class="mendatri-field">*</span></label>
+                <input type="text" class="form-control txtOnly" name="college" value="<?=@$_SESSION['college'];?>" placeholder="Enter your college" required>
+              </div>
+                </div>
+                <div class="col-sm-6">
+                	<div class="form-group">
+                <label for="recipient-name" class="form-control-label">College Id <span class="mendatri-field">*</span></label>
+                <input type="text" class="form-control" value="<?=@$_SESSION['colid'];?>" name="colid" placeholder="Enter your college id" required>
+              </div>
+                </div> -->
+
           	 <div class="col-sm-6">
-            	<div class="form-group">
-            <label for="recipient-name" class="form-control-label">College <span class="mendatri-field">*</span></label>
-            <input type="text" class="form-control txtOnly" name="college" value="<?=@$_SESSION['college'];?>" placeholder="Enter your college" required>
-          </div>
+                	<div class="form-group">
+                    <label for="recipient-name" class="form-control-label">College <span class="mendatri-field">*</span></label>
+                    <select class="form-control" name="college" >
+                        <option value="MNIT" selected> MNIT </option>
+                        <option value="NIT UK" > NIT UK </option>
+        				        <option value="IIIT Kota" >IIIT Kota</option>
+        				        <option value="Others" > Others </option>
+                    </select>
+                  </div>
             </div>
             <div class="col-sm-6">
+                 <div class="form-group">
+                   <label for="recipient-name" class="form-control-label">If Others, Specify name</label>
+                   <input type="text" class="form-control txtOnly" name="collegename" value="<?=@$_SESSION['collegename'];?>" placeholder="Enter your college">
+                 </div>
+            </div>
+            <div class="col-sm-12">
             	<div class="form-group">
             <label for="recipient-name" class="form-control-label">College Id <span class="mendatri-field">*</span></label>
             <input type="text" class="form-control" value="<?=@$_SESSION['colid'];?>" name="colid" placeholder="Enter your college id" required>
           </div>
             </div>
           </div>
+
+
 		  <div class="row">
           	 <div class="col-sm-6">
             	<div class="form-group">
@@ -641,6 +671,20 @@ if(isset($_SESSION["messagess"]))
 			</li>
 			<?php }  }?>
 		</ul></div></div></div>
+
+
+    <script type="text/javascript">
+        var select =  $("[name='collegename']");
+        var textarea = $("[name='college']");
+        $("[name='college']").change(function(){
+              if (textarea.val() == 'Others') {
+                  select.attr('required', true);
+              }
+              else {
+                  select.attr('required', false);
+              }
+        });
+    </script>
 
 
 <!-- <audio autoplay loop>
