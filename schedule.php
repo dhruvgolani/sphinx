@@ -228,18 +228,24 @@ tr{height:50px;}
 tr th{text-align:center;}
 h3 {margin-left:0px;}
 tr{height:auto;}
-
-
-
-
 }
 
+.coming{
+	width: 50%;
+	overflow: auto;
+	margin: 90px auto;
+}
 </style>
 
 
-<div id="slide-1" class="slide" data-0="transform: translate(0%,-10%);" style="width:100%;">
+<div id="slide-1" class="slide" data-0="transform: translate(0%,-10%);" style="width:100%; color: white;">
 <img src="images/schedule.png" class="title_img" >
-  <section class="contentbox_pwr" style="">
+
+<div class="coming">
+	<img src="images/temp.gif" alt="" align="middle">
+</div>
+
+  <!-- <section class="contentbox_pwr" style="">
     <div>
       <div class="ourtemamanin_wrp" style="width:100%;     border-radius:0px 0px 0px 0px; padding-top: 25px;">
 
@@ -366,10 +372,11 @@ tr{height:auto;}
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
+
 </div>
-</div>
-</div>
+
+
 <?php
 if(isset($_SESSION['suc_msg']))
 { ?>
