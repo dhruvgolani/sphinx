@@ -787,7 +787,7 @@ position:absolute; width:17%; top:150px; left:42%;
 
 
 
-                			   <div class="col-md-12 col-sm-12">
+                			   <!-- <div class="col-md-12 col-sm-12">
                 <div class="eventbox_wrp">
                    <div class="evnt_cont_box">
                    <center> <div class="card_box">EDUCATION PARTNER</div></center>
@@ -799,10 +799,10 @@ position:absolute; width:17%; top:150px; left:42%;
                   </div>
                   </div>
                 </div>
-              </div
+              </div> -->
 
 
-			   <div class="col-md-12 col-sm-12">
+			   <!-- <div class="col-md-12 col-sm-12">
                 <div class="eventbox_wrp">
                    <div class="evnt_cont_box">
                    <center> <div class="card_box">MEDIA PARTNER</div></center>
@@ -838,9 +838,9 @@ position:absolute; width:17%; top:150px; left:42%;
 
                   </div>
                 </div>
-              </div>
+              </div> -->
 
-  			   <div class="col-md-12 col-sm-12">
+  			   <!-- <div class="col-md-12 col-sm-12">
                 <div class="eventbox_wrp">
                    <div class="evnt_cont_box">
                    <center> <div class="card_box">MUSIC PARTNER</div></center>
@@ -856,11 +856,11 @@ position:absolute; width:17%; top:150px; left:42%;
 
                   </div>
                 </div>
-              </div>
+              </div> -->
 
 
 
-  			   <div class="col-md-12 col-sm-12">
+  			   <!-- <div class="col-md-12 col-sm-12">
                 <div class="eventbox_wrp">
                    <div class="evnt_cont_box">
                    <center> <div class="card_box">BIKE RIDE PARTNER</div></center>
@@ -876,9 +876,9 @@ position:absolute; width:17%; top:150px; left:42%;
 
                   </div>
                 </div>
-              </div>
+              </div> -->
 
-			  <div class="col-md-12 col-sm-12">
+			  <!-- <div class="col-md-12 col-sm-12">
                 <div class="eventbox_wrp">
                    <div class="evnt_cont_box">
                    <center> <div class="card_box">FOOD PARTNER</div></center>
@@ -892,9 +892,9 @@ position:absolute; width:17%; top:150px; left:42%;
 
                   </div>
                 </div>
-              </div>
+              </div> -->
 
-              			  <div class="col-md-12 col-sm-12">
+              			  <!-- <div class="col-md-12 col-sm-12">
                 <div class="eventbox_wrp">
                    <div class="evnt_cont_box">
                    <center> <div class="card_box">WORKSHOP PARTNER</div></center>
@@ -908,9 +908,9 @@ position:absolute; width:17%; top:150px; left:42%;
 
                   </div>
                 </div>
-              </div>
+              </div> -->
 
-                            			  <div class="col-md-12 col-sm-12">
+                            			  <!-- <div class="col-md-12 col-sm-12">
                 <div class="eventbox_wrp">
                    <div class="evnt_cont_box">
                    <center> <div class="card_box">TECHNOLOGY PARTNER</div></center>
@@ -924,7 +924,7 @@ position:absolute; width:17%; top:150px; left:42%;
 
                   </div>
                 </div>
-              </div>
+              </div> -->
 
 
 

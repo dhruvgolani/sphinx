@@ -60,6 +60,10 @@ if(isset($_POST['submitreg']))
 	{
 		$redirectto="nfs.php";
 	}
+	else if($event_type=="Workshop")
+	{
+		$redirectto="workshop.php";
+	}
 
 
 
@@ -117,7 +121,13 @@ if(isset($_POST['submitreg']))
 		if($nums_reg==0){
 
 		$reg_id_comma=implode(",",$regid);
-	$query_in="INSERT INTO `registration`(`rid`, `event_type`, `event_name`, `team_size`, `team_reg_id`, `date_tym`) VALUES (NULL,'$event_type','$event_name','$teamsize','$reg_id_comma','$datesss')";
+		if($event_type=="Workshop")
+		{
+			$query_in="INSERT INTO `registration`(`rid`, `event_type`, `event_name`, `team_size`, `team_reg_id`, `date_tym`,`payment`) VALUES (NULL,'$event_type','$event_name','$teamsize','$reg_id_comma','$datesss','YES')";
+		}
+		else{
+			$query_in="INSERT INTO `registration`(`rid`, `event_type`, `event_name`, `team_size`, `team_reg_id`, `date_tym`) VALUES (NULL,'$event_type','$event_name','$teamsize','$reg_id_comma','$datesss')";
+		}
 	$res=$db->insertQuery($query_in);
 	$in_b=mysqli_insert_id($conn);
 	    foreach($regid as $regstration)
