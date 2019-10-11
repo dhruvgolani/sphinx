@@ -560,7 +560,7 @@ escapade to explore the best of tech !
                     </section>
                     <div id="warship" class="deselements" data-460p=" top:-22%; right:-12%; display:none;" data-430p=" top:-2%; right:1%;" data-400p=" top:18%; right:14%;" data-370p=" top:37%; right:27%;" data-340p=" top:56%; right:40%;" data-310p=" top:75%; right:53%;" data-290p=" top:94%; right:66%;" data-270p=" top:103%; right:79%;" data-260p=" top:122%; right:92%;" data-250p=" top:141%; right:105%;display:block;" data-0p="display:none;">
                     <div id="warshipt">
-                    <img src="images/o2.png" width="100%">
+                    <img src="images/o2.png" width="120%">
                     </div>
                     </div>
 
@@ -655,7 +655,7 @@ escapade to explore the best of tech !
                     </div>
 
                     </div>
-					<img src="images/at.png" style="width:300px; margin-top:20px; margin-left:800px;">
+					<img src="images/at.png" style="width:300px; margin-top:20px; margin-left:850px;">
                     </div>
                     </section>
 
@@ -710,7 +710,7 @@ escapade to explore the best of tech !
                     </div>
                     </a>
                     </div>
-					<img src="images/apolo.png" class="game_image" style="width:300px; margin-top:-170px; margin-left:650px;">
+					<img src="images/apolo.png" class="game_image" style="width:300px; margin-top:-250px; margin-left:650px;">
 
                     </div>
 
@@ -751,7 +751,7 @@ escapade to explore the best of tech !
                     </div>-->
 
                     </div>
-                    <img src="images/alien.png" style="width:250px; margin-left:820px; margin-top:50px;">
+                    <img src="images/alien.png" style="width:250px; margin-left:870px; margin-top:50px;">
                     </div>
                     </section>
                     <div id="enterpreneur" class="deselements" data-0p="display:none; " data-1230p="display:block;
@@ -769,7 +769,7 @@ escapade to explore the best of tech !
                     </div>
                     <div class="evePara">
 
-					<p>SPHINX'19 presents to you the 3 <sup>rd</sup> edition of TECHTALK, A course of events that
+					<p>SPHINX'19 presents to you the 3<sup>rd</sup> edition of TECHTALK, A course of events that
 showcase some of the most prominent personas across India belonging to a range
 of diverse field. Connecting these minds to the young and dynamic audience present
 at the fest, the series has been continuously striving to provide an opportunity to live
@@ -781,7 +781,7 @@ So gear up and do not miss one of the most awaited events of SPHINX'19.</p>
 
 
                     </div>
-                    <img src="images/mic.png" style="width:300px; margin-left:800px; margin-top:80px;">
+                    <img src="images/mic.png" style="width:300px; margin-left:850px; margin-top:100px;">
 
                     </div>
                     </section>
@@ -850,7 +850,7 @@ Devanshu Khandelwal : 9314655304 (Cultural) </span>
                 </div>
 
 
-                   <img src="images/phone.png" style="width:400px; margin-left:780px; margin-top:-420px;">
+                   <img src="images/phone.png" style="width:400px; margin-left:780px; margin-top:-300px;">
 				   <style>
 				   .contact_circle_1:hover{
 					   background:rgba(0,0,0,0);
