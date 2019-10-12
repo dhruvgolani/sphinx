@@ -171,7 +171,7 @@ $(window).bind("load", function() {
   </div>
 </div>
 
-<div class="modal fade Seismic  modalevent" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+<div class="modal fade Astrouiz  modalevent" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
@@ -337,7 +337,7 @@ overflow-x: hidden; height: 40%;  padding-left: 210px; width:70%;border-radius: 
                    <center> <div class="card_box" >ASTROUIZ</div></center>
 					<p class="content_p">What makes a planet a "dwarf" planet ? How many miles are in a light year ? What exactly is a quasar ? Are you intrigued by Chandrayan-2 project ? Launch into other worlds while testing your knowledge about space,celestial bodies, and the solar system.
 <br>Though the astronomy field has evolved from its primitive beginnings,there's still a boundless cosmos to explore.Test your astronomy knowledge with our quiz.</p>
-                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".Seismic"><span>More Detail</span></a>
+                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".Astrouiz"><span>More Detail</span></a>
                     <?php
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{

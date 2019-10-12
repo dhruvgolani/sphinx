@@ -13,6 +13,9 @@ if(isset($_REQUEST['event']))
 	} else if($event=="Cadastrophe") {
 		$min=1;
 		$max=3;
+	}else if($event=="Inquizitive") {
+		$min=1;
+		$max=2;
 	} else
 	{
 		header("Location:mechanical.php");
@@ -435,6 +438,102 @@ There will be a presentation round in which the participants are required to giv
   </div>
 </div>
 
+<div class="modal fade Inquizitive  modalevent" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Inquizitive</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
+      </div>
+      <div class="modal-body">
+        <div class="eventdetail_wpr">
+         <div class="evencon_box">
+            <h3>Event Description</h3>
+						The Department of Mechanical Engineering presents you a quiz contest Inquzitive. The idea is to test your knowledge in the field of Mechanical and Automobile engineering as well learn new things through fun.
+
+ </div>
+
+
+	<div class="evencon_box">
+		<h3>ROUND 1:</h3>
+    This round will be a written test consisting of 30 Multiple Objective type questions. The time limit for this round will be 30 minutes.
+	</div>
+
+  <div class="evencon_box">
+  <h3>MARKING SCHEME:</h3>
+  <ul class="checboxlist">
+  <li>Each correct answer will be awarded as <b>+2 Marks</b>.</li>
+  <li>Each incorrect answer will be penalized with <b>-1 mark</b>.</li>
+  <li>If none of the answers have been marked teams will get <b>0 marks</b>.</li>
+  </ul>
+  </div>
+
+  <div class="evencon_box">
+  <h3>NOTE:</h3>
+  <ul class="checboxlist">
+  <li>The written test will be separate for 1st, 2nd and 3rd year students.</li>
+  <li>Maximum marks are 60 for this test.</li>
+  </ul>
+  </div>
+
+  <div class="evencon_box">
+  <h3>ROUND 2:</h3>
+  <ul class="checboxlist">
+  <li>Top 15 teams from the first round (5 teams from each year) will be selected according to the judging criteria mentioned above.</li>
+  <li>Round 2 is a buzzer round. In this round all teams will be shown 10different questions in the board and teams will get 2 minute to read the question and after that 5 seconds will be given to press the buzzer.</li>
+  <li>The teams will get +10 for each correct answer, +5 for partially correct answer and -5 for incorrect.</li>
+  <li>If a team does not press the buzzer in 5 seconds they will not be allowed to answer the question.</li>
+  </ul>
+  </div>
+
+  <div class="evencon_box">
+  <h3>CERTIFICATES AND PRIZES:</h3>
+  <ul class="checboxlist">
+  <li>Top 2 teams will be awarded Certificates and Cash Prizes.</li>
+  <li>Certificates will be given to all participating teams.</li>
+  </ul>
+  </div>
+
+
+
+		  <div class="evencon_box">
+            <h3>Contact Us:</h3>
+            <p>For any queries:</p>
+            <div class="pptable">
+              <table>
+                <tr>
+                  <td>Saumay Gupta</td>
+                  <td>+918947878575</td>
+				  <td>2017UME1353@mnit.ac.in</td>
+                </tr>
+
+                <tr>
+                  <td>ParamPreet</td>
+                  <td>+918433474126</td>
+				   <td>2017UME1451@mnit.ac.in</td>
+                </tr>
+
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <?php
+		if(isset($_SESSION["user_sphinx_sp"]))
+		{
+			?>
+            <a  href="mechanical.php?event=Inquizitive"  class="btn btn-input regist-popshow">Register Now</a>
+         <?php } else
+		 { ?>
+			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="btn btn-input regist-popshow" data-dismiss="modal">Register Now</a>
+		<?php  }?>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 <!--top nav-->
 <?php
@@ -540,6 +639,30 @@ You have to create a 3D model using Autodesk AutoCAD, Inventor and Fusion 360.
                   </div>
                 </div>
               </div>
+
+      	<div class="col-md-12 col-sm-12">
+                <div class="eventbox_wrp">
+                   <div class="evnt_cont_box inquie" style="">
+                   <center> <div class="card_box inquic" style="">INQUIZITIVE</div></center>
+					<p class="content_p"><br><br>The Department of Mechanical Engineering presents you a quiz contest Inquzitive. The idea is to test your knowledge in the field of Mechanical and Automobile engineering as well learn new things through fun.
+</p>
+                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".Inquizitive"><span>More Detail</span></a>
+                    <?php
+		if(isset($_SESSION["user_sphinx_sp"]))
+		{
+			?>
+                    <a href="mechanical.php?event=Inquizitive" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
+         <?php } else
+		 { ?>
+			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
+		<?php  }?>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
 
             </div>
           </div>
