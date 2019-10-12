@@ -7,12 +7,18 @@ if(isset($_REQUEST['event']))
 	$min="";
 	$max="";
 	$event=mysqli_real_escape_string($conn,$_REQUEST['event']);
-	if($event=="Astrouiz"){
+	if($event=="Seismic"){
+		$min=2;
+		$max=4;
+	} else if($event=="Civiq") {
+		$min=1;
+		$max=3;
+	}else if($event=="Astrouiz"){
 		$min=1;
 		$max=2;
-	}  else
+	}else
 	{
-		header("Location:civil.php");
+		header("Location:civil");
 	}
 
 }
@@ -160,13 +166,443 @@ $(window).bind("load", function() {
         </div>
         <div class="modal-footer">
         <input type="hidden" name="event_type" value="Civil">
-        <input type="hidden" name="event_name" value="<?php echo $event;?>">
+        <input type="hidden" name="event_name" value="<?=$event;?>">
         <input type="hidden" name="url" value="<?=$_SERVER['REQUEST_URI'];?>">
         <p style="color:#CF5759"><?=@$_SESSION['Error']; @$_SESSION['Error']=null;?></p>
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
           <button type="submit" name="submitreg" class="btn btn-input">Register</button>
         </div>
       </form>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade Seismic  modalevent" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">SEISMIC</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
+      </div>
+      <div class="modal-body">
+        <div class="eventdetail_wpr">
+         <div class="evencon_box">
+            <h3>Overview</h3>
+			It is an event where participants can present their earthquake- resistant building ideas, make models and test these
+			for stability in earthquakes. <br>
+			You don’t need to be a Civil Engineer to participate- It is a platform for learning and
+			innovation for everyone.
+			<br>
+			<br>
+
+			<b>This event will consist of 2 rounds.</b>
+		</div>
+
+      <div class="evencon_box">
+            <h3>ROUND-1: QUIZ</h3>
+          <ul class="checboxlist">
+          	<li>This will be an elimination round consisting of questions related to aptitude, basic mathematics, basic civil engineering.</li>
+						<li>The quiz will be of 1-hour duration.</li>
+						<li>Each team would be given a set of question paper containing 60 multiple choice objective type questions (Single option correct type).</li>
+          </ul>
+
+					<b>Top 8 Teams would be selected for Round-2.</b>
+
+					<h3>ROUND-2: MODEL MAKING</h3>
+
+					<ol>
+						<li>Actual implementation or design of building model from given raw material.</li>
+						<li>The materials required for making the model will be provided on the spot for the event.</li>
+						<ol type="i">
+							<li>Standard wooden ice cream sticks (nearly 120mm*12mm*2mm), threads and fevicol will be provided at the time of event.</li>
+							<li>The ceiling should be made of Popsicle sticks.</li>
+							<li>Height of building should be in between 40-50 cm. The height of single floor should be at least 10cm.</li>
+							<li>A cardboard will be provided as base for the structure. The teams have to attach the structure to it.</li>
+							<li>The base and ceiling of building should be of max 20cm*20cm.</li>
+							<li>Maximum number of sticks that can be used is 400.</li>
+							<li>The thickness of adjacent sticks should not be more than thickness of 3 sticks.</li>
+						</ol>
+					</ol>
+
+		  </div>
+
+		   <div class="evencon_box">
+            <h3>TEAM STRUCTURE AND RULES: </h3>
+            <ul class="checboxlist">
+							<li>A team shall consist of minimum 2 students and maximum 4 students.</li>
+							<li>In case of tie between 2 or more teams, the team with lesser wrong answers will get a higher rank.</li>
+							<li> <b>Participants shall not be allowed to use mobile or other electronic instruments.</b> </li>
+							<li>Organisers have the right to change the quiz format and specifications until the event day.</li>
+							<li>Final decision-making authority lies with organising team.</li>
+            </ul>
+          </div>
+
+			 <div class="evencon_box">
+            <h3>TESTING: </h3>
+			<ol>
+				<li>Shaking table will be used to stimulate earthquake.</li>
+				<li><b> Some weight will be placed on structure and then tested for earthquake in this round.</b></li>
+				<li><b>Finally the structure will be loaded and the load bore by the structure/weight of the structure ratio will be calculated.</b></li>
+			</ol>
+
+			</div>
+
+			<div class="evencon_box">
+			<h3>MARKING SCHEME AND OTHER REQUIREMENTS: </h3>
+            <ol>
+				<li>All the teams will be given 250 points at the starting.</li>
+				<li>If the height of the building is found less than 40 cm, then 80 marks shall be deducted.</li>
+				<li>Any other dimensions of the building not in specified dimensions will result in deduction of 20 points.</li>
+				<li>Use of any sticking material other than fevicol will result in disqualification.</li>
+				<li>If the building does not meet the specified requirements then penalty will be imposed or team can be disqualified.</li>
+				<li>Come To the event with a fully prepared idea of construction of building and make sure that dimension of each and every element is within range.</li>
+				<li>If the floor height is less than 10 cm then 20 points for a single floor will be deducted.</li>
+				<li>Model will be judged on the following basis:</li>
+				<ol type="i">
+					<li>Originality and innovation.</li>
+					<li>Technical content.</li>
+					<li>Practical Applicability.</li>
+				</ol>
+			</ol>
+        </div>
+
+		          <div class="evencon_box">
+            <h3>Prizes worth : TBA</h3>
+        </div>
+
+		  <div class="evencon_box">
+            <h3>Contact Us:</h3>
+            <p>For any queries:</p>
+            <div class="pptable">
+              <table>
+                <tr>
+                  <td>Aayush Gupta</td>
+                  <td>8318351659</td>
+				  <td>2017uce1662@mnit.ac.in</td>
+                </tr>
+
+                <tr>
+                  <td>Anand Sharma</td>
+                  <td>8949588398</td>
+				   <td>2017uce1563@mnit.ac.in</td>
+                </tr>
+
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <?php
+		if(isset($_SESSION["user_sphinx_sp"]))
+		{
+			?>
+            <a href="civil?event=Seismic"   class="btn btn-input regist-popshow">Register Now</a>
+         <?php } else
+		 { ?>
+			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="btn btn-input regist-popshow" data-dismiss="modal">Register Now</a>
+		<?php  }?>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade Civiq  modalevent" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">COSTA RICA</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
+      </div>
+      <div class="modal-body">
+        <div class="eventdetail_wpr">
+         <div class="evencon_box">
+            <h3>ABSTRACT: </h3>
+          Have you ever experienced the thrill of riding a roller coaster? Gives Goosebumps, no? Quick Fact:
+					Roller coasters don’t have engines. So how do they run exactly? Roller coaster must be pulled by a motorized
+					chain to the top of the first big hill. As the roller coaster rises higher, its potential energy increases and
+					reaches maximum at crest of hill. The potential energy accumulated by the rise in height is transferred to kinetic
+					energy as the cars race down the first downward slope.
+</div>
+
+          <div class="evencon_box">
+            <h3>PROBLEM STATEMENT: </h3>
+			Teams shall design and build a "roller coaster" meeting the requirements mentioned below. The "roller coaster" shall mean
+			the entire structure, including the roller coaster track and the base, but not the actual vehicle. The "COASTER" shall mean
+			 the vehicle that travels on the Roller Coaster track.
+		  </div>
+
+		   <div class="evencon_box">
+            <h3>GUIDELINES FOR MODEL:</h3>
+            <ol>
+							<li>Basic hardware materials like plastic tubes, rubber tubes (transparent), paper, thermacol, cardboard etc can be used to make the roller coaster track.</li>
+							<li>Participants can bring their model in disassemble form and can assemble it at the time of the event.</li>
+							<li>Materials provided by Organising team: Five rectangular blocks (6"*6"), double sided tape, Fevicol and Scissor.</li>
+							<li>Students have to bring their own track and any other material required for making the roller coaster.</li>
+							<li>Organising team will not provide any other material apart from specified above.</li>
+							<li>The energy source for the ride can be gravitational pull only. Use of external energy sources like magnets, springs,
+								 and electricity are not allowed. However, these energy sources can be used for aesthetics and design (like background lightning). </li>
+            </ol>
+          </div>
+
+          <div class="evencon_box">
+            <h3>MODEL SPECIFICATIONS:</h3>
+						<ol>
+							<li>The height, length and width of the model should not be more than 1.5 metres.</li>
+							<li> <b>The model should be designed for a regular size, steel or glass marble approx. 10 - 15 mm in diameter.</b> </li>
+							<li>The starting and stopping points must be clearly marked in the model.</li>
+							<li>Each team will have to measure the total length of the track of write it down on respective roller coasters.</li>
+							<li>You cannot get ground support from more than five columns that rest on the given wooden blocks.</li>
+							<li>Teams can use maximum 5 supports using the rectangular blocks provided only.</li>
+						</ol>
+			</div>
+
+	<div class="evencon_box">
+            <h3>JUDGING CRITERIA:</h3>
+						<ol>
+							<li>Time (40 Pts): <br> <br>
+								Each model will be entitled to three runs. The longest time to go from the start position to the finish will be the official time for that model.
+Calculation of Points for Time: -
+Points will be relative.
+Points = (Your time/max time) * 40
+For example, if your time is 27 seconds and max time = 39 sec, then you will get marks = (27/39)*40. <br> <br>
+
+							</li>
+
+							<li>Technical Points (30 Pts): <br> <br>
+								<ol type="i">
+									<li>Vertical Jump Height (10 Pts): <br> <br>
+										Height Coaster travels during jump. <br>
+H = Max height Coaster jumps in any Roller Coaster in competition. <br>
+h = Height jumped by your Coaster. Points = (h/H)*10. <br> <br>
+									 </li>
+
+									<li>Vertical Loop (10 Pts): <br> <br>
+										Vertical loop is defined as, the loop of track where the ‘rider’ is upside down. If the vertical loop is a portion of a corkscrew (helix), it counts as a vertical loop. <br>
+Points: For, 1 loop = 5 Pts, 2 loop = 10 Pts. <br> <br>
+									</li>
+
+									<li>Degree of Openness (10 Pts): <br> <br>
+Points will be awarded for degree of openness of track. <br>
+Mostly closed - 0 Pts. <br>
+Around 50% open - 5 Pts. <br>
+More than75% open - 10 Pts. <br> <br>
+									</li>
+								</ol>
+							</li>
+							<li>Aesthetics (30 Pts): <br> <br>
+								<ol type="i">
+									<li>Creativity (20 pts): <br> <br>
+										For, 90º turn of the track, <br>
+										Points: <br>
+										For 1 turn = 2 Pts, for 2 turns = 5 Pts <br> <br>
+
+										For, 180º turn of the track, <br>
+										Points: <br>
+										For 1 turn = 4 Pts, for 2 turn = 10 Pts. <br> <br>
+									</li>
+
+									<li>Aesthetically Charming (5 pts): <br> <br>
+										Whether the track is neatly designed and is having uniformity in colour/design. <br>
+										Whether it is well-constructed or having any roadway obstruction. <br> <br>
+									 </li>
+
+									 <li>Theme (5 pts): <br> <br>
+									 What is the name of your roller coaster? Does your scenery support this theme? Does the design
+									 support your theme? Is there a coolness or cleverness factor in your name? </li> <br> <br>
+								</ol>
+							</li>
+
+							<li>Teams may be given max 3 trials to complete the track. <br>
+In case of first failure to complete the track, 10 points shall be deducted.<br>
+In case of second failure, 20 points shall be deducted.<br>
+After the failure of third trial, model will be disqualified.
+</li>
+						</ol>
+	</div>
+
+	<div class="evencon_box">
+        <h3>TEAM STRUCTURE AND RULES:</h3>
+		<ul class="checboxlist">
+		<li>Event is open to all.</li>
+		<li>Maximum 5 members can be in a team.</li>
+		<li>Participants can form team from any branch/ colleges/ university/institute.</li>
+		<li>No two teams must have any common member.</li>
+		<li>Time limit for completion of model is 180 minutes.</li>
+		<li>All abstracts must be original. Plagiarism in any form
+			(including and not limited to - Replication of old abstracts and models- Submission of similar abstracts by teams from the same institution)
+			or falsifying information in the abstracts will lead to immediate disqualification.  The decision regarding final selection of the teams rests
+			with team Sphinx 2019.</li>
+			<li>The judging criteria and specifications may be subject to changes until the event day.</li>
+			<li>Organising team holds the right to do the same.  Final decision making authority lies with organising team, MNIT Jaipur.</li>
+	</div>
+
+	<div class="evencon_box">
+        <h3>CERTIFICATES AND PRIZES: </h3>
+				<ol>
+					<li>Top 3 teams will be awarded with Cash Prizes</li>
+					<li>Certificates and Cash prizes will also be awarded to the team with "Best Innovative Model" (apart from the top 3 teams).</li>
+					<li>Certificates will be given to all participating teams.</li>
+				</ol>
+    </div>
+
+		  		          <div class="evencon_box">
+            <h3>Prizes worth : TBA</h3>
+        </div>
+
+
+		  <div class="evencon_box">
+            <h3>Contact Us:</h3>
+            <p>For any queries:</p>
+            <div class="pptable">
+              <table>
+                <tr>
+                  <td>Aayush Gupta</td>
+                  <td>8318351659</td>
+				  <td>2017UCE1622@mnit.ac.in</td>
+                </tr>
+
+                <tr>
+                  <td>Anand Sharma</td>
+                  <td>8949588398</td>
+				   <td>2017UCE1563@mnit.ac.in
+
+</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <?php
+		if(isset($_SESSION["user_sphinx_sp"]))
+		{
+			?>
+            <a href="civil?event=Civiq"  class="btn btn-input regist-popshow">Register Now</a>
+         <?php } else
+		 { ?>
+			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="btn btn-input regist-popshow" data-dismiss="modal">Register Now</a>
+		<?php  }?>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div class="modal fade Civiq  modalevent" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">QUANTRO-CIVIL</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
+      </div>
+      <div class="modal-body">
+        <div class="eventdetail_wpr">
+         <div class="evencon_box">
+            <h3>ABSTRACT: </h3>
+Quantro-Civil is a revolutionized style of conducting a quizzing event testing the knowledge of participants in a wide range of fields of Civil Engineering.
+Quantro-Civil is the best opportunity for the intellect and the quizzing genius to test their knowledge and challenge their quick thinking.
+</div>
+
+          <div class="evencon_box">
+            <h3>ROUND-1: QUANTRO</h3>
+						<ol>
+							<li>It will be a MCQ type quiz having questions from these topics. <br>
+								<ol type="i">
+									<li>Basic civil Engineering.</li>
+									<li>Aptitude-Both Logical and Analytical Reasoning.</li>
+									<li>Basic Mathematics, etc.</li> <br>
+								</ol>
+							</li>
+							<li>Time Limit-1 hr.</li> <br>
+							<li>Each team would be given a set of question paper containing 90 multiple choice objective type questions with no negative marking.</li>
+						</ol>
+
+						<b>~ Top 20 Teams would be selected for Round-2.</b>
+		  </div>
+
+		   <div class="evencon_box">
+            <h3>ROUND-2: PROGRESSION ROUND</h3>
+            <ol>
+							<li>This round will consist of 20 questions. For each question, 90 seconds will be given.</li>
+							<li>Marking scheme follows the sum of arithmetic progression. 10 points will be awarded for starting the correct answers sequence with an increment of 10 points for every subsequent correct answer. </li>
+							<li>The catch is if any team skips a question, it will be awarded with -10 points but the progression will continue for next correct answer. But, if the answer is wrong, the team will be awarded with 0
+								 points but the sequence will break. So, teams have to be smart in answering the questions.</li>
+          </div>
+
+					<b>~ Top 7 Teams would be selected for Round-2.</b>
+
+          <div class="evencon_box">
+            <h3>ROUND-3: SURPRISE EVENT</h3>
+						<ol>
+							<li>It is a surprise event. Details of this round will be given prior to the beginning of this round.</li>
+						</ol>
+			</div>
+
+	<div class="evencon_box">
+            <h3>TEAM STRUCTURE AND RULES:</h3>
+						<ol>
+							<li>A team shall consist of minimum 2 students and maximum 3 students.</li>
+							<li>In case of tie between 2 or more teams, the team with lesser wrong answers will get a higher rank.</li>
+							<li> <b>Participants shall not be allowed to use mobile or other electronic instruments.</b> </li>
+							<li>Organisers have the right to change the quiz format and specifications until the event day</li>
+							<li>Final decision making authority lies with organising team.</li>
+						</ol>
+	</div>
+
+	<div class="evencon_box">
+        <h3>CERTIFICATES AND PRIZES: </h3>
+				<ol>
+					<li>Top 3 teams will be awarded with Cash Prizes</li>
+					<li>Certificates will be given to all participating teams.</li>
+				</ol>
+    </div>
+
+		  <div class="evencon_box">
+            <h3>Contact Us:</h3>
+            <p>For any queries:</p>
+            <div class="pptable">
+              <table>
+                <tr>
+                  <td>Aayush Gupta</td>
+                  <td>8318351659</td>
+				  <td>2017UCE1622@mnit.ac.in</td>
+                </tr>
+
+                <tr>
+                  <td>Swapnil Singariya</td>
+                  <td>9588002210</td>
+				   <td>2017uce1382@mnit.ac.in</td>
+                </tr>
+
+								<tr>
+                  <td>Nikita Agrawal</td>
+                  <td>7017233636</td>
+				   <td>2017uce1124@mnit.ac.in</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <?php
+		if(isset($_SESSION["user_sphinx_sp"]))
+		{
+			?>
+            <a href="civil?event=Civiq"  class="btn btn-input regist-popshow">Register Now</a>
+         <?php } else
+		 { ?>
+			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="btn btn-input regist-popshow" data-dismiss="modal">Register Now</a>
+		<?php  }?>
+        </div>
+      </div>
     </div>
   </div>
 </div>
@@ -334,6 +770,75 @@ overflow-x: hidden; height: 40%;  padding-left: 210px; width:70%;border-radius: 
               <div class="col-md-12 col-sm-12">
                 <div class="eventbox_wrp">
                    <div class="evnt_cont_box seismic" style="">
+                   <center> <div class="card_box" >SEISMIC</div></center>
+					<p class="content_p">Sputnik suffers hypersomnia and dreams about solving everyday problems when asleep. Once in a
+dream he finds himself in a place called &#39;AMARA Island’ that is facing frequent earthquakes due to
+seismic disturbances deep down earth. People have no clue and their houses are unable to
+withstand the devastating force of nature. So if you think your design can withstand earthquakes
+come help Sputnik by showing us your skills in SEISMIC.</p>
+                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".Seismic"><span>More Detail</span></a>
+                    <?php
+		if(isset($_SESSION["user_sphinx_sp"]))
+		{
+			?>
+                    <a href="civil?event=Seismic" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
+         <?php } else
+		 { ?>
+			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
+		<?php  }?>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+			  <div class="col-md-12 col-sm-12">
+                <div class="eventbox_wrp">
+                   <div class="evnt_cont_box civiqe" style=" ">
+                   <center> <div class="card_box civiqc" style="">COSTA RICA</div></center>
+					<p class="content_p">Have you ever experienced the thrill of riding a roller coaster? Gives Goosebumps, no? Quick Fact: Roller coasters don’t have engines. So how do they run exactly?
+						Roller coaster must be pulled by a motorized chain to the top of the first big hill. As the roller coaster rises higher, its potential energy increases and reaches maximum at crest of hill.
+						The potential energy accumulated by the rise in height is transferred to kinetic energy as the cars race down the first downward slope.</p>
+                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".Civiq"><span>More Detail</span></a>
+                    <?php
+		if(isset($_SESSION["user_sphinx_sp"]))
+		{
+			?>
+                    <a href="civil?event=Civiq" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
+         <?php } else
+		 { ?>
+			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
+		<?php  }?>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+<?php // TODO: CHANGES TO BE MADE FOR QUANTRO SECTION  ?>
+
+							<div class="col-md-12 col-sm-12">
+			                <div class="eventbox_wrp">
+			                   <div class="evnt_cont_box civiqe" style=" ">
+			                   <center> <div class="card_box civiqc" style="">QUANTRO-CIVIL</div></center>
+								<p class="content_p">Quantro-Civil is a revolutionized style of conducting a quizzing event testing the knowledge of participants in a wide range of fields of Civil Engineering. Quantro-Civil is the best opportunity for the intellect and the quizzing genius to test their knowledge and challenge their quick thinking.</p>
+			                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".Civiq"><span>More Detail</span></a>
+			                    <?php
+					if(isset($_SESSION["user_sphinx_sp"]))
+					{
+						?>
+			                    <a href="civil?event=Civiq" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
+			         <?php } else
+					 { ?>
+						 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
+					<?php  }?>
+			                    </div>
+			                  </div>
+			                </div>
+			              </div>
+
+
+                    <div class="col-md-12 col-sm-12">
+                <div class="eventbox_wrp">
+                   <div class="evnt_cont_box seismic" style="">
                    <center> <div class="card_box" >ASTROUIZ</div></center>
 					<p class="content_p">What makes a planet a "dwarf" planet ? How many miles are in a light year ? What exactly is a quasar ? Are you intrigued by Chandrayan-2 project ? Launch into other worlds while testing your knowledge about space,celestial bodies, and the solar system.
 <br>Though the astronomy field has evolved from its primitive beginnings,there's still a boundless cosmos to explore.Test your astronomy knowledge with our quiz.</p>
@@ -351,7 +856,6 @@ overflow-x: hidden; height: 40%;  padding-left: 210px; width:70%;border-radius: 
                   </div>
                 </div>
               </div>
-
 
             </div>
           </div>
