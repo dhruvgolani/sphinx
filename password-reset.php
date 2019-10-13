@@ -9,13 +9,13 @@ $nums=$db->db_num($query);
 if($nums>0)
 {
 	$row=$db->SinglerunQuery($query);
-	
+
 	date_default_timezone_set("Asia/kolkata");
  	$date= date("Y-m-d H:i:s",time());
 	$token=$row['token'];
 	$times=$row['datetimesss'];
 	if(($reset_link==$token)&&($times>=$date))
-	{  
+	{
 		$flag=1;
 		//echo "gud";
 	}
@@ -23,7 +23,7 @@ if($nums>0)
 	{
 		$flag=0;
 		$msg= "The password reset link may be expired or invalid";
-		
+
 	}
 }
 else
@@ -37,7 +37,7 @@ else
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<title>Sphinx 2.0 | Sign In, Shine Out</title>
+<title>Sphinx'19</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <link rel="icon" type="image/png" href="images/favicon.png">
 <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
@@ -62,7 +62,7 @@ else
 	var cmpnys="";
 	var cntr=0;
 	function validate(){
-	
+
 	var alrt = document.getElementById("alrt");
 	var newpassword = document.getElementById("newpassword").value;
 	var newssspassword = document.getElementById("newssspassword").value;
@@ -75,29 +75,29 @@ else
 		alrt.innerHTML="Your passwords do not match. Please type more carefully";
 		document.getElementById("newssspassword").focus();
 		return false;
-	}	
+	}
 	}
 </script>
 </head>
 <body style="overflow:hidden;">
-<script type="text/javascript" src="js/popper.js" charset="utf-8"></script> 
-<script type="text/javascript" src="js/bootstrap.js" charset="utf-8"></script> 
+<script type="text/javascript" src="js/popper.js" charset="utf-8"></script>
+<script type="text/javascript" src="js/bootstrap.js" charset="utf-8"></script>
 
 
-<!-- END WAYBACK TOOLBAR INSERT --> 
+<!-- END WAYBACK TOOLBAR INSERT -->
 
 <script>
 $(window).bind("load", function() {
 	//alert('hello');
   	$('#overlay').css({'left':'110%', 'transition':'all 1s ease-in-out'}, 2000);
-		 
+
 });
 </script>
 
 <div id="overlay" style="width:100%;">
-   
+
 	<div style="position:absolute; top:0; left:0; background:rgba(21,24,33,1.0); width:100%; height:100%; text-align:center;" >
-		 <div style="position:absolute; width:100%; height:100%; background:url('images/loading4.gif') center 100% no-repeat; background-size:800px;"></div>
+		 <div style="position:absolute; width:100%; height:100%; background:url('images/loader6.gif') center 100% no-repeat; background-size:800px;"></div>
 		 <div style="position:absolute; width:100%; height:100%; background:url('images/title.png') center 40% no-repeat; background-size:500px;"></div>
 	</div>
 </div>
@@ -115,7 +115,7 @@ $(window).bind("load", function() {
       </div>
       <div class="container">
     	<div class="about_text_wrp">
-		
+
 		 <div class="ourteamtedablog">
           <div class="contact_form">
                    <?php
@@ -125,10 +125,10 @@ $(window).bind("load", function() {
 	}
 	else
 	{
-		
+
 	?>
                   <form class="requird_form_contect requiredform" method="post" onSubmit="return validate()"  action="change_reset.php">
-                    
+
                     <div class="form_group">
                       <label>New Password</label>
                       <input type="password" name="password" data-parsley-error-message="Enter new  Password"  data-parsley-trigger="keyup" class="form-control" id="newpassword" required>
@@ -145,16 +145,16 @@ $(window).bind("load", function() {
                     </div>
                   </form>
               <?php
-	} ?>   
+	} ?>
                 </div>
         </div>
-		
+
 		<div class="about_text_wrp">
-		
+
 			<div class="sponsorhead">
 				<h4>Mail: support@sphinxmnit.org</h4>
 			</div>
-			
+
 			<div class="row">
 			<div class="col-sm-4">
                 <div class="spondtdeibox">
@@ -177,9 +177,9 @@ $(window).bind("load", function() {
 				   <p> +91-7014578315</p>
               </div>
 			</div>
-		
+
 		</div>
-		
+
     </div>
 	</div>
 	</div>
@@ -188,9 +188,9 @@ $(window).bind("load", function() {
 <?php
 	include('footer.php');
 ?>
-<script src="js/skrollr.min.js"></script> 
-<script src="js/jquery.ticker.js" type="text/javascript"></script> 
-<script type="text/javascript" src="js/skrollr.menu.js"></script> 
+<script src="js/skrollr.min.js"></script>
+<script src="js/jquery.ticker.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/skrollr.menu.js"></script>
 <script type="text/javascript">
         var x = screen.width;
         var y = window.innerWidth;
@@ -201,8 +201,8 @@ $(window).bind("load", function() {
 
         setTimeout(function() {
         var s = skrollr.init({
-			forceHeight: false  
-            
+			forceHeight: false
+
         });
 
 
@@ -213,15 +213,15 @@ $(window).bind("load", function() {
         }, 500);
          $(window).load(function(){
                 $('#loader').delay(2000).fadeOut();
-                
-        }); 
+
+        });
     }
     else{
          $('#mob_text').append("Use your device in landscape mode for better experience");
          $(window).load(function(){
                 $('#loader').delay(400).fadeOut();
 
-        });  
+        });
         $('#slides').css("display","none");
         $('.topnav').css("display","none");
         $('.mobile').show();
@@ -241,8 +241,8 @@ $(window).bind("load", function() {
         if(phyWidth > 450){
 
         setTimeout(function() {
-        var s = skrollr.init({  
-            
+        var s = skrollr.init({
+
         });
 
 
@@ -258,21 +258,21 @@ $(window).bind("load", function() {
          $(window).load(function(){
                 /*$('#loader').delay(350).fadeOut();*/
         });
-            
+
     }
     else{
          $('#mob_text').append("Use your device in landscape mode for better experience");
          $(window).load(function(){
                /* $('#loader').delay(400).fadeOut();*/
 
-        });  
+        });
         $('#slides').css("display","none");
         $('.topnav').css("display","none");
         $('.bottomnav').css("transform","translate(0,0)");
         $('.mobile').show();
     }
     });
-    </script> 
+    </script>
 <script type="text/javascript">
         $(function () {
   $('#js-news').ticker();

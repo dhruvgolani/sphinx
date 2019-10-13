@@ -85,7 +85,7 @@ $(window).bind("load", function() {
 <div id="overlay" style="width:100%;">
 
 	<div style="position:absolute; top:0; left:0; background:rgba(21,24,33,1.0); width:100%; height:100%; text-align:center;" >
-		 <div style="position:absolute; width:100%; height:100%; background:url('images/loading4.gif') center 100% no-repeat; background-size:800px;"></div>
+		 <div style="position:absolute; width:100%; height:100%; background:url('images/loader6.gif') center 100% no-repeat; background-size:800px;"></div>
 		 <div style="position:absolute; width:100%; height:100%; background:url('images/title.png') center 40% no-repeat; background-size:500px;"></div>
 	</div>
 </div>

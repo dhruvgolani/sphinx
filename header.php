@@ -103,14 +103,14 @@ a{
 	.bottom_nav{
 		display:none;
 	}
-	.ppp1{
+	/* .ppp1{
 	position:absolute; top:0; left:0; background:rgba(21,24,33,1.0); width:100%; height:100%; text-align:center;
-}
+} */
 .ppp2{
-	position:absolute; width:100%; height:100%; background:url('images/loading4.gif') center 100% no-repeat; background-size:200%;
+	position:absolute; width:100%; height:100%; background:url('images/loader6.gif') center 100% no-repeat; background-size:200%;
 }
 .ppp3{
-	position:absolute; width:100%; height:100%; background:url('images/title.png') center 33% no-repeat; background-size:70%;
+	position:absolute; width:100%; height:100%; background:url('images/newposter.png') center 30% no-repeat; background-size:00px;
 }
 
 

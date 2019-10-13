@@ -261,6 +261,11 @@ $(function(){
 	});
 });
 
+function checkcollege(obj) {
+    var other = document.getElementById("othercollege");
+    other.disabled = !(obj.value == "Others");
+    other.value = "";
+}
 
 </script>
 
@@ -446,8 +451,10 @@ select.form-control:not([size]):not([multiple]) {
             <select class="form-control" name="course">
             	<option>-Select Course-</option>
                 <option value="B-Tech" <?php if((@$_SESSION['course']=='B-Tech')) { echo "selected"; }?>>B-Tech</option>
+                <option value="B-Arch" <?php if((@$_SESSION['course']=='B-Arch')) { echo "selected"; }?>>B-Arch</option>
                 <option value="PHD" <?php if((@$_SESSION['course']=='PHD')) { echo "selected"; }?>>PHD</option>
 				<option value="M-Tech" <?php if((@$_SESSION['course']=='M-Tech')) { echo "selected"; }?>>M-Tech</option>
+				<option value="M-Plan" <?php if((@$_SESSION['course']=='M-Plan')) { echo "selected"; }?>>M-Plan</option>
 				<option value="OTHER" <?php if((@$_SESSION['course']=='OTHER')) { echo "selected"; }?>>OTHER</option>
             </select>
           </div>
@@ -462,6 +469,8 @@ select.form-control:not([size]):not([multiple]) {
                 <option value="II Year" <?php if((@$_SESSION['year']=='II Year')) { echo "selected"; }?>>II Year</option>
 				<option value="III Year" <?php if((@$_SESSION['year']=='III Year')) { echo "selected"; }?>>III Year</option>
 				<option value="IV Year" <?php if((@$_SESSION['year']=='IV Year')) { echo "selected"; }?>>IV Year</option>
+				<option value="V Year" <?php if((@$_SESSION['year']=='V Year')) { echo "selected"; }?>>V Year</option>
+        <option value="OTHER" <?php if((@$_SESSION['year']=='OTHER')) { echo "selected"; }?>>OTHER</option>
             </select>
           </div>
             </div>
@@ -490,7 +499,7 @@ select.form-control:not([size]):not([multiple]) {
           	 <div class="col-sm-6">
                 	<div class="form-group">
                     <label for="recipient-name" class="form-control-label">College <span class="mendatri-field">*</span></label>
-                    <select class="form-control" name="college" >
+                    <select class="form-control" name="college" id="collegeoption" onChange="checkcollege(this)">
                         <option value="MNIT" selected> MNIT </option>
                         <option value="NIT UK" > NIT UK </option>
         				        <option value="IIIT Kota" >IIIT Kota</option>
@@ -501,7 +510,7 @@ select.form-control:not([size]):not([multiple]) {
             <div class="col-sm-6">
                  <div class="form-group">
                    <label for="recipient-name" class="form-control-label">If Others, Specify name</label>
-                   <input type="text" class="form-control txtOnly" name="collegename" value="<?=@$_SESSION['collegename'];?>" placeholder="Enter your college">
+                   <input disabled type="text" id="othercollege" class="form-control txtOnly" name="collegename" value="<?=@$_SESSION['collegename'];?>" placeholder="Enter your college">
                  </div>
             </div>
             <div class="col-sm-12">
