@@ -2,14 +2,14 @@
 
 <style>
 .ppp1{
-	position:absolute; top:0; left:0; background:rgba(21,24,33,1.0); width:100%; height:100%; text-align:center;
+	position:absolute; top:0; left:0; background: black; width:100%; height:100%; text-align:center;
 }
 .ppp2{
-	position:absolute; width:100%; height:100%; background:url('images/loader6.gif') no-repeat center center fixed;
+		width:100%; height:100%; background:url('images/rocket.gif') center 10% no-repeat; background-size: contain;
 }
-.ppp3{
+/* .ppp3{
 	position:absolute; width:100%; height:100%; background:url('images/newposter.png') center 40% no-repeat; background-size:500px;
-}
+} */
 </style>
 <style>
 a{
@@ -103,6 +103,17 @@ a{
 	.bottom_nav{
 		display:none;
 	}
+<<<<<<< HEAD
+	.ppp1{
+	position:absolute; top:0; left:0; background:black; width:100%; height:100%; text-align:center;
+}
+.ppp2{
+	width:100%; height:100%; background:url('images/rocket.gif') center 100% no-repeat; background-size: contain;
+}
+.ppp3{
+	display: none;
+	/* position:absolute; width:100%; height:100%; background:url('images/title.png') center 33% no-repeat; background-size:70%; */
+=======
 	/* .ppp1{
 	position:absolute; top:0; left:0; background:rgba(21,24,33,1.0); width:100%; height:100%; text-align:center;
 } */
@@ -111,6 +122,7 @@ a{
 }
 .ppp3{
 	position:absolute; width:100%; height:100%; background:url('images/newposter.png') center 30% no-repeat; background-size:00px;
+>>>>>>> e71c43421d2a14ea64e4a1b5a3139f6958cebab2
 }
 
 

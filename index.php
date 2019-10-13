@@ -468,7 +468,7 @@ $("#t2").mouseleave(function(){
 
 <center>
 <div class="spinximg">
-	<center><img src="images/newposter.png" class="title111" style="" >
+	<center><img src="images/newposter.png" class="title111" style="width:150%;">
 	<!-- <img src="images/tagline.png" class="title112" style="" ></center> -->
 </div>
 </center>
