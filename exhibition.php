@@ -85,9 +85,9 @@ position:absolute; width:220px; top:300px; margin:0 auto; right:250px;
    <section class="contentbox_pwr" style="">
     <div class="about_box_mainwrp" style="width:100%;">
         <div class="about_text_wrp" style="width:100%;">
-          <p>The exhibition will display various research projects and development activities going on in the various departments of the institute which are sure to leave you exhilarated. The exhibition will be a technical extravaganza which will portray the technical excellence of MNIT Jaipur and at the same time depict the staggering feats of the technical community. It will also exhibit the latest and coolest technology on the blocks some of which are:</p>
+          <p>The exhibition will display various research projects and development activities going on in the various departments of the institute which are sure to leave you exhilarated. The exhibition will be a technical extravaganza which will portray the technical excellence of MNIT Jaipur and at the same time depict the staggering feats of the technical community. It will also exhibit the latest and coolest technology on the blocks. The list of items will be uploaded soon.</p>
         </div>
-		<div class="ex_items">
+		<!-- <div class="ex_items">
 			1. GOOGLE LENS
 			<p class="ex_items_content">
 			Google Lens is an app announced by Google during Google I/O 2017, designed to bringing up relevant information using visual analysis. For example, when pointing the device's camera at a Wi-Fi label containing the network name and password, it will automatically connect to the Wi-Fi source that has been scanned; when directing the camera at an object, Lens will attempt to identify the object and show relevant search results and information. Lens is also integrated with the Google Photos and Google Assistant apps. Lens uses more advanced deep learning routines; artificial neural networks are used to detect and identify objects, landmarks and to improve OCR accuracy.
@@ -124,7 +124,7 @@ users with through telepresence and telexistence or the use of a virtual artifac
 environment can be similar to the real world in order to create a lifelike experience grounded in
 reality or sci-fi.
 			</p>
-		</div>
+		</div> -->
         <div class="about_text_wrp">
 
         </div>

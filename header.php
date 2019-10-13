@@ -154,7 +154,7 @@ a{
 	<a href="https://twitter.com/sphinx_mnit" title="Twitter" target="_blank"><i class="fa fa-twitter-square" id="social_icon"></i></a>
 	</div>
 	<div id="logo">
-        <a href="index.php"><img src="images/logo.png" width="100%"></a>
+        <a href="index.php"><img src="images/newposter.png" width="100%"></a>
         </div>
 	<div style="width:100%; text-align:center;">
 	<center>
@@ -198,7 +198,7 @@ a{
 <div class="headernav_mobile">
 	<div class="logowpr">
 		<div id="logo">
-			<a href="index.php"><img src="images/logo.png" width="100%"><div class="logodate">19th-21st Jan</div></a>
+			<a href="index.php"><img src="images/newposter.png" width="100%"><div class="logodate"></div></a>
         </div>
 	</div>
 	<div class="profilewrp">

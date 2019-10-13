@@ -619,7 +619,7 @@ Quantro-Civil is the best opportunity for the intellect and the quizzing genius 
          <div class="evencon_box">
             <h3>Abstract</h3>
 			What makes a planet a "dwarf" planet ? How many miles are in a light year ? What exactly is a quasar ? Are you intrigued by Chandrayan-2 project ? Launch into other worlds while testing your knowledge about space,celestial bodies, and the solar system.
-<br><br>Though the astronomy field has evolved from its primitive beginnings,there's still a boundless cosmos to explore.Test your astronomy knowledge with our quiz. 			
+<br><br>Though the astronomy field has evolved from its primitive beginnings,there's still a boundless cosmos to explore.Test your astronomy knowledge with our quiz.
 <br>
 			<br>
 					</div>
