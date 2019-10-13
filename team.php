@@ -940,7 +940,7 @@ position: absolute;
 			 <div class="teamdeatilbox">
                            <div class="row">
                              <div class="col-sm-5">
-                               <img src="images/team19/saloni.jpeg" class="img-fluid" draggable="false">
+                               <img src="images/team19/mayank.jpg" class="img-fluid" draggable="false">
                              </div>
                                <div class="col-sm-7">
                                  <h3>Mayank Goyal</h3>
