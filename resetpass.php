@@ -11,21 +11,21 @@ $conn = $db->db_connect();
 				   $password =  $row['password'];
 				   $password = base64_decode($password);
 				   $name =  $row['name'];
-				   
+
 				  $conn->close();
-				
+
 $headers  = 'MIME-Version: 1.0' . "\r\n";
 $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 $to = $emails_req;
-$subject = "Sphinx 2.0 Registration"; 
-$message="Dear $name !<br>Greetings from Sphinx 2.0.<br><br>Your account password is : <b>$password</b><br><br>**This is auto generated mail,please do not reply**<br>";
-										
+$subject = "Sphinx'19 Registration";
+$message="Dear $name !<br>Greetings from Sphinx '19'.<br><br>Your account password is : <b>$password</b><br><br>**This is auto generated mail,please do not reply**<br>";
+
 $from = "support@sphinxmnit.org";
 $headers .= 'From: '.$from."\r\n".
 'Reply-To: '.$from."\r\n" .
 'X-Mailer: PHP/' . phpversion();
 mail($to,$subject,$message,$headers);
-										
+
 echo "<p style='color:green;'>We have sent your password to your email. Also check junk or spam folder!</p>";
 				}
 				else

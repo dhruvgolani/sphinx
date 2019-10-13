@@ -28,7 +28,7 @@ if(isset($_REQUEST['event']))
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<title>Sphinx 2.0 | Sign In, Shine Out</title>
+<title>Sphinx'19</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <link rel="icon" type="image/png" href="images/favicon.png">
 <link href="css/font-awesome.css" rel="stylesheet" type="text/css">
@@ -90,7 +90,7 @@ $(window).bind("load", function() {
 <div id="overlay" style="width:100%;">
 
 	<div style="position:absolute; top:0; left:0; background:rgba(21,24,33,1.0); width:100%; height:100%; text-align:center;" >
-		 <div style="position:absolute; width:100%; height:100%; background:url('images/loading4.gif') center 100% no-repeat; background-size:800px;"></div>
+		 <div style="position:absolute; width:100%; height:100%; background:url('images/loader6.gif') center 100% no-repeat; background-size:800px;"></div>
 		 <div style="position:absolute; width:100%; height:100%; background:url('images/title.png') center 40% no-repeat; background-size:500px;"></div>
 	</div>
 </div>

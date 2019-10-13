@@ -91,7 +91,12 @@ if(isset($_POST['submitreg']))
 			$db_pass=$user_rows['password'];
 			if(($db_email==$emailid[$i]) && (base64_decode($db_pass)==$password[$i]))
 			{
-
+				if($user_rows['mnit']=='No' && $user_rows['entry_fee_trid']!='SUCCESS')
+				{
+					$flag=1;
+					$_SESSION['Error']="One of team member has not paid the entry fee or has'nt been verified yet.";
+					header("Location:".$url);
+				}
 			}
 			else
 			{

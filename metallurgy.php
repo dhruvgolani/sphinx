@@ -255,105 +255,6 @@ $(window).bind("load", function() {
   </div>
 </div>
 
-<div class="modal fade material-world  modalevent" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" style="height: auto; overflow: auto;">
-  <div class="modal-dialog modal-lg">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">THE MATERIAL WORLD</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
-      </div>
-      <div class="modal-body">
-        <div class="eventdetail_wpr">
-         <div class="evencon_box">
-            <h3>ABSTRACT: </h3>
-						Materials are an integral part of our existence, and in this developing era we are keen to know more about materials and their various applications. <br> <br>
-						The material world will revolve around engineering material, their applications and nanotechnology.
-
-</div>
-          <div class="evencon_box">
-            <h3>ROUND-1 : QUIZ</h3>
-
-						<ol>
-							<li>A quiz based on materials and their applications.</li>
-							<ol type="i">
-								<li>Engineering Materials</li>
-								<li>Nanotechnology</li>
-								<li>Characterisation of Materials</li>
-							</ol>
-							<li>Each team will be provided with a question paper consisting of 60 questions of objective type.</li>
-							<li>The time limit for this round will be 60 minutes.</li>
-						</ol>
-
-						<b> ~ Top 5 Teams would be selected for Round-2 </b>
-		  </div>
-
-
-        <div class="evencon_box">
-            <h3>ROUND 2:</h3>
-						<ol>
-							<li>In this round each team will be provided with a well known metallurgical process or equipment and teams will have to modify the process/equipment giving a detailed analysis of the merits, demerits and cost incurred.</li>
-							<li>The time limit for this round will be 45 minutes.</li>
-						</ol>
-					</div>
-
-  <div class="evencon_box">
-            <h3>TEAM STRUCTURE AND RULES:</h3>
-						<ul class="checboxlist">
-							<li>A team shall consist of maximum 3 students.</li>
-							<li>In case of tie between 2 or more teams, the team with lesser wrong answers will get a higher rank.</li>
-							<li> <b>Participants shall not be allowed to use mobile or other electronic instruments.</b> </li>
-							<li>Organisers have the right to change the quiz format and specifications until the event day.</li>
-							<li>Final decision making authority lies with organising team.</li>
-						</ol>
- </div>
-
-        <div class="evencon_box">
-            <h3>CERTIFICATES AND PRIZES:</h3>
-						<ul class="checboxlist">
-							<li>Top 3 teams will be awarded with Cash Prizes.</li>
-							<li>Certificates will be given to all the participating teams.</li>
-						</ul>
-		</div>
-
-                   <div class="evencon_box">
-            <h3>Prizes worth : TBA</h3>
-        </div>
-
-		  <div class="evencon_box">
-            <h3>Contact Us:</h3>
-            <p>For any queries:</p>
-            <div class="pptable">
-              <table>
-                <tr>
-                  <td>Aniket Soni</td>
-                  <td>9950891716</td>
-				  <td>2017umt1730@mnit.ac.in</td>
-                </tr>
-                <tr>
-                  <td>Samyak Srivastava</td>
-                  <td>8005328897</td>
-				   <td>2017umt1716@mnit.ac.in</td>
-                </tr>
-              </table>
-            </div>
-          </div>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <?php
-		if(isset($_SESSION["user_sphinx_sp"]))
-		{
-			?>
-            <a href="metallurgy.php?event=material-world"  class="btn btn-input regist-popshow">Register Now</a>
-         <?php } else
-		 { ?>
-			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="btn btn-input regist-popshow" data-dismiss="modal">Register Now</a>
-		<?php  }?>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
 
 <div class="modal fade innovative-sein  modalevent" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" style="height: auto; overflow: auto;">
   <div class="modal-dialog modal-lg">
@@ -460,7 +361,106 @@ $(window).bind("load", function() {
   </div>
 </div>
 
+<div class="modal fade material-world  modalevent" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" style="height: auto; overflow: auto;">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">THE MATERIAL WORLD</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
+      </div>
+      <div class="modal-body">
+        <div class="eventdetail_wpr">
+         <div class="evencon_box">
+            <h3>ABSTRACT: </h3>
+						Materials are an integral part of our existence, and in this developing era we are keen to know more about materials and their various applications. <br> <br>
+						The material world will revolve around engineering material, their applications and nanotechnology.
+
+		</div>
+		<div class="evencon_box">
+			<h3>ROUND-1 : QUIZ</h3>
+
+			<ol>
+				<li>A quiz based on materials and their applications.</li>
+				<ol type="i">
+					<li>Engineering Materials</li>
+					<li>Nanotechnology</li>
+					<li>Characterisation of Materials</li>
+				</ol>
+				<li>Each team will be provided with a question paper consisting of 60 questions of objective type.</li>
+				<li>The time limit for this round will be 60 minutes.</li>
+			</ol>
+
+			<b> ~ Top 5 Teams would be selected for Round-2 </b>
 </div>
+
+<div class="evencon_box">
+		<h3>ROUND 2:</h3>
+		<ol>
+			<li>In this round each team will be provided with a well known metallurgical process or equipment and teams will have to modify the process/equipment giving a detailed analysis of the merits, demerits and cost incurred.</li>
+			<li>The time limit for this round will be 45 minutes.</li>
+		</ol>
+	</div>
+
+	<div class="evencon_box">
+						<h3>TEAM STRUCTURE AND RULES:</h3>
+						<ul class="checboxlist">
+							<li>A team shall consist of maximum 3 students.</li>
+							<li>In case of tie between 2 or more teams, the team with lesser wrong answers will get a higher rank.</li>
+							<li> <b>Participants shall not be allowed to use mobile or other electronic instruments.</b> </li>
+							<li>Organisers have the right to change the quiz format and specifications until the event day.</li>
+							<li>Final decision making authority lies with organising team.</li>
+						</ol>
+ </div>
+
+		<div class="evencon_box">
+			<h3>CERTIFICATES AND PRIZES:</h3>
+			<ul class="checboxlist">
+				<li>Top 3 teams will be awarded with Cash Prizes.  </li>
+				<li>Certificates will be given to all participating teams.</li>
+			</ul>
+		</div>
+
+		          <div class="evencon_box">
+            <h3>Prizes worth : TBA</h3>
+        </div>
+
+		  <div class="evencon_box">
+            <h3>Contact Us:</h3>
+            <p>For any queries:</p>
+            <div class="pptable">
+							<table>
+                <tr>
+                  <td>Aniket Soni</td>
+                  <td>9950891716</td>
+				  <td>2017umt1730@mnit.ac.in</td>
+                </tr>
+                <tr>
+                  <td>Samyak Srivastava</td>
+                  <td>8005328897</td>
+				   <td>2017umt1716@mnit.ac.in</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <?php
+		if(isset($_SESSION["user_sphinx_sp"]))
+		{
+			?>
+            <a href="metallurgy.php?event=material-world"  class="btn btn-input regist-popshow">Register Now</a>
+         <?php } else
+		 { ?>
+			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="btn btn-input regist-popshow" data-dismiss="modal">Register Now</a>
+		<?php  }?>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- </div> -->
 
 
 <!--top nav-->
@@ -525,7 +525,7 @@ $(window).bind("load", function() {
 
               <div class="col-md-12 col-sm-12">
                 <div class="eventbox_wrp">
-                   <div class="evnt_cont_box material-world" style="">
+                   <div class="evnt_cont_box" style="">
                    <center> <div class="card_box" >THE MATERIAL WORLD</div></center>
 					<p class="content_p">Materials are an integral part of our existence, and in this developing era we are keen to know more about materials and their various applications. <br> <br>
 The material world will revolve around engineering material, their applications and nanotechnology.</p>

@@ -38,17 +38,17 @@ if(isset($_POST['register']) && ! empty ($_POST['register']))
 
 	if(!validate_user_name($name))
 	{
-		$_SESSION['f_msg'] = "Only letters numbers and white space allowed";
+		$_SESSION['register_msg'] = "Only letters numbers and white space allowed";
 		header("Location:".$url);
 	}
 	else if(!validate_email($email))
 	{
-		$_SESSION['f_msg'] = "Email Address Is Not Valid";
+		$_SESSION['register_msg'] = "Email Address Is Not Valid";
 		header("Location:".$url);
 	}
 	else if(!validate_phone($phone))
 	{
-		$_SESSION['f_msg'] = "Invalid Phone, Enter 10 Digits";
+		$_SESSION['register_msg'] = "Invalid Phone, Enter 10 Digits";
 		header("Location:".$url);
 	}
 	else
@@ -57,7 +57,7 @@ if(isset($_POST['register']) && ! empty ($_POST['register']))
 		$db_num=$db->db_num($querys);
 		if($db_num>0)
 		{
-			$_SESSION['f_msg']="Email id is already registered with us.";
+			$_SESSION['register_msg']="Email id is already registered with us.";
 			header("Location:".$url);
 		}
 		else
@@ -117,7 +117,7 @@ if(isset($_POST['register']) && ! empty ($_POST['register']))
 				unset($_SESSION['colid']);
 				unset($_SESSION['accommondation']);
 				unset($_SESSION['city']);
-				$_SESSION['register_msg']="Your registration has been compeleted.Your Sphinx2.o ID is $registrationid . Please check your email for login details, also check spam and junk folder.";
+				$_SESSION['register_msg']="Your registration has been compeleted.Your Sphinx'19 ID is $registrationid . Please check your email for login details, also check spam and junk folder.";
 				header("Location:index.php");
 
 			}
@@ -127,6 +127,6 @@ if(isset($_POST['register']) && ! empty ($_POST['register']))
 }
 else
 {
-	$_SESSION['f_msg']="Invalid request ";
+	$_SESSION['register_msg']="Invalid request ";
 	header("Location:index.php");
 }
