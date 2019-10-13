@@ -452,27 +452,22 @@ $("#t2").mouseleave(function(){
 .hui{
     margin-left:100px;
 }
-.heventsa{
-   width: auto;
-   position: fixed;
-   top: 29%;
-   left: 25%;
-   transform: translate(-50%,0);
+.hevents{
+  position: absolute;
+  left: 50%;
+  top: 20%;
+
 }
-.heventsa h1{
-   font-family: Beyond;
-   font-size: 4.5vw;
-   color: #ffffff;
-   /* outline: 13px #000; */
+.evePara{
+  position: absolute;
+  left: 50%;
+  width: 60%;
 }
-    @media (max-width: 767px){
-    .heventsa {
-    width: 100%;
-    position: fixed;
-    top: 17%;
-    left: 70%;
-    transform: translate(-50%,0);
-    }
+.iparabut{
+  width: 200px;
+  height: 55px;
+  font-size: 15px;
+}
 </style>
 
 
@@ -551,19 +546,21 @@ $("#t2").mouseleave(function(){
 
                     <section id="initiatives" class="events" data-0="display:none;" data-120p="display:block;">
                     <div style="height:100%;" data-0="transform:scale(0,0); display:none;" data-120p="transform:scale(0,0); display:block;" data-140p="transform:scale(0.5,0.5);" data-160p="transform:scale(1,1);" data-200p="" data-330p="" data-350p="transform:scale(0.5,0.5);" data-370p="transform:scale(0,0); display:none;">
-                    <div class="heventsa">
-                    <img src="images/aboutus (1).png" style="width:400px;" >
+                    <div class="hevents">
+                    <img src="images/aboutus (1).png" style="width:400px;">
                     </div>
                     <div class="evePara">
-                   <p>Conceptualized in 2017, Sphinx is part of a vision to bring together technology and culture in a unique
-way and to infuse creativity into technology. Sphinx derives its name from a mythical Greek creature
-that has the head of a human and the body of a lion. Staying true to its name, Sphinx represents the two
-sides to technology- boundless creativity and calculative science. This 3 day fest is a glorious celebration
-of the many facets of technology and provides the perfect platform to soak in the latest of the tech
-industry. With intensive workshops, motivating orations by industry experts, cut throat competitions
-and breathtaking performances, there is something for everyone here. So join us in this magical
+                   <p style="font-family: 'bahnschrift', sans-serif; font-size: 17px; height: 250px; width: auto; margin: auto;">Conceptualized in 2017, Sphinx is part of a vision to bring together technology and culture in a unique
+                      way and to infuse creativity into technology. Sphinx derives its name from a mythical Greek creature
+                      that has the head of a human and the body of a lion. Staying true to its name, Sphinx represents the two
+                      sides to technology- boundless creativity and calculative science. This 3 day fest is a glorious celebration
+                      of the many facets of technology and provides the perfect platform to soak in the latest of the tech
+                      industry. With intensive workshops, motivating orations by industry experts, cut throat competitions
+                      and breathtaking performances, there is something for everyone here. So join us in this magical
 escapade to explore the best of tech !
                     </p>
+
+                    </div>
 
                     <!--<div id="ideatebut">
                      <a href="#">
@@ -572,8 +569,6 @@ escapade to explore the best of tech !
                     </div>
                     </a>
                     </div>-->
-
-                    </div>
                     </div>
                     </section>
                     <div id="warship" class="deselements" data-460p=" top:-22%; right:-12%; display:none;" data-430p=" top:-2%; right:1%;" data-400p=" top:18%; right:14%;" data-370p=" top:37%; right:27%;" data-340p=" top:56%; right:40%;" data-310p=" top:75%; right:53%;" data-290p=" top:94%; right:66%;" data-270p=" top:103%; right:79%;" data-260p=" top:122%; right:92%;" data-250p=" top:141%; right:105%;display:block;" data-0p="display:none;">
@@ -583,11 +578,10 @@ escapade to explore the best of tech !
                     </div>
 
                     <div class="planet" id="p2" data-50p="transform: translate(294.82%,116.96%); display:block;" data-80p="" data-100p="transform: translate(251.72%,157.1%);" data-120p="transform: translate(208.62%,197.24%);" data-140p="transform: translate(165.61%,157.24%);" data-160p="transform: translate(122.41%,116.96%);" data-180p="" data-200p="" data-220p="" data-240p="transform: translate(122.41%,116.96%);" data-260p="transform: translate(165.61%,157.24%);" data-280p="transform: translate(208.62%,197.24%);" data-300p="transform: translate(251.72%,157.1%);" data-320p="transform: translate(294.82%,116.96%); display:none;" >
-                    <img src="images/chandrayan.png" width="50%" style="margin-left:-120px;margin-top:-200px; margin-right:500px;">
                     </div>
                     <section id="ideate" class="events" data-0="display:none;" data-370p=" display:block;">
                     <div style="height:100%;" data-0="transform:scale(0,0); display:none;" data-370p="transform:scale(0,0); display:block;" data-390p="transform:scale(0.5,0.5);" data-410p="transform:scale(1,1);" data-450p="" data-580p="" data-600p="transform:scale(0.5,0.5);" data-620p="transform:scale(0,0); display:none;">
-                    <div class="heventsa">
+                    <div class="hevents">
                      <img src="images/events.png" style="width:200px;" >
                     </div>
                     <div class="evePara">
@@ -635,7 +629,7 @@ escapade to explore the best of tech !
                     </div>
                     </a>
                     </div>
-					<img src="images/camera.png" style="margin-top:-350px; margin-left:600px; width:400px;">
+
                     </div>
                     </div>
                     </div>
@@ -657,23 +651,23 @@ escapade to explore the best of tech !
                     </div> -->
                     <section id="competitions" class="events" data-0="display:none;" data-620p="display:block;">
                     <div style="height:100%" data-0="transform:scale(0,0); display:none;" data-620p="transform:scale(0,0); display:block;" data-640p="transform:scale(0.5,0.5);" data-660p="transform:scale(1,1);"  data-800p="transform:scale(1,1);" data-820p="transform:scale(0.5,0.5);" data-840p="transform:scale(0,0); display:none;">
-                    <div class="heventsa">
+                    <div class="hevents">
                    <img src="images/workshops.png" style="width:240px;" >
                     </div>
                     <div class="evePara">
-                    <p>Sputnik is a tech savvy person  and is determined to learn, analyze and create all the technologies he can dream of. So he decides to conduct a workshop, giving us an insight into all the modern technologies including Robotics , Aerodynamics, Ethical hacking and Internet of things for us to gain practical wisdom and to have an uncompromised learning experience.</p>
+                    <p style="font-family: 'bahnschrift', sans-serif; font-size: 17px; height: 250px; width: auto; margin: auto;">Sputnik is a tech savvy person and is determined to learn, analyze and create all the technologies he can dream of. So he decides to conduct a workshop, giving us an insight into all the modern technologies including Robotics, Aerodynamics, Ethical hacking and Internet of things for us to gain practical wisdom and to have an uncompromised learning experience.</p>
 
 
                     <div id="ideatebut">
                     <a href="workshop.php">
-                    <div class="iparabut">
+                    <div class="iparabut" style="width: auto; margin: auto;">
                     Explore More
                     </div>
                      </a>
                     </div>
 
                     </div>
-					<img src="images/at.png" style="width:300px; margin-top:20px; margin-left:850px;">
+
                     </div>
                     </section>
 
@@ -690,7 +684,7 @@ escapade to explore the best of tech !
                     <section id="workshops" class="events" data-0=" display:none;" data-870p="display:block;">
 
                     <div style="height:100%" data-0="transform:scale(0,0); display:none;" data-870p="transform:scale(0,0); display:block;" data-890p="transform:scale(0.5,0.5);" data-910p="transform:scale(1,1);" data-950p="" data-1080p="" data-1100p="transform:scale(0.5,0.5);" data-1120p="transform:scale(0,0); display:none;">
-                    <div class="heventsa">
+                    <div class="hevents">
                     <img src="images/labyrinth.png" style="width:220px;" >
                     </div>
                     <div class="evePara">
@@ -728,7 +722,6 @@ escapade to explore the best of tech !
                     </div>
                     </a>
                     </div>
-					<img src="images/apolo.png" class="game_image" style="width:300px; margin-top:-250px; margin-left:650px;">
 
                     </div>
 
@@ -753,11 +746,11 @@ escapade to explore the best of tech !
                     </div> -->
                     <section id="twmun" class="events" data-0="display:none;" data-1120p="display:block;">
                     <div style="height:100%" data-0="transform:scale(0,0); display:none;" data-1120p="transform:scale(0,0); display:block;" data-1140p="transform:scale(0.5,0.5);" data-1160p="transform:scale(1,1);" data-1200p="" data-1230p="" data-1250p="transform:scale(0.5,0.5);" data-1270p="transform:scale(0,0); display:none;">
-                    <div class="heventsa">
+                    <div class="hevents">
                     <img src="images/exhibitions.png" style="width:220px;" >
                     </div>
                     <div class="evePara">
-                  <p>The exhibition will display various research projects and development activities going on in the various departments of the institute which are sure to leave you exhilarated. The exhibition will be a technical extravaganza which will portray the technical excellence of MNIT Jaipur and at the same time depict the staggering feats of the technical community. It will also exhibit the latest and coolest technology on the blocks</p>
+                  <p style="font-family: 'bahnschrift', sans-serif; font-size: 17px; height: 250px; width: auto; margin: auto;">The exhibition will display various research projects and development activities going on in the various departments of the institute which are sure to leave you exhilarated. The exhibition will be a technical extravaganza which will portray the technical excellence of MNIT Jaipur and at the same time depict the staggering feats of the technical community. It will also exhibit the latest and coolest technology on the blocks</p>
 
 
                     <!--<div id="ideatebut">
@@ -769,7 +762,7 @@ escapade to explore the best of tech !
                     </div>-->
 
                     </div>
-                    <img src="images/alien.png" style="width:250px; margin-left:870px; margin-top:50px;">
+
                     </div>
                     </section>
                     <div id="enterpreneur" class="deselements" data-0p="display:none; " data-1230p="display:block;
@@ -782,24 +775,24 @@ escapade to explore the best of tech !
                     <section id="lectures" class="events" data-0="display:none;" data-1370p="display:block;">
                     <div style="height:100%" data-0="transform:scale(0,0); display:none;" data-1370p="transform:scale(0,0); display:block;" data-1290p="transform:scale(0.5,0.5);" data-1310p="transform:scale(1,1);" data-1440p="transform:scale(1,1);" data-1450p="" data-1560p="" data-1580p="transform:scale(0.5,0.5);" data-1600p="transform:scale(0,0); display:none;">
 
-                    <div class="heventsa">
+                    <div class="hevents">
                     <img src="images/techtalk.png" style="width:220px;" >
                     </div>
                     <div class="evePara">
 
-					<p>SPHINX'19 presents to you the 3<sup>rd</sup> edition of TECHTALK, A course of events that
-showcase some of the most prominent personas across India belonging to a range
-of diverse field. Connecting these minds to the young and dynamic audience present
-at the fest, the series has been continuously striving to provide an opportunity to live
-one’s dream of interacting with the best of every discipline.
-With a lineup of some of best orators, dignified personalities in the field of
-technology, SPHINX'19 provides you once in a lifetime opportunity to savour their
-rich experience and profound knowledge.
-So gear up and do not miss one of the most awaited events of SPHINX'19.</p>
+          					<p style="font-family: 'bahnschrift', sans-serif; font-size: 17px; height: 250px; width: auto; margin: auto;">SPHINX'19 presents to you the 3<sup>rd</sup> edition of TECHTALK, A course of events that
+                      showcase some of the most prominent personas across India belonging to a range
+                      of diverse field. Connecting these minds to the young and dynamic audience present
+                      at the fest, the series has been continuously striving to provide an opportunity to live
+                      one’s dream of interacting with the best of every discipline.
+                      With a lineup of some of best orators, dignified personalities in the field of
+                      technology, SPHINX'19 provides you once in a lifetime opportunity to savour their
+                      rich experience and profound knowledge.
+                      So gear up and do not miss one of the most awaited events of SPHINX'19.
+        </p>
 
 
                     </div>
-                    <img src="images/mic.png" style="width:300px; margin-left:850px; margin-top:100px;">
 
                     </div>
                     </section>
@@ -822,7 +815,7 @@ So gear up and do not miss one of the most awaited events of SPHINX'19.</p>
                         <div style="height:100%" data-0="transform:scale(0,0); display:none;" data-1670p="transform:scale(0,0); display:block;" data-1690p="transform:scale(0.5,0.5);" data-1710p="transform:scale(1,1);" data-1750p="" data-2080p="" data-2100p="transform:scale(0.5,0.5);" data-2120p="transform:scale(0,0); display:none;">
 
 
-					<div class="heventsa">
+					<div class="hevents">
                     <img src="images/contactus.png" style="width:240px; margin-top:-40px; margin-left:55px;" >
                     </div>
                     <div class="evePara">
@@ -834,32 +827,34 @@ So gear up and do not miss one of the most awaited events of SPHINX'19.</p>
                                 <span class="flaticon-building"></span>
                             </div>
                             <div class="text-holder" >
-                                <p><span style="font-size:18px; font-weight:bold;">Address: </span><br><br> Malaviya National Institute of Technology, JLN Marg, Jhalana Gram, Jaipur, Rajasthan-302017</p>
+                                <p style="font-family: 'bahnschrift', sans-serif; font-size: 14px; width: auto; margin: auto;"><span style="font-family: 'bahnschrift', sans-serif; font-size: 19px; height: 250px; width: auto; margin: auto;">Address: </span><br><br> Malaviya National Institute of Technology, JLN Marg, Jhalana Gram, Jaipur, Rajasthan-302017</p>
                             </div>
                         </li>
+                        <br>
                         <li>
                             <div class="icon-holder">
                                 <span class="flaticon-technology"></span>
                             </div>
                             <div class="text-holder" >
-                              <p><span style="font-size:18px; font-weight:bold; margin-bottom:10px;">Contact No:</span><br><br>
-								<span style="text-align:left;"></span>
-								    Divyaman : 8963052212 (Workshop)<br>
+                              <p style="font-family: 'bahnschrift', sans-serif; font-size: 17px; width: auto; margin: auto;"><span style="font-family: 'bahnschrift', sans-serif; font-size: 19px; width: auto; margin: auto;">Contact Us:</span><br><br>
+								<span style="text-align:left; font-family: 'bahnschrift', sans-serif; font-size: 14px; width: auto; margin: auto;">
+            								    Divyaman : 8963052212 (Event Registration)<br>
 
-Suryaprakash Agarwal : 7016268414 (Events registration)<br>
+            Ansh Khandelwal : 8518066443 (Workshop)<br>
 
-Ayush Singh : 9149225262 (Marketing) <br>
+            Ayush Singh : 9149225262 (Marketing) <br>
 
-Devanshu Khandelwal : 9314655304 (Cultural) </span>
+            Anuj Srivastava : 9588072917 (General Queries) </span>
 								</p>
                             </div>
                         </li>
+                        <br>
                         <li>
                             <div class="icon-holder">
                                 <span class="flaticon-new-email-outline"></span>
                             </div>
                             <div class="text-holder">
-                                <p><span style="font-size:18px; font-weight:bold;">Email Id</span><br> <br>support@sphinxmnit.org </p>
+                                <p style="font-family: 'bahnschrift', sans-serif; font-size: 14px; width: auto; margin: auto;"><span style="font-family: 'bahnschrift', sans-serif; font-size: 19px; width: auto; margin: auto;">Email Id</span><br> <br>sphinx@mnit.ac.in <br> support@sphinxmnit.in </p>
                             </div>
                         </li>
 
@@ -867,8 +862,6 @@ Devanshu Khandelwal : 9314655304 (Cultural) </span>
 
                 </div>
 
-
-                   <img src="images/phone.png" style="width:400px; margin-left:780px; margin-top:-300px;">
 				   <style>
 				   .contact_circle_1:hover{
 					   background:rgba(0,0,0,0);
