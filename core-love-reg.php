@@ -62,6 +62,7 @@ if(isset($_POST['submitreg']))
 	}
 	else if($event_type=="Workshop")
 	{
+		$transactionid=mysqli_real_escape_string($conn,$_POST['transactionid']);
 		$redirectto="workshop.php";
 	}
 
@@ -128,7 +129,7 @@ if(isset($_POST['submitreg']))
 		$reg_id_comma=implode(",",$regid);
 		if($event_type=="Workshop")
 		{
-			$query_in="INSERT INTO `registration`(`rid`, `event_type`, `event_name`, `team_size`, `team_reg_id`, `date_tym`,`payment`) VALUES (NULL,'$event_type','$event_name','$teamsize','$reg_id_comma','$datesss','YES')";
+			$query_in="INSERT INTO `registration`(`rid`, `event_type`, `event_name`, `team_size`, `team_reg_id`, `date_tym`,`payment`,`transaction_id`) VALUES (NULL,'$event_type','$event_name','$teamsize','$reg_id_comma','$datesss','YES','$transactionid')";
 		}
 		else{
 			$query_in="INSERT INTO `registration`(`rid`, `event_type`, `event_name`, `team_size`, `team_reg_id`, `date_tym`) VALUES (NULL,'$event_type','$event_name','$teamsize','$reg_id_comma','$datesss')";

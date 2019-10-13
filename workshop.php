@@ -101,7 +101,7 @@ $(window).bind("load", function() {
         <h5 class="modal-title" id="exampleModalLabel">Register Now!</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
       </div>
-      <form class="form" method="post" action="core-love-reg.php">
+      <form class="form" method="post" action="workshop-payment.php">
         <div class="modal-body">
           <div class="row">
             <div class="col-sm-7">
