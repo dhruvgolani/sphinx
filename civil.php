@@ -10,16 +10,15 @@ if(isset($_REQUEST['event']))
 	if($event=="Seismic"){
 		$min=2;
 		$max=4;
-	} else if($event=="CostaRica") {
+	} else if($event=="Civiq") {
 		$min=1;
 		$max=3;
-	}
-	else if($event=="QuantroCivil") {
+	}else if($event=="Astrouiz"){
 		$min=1;
-		$max=3;
-	}  else
+		$max=2;
+	}else
 	{
-		header("Location:civil.php");
+		header("Location:civil");
 	}
 
 }
@@ -298,7 +297,7 @@ $(window).bind("load", function() {
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-            <a href="civil.php?event=Seismic"   class="btn btn-input regist-popshow">Register Now</a>
+            <a href="civil?event=Seismic"   class="btn btn-input regist-popshow">Register Now</a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="btn btn-input regist-popshow" data-dismiss="modal">Register Now</a>
@@ -310,7 +309,7 @@ $(window).bind("load", function() {
 </div>
 
 
-<div class="modal fade CostaRica  modalevent" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+<div class="modal fade Civiq  modalevent" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
@@ -482,7 +481,7 @@ After the failure of third trial, model will be disqualified.
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-            <a href="civil.php?event=CostaRica"  class="btn btn-input regist-popshow">Register Now</a>
+            <a href="civil?event=Civiq"  class="btn btn-input regist-popshow">Register Now</a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="btn btn-input regist-popshow" data-dismiss="modal">Register Now</a>
@@ -496,7 +495,7 @@ After the failure of third trial, model will be disqualified.
 
 
 
-<div class="modal fade QuantroCivil  modalevent" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+<div class="modal fade Civiq  modalevent" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
       <div class="modal-header">
@@ -597,7 +596,7 @@ Quantro-Civil is the best opportunity for the intellect and the quizzing genius 
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-            <a href="civil.php?event=QuantroCivil"  class="btn btn-input regist-popshow">Register Now</a>
+            <a href="civil?event=Civiq"  class="btn btn-input regist-popshow">Register Now</a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="btn btn-input regist-popshow" data-dismiss="modal">Register Now</a>
@@ -607,6 +606,105 @@ Quantro-Civil is the best opportunity for the intellect and the quizzing genius 
     </div>
   </div>
 </div>
+
+<div class="modal fade Astrouiz  modalevent" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">ASTROUIZ</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
+      </div>
+      <div class="modal-body">
+        <div class="eventdetail_wpr">
+         <div class="evencon_box">
+            <h3>Abstract</h3>
+			What makes a planet a "dwarf" planet ? How many miles are in a light year ? What exactly is a quasar ? Are you intrigued by Chandrayan-2 project ? Launch into other worlds while testing your knowledge about space,celestial bodies, and the solar system.
+<br><br>Though the astronomy field has evolved from its primitive beginnings,there's still a boundless cosmos to explore.Test your astronomy knowledge with our quiz. 			
+<br>
+			<br>
+					</div>
+
+      <div class="evencon_box">
+            <h3>EVENT FORMAT:QUIZ of 1HOUR</h3>
+          <ul class="checboxlist">
+          	<li>Topics from which questions will be asked -
+			  <ol>
+			  <li>General Astronomy</li>
+			  <li>Astronomical Updates</li>
+			  <li>Solar System</li>
+			  <li>Astronomical Survey</li>
+			  <li>Star Formatio</li>
+			  <li>Black Holes</li>
+			  <li>Big Bang</li>
+			  <li>Comets</li>
+			  <li>Galaxy Clusters</li>
+			  </ol>
+			  </li>
+			  <li>Quiz can be consisting of Multiple Choice Objective questions,one word answer,integer type questions</li>
+		</ul>
+
+
+		  </div>
+
+		   <div class="evencon_box">
+            <h3>TEAM STRUCTURE AND RULES: </h3>
+            <ul class="checboxlist">
+							<li>A team shall consist of maximum 2 students</li>
+							<li>In case of tie between 2 or more teams,team with less number of wrong answers will be ranked higher</li>
+							<li><b>Participants shall not be allowed to use mobile or other electronic instruments</b></li>
+							<li>Organisers have the right to change the quiz format and specifications until the event day.</li>
+							<li>Final decision making authority lies with organising team,MNIT Jaipur</li>
+            </ul>
+          </div>
+
+			 <div class="evencon_box">
+            <h3>CERTIFICATES AND PRIZES</h3>
+			<ul class="checboxlist">
+			<li>Top 2 teams will be awarded with Cash Prizes.</li>
+			<li>Certificates will be given to all participating teams</li>
+			</ul>
+
+			</div>
+
+
+		  <div class="evencon_box">
+            <h3>Contact Us:</h3>
+            <p>For any queries:</p>
+            <div class="pptable">
+              <table>
+                <tr>
+                  <td>Nikita Agarwal</td>
+                  <td>+917017233636</td>
+				  <td>2017uce1124@mnit.ac.in</td>
+                </tr>
+
+                <tr>
+                  <td>Swapnil Singariya</td>
+                  <td>+919588002210</td>
+				   <td>2017uce1382@mnit.ac.in</td>
+                </tr>
+
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <?php
+		if(isset($_SESSION["user_sphinx_sp"]))
+		{
+			?>
+            <a href="civil.php?event=Astrouiz"   class="btn btn-input regist-popshow">Register Now</a>
+         <?php } else
+		 { ?>
+			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="btn btn-input regist-popshow" data-dismiss="modal">Register Now</a>
+		<?php  }?>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 
 <!--top nav-->
 <?php
@@ -683,7 +781,7 @@ come help Sputnik by showing us your skills in SEISMIC.</p>
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-                    <a href="civil.php?event=Seismic" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
+                    <a href="civil?event=Seismic" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
@@ -700,12 +798,12 @@ come help Sputnik by showing us your skills in SEISMIC.</p>
 					<p class="content_p">Have you ever experienced the thrill of riding a roller coaster? Gives Goosebumps, no? Quick Fact: Roller coasters don’t have engines. So how do they run exactly?
 						Roller coaster must be pulled by a motorized chain to the top of the first big hill. As the roller coaster rises higher, its potential energy increases and reaches maximum at crest of hill.
 						The potential energy accumulated by the rise in height is transferred to kinetic energy as the cars race down the first downward slope.</p>
-                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".CostaRica"><span>More Detail</span></a>
+                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".Civiq"><span>More Detail</span></a>
                     <?php
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-                    <a href="civil.php?event=CostaRica" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
+                    <a href="civil?event=Civiq" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
          <?php } else
 		 { ?>
 			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
@@ -722,12 +820,12 @@ come help Sputnik by showing us your skills in SEISMIC.</p>
 			                   <div class="evnt_cont_box civiqe" style=" ">
 			                   <center> <div class="card_box civiqc" style="">QUANTRO-CIVIL</div></center>
 								<p class="content_p">Quantro-Civil is a revolutionized style of conducting a quizzing event testing the knowledge of participants in a wide range of fields of Civil Engineering. Quantro-Civil is the best opportunity for the intellect and the quizzing genius to test their knowledge and challenge their quick thinking.</p>
-			                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".QuantroCivil"><span>More Detail</span></a>
+			                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".Civiq"><span>More Detail</span></a>
 			                    <?php
 					if(isset($_SESSION["user_sphinx_sp"]))
 					{
 						?>
-			                    <a href="civil.php?event=QuantroCivil" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
+			                    <a href="civil?event=Civiq" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
 			         <?php } else
 					 { ?>
 						 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
@@ -736,6 +834,28 @@ come help Sputnik by showing us your skills in SEISMIC.</p>
 			                  </div>
 			                </div>
 			              </div>
+
+
+                    <div class="col-md-12 col-sm-12">
+                <div class="eventbox_wrp">
+                   <div class="evnt_cont_box seismic" style="">
+                   <center> <div class="card_box" >ASTROUIZ</div></center>
+					<p class="content_p">What makes a planet a "dwarf" planet ? How many miles are in a light year ? What exactly is a quasar ? Are you intrigued by Chandrayan-2 project ? Launch into other worlds while testing your knowledge about space,celestial bodies, and the solar system.
+<br>Though the astronomy field has evolved from its primitive beginnings,there's still a boundless cosmos to explore.Test your astronomy knowledge with our quiz.</p>
+                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".Astrouiz"><span>More Detail</span></a>
+                    <?php
+		if(isset($_SESSION["user_sphinx_sp"]))
+		{
+			?>
+                    <a href="civil.php?event=Astrouiz" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
+         <?php } else
+		 { ?>
+			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
+		<?php  }?>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
             </div>
           </div>

@@ -321,8 +321,8 @@ Committee” (on spot examiner/coordinators).</li>
 </ul>
 
 <ul><b>Level 2:</b>
-	<li><b>Round 1</b>- Qualified teams will have to first solve a crossword. This will be of 25 minutes. According to number of crossword answers, teams will be given certain number of LEDs that will help them in next round.</li>
-	<li><b>Round 2</b>- Teams will have to solve the problems and circuits given to them and predict the correct output and finally display the answer on the breadboard using LEDs provided in the first round.</li>
+	<li><b>Round 1</b>- This will also be an elimination round and will span for 25 minutes. Qualified teams will have to solve a crossword. According to the number of correct answers, teams will be qualified for next round. </li>
+	<li><b>Round 2</b>- This will be a buzzer round. Teams will have to solve the problems and circuits given to them and predict the correct output. </li>
 </ul>
 
             </ul>

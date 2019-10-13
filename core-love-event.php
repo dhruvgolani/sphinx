@@ -87,10 +87,10 @@ $(window).bind("load", function() {
 
 
 .contentbox_pwr {
-	width:70%;
+	width:68%;
 }
 .title_img2{
-	position:absolute; width:12%; bottom:260px; right:12%;
+	position:absolute; width:40%; bottom:160px; right:0%;
 }
 .title_img{
 	position:absolute; width:17%; top:160px; left:29%;
