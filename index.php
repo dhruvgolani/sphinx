@@ -655,7 +655,7 @@ escapade to explore the best of tech !
                    <img src="images/workshops.png" style="width:240px;" >
                     </div>
                     <div class="evePara">
-                    <p style="font-family: 'bahnschrift', sans-serif; font-size: 17px; height: 250px; width: auto; margin: auto;">Sputnik is a tech savvy person and is determined to learn, analyze and create all the technologies he can dream of. So he decides to conduct a workshop, giving us an insight into all the modern technologies including Robotics, Aerodynamics, Ethical hacking and Internet of things for us to gain practical wisdom and to have an uncompromised learning experience.</p>
+                    <p style="font-family: 'bahnschrift', sans-serif; font-size: 17px; height: 200px; width: auto; margin: auto;">Sputnik is a tech savvy person and is determined to learn, analyze and create all the technologies he can dream of. So he decides to conduct a workshop, giving us an insight into all the modern technologies including Robotics, Aerodynamics, Ethical hacking and Internet of things for us to gain practical wisdom and to have an uncompromised learning experience.</p>
 
 
                     <div id="ideatebut">
