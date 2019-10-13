@@ -937,6 +937,20 @@ position: absolute;
                            </div>
 
              </div>
+			 <div class="teamdeatilbox">
+                           <div class="row">
+                             <div class="col-sm-5">
+                               <img src="images/team19/saloni.jpeg" class="img-fluid" draggable="false">
+                             </div>
+                               <div class="col-sm-7">
+                                 <h3>Mayank Goyal</h3>
+                 <p><i class="fa fa-briefcase" aria-hidden="true"></i> <span>Web-Developer</span></p>
+                                   <p><i class="fa fa-phone" aria-hidden="true"></i>+91-9460711111</p>
+                 <p><i class="fa fa-envelope" aria-hidden="true"></i> 2018kucp1004@iiitkota.ac.in</p>
+                               </div>
+                           </div>
+
+             </div>
 
 						   </div>
 						   </div>
