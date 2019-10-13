@@ -189,15 +189,16 @@ font-weight:bold;
 
 .contentbox_pwr {
 	width:50%;
+	margin: auto;
+	height: 300px;
 }
 .title_img2{
 	position:absolute; width:14%; top:250px; right:22%;
 }
 .title_img{
-	position:absolute; width:15%; top:160px; left:20%;
+	position:absolute; width:15%; top:160px; left:43%;
 }
 </style>
-<img src="images/events2.png" class="title_img2">
 <a href="event.php"><img src="images/events.png" class="title_img"></a>
 <section class="contentbox_pwr" style="">
 
@@ -210,19 +211,17 @@ font-weight:bold;
 
     </div>
     </div>
-    <div class="eventmain_wrp">
+    <div class="eventmain_wrp" style="padding-top: 30px;">
 	<center>
 	<a href="core-love-event.php"><div class="event_box">
 		Core Love
 	</div></a>
 
-	<a href="extravaganza.php"><div class="event_box">
-		Extravaganza
-	</div>
-
       <a href="hackathons.php">  <div class="event_box">
 		Hackathons
 	</div></a>
+
+
 	<a href="robotics.php"><div class="event_box">
 	Robotics
 	</div></a>
@@ -230,6 +229,10 @@ font-weight:bold;
 	<a href="socevents.php"><div class="event_box">
 	Soc Events
 	</div></a>
+
+	<a href="extravaganza.php"><div class="event_box">
+		Extravaganza
+	</div>
 	</center>
     </div>
     </div>
