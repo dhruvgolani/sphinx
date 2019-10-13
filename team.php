@@ -266,7 +266,7 @@ position: absolute;
 							<div class="teamdeatilbox">
                            	<div class="row">
                             	<div class="col-sm-5">
-                           			<img src="images/team19/nupur.jpg" class="img-fluid" draggable="false">
+                           			<img src="images/team19/Nupur.jpg" class="img-fluid" draggable="false">
                            		</div>
                                 <div class="col-sm-7">
                                 	<h3>Nupur Malik</h3>
@@ -303,37 +303,7 @@ position: absolute;
                            <div class="container">
 						   <div class="row">
 
-						   <div class="col-lg-6 col-md-12 col-sm-12">
-							<div class="teamdeatilbox">
-                           	<div class="row">
-                            	<div class="col-sm-5">
-                           			<img src="images/team19/suryaprakash.jpeg" class="img-fluid" draggable="false">
-                           		</div>
-                                <div class="col-sm-7">
-                                	<h3>Suryaprakash Agarwal </h3>
-									<p><i class="fa fa-briefcase" aria-hidden="true"></i> <span> General Secretary (Technical Society)</span></p>
-                                    <p><i class="fa fa-phone" aria-hidden="true"></i> +91-7016268414</p>
-									<p><i class="fa fa-envelope" aria-hidden="true"></i> 2017uec1231@mnit.ac.in</p>
-                                </div>
-                            </div>
-							</div>
-							</div>
 
-							<div class="col-lg-6 col-md-12 col-sm-12">
-							<div class="teamdeatilbox">
-                           	<div class="row">
-                            	<div class="col-sm-5">
-                           			<img src="images/team19/nayan.jpg" class="img-fluid" draggable="false">
-                           		</div>
-                                <div class="col-sm-7">
-                                	<h3>Nayan Jain</h3>
-									<p><i class="fa fa-briefcase" aria-hidden="true"></i> <span> General Secretary (Technical Society)</span></p>
-                                    <p><i class="fa fa-phone" aria-hidden="true"></i> +91-8279841288</p>
-									<p><i class="fa fa-envelope" aria-hidden="true"></i> 2017uec1447@mnit.ac.in</p>
-                                </div>
-                            </div>
-							</div>
-							</div>
 
 							<div class="col-lg-6 col-md-12 col-sm-12">
 							<div class="teamdeatilbox">
@@ -383,18 +353,44 @@ position: absolute;
                          <div id="hidden-content4" class="ourtema_de_Wr twoboxPop" style="display:none;">
 						   <div class="post_heading">
 						 <center>
-						 <div class="post_heading2">Joint Secretary</div>
+						 <div class="post_heading2">Technical Society</div>
 						 </center>
 						 </div>
 						 <div class="teampoppwrp">
                            <div class="container">
 						   <div class="row">
 
+                 <div class="col-lg-6 col-md-12 col-sm-12">
+                <div class="teamdeatilbox">
+                              <div class="row">
+                                <div class="col-sm-5">
+                                  <img src="images/team19/suryaprakash.jpeg" class="img-fluid" draggable="false">
+                                </div>
+                                  <div class="col-sm-7">
+                                    <h3>Suryaprakash Agarwal </h3>
+                    <p><i class="fa fa-briefcase" aria-hidden="true"></i> <span> General Secretary</span></p>
+                                      <p><i class="fa fa-phone" aria-hidden="true"></i> +91-7016268414</p>
+                    <p><i class="fa fa-envelope" aria-hidden="true"></i> 2017uec1231@mnit.ac.in</p>
+                                  </div>
+                              </div>
+                </div>
+                </div>
 
-
-
-
-
+                <div class="col-lg-6 col-md-12 col-sm-12">
+                <div class="teamdeatilbox">
+                              <div class="row">
+                                <div class="col-sm-5">
+                                  <img src="images/team19/nayan.jpg" class="img-fluid" draggable="false">
+                                </div>
+                                  <div class="col-sm-7">
+                                    <h3>Nayan Jain</h3>
+                    <p><i class="fa fa-briefcase" aria-hidden="true"></i> <span> General Secretary</span></p>
+                                      <p><i class="fa fa-phone" aria-hidden="true"></i> +91-8279841288</p>
+                    <p><i class="fa fa-envelope" aria-hidden="true"></i> 2017uec1447@mnit.ac.in</p>
+                                  </div>
+                              </div>
+                </div>
+                </div>
 
 							<div class="col-lg-6 col-md-12 col-sm-12">
 							<div class="teamdeatilbox">
@@ -407,6 +403,38 @@ position: absolute;
 									<p><i class="fa fa-briefcase" aria-hidden="true"></i> <span> Joint Secretary</span></p>
                                     <p><i class="fa fa-phone" aria-hidden="true"></i> +91-9619730222</p>
 									<p><i class="fa fa-envelope" aria-hidden="true"></i> 2017uec1056@mnit.ac.in</p>
+                                </div>
+                            </div>
+							</div>
+							</div>
+
+							<div class="col-lg-6 col-md-12 col-sm-12">
+							<div class="teamdeatilbox">
+                           	<div class="row">
+                            	<div class="col-sm-5">
+                           			<img src="images/team19/anjali.jpg" class="img-fluid" draggable="false">
+                           		</div>
+                                <div class="col-sm-7">
+                                	<h3>Anjali Jain</h3>
+									<p><i class="fa fa-briefcase" aria-hidden="true"></i> <span> Joint Secretary</span></p>
+                                    <p><i class="fa fa-phone" aria-hidden="true"></i> +91-9799947621</p>
+									<p><i class="fa fa-envelope" aria-hidden="true"></i> 2017uch1728@mnit.ac.in</p>
+                                </div>
+                            </div>
+							</div>
+							</div>
+
+							<div class="col-lg-6 col-md-12 col-sm-12">
+							<div class="teamdeatilbox">
+                           	<div class="row">
+                            	<div class="col-sm-5">
+                           			<img src="images/team19/priya.jpg" class="img-fluid" draggable="false">
+                           		</div>
+                                <div class="col-sm-7">
+                                	<h3>Priya Kanodia</h3>
+									<p><i class="fa fa-briefcase" aria-hidden="true"></i> <span> Joint Secretary</span></p>
+                                    <p><i class="fa fa-phone" aria-hidden="true"></i> +91-8875731825</p>
+									<p><i class="fa fa-envelope" aria-hidden="true"></i> 2017uch1367@mnit.ac.in</p>
                                 </div>
                             </div>
 							</div>
