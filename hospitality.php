@@ -6,6 +6,7 @@ $db= new Database();
 
 <html class="skrollr skrollr-desktop">
 <head>
+<link href="https://fonts.googleapis.com/css?family=PT+Serif+Caption&display=swap" rel="stylesheet">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <title>Sphinx'19</title>
@@ -82,21 +83,33 @@ section::-webkit-scrollbar {
 }
 
 .contentbox_pwr {
-	width:700px; height:300px;border-radius: 40px 0px 0px 0;
+ height: 400px;
+ border-radius: 40px 0px 0px 0;
+  width: 50%;
+  margin: auto;
 }
 .title_img2{
 	width:25%; position:absolute; right:17%; top:30%;
 }
 .title_img{
-	position:absolute; width:17%; top:100px; margin:0 auto; left:265px;
+	position:absolute;
+   width:17%;
+   top:100px;
+   margin:auto;
+   left: 42%;
 }
-
+.registration, .accomodation{
+  text-align: center;
+  font-size: 22px;
+  margin: auto;
+  width: auto;
+  overflow: auto;
+}
 
 </style>
 <div id="slide-1" class="slide" data-0="transform: translate(0%,-10%);" style="width:100%;">
 <img src="images/hospitality.png" class="title_img">
-<img src="images/hospitality2.png" class="title_img2">
-  <section class="contentbox_pwr" style="">
+  <section class="contentbox_pwr">
     <div>
       <div class="ourtemamanin_wrp">
 
@@ -159,43 +172,55 @@ section::-webkit-scrollbar {
 
             </div>
           </div>
-		    <div  style="height:200px; margin-top:-20px; padding-left:20px; font-family:arial;">
-                   Event registration + campus visit : <b>Rs. 400/-</b><br>
-                   Event registration + accommodation : <b>Rs. 700/-</b><br>
-                   Event registration + workshop : <b>Rs. 1200/-</b><br>
-                   Event registration + accommodation + workshop : <b>Rs. 1500/-</b><br><br>
+		    <div  style="height:200px; margin-top:-20px; padding-left:20px; font-family: 'bahnschrift', sans-serif; font-size: 14.4px;">
+          <div class="registration">
+            Registration Categories
+          </div>
 
+          <br>
+
+          <ul>
+            <li>Event registration + campus visit : <b>Rs. 450/-</b><br></li>
+            <li>Workshop for MNIT Students : <b>Rs. 700/-</b><br></li>
+            <li>Workshop for IIITK and NIT UK students: <b>Rs. 800/-</b><br></li>
+            <li>Workshop for Non-MNIT Students : <b>Rs. 1100/-</b><br></li>
+            <li>Event registration + Workshop for Non-MNIT students : <b>Rs. 1400/-</b><br><br></li>
+          </ul>
+
+          <div class="accomodation">
+            Accomodation
+          </div>
+          <br>
+
+          <ul>
+            <li>Accomodation charge (3-days) : <b>Rs. 300/-</b> </li>
+          </ul>
+
+          <br>
                    Payment will be done on this Bank account via Internet Banking.<br><br>
                    NAME: MALVIYA NATIONAL INSTITUTE OF TECHNOLOGY<BR>
                    ACCOUNT NO: 00000037347860345<BR>
                    IFS CODE: SBIN0015921<BR><BR>
-                   It is mandatory to fill this below google form after payment has been done, otherwise your payment will not be considered.
-                   <br>Transaction ID obtained after payment should be filled in the form.<br>
-                   <br>
-                   <a href="https://goo.gl/forms/uqlxetVNmFsZILIS2" class="btn btn-primary" role="button">Google Form</a>
-					<br><br>
 
-                    Pronites are absolutely free<br>
                     Accomodation will be provided for 3-days excluding food<br>
 
                     <h3>Note:</h3>
                     <ul class="checkboxlist">
-                    <li>1. The event registration fee includes registration fee for all the events in the fest.</li>
-                    <li>2. For the specific events which require additional amount, it will be collected at the time of event.</li>
-                    <li>3. For team events, each participant has to register and pay the charges individually.</li>
-                    <li>4. Accommodation will be provided for three days- 6<sup>th</sup>, 7<sup>th</sup> and 8<sup>th</sup> November.</li>
-                    <li>5. Accommodation does not include food.</li>
-                    <li>6. Pronites are absolutely free.</li>
+                    <li>The event registration fee includes registration fee for all the events in the fest.</li>
+                    <li>For the specific events which require additional amount, it will be collected at the time of event.</li>
+                    <li>For team events, each participant has to register and pay the charges individually.</li>
+                    <li>Accommodation will be provided for three days- 6<sup>th</sup>, 7<sup>th</sup> and 8<sup>th</sup> November.</li>
+                    <li>Accommodation does not include food.</li>
                     </ul>
 
                     <h3>Payment Gateway:</h3>
                     <ul class="checkboxlist">
-                    <li>1. The payment must be made through Internet Banking (NEFT or IMPS) to the above mentioned account.</li>
-                    <li>2. The transaction ID obtained after payment should be filled in Google form provided below.</li>
-                    <li>3. The payment can also be done via Paytm app. Go to ‘Money Transfer’, enter the Bank account number, IFSC number and the account holder name (mentioned above) and the amount to be paid. The ‘Transaction ID’ has to be filled in the Google form provided below. You can obtain the ‘Transaction ID’ by visiting ‘Passbook’
+                    <li>The payment must be made through Internet Banking (NEFT or IMPS) to the above mentioned account.</li>
+                    <li>The transaction ID obtained after payment should be filled in Google form provided below.</li>
+                    <li>The payment can also be done via Paytm app. Go to ‘Money Transfer’, enter the Bank account number, IFSC number and the account holder name (mentioned above) and the amount to be paid. The ‘Transaction ID’ has to be filled in the Google form provided below. You can obtain the ‘Transaction ID’ by visiting ‘Passbook’
                         -> Your bank name from which you transferred’->’UPI Transaction History’. Select your Last transaction detail where you can find ‘Txn ID’ at the bottom.<br>
                         <b>NOTE:</b> The Paytm mode of payment is valid only if your Paytm account is linked with your bank account.</li>
-                    <li>4. It is mandatory to fill the Google form after the payment is completed, otherwise the payment will not be considered.</li>
+                    <li>It is mandatory to fill the Google form after the payment is completed, otherwise the payment will not be considered.</li>
                     </ul>
                   </div>
         </div>

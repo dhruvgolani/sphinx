@@ -452,9 +452,27 @@ $("#t2").mouseleave(function(){
 .hui{
     margin-left:100px;
 }
-
-
-
+.heventsa{
+   width: auto;
+   position: fixed;
+   top: 29%;
+   left: 25%;
+   transform: translate(-50%,0);
+}
+.heventsa h1{
+   font-family: Beyond;
+   font-size: 4.5vw;
+   color: #ffffff;
+   /* outline: 13px #000; */
+}
+    @media (max-width: 767px){
+    .heventsa {
+    width: 100%;
+    position: fixed;
+    top: 17%;
+    left: 70%;
+    transform: translate(-50%,0);
+    }
 </style>
 
 
@@ -533,7 +551,7 @@ $("#t2").mouseleave(function(){
 
                     <section id="initiatives" class="events" data-0="display:none;" data-120p="display:block;">
                     <div style="height:100%;" data-0="transform:scale(0,0); display:none;" data-120p="transform:scale(0,0); display:block;" data-140p="transform:scale(0.5,0.5);" data-160p="transform:scale(1,1);" data-200p="" data-330p="" data-350p="transform:scale(0.5,0.5);" data-370p="transform:scale(0,0); display:none;">
-                    <div class="hevents">
+                    <div class="heventsa">
                     <img src="images/aboutus (1).png" style="width:400px;" >
                     </div>
                     <div class="evePara">
@@ -569,7 +587,7 @@ escapade to explore the best of tech !
                     </div>
                     <section id="ideate" class="events" data-0="display:none;" data-370p=" display:block;">
                     <div style="height:100%;" data-0="transform:scale(0,0); display:none;" data-370p="transform:scale(0,0); display:block;" data-390p="transform:scale(0.5,0.5);" data-410p="transform:scale(1,1);" data-450p="" data-580p="" data-600p="transform:scale(0.5,0.5);" data-620p="transform:scale(0,0); display:none;">
-                    <div class="hevents">
+                    <div class="heventsa">
                      <img src="images/events.png" style="width:200px;" >
                     </div>
                     <div class="evePara">
@@ -639,7 +657,7 @@ escapade to explore the best of tech !
                     </div> -->
                     <section id="competitions" class="events" data-0="display:none;" data-620p="display:block;">
                     <div style="height:100%" data-0="transform:scale(0,0); display:none;" data-620p="transform:scale(0,0); display:block;" data-640p="transform:scale(0.5,0.5);" data-660p="transform:scale(1,1);"  data-800p="transform:scale(1,1);" data-820p="transform:scale(0.5,0.5);" data-840p="transform:scale(0,0); display:none;">
-                    <div class="hevents">
+                    <div class="heventsa">
                    <img src="images/workshops.png" style="width:240px;" >
                     </div>
                     <div class="evePara">
@@ -672,7 +690,7 @@ escapade to explore the best of tech !
                     <section id="workshops" class="events" data-0=" display:none;" data-870p="display:block;">
 
                     <div style="height:100%" data-0="transform:scale(0,0); display:none;" data-870p="transform:scale(0,0); display:block;" data-890p="transform:scale(0.5,0.5);" data-910p="transform:scale(1,1);" data-950p="" data-1080p="" data-1100p="transform:scale(0.5,0.5);" data-1120p="transform:scale(0,0); display:none;">
-                    <div class="hevents">
+                    <div class="heventsa">
                     <img src="images/labyrinth.png" style="width:220px;" >
                     </div>
                     <div class="evePara">
@@ -735,7 +753,7 @@ escapade to explore the best of tech !
                     </div> -->
                     <section id="twmun" class="events" data-0="display:none;" data-1120p="display:block;">
                     <div style="height:100%" data-0="transform:scale(0,0); display:none;" data-1120p="transform:scale(0,0); display:block;" data-1140p="transform:scale(0.5,0.5);" data-1160p="transform:scale(1,1);" data-1200p="" data-1230p="" data-1250p="transform:scale(0.5,0.5);" data-1270p="transform:scale(0,0); display:none;">
-                    <div class="hevents">
+                    <div class="heventsa">
                     <img src="images/exhibitions.png" style="width:220px;" >
                     </div>
                     <div class="evePara">
@@ -764,7 +782,7 @@ escapade to explore the best of tech !
                     <section id="lectures" class="events" data-0="display:none;" data-1370p="display:block;">
                     <div style="height:100%" data-0="transform:scale(0,0); display:none;" data-1370p="transform:scale(0,0); display:block;" data-1290p="transform:scale(0.5,0.5);" data-1310p="transform:scale(1,1);" data-1440p="transform:scale(1,1);" data-1450p="" data-1560p="" data-1580p="transform:scale(0.5,0.5);" data-1600p="transform:scale(0,0); display:none;">
 
-                    <div class="hevents">
+                    <div class="heventsa">
                     <img src="images/techtalk.png" style="width:220px;" >
                     </div>
                     <div class="evePara">
@@ -804,7 +822,7 @@ So gear up and do not miss one of the most awaited events of SPHINX'19.</p>
                         <div style="height:100%" data-0="transform:scale(0,0); display:none;" data-1670p="transform:scale(0,0); display:block;" data-1690p="transform:scale(0.5,0.5);" data-1710p="transform:scale(1,1);" data-1750p="" data-2080p="" data-2100p="transform:scale(0.5,0.5);" data-2120p="transform:scale(0,0); display:none;">
 
 
-					<div class="hevents">
+					<div class="heventsa">
                     <img src="images/contactus.png" style="width:240px; margin-top:-40px; margin-left:55px;" >
                     </div>
                     <div class="evePara">
