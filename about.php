@@ -59,25 +59,27 @@ $(window).bind("load", function() {
 
 <style>
 .contentbox_pwr {
-	width:55%; height:40%; padding-left:10px; left:25px; position:absolute; top:260px;
+	width: 50%;
+	margin: auto;
+	height: auto;
+	padding: 10px;
 }
 .title_img2{
 	position:absolute; width:350px; top:280px; margin:0 auto; right:140px;
 }
 .title_img{
-	position:absolute; width:22%; top:160px; left:20%;
+	position:absolute; width:22%; top:160px; left:41%;
 }
 </style>
 <div id="slide-1" class="slide" data-0="transform: translate(0%,-10%);" style="width:100%;">
-<img src="images/aboutus2.png" class="title_img2">
 <img src="images/aboutus (1).png" class="title_img">
-   <section class="contentbox_pwr" style="">
+   <section class="contentbox_pwr" style="width: ">
     <div class="about_box_mainwrp" style="width:100%;">
         <div class="about_text_wrp" style="width:100%;">
-          <p>Malaviya National Institute of Technology, Jaipur proudly presents its third edition of Annual Technical Festival “SPHINX'19”, from the 6<sup>th</sup> of November to 8<sup>th</sup> of November, 2019 which aspires to be the Largest Techno-fest in Rajasthan. This 3-day long convergence of unprecedented technical events and powerful tech-talks, delivered by leading Industry experts and successful entrepreneurs is expected to have a footfall of 12,000, paving down its own path to become Rajasthan’s biggest techno-youth destina.</p>
+          <p style="font-family: 'bahnschrift', sans-serif; font-size: 14px;">Malaviya National Institute of Technology, Jaipur proudly presents its third edition of Annual Technical Festival "SPHINX'19", from the 6<sup>th</sup> of November to 8<sup>th</sup> of November, 2019 which aspires to be the Largest Techno-fest in Rajasthan. This 3-day long convergence of unprecedented technical events and powerful tech-talks, delivered by leading Industry experts and successful entrepreneurs is expected to have a footfall of 12,000, paving down its own path to become Rajasthan’s biggest techno-youth destina.</p>
 	<center><img src="images/director.png" style="width:150px; float:left; display:inline-block; margin-right:20px;">
-	<div style="font-size:15px; font-weight:bold; margin-top:20px;">Director's Address</div></center>
-		  <p><span style="">MNIT Jaipur with a vision of imparting technical education and conducting research to meet the challenges of technological development. It strives to develop individuals who are capable of making a difference in the society. The institute has upheld its vision in its journey towards excellence in academic achievements, research and innovations. The responsibility of driving the nation forward rests upon young minds, who with their knowledge and scientific temper will become drivers of change. With the underlying spirit of promoting technology and innovation, MNIT Jaipur brings its third edition of Annual Techfest - SPHINX'19, which aspires to provide a platform for students to develop and showcase their technical prowess. The fest will host a variety of events that include competitions, workshops as well as lectures that will hone the skills of students and put to test their knowledge and creative thinking. I wish good luck to the organisers and the participants.
+	<div style="font-family: 'bahnschrift', sans-serif; font-size: 19px; margin-top:20px;">Director's Address</div></center>
+		  <p><span style="font-family: 'bahnschrift', sans-serif; font-size: 14px;">MNIT Jaipur with a vision of imparting technical education and conducting research to meet the challenges of technological development. It strives to develop individuals who are capable of making a difference in the society. The institute has upheld its vision in its journey towards excellence in academic achievements, research and innovations. The responsibility of driving the nation forward rests upon young minds, who with their knowledge and scientific temper will become drivers of change. With the underlying spirit of promoting technology and innovation, MNIT Jaipur brings its third edition of Annual Techfest - SPHINX'19, which aspires to provide a platform for students to develop and showcase their technical prowess. The fest will host a variety of events that include competitions, workshops as well as lectures that will hone the skills of students and put to test their knowledge and creative thinking.
 </span>
 </p>
         </div>
