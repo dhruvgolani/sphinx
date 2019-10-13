@@ -551,11 +551,10 @@ These technologies deal with automated machines that can take the place of human
 <style>
 .content_p{
 	margin-top:10px;
-
 }
 .card_box{
 
-	border:2px solid #fff; padding:10px; color:#2A5D88; border-radius :22px; background-color:#fff; width:200px;  margin-top:-25px; font-size:20px; font-weight:bold;
+	border:2px solid #fff; padding:10px; color:#2A5D88; border-radius :22px; background-color:#fff; width:200px;  margin-top:-25px;
 }
 .modal-title {
     margin-bottom: 0;
@@ -572,7 +571,10 @@ These technologies deal with automated machines that can take the place of human
 
 
 .contentbox_pwr {
- overflow-x: hidden; height: 40%;  padding-left: 210px; width:70%;border-radius: 40px 0px 0px 40px; position:absolute; margin:0 auto;
+ overflow-x: hidden; height: 40%;  padding-left: 120px; border-radius: 40px 0px 0px 40px; position:absolute; margin:0 auto;
+ width:50%;
+ margin: auto;
+ height: 350px;
 }
 .title_img2{
 	position:absolute; width:12%; bottom:260px; right:12%;
@@ -585,6 +587,9 @@ position:absolute; width:5%; top:185px; left:52%;height:6%;
 }
 .sponser_text{
 position:absolute;top:180px; left:41%;color:white;
+}
+.temp{
+	font-family: 'bahnschrift', sans-serif; font-size: 30px; font-weight: bold;
 }
 </style>
 
@@ -628,11 +633,11 @@ alert("<?=$_SESSION['suc_msg'];?>");
 
 <div id="slide-1" class="slide" data-0="transform: translate(0%,-10%);" style="width:100%;">
 <img src="images/workshops.png" class="title_img">
-<h3 class="sponser_text">Powered By </h3><img src="images/workshop-sponser.jpg" class="sponser_img">
+<h3 class="sponser_text" style="font-family: 'bahnschrift', sans-serif; font-size: 19px;">Powered By : </h3><img src="images/workshop-sponser.png" class="sponser_img">
 
   <section class="contentbox_pwr" style="">
     <div>
-      <div class="ourtemamanin_wrp" style="width:100%;     border-radius:0px 0px 0px 0px; padding-top: 25px;">
+      <div class="ourtemamanin_wrp" style="width:100%; border-radius:0px 0px 0px 0px; padding-top: 25px;">
 
         <div class="eventmain_wrp">
           <div class="container">
@@ -644,17 +649,17 @@ alert("<?=$_SESSION['suc_msg'];?>");
               <div class="col-md-12 col-sm-12">
                 <div class="eventbox_wrp">
                    <div class="evnt_cont_box">
-                   <center> <div class="card_box" width="300px">Ethical Hacking and Cyber Security</div></center>
-					<p class="content_p">Information security and ethical hacking is the latest buzz word in the industry. In the past five years, the percentage of hacking crimes, data thefts, data losses, viruses and other cyber crimes have increased exponentially. Ethical hacking is described as the technical art of a networking expert to penetrate networks and computer systems with the purpose of finding and fixing security vulnerabilities.</p>
-                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".ethical-hacking"><span>More Detail</span></a>
+                   <center> <div class="card_box" style="width:250px; font-family: 'bahnschrift', sans-serif; font-size: 20px; font-weight: bold;">Ethical Hacking and Cyber Security</div></center>
+					<p class="content_p" style="font-family: 'bahnschrift', sans-serif; font-size: 16px;">Information security and ethical hacking is the latest buzz word in the industry. In the past five years, the percentage of hacking crimes, data thefts, data losses, viruses and other cyber crimes have increased exponentially. Ethical hacking is described as the technical art of a networking expert to penetrate networks and computer systems with the purpose of finding and fixing security vulnerabilities.</p>
+                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".ethical-hacking"><span class="temp">More Detail</span></a>
                     <?php
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-                    <a href="workshop.php?event=ethical-hacking" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
+                    <a href="workshop.php?event=ethical-hacking" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span class="temp">Register</span></a>
          <?php } else
 		 { ?>
-			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
+			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span class="temp">Register</span></a>
 		<?php  }?>
                     </div>
                   </div>
@@ -665,18 +670,18 @@ alert("<?=$_SESSION['suc_msg'];?>");
 			   <div class="col-md-12 col-sm-12">
                 <div class="eventbox_wrp">
                    <div class="evnt_cont_box">
-                   <center> <div class="card_box">ARDUINO-ROBOTICS</div></center>
-					<p class="content_p">Robotics is the branch of mechanical engineering, electrical engineering and computer science that deals with the design, construction, operation, and application of robots, as well as computer systems for their control, sensory feedback, and information processing.
+                   <center> <div class="card_box" style="width: 250px; font-family: 'bahnschrift', sans-serif; font-size: 20px; font-weight: bold;">Arduino-Robotics</div></center>
+					<p class="content_p" style="font-family: 'bahnschrift', sans-serif; font-size: 16px;">Robotics is the branch of mechanical engineering, electrical engineering and computer science that deals with the design, construction, operation, and application of robots, as well as computer systems for their control, sensory feedback, and information processing.
 These technologies deal with automated machines that can take the place of humans in dangerous environments or manufacturing processes, or resemble humans in appearance, behavior, and/or cognition.</p>
-                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".arduino-robotics"><span>More Detail</span></a>
+                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".arduino-robotics"><span class="temp">More Detail</span></a>
                     <?php
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-                    <a href="workshop.php?event=arduino-robotics" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
+                    <a href="workshop.php?event=arduino-robotics" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span class="temp">Register</span></a>
          <?php } else
 		 { ?>
-			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
+			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span class="temp">Register</span></a>
 		<?php  }?>
                     </div>
                   </div>
@@ -686,17 +691,17 @@ These technologies deal with automated machines that can take the place of human
 			  <div class="col-md-12 col-sm-12">
                 <div class="eventbox_wrp">
                    <div class="evnt_cont_box">
-                   <center> <div class="card_box">MACHINE LEARNING</div></center>
-					<p class="content_p">This course aims to provide an introduction to the basic principles, techniques, and applications of Machine Learning. Programming assignments are used to help clarify basic concepts. The course covers the principles, design and implementation of learning programs that improve their performance on some set of tasks with experience. </p>
-                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".machine-learning"><span>More Detail</span></a>
+                   <center> <div class="card_box" style="width: 250px; font-family: 'bahnschrift', sans-serif; font-size: 20px; font-weight: bold;">Machine Learning</div></center>
+					<p class="content_p" style="font-family: 'bahnschrift', sans-serif; font-size: 16px;">This course aims to provide an introduction to the basic principles, techniques, and applications of Machine Learning. Programming assignments are used to help clarify basic concepts. The course covers the principles, design and implementation of learning programs that improve their performance on some set of tasks with experience. </p>
+                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".machine-learning"><span class="temp">More Detail</span></a>
                     <?php
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-                    <a href="workshop.php?event=machine-learning" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
+                    <a href="workshop.php?event=machine-learning" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span class="temp">Register</span></a>
          <?php } else
 		 { ?>
-			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
+			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span class="temp">Register</span></a>
 		<?php  }?>
                     </div>
                   </div>
@@ -707,17 +712,17 @@ These technologies deal with automated machines that can take the place of human
         <div class="col-md-12 col-sm-12">
                 <div class="eventbox_wrp">
                    <div class="evnt_cont_box">
-                   <center> <div class="card_box">IOT</div></center>
-					<p class="content_p">The Internet of Things (IoT) is the network of physical devices, vehicles, buildings and other items embedded with electronics, software, sensors, actuators, and network connectivity that enable these objects to collect and exchange data, creating opportunities for more direct integration of the physical world into computer-based systems, resulting in efficiency improvements, economic benefits, and reduced human exertions.</p>
-                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".iot"><span>More Detail</span></a>
+                   <center> <div class="card_box" style="font-family: 'bahnschrift', sans-serif; font-size: 20px; font-weight: bold;">IOT</div></center>
+					<p class="content_p" style="font-family: 'bahnschrift', sans-serif; font-size: 16px;">The Internet of Things (IoT) is the network of physical devices, vehicles, buildings and other items embedded with electronics, software, sensors, actuators, and network connectivity that enable these objects to collect and exchange data, creating opportunities for more direct integration of the physical world into computer-based systems, resulting in efficiency improvements, economic benefits, and reduced human exertions.</p>
+                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".iot"><span class="temp">More Detail</span></a>
                     <?php
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-                    <a href="workshop.php?event=iot" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
+                    <a href="workshop.php?event=iot" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span class="temp">Register</span></a>
          <?php } else
 		 { ?>
-			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
+			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span class="temp">Register</span></a>
 		<?php  }?>
                     </div>
                   </div>
@@ -728,17 +733,17 @@ These technologies deal with automated machines that can take the place of human
         <div class="col-md-12 col-sm-12">
                 <div class="eventbox_wrp">
                    <div class="evnt_cont_box">
-                   <center> <div class="card_box">QUADCOPTER</div></center>
-					<p class="content_p">Aerodynamics is the way air moves around things. The rules of aerodynamics explain how an airplane is able to fly. Anything that moves through air reacts to aerodynamics. A rocket blasting off the launch pad and a kite in the sky react to aerodynamics. Aerodynamics even acts on cars, since air flows around cars.</p>
-                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".quadcopter"><span>More Detail</span></a>
+                   <center> <div class="card_box" style="font-family: 'bahnschrift', sans-serif; font-size: 20px; font-weight: bold;">Quadcopter</div></center>
+					<p class="content_p" style="font-family: 'bahnschrift', sans-serif; font-size: 16px;">Aerodynamics is the way air moves around things. The rules of aerodynamics explain how an airplane is able to fly. Anything that moves through air reacts to aerodynamics. A rocket blasting off the launch pad and a kite in the sky react to aerodynamics. Aerodynamics even acts on cars, since air flows around cars.</p>
+                    <div class="event_btn"> <a href="#" class="event_left_btn btn2 btn2-5 btn2-5b icon-more-detail" data-toggle="modal" data-target=".quadcopter"><span class="temp">More Detail</span></a>
                     <?php
 		if(isset($_SESSION["user_sphinx_sp"]))
 		{
 			?>
-                    <a href="workshop.php?event=quadcopter" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
+                    <a href="workshop.php?event=quadcopter" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span class="temp">Register</span></a>
          <?php } else
 		 { ?>
-			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span>Register</span></a>
+			 <a href="javascript:;" data-toggle="modal" data-target="#loginbox" class="event_left_btn btn2 btn2-5 btn2-5b icon-register"><span class="temp">Register</span></a>
 		<?php  }?>
                     </div>
                   </div>
