@@ -202,6 +202,9 @@ section::-webkit-scrollbar {
                    ACCOUNT NO: 00000037347860345<BR>
                    IFS CODE: SBIN0015921<BR><BR>
 
+                   FOR UPI SYSTEMS :-
+                   <img id="upi" src="images/upi_qr.png" style="width:60%;height:500px;"><br><br>
+
                     Accomodation will be provided for 3-days excluding food<br>
 
                     <h3>Note:</h3>
@@ -215,12 +218,10 @@ section::-webkit-scrollbar {
 
                     <h3>Payment Gateway:</h3>
                     <ul class="checkboxlist">
-                    <li>The payment must be made through Internet Banking (NEFT or IMPS) to the above mentioned account.</li>
-                    <li>The transaction ID obtained after payment should be filled in Google form provided below.</li>
+                    <li>The payment can be made through Internet Banking (NEFT or IMPS) or any other UPI system to the above mentioned account.</li>
                     <li>The payment can also be done via Paytm app. Go to ‘Money Transfer’, enter the Bank account number, IFSC number and the account holder name (mentioned above) and the amount to be paid. The ‘Transaction ID’ has to be filled in the Google form provided below. You can obtain the ‘Transaction ID’ by visiting ‘Passbook’
                         -> Your bank name from which you transferred’->’UPI Transaction History’. Select your Last transaction detail where you can find ‘Txn ID’ at the bottom.<br>
                         <b>NOTE:</b> The Paytm mode of payment is valid only if your Paytm account is linked with your bank account.</li>
-                    <li>It is mandatory to fill the Google form after the payment is completed, otherwise the payment will not be considered.</li>
                     </ul>
                   </div>
         </div>
